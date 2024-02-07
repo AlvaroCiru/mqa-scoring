@@ -7,7 +7,7 @@ Developer: Johnny Choque (jchoque@tlmat.unican.es)
 '''
 import requests
 import json
-from rdflib import Graph
+from rdflib import Graph, Literal, URIRef
 import argparse
 import mqaMetrics as mqa
 import os
@@ -82,6 +82,26 @@ def get_metrics(g):
     metrics[pred] = obj_list
   return metrics
 
+#Función para devolver valores literales del diccionario
+def get_literal_values(metrics):
+    # Iterar sobre el diccionario metrics
+  for predicado, objetos in metrics.items():
+      # Verificar si el predicado es un URIRef
+      if isinstance(predicado, URIRef):
+          # Iterar sobre los objetos asociados con el predicado
+          for objeto in objetos:
+              # Verificar si el objeto es un Literal
+              if isinstance(objeto, Literal):
+                  # Obtener el valor literal como string
+                  valor_literal = objeto.toPython()
+                  print("Predicado ----------->", predicado, "       Valor Literal---------------------->", valor_literal)
+              else:
+                  print("El objeto no es un Literal:", objeto)
+      else:
+          print("El predicado no es un URIRef:", predicado)
+
+
+
 def main():
   mach_read_voc = []
   non_prop_voc = []
@@ -101,6 +121,14 @@ def main():
   print('   Current weight =',weight)
 
   metrics = get_metrics(g)
+    
+  get_literal_values(metrics)
+  
+  
+
+
+
+
   f_res = {}
   f_res = f_res.fromkeys(['result', 'url', 'weight'])
   m_res = {}

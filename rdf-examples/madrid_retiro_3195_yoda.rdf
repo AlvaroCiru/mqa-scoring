@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://data.europa.eu/r5r/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <dcat:Dataset rdf:about="https://portal-yoda.dit.upm.es/dataset/0d7509d6-82ca-4dc3-a61a-95e45dab7a1e">
+    <dcat:keyword>weather</dcat:keyword>
+    <dcat:keyword>temperature</dcat:keyword>
+    <dcat:keyword>station</dcat:keyword>
+    <dcat:landingPage>
+      <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+        <vcard:fn>yoda</vcard:fn>
+      </vcard:Kind>
+    </dcat:landingPage>
+    <dct:spatial>
+      <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+    </dct:spatial>
+    <dct:identifier>0d7509d6-82ca-4dc3-a61a-95e45dab7a1e</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-30T10:05:26.881274</dct:modified>
+    <dct:title>madrid_retiro_3195</dct:title>
+    <dct:publisher>
+      <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+        <foaf:name>Weather</foaf:name>
+      </foaf:Agent>
+    </dct:publisher>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Ndb4af6c75dd44b4aa69300aa60ffcb10">
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2032-01-01T00:00:00+00:00</dcat:endDate>
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:startDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:description>Weather of the MADRID RETIRO station following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+    <dcat:contactPoint rdf:resource="https://yoda.dit.upm.es/"/>
+    <dct:accessRights>
+      <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    </dct:accessRights>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://portal-yoda.dit.upm.es/dataset/0d7509d6-82ca-4dc3-a61a-95e45dab7a1e/resource/0ce5a10b-ca35-4ea5-af26-89e1790fef56">
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:description>Weather observation of MADRID RETIRO.</dct:description>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:3195-1"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+        <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:3195-1"/>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1313.0</dcat:byteSize>
+        <ns1:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+        <dct:title>urn:ngsi-ld:WeatherObserved:3195-1</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-18T20:08:31.590236</dct:issued>
+    <dcat:theme>
+      <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    </dcat:theme>
+  </dcat:Dataset>
+  <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+  <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+  <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+</rdf:RDF>

@@ -7,15 +7,18 @@ Developer: Johnny Choque (jchoque@tlmat.unican.es)
 '''
 import requests
 import json
-from rdflib import Graph
+from rdflib import Graph, Literal, URIRef
 import argparse
 import mqaMetrics as mqa
 import os
 
+FOAF = "http://xmlns.com/foaf/0.1/"
+DCT = "http://purl.org/dc/terms/"
 URL_EDP = 'https://data.europa.eu/api/mqa/shacl/validation/report'
 HEADERS = {'content-type': 'application/rdf+xml'}
 MACH_READ_FILE = os.path.join('edp-vocabularies', 'edp-machine-readable-format.rdf')
 NON_PROP_FILE = os.path.join('edp-vocabularies', 'edp-non-proprietary-format.rdf')
+THEME_FILE = os.path.join('edp-vocabularies', 'edp-data-theme-skos.rdf')
 
 def otherCases(pred, objs, g):
   for obj in objs:
@@ -82,6 +85,8 @@ def get_metrics(g):
     metrics[pred] = obj_list
   return metrics
 
+
+
 def main():
   mach_read_voc = []
   non_prop_voc = []
@@ -106,14 +111,21 @@ def main():
   m_res = {}
   m_res = m_res.fromkeys(['result', 'weight'])
 
+  # Puntuación del perfil DCAT
+  bytesize = 0
+  description = ""
   for pred in metrics.keys():
     met = str_metric(pred, g)
     objs = metrics[pred]
     print('*',met)
+
+    
     if met == "dcat:accessURL":
       weight = mqa.accessURL(objs, weight)
     elif met == "dcat:downloadURL":
       weight = mqa.downloadURL(objs, weight)
+    elif met == "dct:description":
+      description = objs
     elif met == "dcat:keyword":
       weight = mqa.keyword(weight)
     elif met == "dcat:theme":
@@ -144,6 +156,7 @@ def main():
       weight = mqa.rights(weight)
     elif met == "dcat:byteSize":
       weight = mqa.byteSize(weight)
+      bytesize = float(objs[0])
     else:
       otherCases(pred, objs, g)
     print('   Current weight =',weight)
@@ -156,8 +169,41 @@ def main():
   else:
     print('   Result: WARN. The properties do not belong to a controlled vocabulary')
 
+
+
+  #Puntuación MQA-EXTRA
+  print('MQA_Extra evaluation of critical fields:')
+  theme_voc = load_edp_vocabulary(THEME_FILE)
+  weight_extra = 0
+  for pred in metrics.keys():
+    met = str_metric(pred, g)
+    objs = metrics[pred]
+    
+
+    if met == "dcat:keyword" and description != "":
+      print('*',met)
+      weight_extra = mqa.keyword_extra(objs, weight_extra, description)
+    elif met == "dcat:downloadURL" and bytesize != 0:
+      print('*',met)
+      weight_extra = mqa.downloadURL_extra(objs, bytesize, weight_extra)
+    elif met == "dct:issued":
+      print('*',met)
+      weight_extra = mqa.issued_extra(objs, weight_extra)
+    elif met == "dct:temporal":
+      print('*',met)
+      print("hola")
+    elif met == "dct:publisher":
+      print('*',met)
+      print("hola")
+    elif met == "dcat:theme":
+      print('*',met)
+      weight_extra = mqa.theme_extra(objs, theme_voc, weight_extra)
+
+  
+  
   print('\n')
   print('Overall MQA scoring:', str(weight))
+  print('Overall MQA-extra scoring:', str(weight_extra))
 
 if __name__ == "__main__":
   main()

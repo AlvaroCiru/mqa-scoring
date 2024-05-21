@@ -85,8 +85,6 @@ def get_metrics(g):
     metrics[pred] = obj_list
   return metrics
 
-
-
 def main():
   mach_read_voc = []
   non_prop_voc = []
@@ -106,6 +104,12 @@ def main():
   print('   Current weight =',weight)
 
   metrics = get_metrics(g)
+  
+  
+
+
+
+
   f_res = {}
   f_res = f_res.fromkeys(['result', 'url', 'weight'])
   m_res = {}

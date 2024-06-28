@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-comunidad-madrid-catalogo-dataset-calidad_aire_datos_mes">
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-comunidad-madrid-catalogo-dataset-calidad_aire_datos_mes">
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Reeks tijdsgegevens die in de huidige maand automatisch worden gemeten in de stations van het luchtkwaliteitsnetwerk van de Gemeenschap van Madrid: Nee, NO2, O3,PM10, PM2.5, SO2, CO, benzeen, tolueen, M-Xyleen, totale koolwaterstoffen en niet-Methaankoolwaterstoffen.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Síť kvality ovzduší. Aktuální měsíční údaje</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Мережа якості повітря. Дані поточного місяця</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Ensemble de données temporelles mesurées automatiquement dans les stations du réseau de qualité de l’air de la Communauté de Madrid au cours du mois en cours: No,NO2,O3,PM10, PM2,5, SO2,CO, benzène, Toluene, M-Xylène, hydrocarbures totaux et hydrocarbures non méthaniques.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908">
+            <foaf:name>Comunidad de Madrid</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="es">Atmósfera</dcat:keyword>
+        <dct:description xml:lang="el-t-es-t0-mtec">Σύνολο δεδομένων χρόνου που μετρώνται αυτόματα στους σταθμούς του δικτύου ποιότητας του αέρα της Κοινότητας της Μαδρίτης κατά τη διάρκεια του τρέχοντος μήνα: Όχι, NO2,O3,PM10, PM2.5, SO2,CO, βενζόλιο, τολουόλιο, μ-ξυλένιο, ολικό υδρογονάνθρακες και υδρογονάνθρακες εκτός μεθανίου.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-13T00:00:00+02:00</dct:modified>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"/>
+        <dct:title xml:lang="en-t-es-t0-mtec">Air Quality Network. Current month data</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Omrežje za kakovost zraka.
+Podatki o tekočem mesecu</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1922adbf-fab1-4202-81fa-5afd91362db1">
+            <dct:title xml:lang="ro-t-es-t0-mtec">Descrierea datelor privind contaminanții</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Saasteainete kohta käivate andmete kirjeldus</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Descrição dos dados de contaminantes</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Opis podatkov o onesnaževalih</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Beskrivelse af data om forurenende stoffer</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/calidad_aire_datos_mes/resource/041dbd46-6423-404f-8ddd-378d0d9bf6e6</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Opis údajov o kontaminantoch</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Descrizione dei dati sui contaminanti</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >615967</dcat:byteSize>
+            <dct:title xml:lang="en-t-es-t0-mtec">Description of contaminants data</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Vierasaineita koskevien tietojen kuvaus</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Tuairisc ar shonraí éilleán</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/8f710b0e-57ff-40b4-a5be-bc8608d5fe3d/resource/041dbd46-6423-404f-8ddd-378d0d9bf6e6/download/descripcion-datos-de-contaminantes.pdf"/>
+            <dct:title xml:lang="es">Descripción datos de contaminantes</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Opis danych dotyczących zanieczyszczeń</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Beschrijving van de contaminantengegevens</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Piesārņotāju datu apraksts</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Beschreibung der Kontaminantendaten</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Deskrizzjoni tad-dejta dwar il-kontaminanti</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Opis podataka o onečišćujućim tvarima</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Popis údajů o kontaminujících látkách</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Опис забруднюючих речовин даних</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Περιγραφή των δεδομένων για τις προσμείξεις</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Description des données sur les contaminants</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">A szennyező anyagokra vonatkozó adatok leírása</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Описание на данните за замърсителите</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Beskrivning av uppgifter om främmande ämnen</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Duomenų apie teršalus aprašymas</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9aef9741-52ce-41d0-82f4-2c3ac38fc656">
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/8f710b0e-57ff-40b4-a5be-bc8608d5fe3d/resource/69526b69-c185-4e36-9688-07346d75b214/download/calidad_aire_datos_mes.csv"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Líonra Cáilíochta Aeir. Sonraí na míosa reatha Líonra Cáilíochta Aeir. Sonraí na míosa reatha Líonra Cáilíochta Aeir. Sonraí na míosa reatha Líonra Cáilíochta Aeir. Sonraí na míosa reatha Líonra Cáilíochta Aeir. Sonraí na míosa reatha Líonra Cáilíochta Aeir. Sonraí na míosa reatha Líonra Cáilíochta Aeir. Sonraí na míosa reatha</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >319141</dcat:byteSize>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Síť kvality ovzduší. Aktuální měsíční údaje Síť kvality ovzduší. Aktuální měsíční údaje Síť kvality ovzduší. Aktuální měsíční údaje Síť kvality ovzduší. Aktuální měsíční údaje Síť kvality ovzduší. Aktuální měsíční údaje Síť kvality ovzduší. Aktuální měsíční údaje Síť kvality ovzduší. Aktuální měsíční údaje</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Omrežje za kakovost zraka. Podatki o tekočem mesecu Omrežje za kakovost zraka. Podatki o tekočem mesecu Omrežje za kakovost zraka. Podatki o tekočem mesecu Omrežje za kakovost zraka. Podatki o tekočem mesecu</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Rețeaua pentru calitatea aerului. Date pentru luna curentă</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Rede de Qualidade do Ar. Dados do mês em curso</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Air Quality Network. Current month data</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Netværk af luftkvalitet. Aktuelle månedsdata Netværk af luftkvalitet. Aktuelle månedsdata Netværk af luftkvalitet. Aktuelle månedsdata Netværk af luftkvalitet. Aktuelle månedsdata Netværk af luftkvalitet. Aktuelle månedsdata Netværk af luftkvalitet. Aktuelle månedsdata Netværk af luftkvalitet. Aktuelle månedsdata</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Oro kokybės tinklas. Einamojo mėnesio duomenys</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Netwerk tal-Kwalità tal-Arja. Dejta ta’ xahar kurrenti</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Gaisa kvalitātes tīkls. Tekošā mēneša dati</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Levegőminőségi hálózat. Aktuális havi adatok</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Mreža za kvalitetu zraka. Podaci iz tekućeg mjeseca</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Luchtkwaliteitsnetwerk. Huidige maandgegevens</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Sieć jakości powietrza. Dane z bieżącego miesiąca Sieć jakości powietrza. Dane z bieżącego miesiąca Sieć jakości powietrza. Dane z bieżącego miesiąca Sieć jakości powietrza. Dane z bieżącego miesiąca Sieć jakości powietrza. Dane z bieżącego miesiąca Sieć jakości powietrza. Dane z bieżącego miesiąca Sieć jakości powietrza. Dane z bieżącego miesiąca</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Δίκτυο ποιότητας του αέρα. Στοιχεία του τρέχοντος μήνα</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dct:title xml:lang="es">Red de Calidad del Aire. Datos del mes en curso</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Réseau de la qualité de l’air. Données du mois en cours</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Sieť kvality ovzdušia. Aktuálne údaje za mesiac</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Мрежа за качество на въздуха. Данни за текущия месец</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Rete di qualità dell'aria. Dati del mese in corso Rete di qualità dell'aria. Dati del mese in corso Rete di qualità dell'aria. Dati del mese in corso Rete di qualità dell'aria. Dati del mese in corso Rete di qualità dell'aria. Dati del mese in corso Rete di qualità dell'aria. Dati del mese in corso Rete di qualità dell'aria. Dati del mese in corso</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/calidad_aire_datos_mes/resource/69526b69-c185-4e36-9688-07346d75b214</dct:identifier>
+            <dct:title xml:lang="de-t-es-t0-mtec">Luftqualitätsnetz. Aktuelle Monatsdaten</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Õhu kvaliteedi võrgustik. Jooksva kuu andmed</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Мережа якості повітря. Дані поточного місяця</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Ilmanlaatuverkosto. Kuluvan kuukauden tiedot Ilmanlaatuverkosto. Kuluvan kuukauden tiedot Ilmanlaatuverkosto. Kuluvan kuukauden tiedot Ilmanlaatuverkosto. Kuluvan kuukauden tiedot Ilmanlaatuverkosto. Kuluvan kuukauden tiedot Ilmanlaatuverkosto. Kuluvan kuukauden tiedot Ilmanlaatuverkosto. Kuluvan kuukauden tiedot</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Nätverk för luftkvalitet. Aktuella månadsdata Nätverk för luftkvalitet. Aktuella månadsdata Nätverk för luftkvalitet. Aktuella månadsdata Nätverk för luftkvalitet. Aktuella månadsdata Nätverk för luftkvalitet. Aktuella månadsdata Nätverk för luftkvalitet. Aktuella månadsdata Nätverk för luftkvalitet. Aktuella månadsdata</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-es-t0-mtec">Netværk af luftkvalitet. Aktuelle månedsdata</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Soubor časových údajů měřených automaticky ve stanicích sítě pro kvalitu ovzduší Madridského společenství během běžného měsíce: Ne, NO2,O3,PM10,PM2.5, SO2,CO,benzen, toluen, M-Xylen, celkové uhlovodíky a nemethanové uhlovodíky. Soubor časových údajů měřených automaticky ve stanicích sítě pro kvalitu ovzduší Madridského společenství během běžného měsíce:
+Ne, NO2,O3,PM10,PM2.5, SO2,CO,benzen, toluen, M-Xylen, celkové uhlovodíky a nemethanové uhlovodíky.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Набор от данни за времето, измерени автоматично в станциите на Мрежата за качество на въздуха на Общността в Мадрид през текущия месец: Не,NO2,O3,PM10,PM2.5,SO2,CO,benzene, Toluene, M-Xylene, Общо въглеводороди и неметанови въглеводороди.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Laiko duomenų, automatiškai matuojamų Madrido Bendrijos oro kokybės tinklo stotyse per einamąjį mėnesį, rinkinys: Nr.,NO2,O3,PM10,PM2.5, SO2, CO, benzenas, toluenas, M-ksilenas, bendras angliavandenilių kiekis ir ne metano angliavandeniliai.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Niz časovnih podatkov, izmerjenih samodejno na postajah mreže za kakovost zraka Skupnosti Madrid v tekočem mesecu: Ne, NO2,O3,PM10,PM2.5, SO2,CO,benzen, toluen, M-ksilen, skupni ogljikovodiki in nemetanski ogljikovodiki.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Conjunto de dados temporais medidos automaticamente nas estações da Rede de Qualidade do Ar da Comunidade de Madrid durante o mês em curso: Não,NO2, O3, PM10, PM2.5, SO2, CO, benzeno, tolueno, M-Xileno, hidrocarbonetos totais e hidrocarbonetos não metânicos.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Δίκτυο ποιότητας του αέρα. Στοιχεία του τρέχοντος μήνα</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Oro kokybės tinklas. Einamojo mėnesio duomenys</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Netwerk tal-Kwalità tal-Arja. Dejta ta’ xahar kurrenti</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Réseau de la qualité de l’air. Données du mois en cours</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Rețeaua pentru calitatea aerului.
+Date pentru luna curentă</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Levegőminőségi hálózat. Aktuális havi adatok</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Ilmanlaatuverkosto.
+Kuluvan kuukauden tiedot</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Madridi kogukonna õhukvaliteedi võrgustiku jaamades jooksva kuu jooksul automaatselt mõõdetud ajaandmed: Ei, NO2,O3,PM10,PM2.5, SO2,CO,benseen, Tolueen, M-ksüleen, süsivesinikud kokku ja muud süsivesinikud kui metaan.</dct:description>
+        <dct:description xml:lang="es">Conjunto de datos  horarios medidos de forma automática en las estaciones de la Red de Calidad del Aire de la Comunidad de Madrid durante el mes en curso: NO,NO2,O3,PM10,PM2.5,SO2,CO,Benceno, Tolueno, M-Xileno, Hidrocarburos totales y Hidrocarburos no metánicos.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Sieć jakości powietrza.
+Dane z bieżącego miesiąca</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Tacar sonraí ama a thomhaistear go huathoibríoch i stáisiúin Líonra Cáilíochta Aeir Chomhphobal Mhaidrid i rith na míosa reatha: Níl, NO2,O3,PM10,PM2.5,SO2,CO, beinséin, Toluene, M-Xiléin, Hidreacarbóin Iomlána agus Hidreacarbóin Neamh-Meatáin. Tacar sonraí ama a thomhaistear go huathoibríoch i stáisiúin Líonra Cáilíochta Aeir Chomhphobal Mhaidrid i rith na míosa reatha:
+Níl, NO2,O3,PM10,PM2.5,SO2,CO, beinséin, Toluene, M-Xiléin, Hidreacarbóin Iomlána agus Hidreacarbóin Neamh-Meatáin.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Zestaw danych czasowych mierzonych automatycznie na stacjach Sieci Jakości Powietrza Wspólnoty Madryt w bieżącym miesiącu: Nie, NO2, O3, PM10, PM2,5, SO2, CO, benzen, toluen, M-ksylen, całkowite węglowodory i niemetanowe węglowodory.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Skup vremenskih podataka koji se automatski mjere na postajama Mreže za kvalitetu zraka Zajednice Madrid tijekom tekućeg mjeseca: Ne, NO2, O3,PM10,PM2.5, SO2,CO, benzen, toluen, M-Xylene, ukupni ugljikovodici i nemetanski ugljikovodici. Skup vremenskih podataka koji se automatski mjere na postajama Mreže za kvalitetu zraka Zajednice Madrid tijekom tekućeg mjeseca:
+Ne, NO2, O3,PM10,PM2.5, SO2,CO, benzen, toluen, M-Xylene, ukupni ugljikovodici i nemetanski ugljikovodici.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Õhu kvaliteedi võrgustik.
+Jooksva kuu andmed</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Sæt tidsdata, der måles automatisk på stationerne i Madrids luftkvalitetsnetværk i den indeværende måned: No,NO2,O3,PM10,PM2.5,SO2, CO,benzen, Toluen, M-Xylen, samlede kulbrinter og ikke-metancarboner. Sæt tidsdata, der måles automatisk på stationerne i Madrids luftkvalitetsnetværk i den indeværende måned:
+No,NO2,O3,PM10,PM2.5,SO2, CO,benzen, Toluen, M-Xylen, samlede kulbrinter og ikke-metancarboner.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A Madridi Közösség levegőminőségi hálózatának állomásain az adott hónapban automatikusan mért időadatok: Nem, NO2, O3,PM10,PM2.5, SO2, CO, benzol, toluol, M-Xilén, összes szénhidrogén és nem metán szénhidrogének.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Set de date de timp măsurate automat în stațiile Rețelei pentru calitatea aerului a Comunității Madrid în cursul lunii în curs: Nu, NO2,O3,PM10, PM2.5, SO2,CO,benzen, toluen, M-Xilenă, hidrocarburi totale și hidrocarburi nemetanice. Set de date de timp măsurate automat în stațiile Rețelei pentru calitatea aerului a Comunității Madrid în cursul lunii în curs:
+Nu, NO2,O3,PM10, PM2.5, SO2,CO,benzen, toluen, M-Xilenă, hidrocarburi totale și hidrocarburi nemetanice.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2019-03-08T00:00:00+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4afc872a-134a-4379-ba11-35dc923dbfd0">
+            <dct:title xml:lang="bg-t-es-t0-mtec">Мрежа за качество на въздуха. Данни за текущия месец</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Мережа якості повітря. Дані поточного місяця Мережа якості повітря. Дані поточного місяця Мережа якості повітря. Дані поточного місяця Мережа якості повітря. Дані поточного місяця Мережа якості повітря.
+Дані поточного місяця</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Sieť kvality ovzdušia. Aktuálne údaje za mesiac</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Nätverk för luftkvalitet. Aktuella månadsdata Nätverk för luftkvalitet. Aktuella månadsdata Nätverk för luftkvalitet.
+Aktuella månadsdata</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Luchtkwaliteitsnetwerk. Huidige maandgegevens</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Luftqualitätsnetz. Aktuelle Monatsdaten</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Síť kvality ovzduší. Aktuální měsíční údaje</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Mreža za kvalitetu zraka. Podaci iz tekućeg mjeseca</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Rede de Qualidade do Ar. Dados do mês em curso</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Netværk af luftkvalitet. Aktuelle månedsdata</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Ilmanlaatuverkosto. Kuluvan kuukauden tiedot</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/8f710b0e-57ff-40b4-a5be-bc8608d5fe3d/resource/fe019344-c59f-4adb-bba8-523befa7474c/download/calidad_aire_datos_mes.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Omrežje za kakovost zraka. Podatki o tekočem mesecu Omrežje za kakovost zraka. Podatki o tekočem mesecu Omrežje za kakovost zraka. Podatki o tekočem mesecu Omrežje za kakovost zraka. Podatki o tekočem mesecu Omrežje za kakovost zraka.
+Podatki o tekočem mesecu</dct:title>
+            <dct:title xml:lang="es">Red de Calidad del Aire. Datos del mes en curso</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Gaisa kvalitātes tīkls. Tekošā mēneša dati Gaisa kvalitātes tīkls. Tekošā mēneša dati Gaisa kvalitātes tīkls. Tekošā mēneša dati Gaisa kvalitātes tīkls. Tekošā mēneša dati Gaisa kvalitātes tīkls.
+Tekošā mēneša dati</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/calidad_aire_datos_mes/resource/fe019344-c59f-4adb-bba8-523befa7474c</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">Rete di qualità dell'aria. Dati del mese in corso Rete di qualità dell'aria. Dati del mese in corso Rete di qualità dell'aria.
+Dati del mese in corso</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Sieć jakości powietrza. Dane z bieżącego miesiąca</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Réseau de la qualité de l’air. Données du mois en cours</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Air Quality Network. Current month data</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Líonra Cáilíochta Aeir. Sonraí na míosa reatha Líonra Cáilíochta Aeir. Sonraí na míosa reatha Líonra Cáilíochta Aeir.
+Sonraí na míosa reatha</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Oro kokybės tinklas. Einamojo mėnesio duomenys</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >2336341</dcat:byteSize>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Netwerk tal-Kwalità tal-Arja. Dejta ta’ xahar kurrenti Netwerk tal-Kwalità tal-Arja. Dejta ta’ xahar kurrenti Netwerk tal-Kwalità tal-Arja. Dejta ta’ xahar kurrenti Netwerk tal-Kwalità tal-Arja. Dejta ta’ xahar kurrenti Netwerk tal-Kwalità tal-Arja.
+Dejta ta’ xahar kurrenti</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Δίκτυο ποιότητας του αέρα. Στοιχεία του τρέχοντος μήνα</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Rețeaua pentru calitatea aerului. Date pentru luna curentă</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Õhu kvaliteedi võrgustik. Jooksva kuu andmed Õhu kvaliteedi võrgustik. Jooksva kuu andmed Õhu kvaliteedi võrgustik. Jooksva kuu andmed Õhu kvaliteedi võrgustik. Jooksva kuu andmed</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Levegőminőségi hálózat. Aktuális havi adatok</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/calidad_aire_datos_mes</dct:identifier>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Uppsättning tidsdata som mäts automatiskt på stationerna i Madrids luftkvalitetsnätverk under innevarande månad: Nej, NO2, O3,PM10,PM2.5, SO2,CO, bensen, toluen, M-Xylen, totala kolväten och icke-metankolväten. Uppsättning tidsdata som mäts automatiskt på stationerna i Madrids luftkvalitetsnätverk under innevarande månad:
+Nej, NO2, O3,PM10,PM2.5, SO2,CO, bensen, toluen, M-Xylen, totala kolväten och icke-metankolväten.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Набір часових даних, які автоматично вимірюються на станціях мережі якості повітря Співтовариства Мадрида протягом поточного місяця: Ні,NO2, O3,PM10,PM2.5, SO2, CO, бензол, толуол, М-ксилен, Загальні вуглеводні та не метанові вуглеводні.</dct:description>
+        <dct:title xml:lang="es">Red de Calidad del Aire. Datos del mes en curso</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Set of time data measured automatically in the stations of the Air Quality Network of the Community of Madrid during the current month: No,NO2,O3,PM10,PM2.5,SO2,CO,benzene, Toluene, M-Xylene, Total Hydrocarbons and Non-Methane Hydrocarbons.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Luftqualitätsnetz. Aktuelle Monatsdaten</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Gaisa kvalitātes tīkls.
+Tekošā mēneša dati</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Mreža za kvalitetu zraka.
+Podaci iz tekućeg mjeseca</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Sieť kvality ovzdušia. Aktuálne údaje za mesiac</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Madridin yhteisön ilmanlaatuverkoston asemilla automaattisesti mitatut aikatiedot kuluvan kuukauden aikana: Ei, NO2, O3, PM10, PM2.5,SO2, CO, bentseeni, tolueeni, M-ksyleeni, kokonaishiilivedyt ja muut kuin metaanihiilivedyt. Madridin yhteisön ilmanlaatuverkoston asemilla automaattisesti mitatut aikatiedot kuluvan kuukauden aikana:
+Ei, NO2, O3, PM10, PM2.5,SO2, CO, bentseeni, tolueeni, M-ksyleeni, kokonaishiilivedyt ja muut kuin metaanihiilivedyt.</dct:description>
+        <dcat:keyword xml:lang="es">Calidad del aire</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">Insieme di dati temporali misurati automaticamente nelle stazioni della rete di qualità dell'aria della Comunità di Madrid durante il mese in corso: No, NO2, O3, PM10, PM2.5,SO2, CO, benzene, toluene, M-Xylene, idrocarburi totali e idrocarburi non metanici.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Luchtkwaliteitsnetwerk. Huidige maandgegevens</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Súbor časových údajov meraných automaticky v staniciach siete kvality ovzdušia Madridského spoločenstva počas aktuálneho mesiaca: Nie,NO2,O3,PM10,PM2.5,SO2,CO, benzén, toluén, M-Xylén, celkové uhľovodíky a nemetánové uhľovodíky. Súbor časových údajov meraných automaticky v staniciach siete kvality ovzdušia Madridského spoločenstva počas aktuálneho mesiaca:
+Nie,NO2,O3,PM10,PM2.5,SO2,CO, benzén, toluén, M-Xylén, celkové uhľovodíky a nemetánové uhľovodíky.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Laika datu kopums, kas pašreizējā mēnesī automātiski mērīts Madrides Kopienas Gaisa kvalitātes tīkla stacijās: Nē, NO2, O3, PM10,PM2.5,SO2, CO,benzols, toluols, M-ksilēns, kopējie ogļūdeņraži un nemetāna ogļūdeņraži.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Rete di qualità dell'aria.
+Dati del mese in corso</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Nätverk för luftkvalitet.
+Aktuella månadsdata</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Rede de Qualidade do Ar.
+Dados do mês em curso</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Sett ta’ data ta’ ħin imkejla awtomatikament fl-istazzjonijiet tan-Netwerk tal-Kwalità ta’ l-Arja tal-Komunità ta’ Madrid matul ix-xahar attwali: Nru,NO2,O3,PM10,PM2.5,SO2,CO, benżen, Toluwen, M-Xylene, Idrokarburi Totali u Idrokarburi Mhux tal-Metan.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Мрежа за качество на въздуха. Данни за текущия месец</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Satz von Zeitdaten, die automatisch in den Stationen des Luftqualitätsnetzes der Gemeinschaft Madrid während des laufenden Monats gemessen werden: Nein, NO2, O3, PM10, PM2.5, SO2, CO, Benzol, Toluol, M-Xylol, Gesamtkohlenwasserstoffe und Nicht-Methan-Kohlenwasserstoffe.</dct:description>
+        <dcat:keyword xml:lang="es">Aire</dcat:keyword>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Líonra Cáilíochta Aeir.
+Sonraí na míosa reatha</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:28:54Z</dct:modified>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>ba95b846e854f66c503849f81c6129fb</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-04T15:40:27Z</edp:transReceived>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:20:01Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:20:01Z</edp:transIssued>
+    <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/calidad_aire_datos_mes</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-comunidad-madrid-catalogo-dataset-calidad_aire_datos_mes"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

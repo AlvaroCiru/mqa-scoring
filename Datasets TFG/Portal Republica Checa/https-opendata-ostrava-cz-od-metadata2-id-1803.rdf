@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-ostrava-cz-od-metadata2-id-1803">
+    <dct:identifier>https://opendata.ostrava.cz/od-metadata2/?id=1803</dct:identifier>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>f4d816822c818ff04e08d8d839b6ea6d</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:08Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-ostrava-cz-od-metadata2-id-1803"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:08Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-ostrava-cz-od-metadata2-id-1803">
+        <dct:description xml:lang="en">Seznam dotací poskytnutých Magistrátem města Ostravy za období 2017-2022, které se nachází v informačním systému EvAgend.</dct:description>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00845451/0da0c383b0d9f52f90beab56d980b922/identifikátorLKOD">
+            <dct:creator>
+              <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00845451">
+                <foaf:name xml:lang="cs">Statutární město Ostrava</foaf:name>
+              </foaf:Agent>
+            </dct:creator>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://opendata.ostrava.cz/od-metadata2/?id=1803</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:accrualPeriodicity rdf:resource="https://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:about="https://data.gov.cz/zdroj/datové-sady/00845451/0da0c383b0d9f52f90beab56d980b922/kontaktní-bod">
+            <vcard:hasEmail rdf:resource="mailto:opendata@ostrava.cz"/>
+            <vcard:fn xml:lang="cs">Kontakt: Statutární město Ostrava / Magistrát města Ostravy / Odbor projektů IT služeb a outsourcingu</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/063cafc8-7b2c-480f-ab1d-846ad93a605b">
+            <dcat:accessURL rdf:resource="https://opendata.ostrava.cz/dotace_mmo_2017_2022/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+            <dcat:downloadURL rdf:resource="https://opendata.ostrava.cz/wp-content/uploads/Dotace_2017-2022.csv"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00845451/0da0c383b0d9f52f90beab56d980b922/distribuce/981e5cff1bf1e0b562ea07f65b453090/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00845451/0da0c383b0d9f52f90beab56d980b922/distribuce/981e5cff1bf1e0b562ea07f65b453090</dct:identifier>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00845451/0da0c383b0d9f52f90beab56d980b922/distribuce/981e5cff1bf1e0b562ea07f65b453090/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs">Seznam dotací poskytnutých Magistrátem města Ostravy za období 2017-2022, které se nachází v informačním systému EvAgend.</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://opendata.ostrava.cz/od-metadata2/?id=1803</dct:identifier>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dct:publisher rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00845451"/>
+        <foaf:page rdf:resource="http://localhost/base/"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/LKOD"/>
+        <dct:title xml:lang="en">Dotace poskytnuté Magistrátem města Ostravy za období 2017-2022</dct:title>
+        <dct:spatial rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org%C3%A1n-ve%C5%99ejn%C3%A9-moci/00845451"/>
+        <dcat:keyword xml:lang="cs">dotace, výdaje</dcat:keyword>
+        <dct:title xml:lang="cs">Dotace poskytnuté Magistrátem města Ostravy za období 2017-2022</dct:title>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://eurovoc.europa.eu/492">
+            <skos:inScheme rdf:resource="http://eurovoc.europa.eu/"/>
+          </rdf:Description>
+        </dcat:theme>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00845451/0da0c383b0d9f52f90beab56d980b922/identifikátorNKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/00845451/0da0c383b0d9f52f90beab56d980b922</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:keyword xml:lang="en">dotace, výdaje</dcat:keyword>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:28Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

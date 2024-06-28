@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/3323e429-1234-4adb-b4bb-7438e04cf158">
+    <dct:identifier>3323e429-1234-4adb-b4bb-7438e04cf158</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:02Z</dct:issued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/3323e429-1234-4adb-b4bb-7438e04cf158">
+        <dct:description xml:lang="cs-t-es-t0-mtec">Klimatologie stanice GRANADA/AEROPUERTO podle modelu pozorování počasí NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Klimatologi af stationen i GRANADA/AEROPUERTO efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Climatologie de la station de GRANADA/AEROPUERTO suivant le modèle WeatherObserved de NGSI-LD. Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Climatologia della stazione di GRANADA/AEROPUERTO seguendo il modello WeatherObserved di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">granat_airport_5530e</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-14T10:36:54.461861</dct:modified>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Кліматологія станції GRANADA/AEROPUERTO за моделлю WeatherObserved NGSI-LD. Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Grenade_airport_5530e</dct:title>
+        <dct:title>granada_aeropuerto_5530e</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Klimatologie van het station van GRANADA/AEROPUERTO volgens het weerobserveerde model van NGSI-LD. Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Klimatologija postaje GRANADA/AEROPUERTO prema WeatherObserved modelu NGSI-LD-a. Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">granaat_luchthaven_5530e</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Granate_Flughafen_5530e</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Klimatológia stanice GRANADA/AEROPUERTO podľa modelu WeatherObserved NGSI-LD. Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">grenade_airport_5530e</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">granada_aeroporto_5530e</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">grenade_airport_5530e</dct:title>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dct:identifier>3323e429-1234-4adb-b4bb-7438e04cf158</dct:identifier>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="fi-t-es-t0-mtec">krenade_airport_5530e</dct:title>
+        <dct:description>Climatología de la estación de GRANADA/AEROPUERTO siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Ilmastotiede aseman GRANADA/AEROPUERTO jälkeen WeatherObserved malli NGSI-LD. Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+        <dcat:landingPage>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:landingPage>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Klimatologija postaje GRANADA/AEROPUERTO po modelu WeatherObserved NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">grenade_aéroport_5530e</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Klimatologia stacji GRANADA/AEROPUERTO według modelu WeatherObserved NGSI-LD. Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dcat:contactPoint rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:description xml:lang="de-t-es-t0-mtec">Klimatologie der Station von GRANADA/AEROPUERTO nach dem WeatherObserved-Modell der NGSI-LD. Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">χειροβομβίδα_αεροδρόμιο_5530e</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">granata_aeroporto_5530e</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Climatologia da estação de GRANADA/AEROPUERTO seguindo o modelo WeatherObserved de NGSI-LD. Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Климатология на станцията GRANADA/AEROPUERTO по модела WeatherObserved на NGSI-LD. Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">granát_airport_5530e</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Climatologia stației GRANADA/AEROPUERTO după modelul WeatherObserved al NGSI-LD. Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Il-klimatoloġija tal-istazzjon ta’ GRANADA/AEROPUERTO skont il-mudell ta’ WeatherObserved tal-NGSI-LD. Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bf8a92a9-8039-4ba1-945c-f9ad4ba82029">
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea vremii GRANADA/AEROPUERTO</dct:description>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:5530E-1"/>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja pogody GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/3323e429-1234-4adb-b4bb-7438e04cf158/resource/9b50225e-5319-4702-9640-d1073d8be363</dct:identifier>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni tat-temp ta’ GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Wetterbeobachtung von GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="lv-t-es-t0-mtec">GRANADA/AEROPUERTO laika apstākļu novērošana</dct:description>
+            <dct:description xml:lang="et-t-es-t0-mtec">GRANADA/AEROPUERTO ilmavaatlus</dct:description>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Наблюдение на времето на GRANADA/AEROPUERTO</dct:description>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Vremensko opazovanje GRANADA/AEROPUERTO</dct:description>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Спостереження за погодою GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Promatranje vremena GRANADA/AEROPUERTO</dct:description>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Pozorovanie počasia GRANADA/AEROPUERTO</dct:description>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Weerobservatie van GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Pozorování počasí GRANADA/AEROPUERTO</dct:description>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht aimsir GRANADA/AEROPUERTO</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+            <dct:description xml:lang="el-t-es-t0-mtec">Μετεωρολογική παρατήρηση GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Väder observation av GRANADA/AEROPUERTO</dct:description>
+            <dct:description xml:lang="hu-t-es-t0-mtec">GRANADA/AEROPUERTO időjárás-megfigyelése</dct:description>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Säähavainto GRANADA/AEROPUERTO</dct:description>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation météorologique de GRANADA/AEROPUERTO</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Vejrobservation af GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:5530E-1"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title>urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Oro stebėjimas GRANADA/AEROPUERTO</dct:description>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação meteorológica de GRANADA/AEROPUERTO</dct:description>
+            <dct:description>Observación de climatología de GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="en-t-es-t0-mtec">Weather observation of GRANADA/AEROPUERTO</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:02.375143</dct:modified>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione meteo di GRANADA/AEROPUERTO</dct:description>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5530E-1</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="uk-t-es-t0-mtec">граната_аеропорт_5530e</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">granat_lotnisko_5530e</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Clíomatology an stáisiúin GRANADA/AEROPUERTO tar éis an tsamhail WeatherObserved de NGSI-LD. Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">grenade_flygplats_5530e</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Klimatoloogia jaama GRANADA/AEROPUERTO pärast WeatherObserved mudel NGSI-LD. Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-14T10:36:53.833996</dct:issued>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A GRANADA/AEROPUERTO állomás klimatológiája az NGSI-LD WeatherObserved modelljét követve. Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κλιματολογία του σταθμού GRANADA/AEROPUERTO ακολουθώντας το WeatherObserved μοντέλο NGSI-LD. Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Klimatologi för stationen GRANADA/AEROPUERTO efter WeatherObserved-modellen av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">GRANADA/AEROPUERTO stacijas klimatoloģija saskaņā ar WeatherObserved modeli NGSI-LD. Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">gránát_airport_5530e</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">granata_airport_5530e</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">granata_zračna luka_5530e</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Greanáid_aerfort_5530e</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Grenade_lidosta_5530e</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="lt-t-es-t0-mtec">GRANADA/AEROPUERTO stoties klimatologija pagal WeatherObserved modelį NGSI-LD. Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">granata_letališče_5530e</dct:title>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <dct:title xml:lang="ro-t-es-t0-mtec">grenade_aeroport_5530e</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Climatology of the station of GRANADA/AEROPUERTO following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="et-t-es-t0-mtec">grenade_airport_5530e</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">granát_letiště_5530e</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:02Z</edp:transIssued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-23T22:46:03Z</edp:transReceived>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>1d2862b7a387782c3b3db96fea508d95</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/3323e429-1234-4adb-b4bb-7438e04cf158"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:02Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

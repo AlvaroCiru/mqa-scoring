@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-tenerife-es-datos-conjuntos-de-datos-afluencia-a-barranco-de-masca">
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:24:26Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:29:19Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>https://datos.tenerife.es/datos/conjuntos-de-datos/afluencia-a-barranco-de-masca</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-tenerife-es-datos-conjuntos-de-datos-afluencia-a-barranco-de-masca">
+        <dct:identifier>https://datos.tenerife.es/datos/conjuntos-de-datos/afluencia-a-barranco-de-masca</dct:identifier>
+        <dct:description xml:lang="es">Información sobre la afluencia de personas por nacionalidades y edades al Barranco de Masca</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L03380011">
+            <foaf:name>Cabildo Insular de Tenerife</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/64ac8e94-c88f-4506-be87-1c4c1da28d0b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/76aec9f3-2cd5-4ee5-9120-b8077ebf6359</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/aa7585d7-2f64-4e65-b4f9-8e8fa1f1cc4c/download/afluencia-de-acceso-al-barranco-de-masca-por-edad.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >102691</dcat:byteSize>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Afluencia de acceso al Barranco de Masca por edad</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-11T23:03:58+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/317110fe-2e74-4e5c-b14a-6d4ab2b7662f">
+            <dct:title xml:lang="es">Diccionario de datos de Denegaciones de acceso a Barranco de Masca</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/223804e8-8ef4-47fa-bd6d-aaadc03b4554/download/diccionario-de-datos-de-denegaciones-de-acceso-a-barranco-de-masca.json"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >718</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/03017410-2c76-4c2c-bb42-573bd49cfd80</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Afluencia a Barranco de Masca</dct:title>
+        <dcat:keyword xml:lang="es">Parque Rural de Teno</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/822bb050-d446-4d77-a31e-f3680b29f267">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/aff68a0c-0838-4557-a9b2-10003b782b1a/download/afluencia-de-acceso-al-barranco-de-masca-por-edad.csv"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >24825</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/a2920c1f-c906-4585-957b-eef6fc453082</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Afluencia de acceso al Barranco de Masca por edad</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5f3f35db-e9c7-4780-a2ba-550ae7844c58">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/c90fcc66-b344-424e-b1b2-e5198677bc24/download/denegaciones-de-acceso-al-barranco-de-masca.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/fee076f8-c299-4888-a97b-17de550e5bf7</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Denegaciones de acceso al Barranco de Masca</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >26113</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/50d3620b-44f1-471d-a804-7fb7bec1e011">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/8a3dfb5b-465f-4d60-b74f-260dbf5aea36</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/62dda742-9c3d-4b07-ac6b-804165857203/download/diccionario-de-datos-de-afluencia-de-acceso-al-barranco-de-masca-por-procedencia.json"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Diccionario de datos de Afluencia de acceso al Barranco de Masca por procedencia</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1036</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1fac3627-ca11-45a6-8bbe-b05670275747">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/d23162c8-f308-46f2-9ece-c1158cc1a084</dct:identifier>
+            <dct:title xml:lang="es">Denegaciones de acceso al Barranco de Masca</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/db660b32-4e23-40f8-9c84-27e03449fbce/download/denegaciones-de-acceso-al-barranco-de-masca.csv"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >5836</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aa063a6e-7fe3-4618-af04-1de125734be7">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Diccionario de datos de Afluencia de acceso al Barranco de Masca por edad</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/89663b4f-d7b9-4b38-9040-2ce2a01da89b/download/diccionario-de-datos-de-afluencia-de-acceso-al-barranco-de-masca-por-edad.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >824</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/df1d9ad4-a42a-4e01-84b2-c684eba9de8d</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f16dc9db-1f6b-412e-9b2a-d7343ddf13d4">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Afluencia de acceso al Barranco de Masca por procedencia</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >367599</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/1f3b5189-93d0-49e9-b82a-85473022d8a9</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/dd3c5229-121b-4f99-b261-efee58dfbe48/download/afluencia-de-acceso-al-barranco-de-masca-por-procedencia.json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-18T10:49:07+02:00</dct:issued>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9462d36b-22dc-40b7-9564-8c1da988fa39">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >115443</dcat:byteSize>
+            <dct:title xml:lang="es">Afluencia de acceso al Barranco de Masca por procedencia</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-afluencia-a-barranco-de-masca/resource/39c42f31-5063-48d4-b7cf-c4a8f4c82729</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/8dee8e4a-5522-4140-827c-cfe3a6a90c39/resource/29843abd-0de8-4aa6-bb8f-4f0e63a7274f/download/afluencia-de-acceso-al-barranco-de-masca-por-procedencia.csv"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-tenerife-es-datos-conjuntos-de-datos-afluencia-a-barranco-de-masca"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>7cbc3a8d3673289f071e7678c951df60</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:24:26Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

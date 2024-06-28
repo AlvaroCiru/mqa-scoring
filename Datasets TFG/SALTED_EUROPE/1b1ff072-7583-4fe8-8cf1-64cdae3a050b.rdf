@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/1b1ff072-7583-4fe8-8cf1-64cdae3a050b">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/1b1ff072-7583-4fe8-8cf1-64cdae3a050b"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>398903271ea384195f2c2df927436062</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:06Z</edp:transIssued>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:identifier>1b1ff072-7583-4fe8-8cf1-64cdae3a050b</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-16T14:02:38Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:25:06Z</dct:modified>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:25:06Z</edp:transReceived>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/1b1ff072-7583-4fe8-8cf1-64cdae3a050b">
+        <dct:title xml:lang="hu-t-en-t0-mtec">Környezet:ElectroMagneticMegfigyelve</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">Entorno:ElectroMagneticObserved</dct:title>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa sähkömagneettisen kentän tasoa, jota mitataan Santanderin kaupungissa SmartSantander-alustan kautta asennetuilla antureilla.</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja nivo elektromagnetnega polja, ki ga merijo senzorji, nameščeni v mestu Santander prek platforme SmartSantander.</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει το επίπεδο ηλεκτρομαγνητικού πεδίου που μετράται από τους αισθητήρες που αναπτύχθηκαν στην πόλη Santander μέσω της πλατφόρμας SmartSantander.</dct:description>
+        <dct:title xml:lang="it-t-en-t0-mtec">Ambiente:ElectroMagneticObservato</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Životné prostredie:ElectroMagneticObserved</dct:title>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa o nível de campo eletromagnético medido pelos sensores implantados na cidade de Santander através da plataforma SmartSantander.</dct:description>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Mediu:ElectroMagneticObserved</dct:title>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente le niveau de champ électromagnétique mesuré par les capteurs déployés dans la ville de Santander à travers la plate-forme SmartSantander.</dct:description>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява нивото на електромагнитното поле, измерено от сензорите, разположени в град Сантандер чрез платформата SmartSantander.</dct:description>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Ambjent: Elettromanjetiku Osservat</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt das Niveau des elektromagnetischen Feldes dar, das von den Sensoren gemessen wird, die in der Stadt Santander über die SmartSantander-Plattform eingesetzt werden.</dct:description>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Okoliš:ElectroMagneticObserved</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Околна среда: ElectroMagneticObserved</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">Keskkond:ElectroMagneticObserved</dct:title>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Comhshaol:ElectroMagneticObserved</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Środowisko:ElectroMagneticObserved</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Навколишнє середовище: Електромагнітні спостереження</dct:title>
+        <dct:title>Environment:ElectroMagneticObserved</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T12:05:15.706034</dct:modified>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Okolje:ElectroMagneticObserved</dct:title>
+        <dct:title xml:lang="de-t-en-t0-mtec">Umgebung:ElectroMagneticObserved</dct:title>
+        <dct:description>It represents the level of electromagnetic field measured by the sensors deployed in the city of Santander through the SmartSantander platform.</dct:description>
+        <dct:description xml:lang="hu-t-en-t0-mtec">A Santander városában a SmartSantander platformon keresztül telepített érzékelők által mért elektromágneses mező szintjét jelenti.</dct:description>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Milieu:Elektromagnetisch Geobserveerd</dct:title>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta il livello di campo elettromagnetico misurato dai sensori impiegati nella città di Santander attraverso la piattaforma SmartSantander.</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Vide: ElektroMagneticObserved</dct:title>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă nivelul câmpului electromagnetic măsurat de senzorii dislocați în orașul Santander prin platforma SmartSantander.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5e19faf5-c84f-4213-82b7-2cf74f5ace19">
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Середовище:ElectroMagneticObserved дані в режимі реального часу, представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Prostředí:ElectroMagneticObserved realtime data reprezentovaná ve formátu JSON</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Environment%2FElectroMagneticObserved__.json"/>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Środowisko:ElectroMagneticObserwowane dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">Περιβάλλον: ΗλεκτρομαγνητικήΠαρατηρημένα δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Environment%2FElectroMagneticObserved__.json"/>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Okolje:ElectroMagneticOpazovani podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Ambjent:Electromanagnetic Data fil-ħin reali rappreżentata fil-format JSON</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Ympäristö:ElectroMagneticObserved reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Ambiente:ElectroMagneticObservou dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Prostredie:ElectroMagneticObserved realtime data reprezentované vo formáte JSON</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Umgebung:ElectroMagneticObserved Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Mediu:ElectroMagnetic Date în timp real observate în format JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Keskkond: ElectroMagneticObserved reaalajas andmed, mis on esitatud JSON-vormingus</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/1b1ff072-7583-4fe8-8cf1-64cdae3a050b/resource/urn_ngsi-ld_distribution_salted_project_environment_electromagneticobserved_json</dct:identifier>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Miljø:ElectroMagneticObserved realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Omgeving:ElectroMagneticGeobserveerde realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Ambiente:ElectroMagneticDati osservati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Miljö:ElectroMagneticObserved realtidsdata representerad i JSON-format</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Entorno:ElectroMagneticObservado datos en tiempo real representados en formato JSON</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Comhshaol:ElectroMagneticObserved sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Aplinka:ElectroMagneticObserved realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Vide:ElectroMagneticObserved reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Околна среда: ElectroMagneticHaблюдавани данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Okoliš:ElectroMagneticObserved podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Környezet:ElectroMagneticMegfigyelt valós idejű adatok JSON formátumban</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-01T11:55:35.401732</dct:modified>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Environnement:ElectroMagnetic Données observées en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T12:05:15.706</dct:issued>
+            <dct:description>Environment:ElectroMagneticObserved realtime data represented in JSON format</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo elektromagnētiskā lauka līmeni, ko mēra ar sensoriem, kas izvietoti Santander pilsētā caur SmartSantander platformu.</dct:description>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Den representerar den nivå av elektromagnetiskt fält som mäts av sensorerna som distribueras i staden Santander via SmartSantander-plattformen.</dct:description>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Aplinka:ElectroMagneticObserved</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Ambiente:ElectroMagneticObservo</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Miljö:ElectroMagneticObserved</dct:title>
+        <dcat:keyword>ElectroMagneticObserved</dcat:keyword>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta l-livell ta’ kamp elettromanjetiku mkejjel mis-sensuri użati fil-belt ta’ Santander permezz tal-pjattaforma SmartSantander.</dct:description>
+        <dct:title xml:lang="el-t-en-t0-mtec">Περιβάλλον: ΗλεκτρομαγνητικήΠαρατηρημένη</dct:title>
+        <dct:identifier>1b1ff072-7583-4fe8-8cf1-64cdae3a050b</dct:identifier>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje úroveň elektromagnetického pole měřená senzory rozmístěnými ve městě Santander prostřednictvím platformy SmartSantander.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T12:05:15.706</dct:issued>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Životní prostředí:ElectroMagneticObserved</dct:title>
+        <dcat:keyword>Electromagnetic field</dcat:keyword>
+        <dct:description xml:lang="et-t-en-t0-mtec">See näitab elektromagnetvälja taset, mida mõõdetakse Santanderi linnas SmartSantanderi platvormi kaudu kasutusele võetud anduritega.</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai yra elektromagnetinio lauko lygis, matuojamas jutiklių, dislokuotų Santandero mieste per „SmartSantander“ platformą.</dct:description>
+        <dct:title xml:lang="da-t-en-t0-mtec">Miljø:ElectroMagneticObserved</dct:title>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa el nivel de campo electromagnético medido por los sensores desplegados en la ciudad de Santander a través de la plataforma SmartSantander.</dct:description>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje úroveň elektromagnetického poľa meraného senzormi nasadenými v meste Santander prostredníctvom platformy SmartSantander.</dct:description>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer niveauet af elektromagnetisk felt målt af de sensorer, der anvendes i byen Santander gennem SmartSantander platformen.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T12:05:15.497405</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Ona predstavlja razinu elektromagnetskog polja izmjerenu senzorima raspoređenima u gradu Santanderu putem platforme SmartSantander.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T12:05:15.497405</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ce90b7bd-369e-419d-b831-dd19884c0300">
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="it-t-en-t0-mtec">Ambiente:ElectroMagneticDati osservati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Okoliš:ElectroMagneticObserved podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Umgebung:ElectroMagneticObserved Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Environnement:ElectroMagnetic Données observées en temps réel représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Середовище:ElectroMagneticObserved дані в режимі реального часу, представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Околна среда: ElectroMagneticHaблюдавани данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="es-t-en-t0-mtec">Entorno:ElectroMagneticObservado datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Environment%2FElectroMagneticObserved__.jsonld"/>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:description>Environment:ElectroMagneticObserved realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Omgeving:ElectroMagneticGeobserveerde realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Okolje:ElectroMagneticOpazovani podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Comhshaol:Sonraí fíor-ama leictreo-mhaighnéadacha breathnaithe i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Περιβάλλον: ΗλεκτρομαγνητικήΠαρατηρημένα δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-01T11:55:35.402912</dct:modified>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Aplinka:ElectroMagneticObserved realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T12:05:15.706</dct:issued>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/1b1ff072-7583-4fe8-8cf1-64cdae3a050b/resource/urn_ngsi-ld_distribution_salted_project_environment_electromagneticobserved_jsonld</dct:identifier>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Miljö:ElectroMagneticObserved realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Środowisko:ElectroMagneticObserwowane dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Ympäristö:ElectroMagneticObserved reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Environment%2FElectroMagneticObserved__.jsonld"/>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Prostredie:ElectroMagneticObserved realtime data reprezentované vo formáte JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Ambiente:ElectroMagneticObservou dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">Keskkond: ElectroMagneticObserved reaalajas andmed esitatud JSON_LD formaadis</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Mediu:ElectroMagnetic Date în timp real observate în format JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Ambjent:Electromanagnetic Data fil-ħin reali rappreżentata fil-format JSON_LD</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Vide:ElectroMagneticObserved reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Miljø:ElectroMagneticObserved realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Prostředí:ElectroMagneticObserved realtime data reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Környezet:ElectroMagneticMegfigyelt valós idejű adatok JSON_LD formátumban</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt het niveau van elektromagnetisch veld gemeten door de sensoren die in de stad Santander via het SmartSantander-platform worden ingezet.</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé an leibhéal réimse leictreamaighnéadach arna thomhas ag na braiteoirí a úsáidtear i gcathair Santander tríd an ardán SmartSantander.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою рівень електромагнітного поля, вимірюваного датчиками, розгорнутими в місті Сантандер через платформу SmartSantander.</dct:description>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Environnement:ElectroMagneticObservé</dct:title>
+        <dcat:keyword>SmartSantander</dcat:keyword>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Ympäristö:ElectroMagneticObserved</dct:title>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje poziom pola elektromagnetycznego mierzonego przez czujniki rozmieszczone w mieście Santander za pośrednictwem platformy SmartSantander.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

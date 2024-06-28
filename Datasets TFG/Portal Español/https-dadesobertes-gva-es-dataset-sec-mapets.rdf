@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-dadesobertes-gva-es-dataset-sec-mapets">
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:27Z</edp:transIssued>
+    <dct:identifier>https://dadesobertes.gva.es/dataset/sec-mapets</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>85cc2419a285427e8489bb3734c154ba</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:27Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-dadesobertes-gva-es-dataset-sec-mapets"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-dadesobertes-gva-es-dataset-sec-mapets">
+        <dct:title xml:lang="ro-t-es-t0-mtec">Resurse guvernamentale deschise ale autorităților locale din Comunitatea Valenciană</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">This data set contains the directory of local entities of the Valencian Community with the identification and location data, and the transparency and participation instruments published on its website: transparency portal, open data portal, process of access to public information, participatory budgets, approval of the Code of Good Government and the participation of the municipality in the Xarxa of Governance.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Offene staatliche Mittel der lokalen Gebietskörperschaften der Valencianischen Gemeinschaft</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Sa tacar sonraí seo tá eolaire na n-eintiteas áitiúil i bPobal Valencian ina bhfuil na sonraí aitheantais agus suímh, agus na hionstraimí trédhearcachta agus rannpháirtíochta a fhoilsítear ar a láithreán gréasáin: tairseach trédhearcachta, tairseach sonraí oscailte, próiseas rochtana ar fhaisnéis phoiblí, buiséid rannpháirtíochta, formheas Chód an Dea-Rialtais agus rannpháirtíocht an bhardais sa Xarxa um Rialachas.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Öppna statliga resurser för de lokala myndigheterna i Valencia</dct:title>
+        <dcat:keyword xml:lang="es">gobernanza</dcat:keyword>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Този набор от данни съдържа регистъра на местните субекти на Валенсия с данните за идентификация и местоположение, както и инструментите за прозрачност и участие, публикувани на нейния уебсайт: портал за прозрачност, портал за отворени данни, процес на достъп до обществена информация, бюджети за участие, одобряване на Кодекса за добро управление и участието на общината в Ксаркса на управлението.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Otvorené vládne zdroje miestnych orgánov Valencijského spoločenstva</dct:title>
+        <dcat:keyword xml:lang="es">transparencia</dcat:keyword>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Cet ensemble de données contient le répertoire des entités locales de la Communauté valencienne avec les données d’identification et de localisation, ainsi que les instruments de transparence et de participation publiés sur son site internet: portail de transparence, portail de données ouvertes, processus d’accès à l’information publique, budgets participatifs, approbation du Code de bonne gouvernance et participation de la municipalité à la Xarxa de la gouvernance.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Odprti vladni viri lokalnih organov Valencijske skupnosti</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Taj skup podataka sadržava popis lokalnih subjekata Valencije s identifikacijskim podacima i podacima o lokaciji te instrumentima za transparentnost i sudjelovanje objavljenima na njezinim internetskim stranicama: portal transparentnosti, portal otvorenih podataka, postupak pristupa javnim informacijama, participativni proračuni, odobrenje Kodeksa dobre vlade i sudjelovanje općine u Xarxi upravljanja.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Šiame duomenų rinkinyje pateikiamas Valensijos bendruomenės vietos subjektų katalogas, kuriame pateikiami identifikavimo ir vietos nustatymo duomenys, taip pat skaidrumo ir dalyvavimo priemonės, skelbiamos jos interneto svetainėje: skaidrumo portalas, atvirųjų duomenų portalas, prieigos prie viešosios informacijos procesas, dalyvavimo biudžetai, Gero valdymo kodekso patvirtinimas ir savivaldybės dalyvavimas valdymo Xarxa veikloje.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A10002983">
+            <foaf:name>Generalitat Valenciana</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="da-t-es-t0-mtec">Åbne offentlige midler fra de lokale myndigheder i Valencia-fællesskabet</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:keyword xml:lang="es">datos abiertos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d91eb080-18aa-4b26-98ab-f4f0a43e92fa">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://dadesobertes.gva.es/dataset/93721b0e-3a83-4108-a7b5-040058c5d6c6/resource/e908e3f4-f9c9-47ae-ae36-8611fa2a4db3/download/mapets.geojson"/>
+            <dct:title xml:lang="es">Recursos de gobierno abierto de las entidades locales de la Comunitat Valenciana.geojson</dct:title>
+            <dct:identifier>https://dadesobertes.gva.es/dataset/sec-mapets/resource/e908e3f4-f9c9-47ae-ae36-8611fa2a4db3</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Tento súbor údajov obsahuje zoznam miestnych subjektov Valencijského spoločenstva s identifikačnými a lokalizačnými údajmi, ako aj nástroje transparentnosti a účasti uverejnené na jeho webovej stránke: portál transparentnosti, portál s otvorenými údajmi, proces prístupu k verejným informáciám, participatívne rozpočty, schválenie Kódexu dobrej správy vecí verejných a účasť obce na Xarxe správy.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Questo insieme di dati contiene l'elenco degli enti locali della Comunità valenciana con i dati di identificazione e localizzazione e gli strumenti di trasparenza e partecipazione pubblicati sul suo sito web: portale trasparenza, portale open data, processo di accesso alle informazioni pubbliche, bilanci partecipativi, approvazione del Codice di Buon Governo e partecipazione del Comune alla Xarxa of Governance.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Ressources gouvernementales ouvertes des autorités locales de la Communauté valencienne</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Open overheidsmiddelen van de lokale overheden van de Valenciaanse Gemeenschap</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Αυτό το σύνολο δεδομένων περιέχει τον κατάλογο των τοπικών φορέων της Κοινότητας της Βαλένθια με τα δεδομένα ταυτοποίησης και θέσης, καθώς και τα μέσα διαφάνειας και συμμετοχής που δημοσιεύονται στον ιστότοπό της: πύλη για τη διαφάνεια, πύλη ανοικτών δεδομένων, διαδικασία πρόσβασης σε δημόσια πληροφόρηση, συμμετοχικοί προϋπολογισμοί, έγκριση του Κώδικα Καλής Κυβέρνησης και συμμετοχή του δήμου στο Xarxa της Διακυβέρνησης.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Risorse pubbliche aperte delle autorità locali della Comunità Valenciana</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3d28ca06-469f-4687-8d3b-a8fa1e0a007c">
+            <dct:title xml:lang="lv-t-es-t0-mtec">Comunitat Valenciana.geojson vietējo pašvaldību atvērtie valdības resursi</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Otvorené vládne zdroje miestnych orgánov Comunitat Valenciana.geojson</dct:title>
+            <dct:identifier>https://dadesobertes.gva.es/dataset/sec-mapets/resource/e0690ced-9e94-441b-b45e-6628541831b2</dct:identifier>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Open overheidsmiddelen van de lokale autoriteiten van de Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Risorse pubbliche aperte delle autorità locali della Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Acmhainní rialtais oscailte d’údaráis áitiúla an Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Resurse guvernamentale deschise ale autorităților locale ale Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Otwarte zasoby rządowe władz lokalnych Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Öppna statliga resurser för de lokala myndigheterna i Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Open government resources of the local authorities of the Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Offene Regierungsmittel der lokalen Behörden der Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Otvoreni vladini resursi lokalnih vlasti Comunitat Valenciana.geojson</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">Comunitat Valenciana.geojsoni kohalike omavalitsuste avatud valitsuse vahendid</dct:title>
+            <dct:title xml:lang="es">Recursos de gobierno abierto de las entidades locales de la Comunitat Valenciana .geojson</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Recursos públicos abertos das autoridades locais da Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Valenciana-kunnan paikallisviranomaisten avoimet valtion resurssit.geojson</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Otevřené vládní zdroje místních orgánů Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Отворени държавни ресурси на местните органи на Comunitat Valenciana.geojson</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Odprti vladni viri lokalnih skupnosti Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Riżorsi tal-gvern miftuħ tal-awtoritajiet lokali tal-Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Valensijos regiono vietos valdžios institucijų atvirieji valdžios ištekliai.geojson</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Ανοιχτοί κυβερνητικοί πόροι των τοπικών αρχών της Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Ressources gouvernementales ouvertes des autorités locales du Comunitat Valenciana.geojson</dct:title>
+            <dcat:accessURL rdf:resource="https://dadesobertes.gva.es/dataset/93721b0e-3a83-4108-a7b5-040058c5d6c6/resource/e0690ced-9e94-441b-b45e-6628541831b2/download/mapets.geojson"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Åbne offentlige midler fra de lokale myndigheder i Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Відкриті державні ресурси місцевої влади Comunitat Valenciana.geojson</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">A Comunitat Valenciana.geojson önkormányzatának nyílt kormányzati forrásai</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://idevapi.gva.es/visors/mapets/index.html?idioma=ca"/>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Valencian yhteisön paikallisviranomaisten avoimet valtion varat</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Ta podatkovni niz vsebuje imenik lokalnih subjektov Valencijske skupnosti s podatki o identifikaciji in lokaciji ter instrumenti za preglednost in udeležbo, objavljenimi na njeni spletni strani: portal za preglednost, portal odprtih podatkov, postopek dostopa do javnih informacij, participativni proračuni, odobritev kodeksa dobre vlade in sodelovanje občine v ksergi upravljanja.</dct:description>
+        <dct:description xml:lang="es">En este conjunto de datos se recoge el directorio de entidades locales de la Comunitat Valenciana con los datos de identificación y localización, y los instrumentos de transparencia y participación que tenga publicados en su sitio web: portal de transparencia, portal de datos abiertos, trámite de acceso a la información pública, presupuestos participativos, aprobación del Código de Buen Gobierno y la participación del municipio en la Xarxa de Gobernanza.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Valensijos bendruomenės vietos valdžios institucijų atvirieji vyriausybės ištekliai</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Отворени държавни ресурси на местните власти на Валенсия</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Acmhainní rialtais oscailte d’údaráis áitiúla Chomhphobal Valencian</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Valencia kogukonna kohalike omavalitsuste avatud valitsuse vahendid</dct:title>
+        <dcat:keyword xml:lang="es">Municipios</dcat:keyword>
+        <dcat:keyword xml:lang="es">buen gobierno</dcat:keyword>
+        <dct:description xml:lang="da-t-es-t0-mtec">Dette datasæt indeholder fortegnelsen over lokale enheder i Valencia-fællesskabet med identifikations- og lokaliseringsdata samt de gennemsigtigheds- og deltagelsesinstrumenter, der er offentliggjort på dets websted: gennemsigtighedsportal, åben dataportal, proces for adgang til offentlige oplysninger, deltagelsesbudgetter, godkendelse af kodeksen for god forvaltningsskik og kommunens deltagelse i Xarxa for governance.</dct:description>
+        <dct:title xml:lang="es">Recursos de gobierno abierto de las entidades locales de la Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Acest set de date conține lista entităților locale din Comunitatea Valenciană cu datele de identificare și localizare, precum și instrumentele de transparență și participare publicate pe site-ul său internet: portalul de transparență, portalul de date deschise, procesul de acces la informațiile publice, bugetele participative, aprobarea Codului bunei guvernări și participarea municipalității la Xarxa de guvernanță.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Denna datauppsättning innehåller en förteckning över lokala enheter i Valencia med uppgifter om identifiering och lokalisering samt de instrument för öppenhet och deltagande som offentliggörs på dess webbplats: öppenhetsportalen, portalen för öppna data, processen för tillgång till offentlig information, deltagandebudgetar, godkännande av koden för god förvaltning och kommunens deltagande i Xarxa of Governance.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Otevřené vládní zdroje místních orgánů Valencijského společenství</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-03-27T00:00:00+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e40465bc-a946-43d2-8cc7-aad5998d987b">
+            <dct:title xml:lang="uk-t-es-t0-mtec">Відкриті урядові ресурси місцевої влади Валенсійської громади</dct:title>
+            <dct:title xml:lang="es">Recursos de gobierno abierto de las entidades locales de la Comunitat Valenciana</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Otvorené vládne zdroje miestnych orgánov Valencijského spoločenstva</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">A Valenciai Közösség helyi hatóságainak nyílt kormányzati forrásai</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Offene Regierungsressourcen der lokalen Behörden der Valencianischen Gemeinschaft</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Valencian yhteisön paikallisviranomaisten avoimet valtion resurssit</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Otevřené vládní zdroje místních orgánů Valencie</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Ressources gouvernementales ouvertes des autorités locales de la Communauté valencienne</dct:title>
+            <dcat:accessURL rdf:resource="https://dadesobertes.gva.es/dataset/93721b0e-3a83-4108-a7b5-040058c5d6c6/resource/29864181-c7b1-470c-a4e6-e5958ead7c4a/download/mapets.csv"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Öppna statliga resurser för de lokala myndigheterna i Valencia</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Valencia piirkonna kohalike omavalitsuste avatud valitsusressursid</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Отворени държавни ресурси на местните власти на Валенсия</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Open overheidsmiddelen van de lokale autoriteiten van de Valenciaanse Gemeenschap</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Risorse pubbliche aperte delle autorità locali della Comunità valenciana</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Valensijos bendruomenės vietos valdžios institucijų atvirieji valdžios ištekliai</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Otwarte zasoby rządowe władz lokalnych Wspólnoty Walencji</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Acmhainní rialtais oscailte údaráis áitiúla Phobal Valencia</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Recursos públicos abertos das autoridades locais da Comunidade Valenciana</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Ανοικτοί κυβερνητικοί πόροι των τοπικών αρχών της κοινότητας της Βαλένθια</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Åbne offentlige midler til de lokale myndigheder i Valencia-fællesskabet</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Otvorena državna sredstva lokalnih tijela Valencijske zajednice</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Valensijas pašvaldības atvērtie valdības resursi</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Odprta vladna sredstva lokalnih organov skupnosti Valencija</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Open government resources of the local authorities of the Valencian Community</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Riżorsi tal-gvern miftuħ tal-awtoritajiet lokali tal-Komunità ta’ Valencia</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Resursele publice deschise ale autorităților locale din Comunitatea Valenciană</dct:title>
+            <dct:identifier>https://dadesobertes.gva.es/dataset/sec-mapets/resource/29864181-c7b1-470c-a4e6-e5958ead7c4a</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="en-t-es-t0-mtec">Open government resources of the local authorities of the Valencian Community</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Цей набір даних містить каталог місцевих об'єктів Валенсійської спільноти з даними ідентифікації та місцезнаходження, а також інструменти прозорості та участі, опубліковані на його веб-сайті: портал прозорості, портал відкритих даних, процес доступу до публічної інформації, бюджети участі, затвердження Кодексу Доброго Уряду та участь муніципалітету в Xarxa of Governance.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Otwarte zasoby rządowe władz lokalnych Wspólnoty Walencji</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Відкриті державні ресурси місцевих органів влади Валенсійської громади</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Dieser Datensatz enthält das Verzeichnis der lokalen Einrichtungen der valencianischen Gemeinschaft mit den Identifizierungs- und Standortdaten sowie die auf seiner Website veröffentlichten Transparenz- und Beteiligungsinstrumente: Transparenzportal, offenes Datenportal, Prozess des Zugangs zu öffentlichen Informationen, partizipative Budgets, Genehmigung des Kodex für gute Regierungsführung und Beteiligung der Gemeinde an der Xarxa of Governance.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Valensijas kopienas vietējo pašvaldību atvērtie valdības resursi</dct:title>
+        <dcat:keyword xml:lang="es">Año 2024</dcat:keyword>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Riżorsi tal-gvern miftuħ tal-awtoritajiet lokali tal-Komunità ta’ Valencia</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Otvoreni državni resursi lokalnih vlasti Valencijske zajednice</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Este conjunto de dados contém o repertório de entidades locais da Comunidade Valenciana com os dados de identificação e localização, bem como os instrumentos de transparência e participação publicados no seu sítio Web: portal de transparência, portal de dados abertos, processo de acesso à informação pública, orçamentos participativos, aprovação do Código de Bom Governo e participação do concelho na Xarxa de Governança.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tämä tietokokonaisuus sisältää Valencian yhteisön paikallisyhteisöjen hakemiston, jossa on tunniste- ja sijaintitiedot sekä avoimuus- ja osallistumisvälineet, jotka on julkaistu sen verkkosivustolla osoitteessa avoimuusportaali, avoimen datan portaali, julkisten tietojen saantiprosessi, osallistavat talousarviot, hyvän hallinnon säännöstön hyväksyminen ja kunnan osallistuminen hallintotapaan.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Dan is-sett ta’ data fih id-direttorju ta’ entitajiet lokali tal-Komunità ta’ Valencia bid-data ta’ identifikazzjoni u ta’ lokalizzazzjoni, u l-istrumenti ta’ trasparenza u parteċipazzjoni ppubblikati fuq is-sit web tagħha: il-portal tat-trasparenza, il-portal tad-data miftuħa, il-proċess ta’ aċċess għall-informazzjoni pubblika, il-baġits parteċipatorji, l-approvazzjoni tal-Kodiċi ta’ Gvern Tajjeb u l-parteċipazzjoni tal-muniċipalità fix-Xarxa tal-Governanza.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Ez az adatkészlet tartalmazza a Valenciai Közösség helyi egységeinek nyilvántartását az azonosítási és helymeghatározó adatokkal, valamint a honlapján közzétett átláthatósági és részvételi eszközökkel: átláthatósági portál, nyílt adatportál, a nyilvános információkhoz való hozzáférés folyamata, részvételi költségvetések, a jó kormányzás kódexének jóváhagyása és az önkormányzat részvétele a kormányzás Xarxában.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Šī datu kopa ietver Valensijas kopienas vietējo iestāžu direktoriju ar identifikācijas un atrašanās vietas datiem, kā arī pārredzamības un līdzdalības instrumentiem, kas publicēti tīmekļa vietnē: pārredzamības portāls, atvērto datu portāls, publiskās informācijas pieejamības process, līdzdalības budžeti, Labas valdības kodeksa apstiprināšana un pašvaldības dalība pārvaldības Xarxa.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A Valenciai Közösség helyi önkormányzatainak nyílt kormányzati forrásai</dct:title>
+        <dct:identifier>https://dadesobertes.gva.es/dataset/sec-mapets</dct:identifier>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Recursos públicos abertos das autoridades locais da Comunidade Valenciana</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Deze gegevensreeks bevat het bestand van lokale entiteiten van de Valenciaanse Gemeenschap met de identificatie- en locatiegegevens en de op haar website gepubliceerde transparantie- en participatie-instrumenten: transparantieportaal, open dataportaal, proces van toegang tot openbare informatie, participatieve budgetten, goedkeuring van de Code van Goede Overheid en de deelname van de gemeente aan de Xarxa van Governance.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Tento soubor údajů obsahuje seznam místních subjektů Valencijské komunity s identifikačními a lokalizačními údaji a nástroji transparentnosti a účasti zveřejněnými na jeho internetových stránkách: portál transparentnosti, otevřený datový portál, proces přístupu k veřejným informacím, participativní rozpočty, schválení kodexu dobré vlády a účast obce v Xarxa správy.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">See andmekogum sisaldab Valencia kogukonna kohalike üksuste registrit koos identifitseerimis- ja asukohaandmetega ning läbipaistvus- ja osalemisvahendeid, mis on avaldatud komisjoni veebisaidil: läbipaistvusportaal, avatud andmete portaal, avalikule teabele juurdepääsu protsess, osaluseelarved, hea valitsemise eeskirja heakskiitmine ja omavalitsuse osalemine Xarxas.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Ten zbiór danych zawiera spis podmiotów lokalnych Wspólnoty Walencji wraz z danymi identyfikacyjnymi i dotyczącymi lokalizacji oraz instrumenty służące przejrzystości i uczestnictwie opublikowane na jej stronie internetowej: portal przejrzystości, portal otwartych danych, proces dostępu do informacji publicznej, budżety partycypacyjne, zatwierdzenie Kodeksu Dobrego Rządu oraz udział gminy w Xarxa of Governance.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Ανοιχτοί κυβερνητικοί πόροι των τοπικών αρχών της Κοινότητας της Βαλένθια</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-05-17T23:49:02Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

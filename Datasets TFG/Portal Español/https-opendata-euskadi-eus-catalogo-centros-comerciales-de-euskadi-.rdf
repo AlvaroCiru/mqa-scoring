@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-centros-comerciales-de-euskadi-">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-centros-comerciales-de-euskadi-"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>912d0c8345df8e4b351c6463ecc1a268</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-centros-comerciales-de-euskadi-">
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni bażika taċ-ċentri tax-xiri tal-Pajjiż Bask: il-post u n-numru ta’ ħwienet, eċċ.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Eolas bunúsach ar ionaid siopadóireachta Thír na mBascach: suíomh agus líon na siopaí, etc.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/adbdbf36-8948-4475-88bd-8b43db2e523b">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC%3Aeuskadi%3BtF%3Aturismo%3BtT%3Al_compras%3Bm%3AdocumentLanguage.EQ.es%2CtemplateType.EQ.L3%2Cgeneral.EQ.1%3Bp%3AInter_portal%2CInter%3B"/>
+            <dct:title xml:lang="eu">Merkatal-guneak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dct:title xml:lang="es">Centros comerciales</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/resource/d0489ea3-873e-43a2-aabf-6f359493d11d</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">dendak</dcat:keyword>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Euskadi bevásárlóközpontok</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Nákupní centra Euskadi</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Grundläggande information om köpcentrumen i Baskien: plats och antal butiker etc.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Základné informácie o nákupných centrách Baskicka: umiestnenie a počet obchodov atď.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Einkaufszentren von Euskadi</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Търговски центрове на Euskadi</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Základní informace o nákupních centrech Baskicka: umístění a počet obchodů atd.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Centri commerciali di Euskadi</dct:title>
+        <dcat:keyword xml:lang="eu">erosketak</dcat:keyword>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Centre comerciale din Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/50136ab8-63b5-4a43-902e-0a28fe2756db">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/centros_comerciales_euskadi/opendata/centros-comerciales.jsonp"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/resource/25526ed1-754a-4c78-8895-bcde60e8163a</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >35123</dcat:byteSize>
+            <dct:title xml:lang="eu">Merkatal-guneak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+            <dct:title xml:lang="es">Centros comerciales</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/centros-comerciales-de-euskadi/</dct:identifier>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="eu">merkataritzagunea</dcat:keyword>
+        <dct:description xml:lang="de-t-es-t0-mtec">Grundlegende Informationen zu den Einkaufszentren des Baskenlandes: Lage und Anzahl der Geschäfte usw.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Εμπορικά κέντρα του Ευσκάδι</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Basic information of the shopping centers of the Basque Country: location and number of shops, etc.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Основна информация за търговските центрове на Страната на баските: местоположение и брой на магазините и т.н.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Winkelcentra van Euskadi</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-utilizar-datos/"/>
+        <dct:isReferencedBy rdf:resource="http://turismoa.euskadi.eus/"/>
+        <dcat:keyword xml:lang="es">tienda</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/centros-comerciales-de-euskadi/"/>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Centros Comerciais de Euskadi</dct:title>
+        <dct:description xml:lang="eu">Euskadiko merkataritza-guneei buruzko oinarrizko informazioa: kokapena, denda-kopurua, etab.</dct:description>
+        <dct:description xml:lang="es">Informacion básica de los centros comerciales de Euskadi: ubicación y número de tiendas, etc.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Baskimaan ostoskeskusten perustiedot: kauppojen sijainti ja lukumäärä jne.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Shopping centers of Euskadi</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Pagrindinė informacija apie Baskų krašto prekybos centrus: parduotuvių vieta, skaičius ir t. t.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/687baafe-5a74-42db-a102-567c7e7f454e">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >10414</dcat:byteSize>
+            <dct:title xml:lang="eu">Merkatal-guneak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/centros_comerciales_euskadi/opendata/centros-comerciales.xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/resource/b95ad001-e9b2-413b-a383-ed8c06bf1d45</dct:identifier>
+            <dct:title xml:lang="es">Centros comerciales</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="et-t-es-t0-mtec">Euskadi kaubanduskeskused</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/DurationDescription">
+                <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:weeks>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Osnovne informacije o nakupovalnih centrih Baskije: lokacija in število trgovin itd.</dct:description>
+        <dct:title xml:lang="eu">Euskadiko merkatal guneak</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ea157e8a-ea5c-45f0-928c-6cfb96b77df4">
+            <dct:title xml:lang="es">Centros comerciales</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/centros_comerciales_euskadi/opendata/centros-comerciales.geojson"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >26614</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/resource/6a6c7788-c919-4846-b20f-8eea5b07494f</dct:identifier>
+            <dct:title xml:lang="eu">Merkatal-guneak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Osnovne informacije o trgovačkim centrima Baskije: lokacija i broj trgovina itd.</dct:description>
+        <dcat:keyword xml:lang="eu">merkatal</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/97e0c078-1539-4b9a-a59e-dd556a1064ec">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/resource/955f6072-df7c-4c58-a39d-28b90332e28b</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&amp;r01kQry=tT%3Al_compras%3Bm%3AdocumentLanguage.EQ.es%2CtemplateType.EQ.L3%2Cgeneral.EQ.1%3Bp%3AInter_portal%2CInter%3Bpp%3Ar01NavBarBlockSize.10%2Cr01PageSize.100"/>
+            <dct:title xml:lang="eu">Merkatal-guneak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Centros comerciales</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-es-t0-mtec">Grundlæggende oplysninger om indkøbscentrene i Baskerlandet: beliggenhed og antal butikker m.v.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Euskadin ostoskeskukset</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații de bază ale centrelor comerciale din Țara Bascilor: amplasarea și numărul de magazine etc.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Euskadi prekybos centrai</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações básicas dos centros comerciais do País Basco: localização e número de lojas, etc.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Alapvető információk Baszkföld bevásárlóközpontjairól: a boltok elhelyezkedése és száma stb.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Nakupovalna središča Euskadi</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Köpcentrum i Euskadi</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2010-03-25T00:00:00+01:00</dct:issued>
+        <dct:title xml:lang="es">Centros comerciales de Euskadi</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations de base des centres commerciaux du Pays Basque: localisation et nombre de magasins, etc.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Ċentri tax-xiri ta’ Euskadi</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Ionaid siopadóireachta Euskadi</dct:title>
+        <dcat:keyword xml:lang="es">comercio</dcat:keyword>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Centra handlowe Euskadi</dct:title>
+        <dcat:keyword xml:lang="eu">merkatal guneak</dcat:keyword>
+        <dct:description xml:lang="el-t-es-t0-mtec">Βασικές πληροφορίες για τα εμπορικά κέντρα της Χώρας των Βάσκων: τοποθεσία και αριθμός καταστημάτων κ.λπ.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Centres commerciaux d’Euskadi</dct:title>
+        <dcat:keyword xml:lang="es">compras</dcat:keyword>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Tirdzniecības centri Euskadi</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Podstawowe informacje o centrach handlowych Kraju Basków: lokalizacja i liczba sklepów itp.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Торгові центри Euskadi</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Baskimaa kaubanduskeskuste põhiteave: kaupluste asukoht ja arv jne.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c484a9e8-295f-45e5-9e44-c20a6618b9bd">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Centros comerciales</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/resource/8f134726-e489-44ee-97a6-b8bad241c125</dct:identifier>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/centros_comerciales_euskadi/opendata/centros-comerciales.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >35113</dcat:byteSize>
+            <dct:title xml:lang="eu">Merkatal-guneak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/81599df8-ff40-4db2-99ec-f68d5e2e099b">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/centros_comerciales_euskadi/opendata/centros-comerciales-padding.geojson"/>
+            <dct:title xml:lang="eu">Merkatal-guneak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/resource/115a4b2f-4898-4cad-8b8f-1e908a67d491</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >26624</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Centros comerciales</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Basku zemes tirdzniecības centru pamatinformācija: veikalu atrašanās vieta un skaits u. c.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Basisinformatie van de winkelcentra van Baskenland: locatie en aantal winkels, enz.</dct:description>
+        <dcat:keyword xml:lang="es">centro comercial</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni di base dei centri commerciali dei Paesi Baschi: ubicazione e numero di negozi, ecc.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Торгові центри Країни Басків: розташування і кількість магазинів і т.д.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Obchodné centrá Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6382ed14-9326-4d4b-9f47-59fbcebc66c6">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Merkatal-guneak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-centros-comerciales-de-euskadi1/resource/758c2c77-359d-4b44-80c8-9d47437ddbba</dct:identifier>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/centros_comerciales_euskadi/opendata/centros-comerciales.xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >27873</dcat:byteSize>
+            <dct:title xml:lang="es">Centros comerciales</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-es-t0-mtec">Indkøbscentre i Euskadi</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Trgovački centri Euskadija</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-11T00:00:00+02:00</dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:10:23Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:17:35Z</dct:modified>
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/centros-comerciales-de-euskadi/</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:17:35Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

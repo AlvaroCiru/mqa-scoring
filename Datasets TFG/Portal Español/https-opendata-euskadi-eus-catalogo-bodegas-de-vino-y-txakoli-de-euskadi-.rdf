@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-bodegas-de-vino-y-txakoli-de-euskadi-">
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/bodegas-de-vino-y-txakoli-de-euskadi/</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-bodegas-de-vino-y-txakoli-de-euskadi-"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:57Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:57Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>62c909856f92fc9fe3514765774d0390</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-bodegas-de-vino-y-txakoli-de-euskadi-">
+        <dct:title xml:lang="hr-t-es-t0-mtec">Vinski podrumi i txakoli iz Euskadija</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Винні льохи і тксаколі від Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/106d844e-cef2-4a7c-85aa-d676bb5eed0e">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >41892</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/bodegas_vino_txakoli/opendata/bodegas.xlsx"/>
+            <dct:title xml:lang="eu">Upeltegiak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/90959cdd-eb8b-44a1-a9ae-001a83640c38</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Bodegas</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Informācija par vīna pagrabiem un txakoli no Euskadi.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Oplysninger om vinkældre og txakoli fra Euskadi.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações sobre caves e txakoli da Euskadi.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Vínne pivnice a txakoli z Euskadi</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Информация за винарски изби и txakoli от Euskadi.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/91fdad1c-ebd5-4f47-8648-efcc59f3cf82">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+            <dct:title xml:lang="eu">Upeltegiak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/59a4f39a-503b-48e1-bc4f-be31671d0bf9</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&amp;r01kQry=tT%3Ab_restauracion%3Bm%3AtemplateType.EQ.B1%2CrestorationType.IN.%284%2C41%29%2Cgeneral.EQ.1%3Bo%3AdocumentName.ASC%3Bpp%3Ar01NavBarBlockSize.10%2Cr01PageSize.100"/>
+            <dct:title xml:lang="es">Bodegas</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Vyno rūsiai ir txakoli iš Euskadi</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Informacje o piwnicach z winami i txakoli z Euskadi.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Weinkeller und Txakoli aus Euskadi</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Wine cellars and txakoli from Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e9e85467-6250-4078-b319-4bf96ce99beb">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/179facf8-2ba5-4625-8606-a29bcccc8b8b</dct:identifier>
+            <dct:title xml:lang="eu">Upeltegiak</dct:title>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC%3Aeuskadi%3BtF%3Aturismo%3BtT%3Ab_restauracion%3Bm%3AdocumentLanguage.EQ.es%2CtemplateType.EQ.B1%2CrestorationType.IN.%284%2C41%29%2Cgeneral.EQ.1%3Bo%3AdocumentName.ASC"/>
+            <dct:title xml:lang="es">Bodegas</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Wijnkelders en txakoli uit Euskadi</dct:title>
+        <dct:title xml:lang="eu">Euskadiko upeltegiak</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Винарски изби и тксаколи от Euskadi</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Crame și txakoli din Euskadi</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Vinkældre og txakoli fra Euskadi</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni dwar kantini inbid u txakoli minn Euskadi.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Borospincék és txakoli Euskadiból</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6677df84-fe60-4da1-ba9c-6b69a835281a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="eu">Upeltegiak</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >164526</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/369aa230-22f4-431f-b085-34f34fee982d</dct:identifier>
+            <dct:title xml:lang="es">Bodegas</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/bodegas_vino_txakoli/opendata/bodegas-padding.geojson"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">ardoa</dcat:keyword>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Információk az Euskadi borospincékről és txakoliról.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Caves e txakoli de Euskadi</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/DurationDescription">
+                <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:weeks>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:keyword xml:lang="es">restaurantes</dcat:keyword>
+        <dcat:keyword xml:lang="es">vino</dcat:keyword>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Caves à vin et txakoli d’Euskadi</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Informacije o vinskim podrumima i txakoli iz Euskadija.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Informacija apie vyno rūsius ir txakoli iš Euskadi.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Cantine e txakoli di Euskadi</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-utilizar-datos/"/>
+        <dcat:keyword xml:lang="eu">sukaldaritza</dcat:keyword>
+        <dcat:keyword xml:lang="es">txakoli</dcat:keyword>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Euskadin viinikellarit ja tksakoli</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Vinske kleti in txakoli iz Euskadija</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a65deee0-5c74-4f99-b910-a79bc29fe6a1">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/bodegas_vino_txakoli/opendata/bodegas.xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Upeltegiak</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >172308</dcat:byteSize>
+            <dct:title xml:lang="es">Bodegas</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/03e3f7b2-4249-4980-8ebb-38b8c8ca5606</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/de5062cf-dca7-4b0f-9a90-98baa173df4f">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >164516</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/bodegas_vino_txakoli/opendata/bodegas.geojson"/>
+            <dct:title xml:lang="eu">Upeltegiak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/4a04bfda-1c9d-411f-b633-d22e8760f0db</dct:identifier>
+            <dct:title xml:lang="es">Bodegas</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">restauración</dcat:keyword>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Vīna pagrabi un txakoli no Euskadi</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Teave Euskadi veinikeldrite ja tksakolite kohta.</dct:description>
+        <dcat:keyword xml:lang="eu">jatetxeak</dcat:keyword>
+        <dct:title xml:lang="es">Bodegas de vino y txakoli de Euskadi</dct:title>
+        <dcat:keyword xml:lang="es">bodegas</dcat:keyword>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Piwnice na wino i txakoli od Euskadi</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Informacije o vinskih kleteh in txakoli iz Euskadija.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Vinné sklepy a txakoli z Euskadi</dct:title>
+        <dct:isReferencedBy rdf:resource="http://turismoa.euskadi.net/x65-15332/es/"/>
+        <dcat:keyword xml:lang="eu">upeltegiak</dcat:keyword>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații despre cramele și txakoli din Euskadi.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tietoa Euskadin viinikellareista ja tksakolista.</dct:description>
+        <dcat:keyword xml:lang="eu">txakoli</dcat:keyword>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen über Weinkeller und Txakoli aus Euskadi.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/191e3833-f7af-4652-b610-5b83877fa73e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/bodegas_vino_txakoli/opendata/bodegas.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >208937</dcat:byteSize>
+            <dct:title xml:lang="eu">Upeltegiak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/be07d5e3-e28e-46c6-8e88-ce51464e0c05</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Bodegas</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2ec3f834-b5cd-4d64-8b61-2482e550082d">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:title xml:lang="eu">Aireportuak</dct:title>
+            <dct:title xml:lang="es">Aeropuertos</dct:title>
+            <dcat:accessURL rdf:resource="http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/98c2c472-3cb6-46a4-8857-43360bec2c55</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information om vinkällare och txakoli från Euskadi.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie o vínnych pivniciach a txakoli z Euskadi.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1fa0b340-77b5-465f-8377-f8d3738b236b">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-bodegas-de-vino-y-txakoli-de-euskadi/resource/3bf9794a-6b49-4857-b096-24dae49723b3</dct:identifier>
+            <dct:title xml:lang="eu">Upeltegiak</dct:title>
+            <dct:title xml:lang="es">Bodegas</dct:title>
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/bodegas_vino_txakoli/opendata/bodegas.jsonp"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >208947</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information about wine cellars and txakoli from Euskadi.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Informatie over wijnkelders en txakoli uit Euskadi.</dct:description>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/bodegas-de-vino-y-txakoli-de-euskadi/</dct:identifier>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Kantina tal-inbid u txakoli minn Euskadi</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/bodegas-de-vino-y-txakoli-de-euskadi/"/>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Eolas faoi siléir fíona agus txakoli ó Euskadi.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Siléir fíona agus txakoli ó Euskadi</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations sur les caves à vin et les txakoli d’Euskadi.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація про винних підвалах і тксаколі від Euskadi.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-11T00:00:00+02:00</dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:isReferencedBy rdf:resource="http://turismoa.euskadi.eus"/>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace o vinných sklepech a txakoli z Euskadi.</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πληροφορίες για κελάρια κρασιών και txakoli από το Euskadi.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni sulle cantine e txakoli da Euskadi.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Κάβα κρασιών και txakoli από το Euskadi</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Euskadi veinikeldrid ja tksakolid</dct:title>
+        <dct:description xml:lang="eu">Euskadiko ardo- eta txakolin-upategiei buruzko informazioa.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2016-03-08T00:00:00+01:00</dct:issued>
+        <dct:description xml:lang="es">Información sobre bodegas de vino y txakoli de Euskadi.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Vinkällare och txakoli från Euskadi</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:18:54Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

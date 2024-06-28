@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000499">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000499">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/00a56eb0-7412-44bc-abe1-6805392b7454">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-conceptos-pagados-en-origen-canarias-por-periodos/resource/b5a27e0c-5d26-4b1d-ba78-7c0b9130104d</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000499 (TSV)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000499/1.0.tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8ee2aab3-1d56-41dd-aa75-24233f55d61e">
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000499 (JSONSTAT)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-conceptos-pagados-en-origen-canarias-por-periodos/resource/d7beda03-33dc-46db-8834-4a7cd01f0835</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000499/1.0.jsonstat"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3a68309e-394a-4320-8215-c3f103b1c35d">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-conceptos-pagados-en-origen-canarias-por-periodos/resource/6bace93c-95ef-4a25-ac5c-c04de0300899</dct:identifier>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000499 (JSON)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000499/1.0.json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000499</dct:identifier>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T11:42:28+02:00</dct:modified>
+        <dcat:keyword xml:lang="es">Cubo estadístico</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:description xml:lang="es">Características de los viajes y satisfacción de los turistas. Estancia media según conceptos pagados en origen. Canarias por años y trimestres. Series desde 2010 hasta 2017.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6d5dcab6-db1e-45db-80d4-bd9634e161b4">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-conceptos-pagados-en-origen-canarias-por-periodos/resource/5095f347-57c1-4ee3-8efd-0b93667c00a9</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000499 (XML)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000499/1.0.xml"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423">
+            <foaf:name>Instituto Canario de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d25cf8ff-51ad-4fb9-8007-89f1f2250b4f">
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000499 (CSV)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-conceptos-pagados-en-origen-canarias-por-periodos/resource/725a644c-cc81-402f-a8bc-d37dd68558f9</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000499/1.0.csv"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T11:42:28+02:00</dct:issued>
+        <dct:title xml:lang="es">Estancia media según conceptos pagados en origen. Canarias por periodos</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/45a136ef-584d-40fb-917c-aa4071b111a5">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000499 (XLSX)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-conceptos-pagados-en-origen-canarias-por-periodos/resource/65285237-d87f-4372-8092-0a72bfbb1d05</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000499/1.0.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000499</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:26Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:26Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000499"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:26Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>2b640fa81d7d3ca675555d838ca878ae</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

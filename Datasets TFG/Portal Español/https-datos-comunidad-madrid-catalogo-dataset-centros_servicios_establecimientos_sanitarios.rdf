@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-comunidad-madrid-catalogo-dataset-centros_servicios_establecimientos_sanitarios">
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-comunidad-madrid-catalogo-dataset-centros_servicios_establecimientos_sanitarios">
+        <dct:title xml:lang="fi-t-es-t0-mtec">Terveyskeskukset, palvelut ja tilat</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Zoznam schválených zdravotných stredísk, služieb a zariadení v madridskom spoločenstve, verejné a súkromné</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Список затверджених центрів охорони здоров'я, послуг та установ у Співтоваристві Мадрида, державних та приватних</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Ionaid sláinte, seirbhísí agus saoráidí</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Centros de saúde, serviços e instalações</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Sundhedscentre, tjenester og faciliteter</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c5fdff23-a073-4b22-80ee-7c63a02df4ec">
+            <dct:title xml:lang="cs-t-es-t0-mtec">Zdravotní střediska, služby a zařízení</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/a48d63fd-91ce-4b37-8fff-36a8dcad293e/resource/31368e7a-cc9f-4e45-8169-74baf76abec5/download/centros_servicios_establecimientos_sanitarios.csv"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Здравни центрове, услуги и съоръжения</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Terveyskeskukset, palvelut ja tilat</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Gezondheidscentra, -diensten en -voorzieningen</dct:title>
+            <dct:title xml:lang="es">Centros, servicios y establecimientos sanitarios</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Ośrodki zdrowia, usługi i obiekty</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Veselības aprūpes centri, pakalpojumi un iekārtas</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Vårdcentraler, tjänster och inrättningar</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Centri sanitari, servizi e strutture</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Gesundheitszentren, Dienstleistungen und Einrichtungen</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Tervishoiukeskused, -teenused ja -rajatised</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >6813876</dcat:byteSize>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Sveikatos centrai, paslaugos ir infrastruktūra</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/centros_servicios_establecimientos_sanitarios/resource/31368e7a-cc9f-4e45-8169-74baf76abec5</dct:identifier>
+            <dct:title xml:lang="da-t-es-t0-mtec">Sundhedscentre, tjenester og faciliteter</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Health centres, services and facilities</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Zdravstveni centri, usluge i objekti</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Zdravstveni domovi, storitve in objekti</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Egészségügyi központok, szolgáltatások és létesítmények</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Centre, servicii și facilități de sănătate</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Centros de saúde, serviços e instalações</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">ΚΕΝΤΡΑ, ΥΠΗΡΕΣΙΕΣ και ΕΓΚΑΤΑΣΤΑΣΕΙΣ ΥΓΕΙΑΣ</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ċentri, servizzi u faċilitajiet tas-saħħa</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Zdravotnícke strediská, služby a zariadenia</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Ionaid sláinte, seirbhísí agus saoráidí</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Centres, services et installations de santé</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Оздоровчі центри, послуги та заклади</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Gezondheidscentra, -diensten en -voorzieningen</dct:title>
+        <dcat:keyword xml:lang="es">hospitales</dcat:keyword>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Vårdcentraler, tjänster och inrättningar</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Health centres, services and facilities</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Liste over godkendte sundhedscentre, -tjenester og -virksomheder i Madrid-fællesskabet, offentlige og private</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Zdravotní střediska, služby a zařízení</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Seznam odobrenih zdravstvenih domov, storitev in ustanov v Skupnosti Madrid, javni in zasebni</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Оздоровчі центри, послуги та заклади</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2019-03-04T00:00:00+01:00</dct:issued>
+        <dcat:keyword xml:lang="es">centro sanitario con internamiento</dcat:keyword>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Zdravotnícke strediská, služby a zariadenia</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Здравни центрове, услуги и съоръжения</dct:title>
+        <dct:title xml:lang="es">Centros, servicios y establecimientos sanitarios</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Zdravstveni domovi, storitve in objekti</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">List of approved health centres, services and establishments in the Community of Madrid, public and private</dct:description>
+        <dct:description xml:lang="es">Relación de centros, servicios y establecimientos sanitarios autorizados en la Comunidad de Madrid, públicos y privados</dct:description>
+        <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/centros_servicios_establecimientos_sanitarios</dct:identifier>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Sveikatos centrai, paslaugos ir infrastruktūra</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Elenco dei centri, dei servizi e degli stabilimenti sanitari riconosciuti nella Comunità di Madrid, pubblici e privati</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Engedélyezett egészségügyi központok, szolgáltatások és létesítmények jegyzéke Madridban, köz- és magánszférában</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Veselības aprūpes centri, pakalpojumi un iekārtas</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Ċentri, servizzi u faċilitajiet tas-saħħa</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Ośrodki zdrowia, usługi i obiekty</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">ΚΕΝΤΡΑ, ΥΠΗΡΕΣΙΕΣ και ΕΓΚΑΤΑΣΤΑΣΕΙΣ ΥΓΕΙΑΣ</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Tervishoiukeskused, -teenused ja -rajatised</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Liste des centres, services et établissements de santé agréés dans la Communauté de Madrid, publics et privés</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Popis odobrenih zdravstvenih centara, usluga i ustanova u Zajednici Madrida, javnih i privatnih</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"/>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κατάλογος εγκεκριμένων κέντρων υγείας, υπηρεσιών και εγκαταστάσεων στην Κοινότητα της Μαδρίτης, δημόσια και ιδιωτικά</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Madrido Bendrijos patvirtintų sveikatos centrų, paslaugų ir įstaigų, viešųjų ir privačiųjų įstaigų sąrašas</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Förteckning över godkända vårdcentraler, hälso- och sjukvårdsinrättningar och hälso- och sjukvårdsinrättningar i Madrid, offentliga och privata</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Списък на одобрените здравни центрове, услуги и заведения в Общността Мадрид, публични и частни</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Liste der zugelassenen Gesundheitszentren, -dienste und -einrichtungen in der Gemeinschaft Madrid, öffentliche und private</dct:description>
+        <dcat:keyword xml:lang="es">Centro sanitario sin internamiento</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Seznam schválených zdravotnických středisek, služeb a zařízení v Madridském společenství, veřejných a soukromých</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Centre, servicii și facilități de sănătate</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-13T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Centres, services et installations de santé</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Lista centrelor de sănătate, a serviciilor și a unităților autorizate din Comunitatea Madrid, publice și private</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Liosta na n-ionad, na seirbhísí agus na mbunaíochtaí sláinte formheasta i gComhphobal Mhaidrid, idir phoiblí agus phríobháideach</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Lijst van erkende gezondheidscentra, -diensten en -instellingen in de Gemeenschap van Madrid, openbare en particuliere</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Centri sanitari, servizi e strutture</dct:title>
+        <dcat:keyword xml:lang="es">Servicio Sanitarios y Establecimientos Sanitarios de ópticas</dcat:keyword>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Lista de centros de saúde, serviços e estabelecimentos aprovados na Comunidade de Madrid, públicos e privados</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0a013cd0-4e9c-42b6-b1df-5f46434b8910">
+            <dct:title xml:lang="et-t-es-t0-mtec">Tervishoiukeskused, -teenused ja -rajatised</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Terveyskeskukset, palvelut ja tilat</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Gesundheitszentren, Dienstleistungen und Einrichtungen</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/centros_servicios_establecimientos_sanitarios/resource/bb4a0a8e-4d4d-4548-a651-1b8fc0990ca5</dct:identifier>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Egészségügyi központok, szolgáltatások és létesítmények</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Sundhedscentre, tjenester og faciliteter</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ċentri, servizzi u faċilitajiet tas-saħħa</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Zdravstveni centri, usluge i objekti</dct:title>
+            <dct:title xml:lang="es">Centros, servicios y establecimientos sanitarios</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Zdravotní střediska, služby a zařízení</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Health centres, services and facilities</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Veselības aprūpes centri, pakalpojumi un iekārtas</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Centres, services et installations de santé</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Zdravotnícke strediská, služby a zariadenia</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/a48d63fd-91ce-4b37-8fff-36a8dcad293e/resource/bb4a0a8e-4d4d-4548-a651-1b8fc0990ca5/download/centros_servicios_establecimientos_sanitarios.json"/>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Gezondheidscentra, -diensten en -voorzieningen</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Vårdcentraler, tjänster och inrättningar</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Ośrodki zdrowia, usługi i obiekty</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Centre, servicii și facilități de sănătate</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Centros de saúde, serviços e instalações</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Здравни центрове, услуги и съоръжения</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Centri sanitari, servizi e strutture</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Zdravstveni domovi, storitve in objekti</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Sveikatos centrai, paslaugos ir infrastruktūra</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Ionaid sláinte, seirbhísí agus saoráidí</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Оздоровчі центри, послуги та заклади</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >25938265</dcat:byteSize>
+            <dct:title xml:lang="el-t-es-t0-mtec">ΚΕΝΤΡΑ, ΥΠΗΡΕΣΙΕΣ και ΕΓΚΑΤΑΣΤΑΣΕΙΣ ΥΓΕΙΑΣ</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Zdravstveni centri, usluge i objekti</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Luettelo hyväksytyistä terveyskeskuksista, palveluista ja laitoksista Madridin yhteisössä, julkiset ja yksityiset</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Gesundheitszentren, Dienstleistungen und Einrichtungen</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Lista ta’ ċentri tas-saħħa, servizzi u stabbilimenti approvati fil-Komunità ta’ Madrid, pubbliċi u privati</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Apstiprināto veselības centru, pakalpojumu un iestāžu saraksts Madrides Kopienā, publiski un privāti</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Madridi autonoomse piirkonna avalik-õiguslike ja eraõiguslike heakskiidetud tervishoiukeskuste, -teenuste ja -asutuste loetelu</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Egészségügyi központok, szolgáltatások és létesítmények</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Wykaz zatwierdzonych ośrodków zdrowia, usług i zakładów we Wspólnocie Madrytu, publicznych i prywatnych</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908">
+            <foaf:name>Comunidad de Madrid</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:20:38Z</dct:modified>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:28:02Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>9aaf4899811f02cb4b27f5e035b9008b</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-05T05:58:47Z</edp:transReceived>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:28:02Z</dct:issued>
+    <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/centros_servicios_establecimientos_sanitarios</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-comunidad-madrid-catalogo-dataset-centros_servicios_establecimientos_sanitarios"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

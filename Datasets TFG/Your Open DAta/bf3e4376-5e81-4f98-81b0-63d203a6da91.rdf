@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/bf3e4376-5e81-4f98-81b0-63d203a6da91">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:02Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/bf3e4376-5e81-4f98-81b0-63d203a6da91"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-01T05:00:02Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>2dade09305772f1465b31331e009e765</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>bf3e4376-5e81-4f98-81b0-63d203a6da91</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/bf3e4376-5e81-4f98-81b0-63d203a6da91">
+        <dct:title xml:lang="cs-t-es-t0-mtec">hustota_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">gostota_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-12-28T17:22:34.747540</dct:issued>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w pobliżu korytarza, ruch centrum INEF (Madryt).</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung in In der Nähe des Korridors, Verkehr des Zentrums INEF (Madrid).</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">dlús_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">gustoća_inef_b8 – 27-eb-4f-83-a8</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="bg-t-es-t0-mtec">density_inef_b8—27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">densità_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:title xml:lang="sk-t-es-t0-mtec">hustota_inef_b8 – 27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">gęstość_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">tiheys_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população em Perto do corredor, tráfego do centro INEF (Madrid).</dct:description>
+        <dct:identifier>bf3e4376-5e81-4f98-81b0-63d203a6da91</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-12-28T17:22:35.457645</dct:modified>
+        <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv koridori lähedal, kesklinna INEF (Madrid) liiklus.</dct:description>
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/place/ESP_MAD"/>
+        </dct:spatial>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="de-t-es-t0-mtec">Dichte_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione in Vicino al corridoio, traffico del centro INEF (Madrid).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/29b1c7ba-ccc5-414c-93c5-9ade4c3ca64d">
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione in Vicino al corridoio, traffico del centro INEF (Madrid).</dct:description>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Nära korridoren, trafik av centrum INEF (Madrid).</dct:description>
+            <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού κοντά στο διάδρομο, κυκλοφορία του κέντρου INEF (Μαδρίτη).</dct:description>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Densità tat-tagħmir u l-popolazzjoni fil Qrib il-kuritur, traffiku taċ-ċentru INEF (Madrid).</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Near the corridor, traffic of the center INEF (Madrid).</dct:description>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v blízkosti koridoru, provoz centra INEF (Madrid).</dct:description>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége a folyosó közelében, a központ INEF (Madrid) forgalma.</dct:description>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v bližini koridorja, promet centra INEF (Madrid).</dct:description>
+            <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung in In der Nähe des Korridors, Verkehr des Zentrums INEF (Madrid).</dct:description>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u blizini koridora, promet centra INEF (Madrid).</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description>Densidad de equipos y población en Cerca del pasillo, tráfico del centro INEF (Madrid).</dct:description>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population à proximité du couloir, trafic du centre INEF (Madrid).</dct:description>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението в Близо до коридора, трафика на центъра INEF (Мадрид).</dct:description>
+            <dct:description xml:lang="lv-t-es-t0-mtec">Blīvums iekārtu un iedzīvotāju tuvumā koridora, satiksmes centra INEF (Madride).</dct:description>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in de buurt van de gang, verkeer van het centrum INEF (Madrid).</dct:description>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Tankis įrangos ir gyventojų arti koridoriaus, eismo centro INEF (Madridas).</dct:description>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/bf3e4376-5e81-4f98-81b0-63d203a6da91/resource/bef04a1f-b4c8-4d6b-85a1-e12bd4e9df31</dct:identifier>
+            <dcat:downloadURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8"/>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dct:issued>
+            <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i Nær korridoren, trafik af centrum INEF (Madrid).</dct:description>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Щільність техніки і населення в районі коридору, трафік центру INEF (Мадрид).</dct:description>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden ja väestön tiheys lähellä käytävää, INEF-keskuksen (Madrid) liikenne.</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1300</dcat:byteSize>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w pobliżu korytarza, ruch centrum INEF (Madryt).</dct:description>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra in Near an chonair, trácht an ionaid INEF (Madrid).</dct:description>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população em Perto do corredor, tráfego do centro INEF (Madrid).</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației în apropierea coridorului, traficul centrului INEF (Madrid).</dct:description>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv koridori lähedal, kesklinna INEF (Madrid) liiklus.</dct:description>
+            <dcat:accessURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8"/>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadenia a obyvateľstva v blízkosti koridoru, doprava v centre INEF (Madrid).</dct:description>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:title>urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-4f-83-a8</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:02.049615</dct:modified>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Near the corridor, traffic of the center INEF (Madrid).</dct:description>
+        <dcat:keyword>ocupacion</dcat:keyword>
+        <dct:title xml:lang="sv-t-es-t0-mtec">densitet_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">tankis_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra in Near an chonair, trácht an ionaid INEF (Madrid).</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">densità_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in de buurt van de gang, verkeer van het centrum INEF (Madrid).</dct:description>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        </dcat:theme>
+        <dct:title xml:lang="ro-t-es-t0-mtec">densitate_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i Nær korridoren, trafik af centrum INEF (Madrid).</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Tankis įrangos ir gyventojų arti koridoriaus, eismo centro INEF (Madridas).</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Nära korridoren, trafik av centrum INEF (Madrid).</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">density_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Blīvums iekārtu un iedzīvotāju tuvumā koridora, satiksmes centra INEF (Madride).</dct:description>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v bližini koridorja, promet centra INEF (Madrid).</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadenia a obyvateľstva v blízkosti koridoru, doprava v centre INEF (Madrid).</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége a folyosó közelében, a központ INEF (Madrid) forgalma.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">blīvums_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">щільність_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Densità tat-tagħmir u l-popolazzjoni fil Qrib il-kuritur, traffiku taċ-ċentru INEF (Madrid).</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/957d07d1-ee7b-4e60-83d4-f1fa46f6c377">
+            <foaf:name>cei_moncloa</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="pt-t-es-t0-mtec">density_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dcat:keyword>densidad</dcat:keyword>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population à proximité du couloir, trafic du centre INEF (Madrid).</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden ja väestön tiheys lähellä käytävää, INEF-keskuksen (Madrid) liikenne.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">tihedus_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dct:title>densidad_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">sűrűség_inef_b8–27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Density_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">tæthed_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v blízkosti koridoru, provoz centra INEF (Madrid).</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Щільність техніки і населення в районі коридору, трафік центру INEF (Мадрид).</dct:description>
+        <dct:description>Densidad de equipos y población en Cerca del pasillo, tráfico del centro INEF (Madrid).</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u blizini koridora, promet centra INEF (Madrid).</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението в Близо до коридора, трафика на центъра INEF (Мадрид).</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού κοντά στο διάδρομο, κυκλοφορία του κέντρου INEF (Μαδρίτη).</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">dichtheid_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">πυκνότητα_inef_b8-27-eb-4f-83-a8</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației în apropierea coridorului, traficul centrului INEF (Madrid).</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-01T05:00:02Z</edp:transIssued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-02T09:44:51Z</edp:transReceived>
+  </dcat:CatalogRecord>
+</rdf:RDF>

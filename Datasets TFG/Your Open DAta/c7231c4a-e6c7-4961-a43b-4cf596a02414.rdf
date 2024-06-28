@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/c7231c4a-e6c7-4961-a43b-4cf596a02414">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/c7231c4a-e6c7-4961-a43b-4cf596a02414"/>
+    <dct:identifier>c7231c4a-e6c7-4961-a43b-4cf596a02414</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>8d799d01bbf97b16752f1c216f77ff46</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-02T09:44:51Z</edp:transReceived>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:02Z</dct:modified>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-01T05:00:01Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/c7231c4a-e6c7-4961-a43b-4cf596a02414">
+        <dct:title xml:lang="cs-t-es-t0-mtec">hustota_etsi_industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v Entrance Aulario Sur centra ETSI Industriales (Madrid).</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden tiheys ja väestö sisäänkäynnin Aulario Sur keskus ETSI Industriales (Madrid).</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">gęstość_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:title xml:lang="da-t-es-t0-mtec">tæthed_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione in Entrance Aulario Sur del centro ETSI Industriales (Madrid).</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadení a obyvateľstva v vstupe Aulario Sur centra ETSI Industriales (Madrid).</dct:description>
+        <dcat:keyword>densidad</dcat:keyword>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v vhodu Aulario Sur centra ETSI Industriales (Madrid).</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">densità_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Entrance Aulario Sur av centrum ETSI Industriales (Madrid).</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u ulazu Aulario Sur centra ETSI Industriales (Madrid).</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">gustoća_etsi_industriales_b8 – 27-eb-ee-b6 – 91</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv Sissepääs Aulario Sur keskuse ETSI Industriales (Madrid).</dct:description>
+        <dct:description>Densidad de equipos y población en Entrada Aulario Sur del centro ETSI Industriales (Madrid).</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">dlús_etsi_tionscail_b8-27-eb-ee-b6-91</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Blīvums iekārtu un iedzīvotāju Ieeja Aulario Sur centra ETSI Industriales (Madride).</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności we wejściu Aulario Sur centrum ETSI Industriales (Madryt).</dct:description>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        </dcat:theme>
+        <dct:title xml:lang="ro-t-es-t0-mtec">densitate_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Tankis įrangos ir gyventojų Entrance Aulario Sur centro ETSI Industriales (Madridas).</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége az ETSI Industriales (Madrid) központ Aulario Sur bejáratában.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението в Entrance Aulario Sur на центъра ETSI Industriales (Мадрид).</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">density_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στην είσοδο Aulario Sur του κέντρου ETSI Industriales (Μαδρίτη).</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">density_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="hu-t-es-t0-mtec">denzitás_etsi_industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">density_etsi_industriales_b8—27-eb-ee-b6—91</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-12-28T17:22:46.011116</dct:issued>
+        <dct:title xml:lang="lt-t-es-t0-mtec">tankis_etsi_industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dcat:keyword>ocupacion</dcat:keyword>
+        <dct:title xml:lang="mt-t-es-t0-mtec">density_etsi_ industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung in Eingang Aulario Sur des Zentrums ETSI Industriales (Madrid).</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">hustota_etsi_industriales_b8 – 27-eb-ee-b6 – 91</dct:title>
+        <dct:accessRights>
+          <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        </dct:accessRights>
+        <dct:title xml:lang="fi-t-es-t0-mtec">tiheys_etsi_industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Entrance Aulario Sur of the center ETSI Industriales (Madrid).</dct:description>
+        <dct:title>densidad_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i Entrance Aulario Sur af center ETSI Industriales (Madrid).</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">density_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Densità ta ‘tagħmir u l-popolazzjoni fil Entrance Aulario Sur taċ-ċentru ETSI Industriales (Madrid).</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/957d07d1-ee7b-4e60-83d4-f1fa46f6c377">
+            <foaf:name>cei_moncloa</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="uk-t-es-t0-mtec">щільність_etsi_ industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в вступі Aulario Sur центру ETSI Industriales (Мадрид).</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">densitet_etsi_industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/place/ESP_MAD"/>
+        </dct:spatial>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra i Iontrála Aulario Sur de na Tionscail ETSI lár (Madrid).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5fd7d914-40cb-4731-9141-f07f33a3a1ca">
+            <dct:description>Densidad de equipos y población en Entrada Aulario Sur del centro ETSI Industriales (Madrid).</dct:description>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Tankis įrangos ir gyventojų Entrance Aulario Sur centro ETSI Industriales (Madridas).</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в вступі Aulario Sur центру ETSI Industriales (Мадрид).</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="lv-t-es-t0-mtec">Blīvums iekārtu un iedzīvotāju Ieeja Aulario Sur centra ETSI Industriales (Madride).</dct:description>
+            <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung in Eingang Aulario Sur des Zentrums ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população na entrada Aulario Sur do centro ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:02.013001</dct:modified>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u ulazu Aulario Sur centra ETSI Industriales (Madrid).</dct:description>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége az ETSI Industriales (Madrid) központ Aulario Sur bejáratában.</dct:description>
+            <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στην είσοδο Aulario Sur του κέντρου ETSI Industriales (Μαδρίτη).</dct:description>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności we wejściu Aulario Sur centrum ETSI Industriales (Madryt).</dct:description>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dct:issued>
+            <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione in Entrance Aulario Sur del centro ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Entrance Aulario Sur of the center ETSI Industriales (Madrid).</dct:description>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/c7231c4a-e6c7-4961-a43b-4cf596a02414/resource/e23ab196-ef80-4a52-a1d8-0d520eefeddf</dct:identifier>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:title>urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v Entrance Aulario Sur centra ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population à l’entrée Aulario Sur du centre ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dcat:downloadURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91"/>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv Sissepääs Aulario Sur keskuse ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението в Entrance Aulario Sur на центъра ETSI Industriales (Мадрид).</dct:description>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in Entrance Aulario Sur van het centrum ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și populației în Entrance Aulario Sur a centrului ETSI Industriales (Madrid).</dct:description>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Entrance Aulario Sur av centrum ETSI Industriales (Madrid).</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i Entrance Aulario Sur af center ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadení a obyvateľstva v vstupe Aulario Sur centra ETSI Industriales (Madrid).</dct:description>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra i Iontrála Aulario Sur de na Tionscail ETSI lár (Madrid).</dct:description>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden tiheys ja väestö sisäänkäynnin Aulario Sur keskus ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v vhodu Aulario Sur centra ETSI Industriales (Madrid).</dct:description>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91</dct:title>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Densità ta ‘tagħmir u l-popolazzjoni fil Entrance Aulario Sur taċ-ċentru ETSI Industriales (Madrid).</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1300</dcat:byteSize>
+            <dcat:accessURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-ee-b6-91"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lv-t-es-t0-mtec">blīvums_etsi_industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Density_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">tihedus_etsi_industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-12-28T17:22:46.637624</dct:modified>
+        <dct:title xml:lang="sl-t-es-t0-mtec">gostota_etsi_industriales_b8–27-eb-ee-b6–91</dct:title>
+        <dct:identifier>c7231c4a-e6c7-4961-a43b-4cf596a02414</dct:identifier>
+        <dct:title xml:lang="en-t-es-t0-mtec">density_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população na entrada Aulario Sur do centro ETSI Industriales (Madrid).</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in Entrance Aulario Sur van het centrum ETSI Industriales (Madrid).</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population à l’entrée Aulario Sur du centre ETSI Industriales (Madrid).</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și populației în Entrance Aulario Sur a centrului ETSI Industriales (Madrid).</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Dichte_etsi_industriales_b8-27-eb-ee-b6-91</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-01T05:00:01Z</dct:issued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

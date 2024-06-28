@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-kod-brno-cz-nkod-dataset-cca344ea2fb24eecb4e449c5970fd401_0-ttl">
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:37Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:21Z</edp:transIssued>
+    <dct:identifier>https://kod.brno.cz/nkod/dataset/cca344ea2fb24eecb4e449c5970fd401_0.ttl</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:21Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>62ef06167bdac42405960974a222b4e5</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <j.1:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-kod-brno-cz-nkod-dataset-cca344ea2fb24eecb4e449c5970fd401_0-ttl">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bebb7f40-ca1d-4f29-8860-c9b3f94186fe">
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_wgs84.dxf"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/cfa9b441ddf1a4595e4914c56e1c7384/podmínky-užití">
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_wgs84.dxf"/>
+            <dct:title xml:lang="cs">DXF (WGS84)</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/cfa9b441ddf1a4595e4914c56e1c7384</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/cfa9b441ddf1a4595e4914c56e1c7384/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9ada66e7-4701-40dc-9c6b-8495ac20e464">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:title xml:lang="cs">KML</dct:title>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/d08e539a3296f2c2cf2abf0e51b91570/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/d08e539a3296f2c2cf2abf0e51b91570/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/cca344ea2fb24eecb4e449c5970fd401/kml?layers=0"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/d08e539a3296f2c2cf2abf0e51b91570</dct:identifier>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/cca344ea2fb24eecb4e449c5970fd401/kml?layers=0"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/509a5b7f-4711-4b3f-a480-20eee3a294fc">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/05e043db3b8a898d6f29233a0be5e52a</dct:identifier>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/05e043db3b8a898d6f29233a0be5e52a/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/05e043db3b8a898d6f29233a0be5e52a/podmínky-užití"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/cca344ea2fb24eecb4e449c5970fd401/csv?layers=0"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/cca344ea2fb24eecb4e449c5970fd401/csv?layers=0"/>
+            <dct:title xml:lang="cs">CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <foaf:page rdf:resource="https://mmbonline.sharepoint.com/:x:/s/public/OMI/gis/EbnGG71psXlIjIG3C55MK2MBRW-45IWGjl1JvxUIfDec8w?e=SkEFCq"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0265f263-f050-480f-97f0-7aaff3d7a4c1">
+            <dct:title xml:lang="cs">GML (S-JSTK)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/90ce1f7aaf124b095b2d97f3075d3bff/podmínky-užití">
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_gml_sjtsk.zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/90ce1f7aaf124b095b2d97f3075d3bff</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_gml_sjtsk.zip"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/90ce1f7aaf124b095b2d97f3075d3bff/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c4a1a5e3-82ec-42a2-9b88-7f3ac4a744dc">
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_gml_wgs84.zip"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/9db4c73dfbcd19ab6bccf4c6091d52d2/podmínky-užití">
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_gml_wgs84.zip"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/9db4c73dfbcd19ab6bccf4c6091d52d2/podmínky-užití"/>
+            <dct:title xml:lang="cs">GML (WGS84)</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/9db4c73dfbcd19ab6bccf4c6091d52d2</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs">Významné instituce a další vytipované objekty s informacemi o bezbariérové přístupnosti pro osoby s omezenou schopností pohybu (vozíčkáři, rodiče s kočárky apod.). Jsou zahrnuta zdravotnická zařízení (nemocnice, ordinace a lékárny), kulturní objekty (galerie, divadla, koncertní sály, kina, knihovny, kostely apod.), úřady, finanční instituce (banky, bankomaty, pojišťovny), obchodní domy, restaurace a kavárny, hotely, sportoviště, family pointy a veřejné toalety. Součástí dat jsou kontaktní údaje na budovy (adresa, telefon, webové stránky), u některých budov také podrobné informace o přístupu a pohybu po budově, bezbariérových toaletách apod. Zdravotnická zařízení navíc obsahují další velmi podrobné informace. Je zde popsán přístup k budově od MHD, parkování, nejbližší lékárna (pokud se nachází v budově nebo v její blízkosti), zda je v areálu park či občerstvení. Dále data obsahují informace o informačním systému (navigaci po objektu) a dalších zejména zdravotně-sociálních službách. Stanovení přístupnosti objektů vychází z Metodiky kategorizace přístupnosti objektů od Pražské organizace vozíčkářů. Podrobnější vysvětlení viz podrobná legenda k mapové aplikaci. Popisná data (kromě informací o zdravotnických zařízeních) jsou dostupná i v anglickém jazyce. Všechny objekty kromě zdravotnických zařízení jsou zmapovány pouze v centru města Brna, zdravotnická zařízení jsou zmapována na celém území města Brna. Data jsou aktualizována jednou za 3 roky, případně průběžně, pokud je zjištěna chyba. S těmito daty souvisí datová sada Mapa přístupnosti - vstupy do budov. Data jsou zobrazena v aplikaci Mapa přístupnosti Brna. Prostřednictvím této aplikace je možné upozorňovat na chyby v datech a navrhovat zmapování nových budov. Dále jsou data zobrazena také v tištěných publikacích Atlas přístupnosti centra města Brna pro osoby s omezenou schopností pohybu a Atlas přístupnosti zdravotnických zařízení ve městě Brně vydávaných Magistrátem města Brna. Podrobnější informace najdete v dokumentaci. Data jsou v souřadnicovém systému GCS WGS84.</dct:description>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/identifikátorNKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f3ce8d4e-ae98-49a4-a83e-874810a79226">
+            <dct:title xml:lang="cs">OGC GeoPackage (WGS84)</dct:title>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/503a3f4ca9cfa31ecfe6bb442d83ac07/podmínky-užití">
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/503a3f4ca9cfa31ecfe6bb442d83ac07</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_wgs84.gpkg"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_wgs84.gpkg"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/503a3f4ca9cfa31ecfe6bb442d83ac07/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/identifikátorLKOD">
+            <dct:creator>
+              <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785">
+                <foaf:name xml:lang="cs">Statutární město Brno</foaf:name>
+              </foaf:Agent>
+            </dct:creator>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://kod.brno.cz/nkod/dataset/cca344ea2fb24eecb4e449c5970fd401_0.ttl</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8eda2488-ea63-4b5e-a437-ecd27f42aaaf">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/9f6531e25916f06af0bedb35721ae621/podmínky-užití">
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_sjtsk.dxf"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/9f6531e25916f06af0bedb35721ae621</dct:identifier>
+            <dct:title xml:lang="cs">DXF (S-JTSK)</dct:title>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_sjtsk.dxf"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/9f6531e25916f06af0bedb35721ae621/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b5fa1169-e1fd-4d84-aae6-e51815fdd16e">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/755a9f09295e58125e9df073728578c2/podmínky-užití">
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/x-shapefile"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_shp_sjtsk.zip"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/755a9f09295e58125e9df073728578c2/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_shp_sjtsk.zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/755a9f09295e58125e9df073728578c2</dct:identifier>
+            <dct:title xml:lang="cs">ShapeFile (S-JTSK)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/67f95de2-5934-4ce9-8ed4-438b3df8423c">
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/24def4a77b28346d44a015b8fa7b8b86/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/cca344ea2fb24eecb4e449c5970fd401/shapefile?layers=0"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/cca344ea2fb24eecb4e449c5970fd401/shapefile?layers=0"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/24def4a77b28346d44a015b8fa7b8b86/podmínky-užití"/>
+            <dct:title xml:lang="cs">Shapefile</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/24def4a77b28346d44a015b8fa7b8b86</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/obec/582786"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/86536461-7cac-497f-b6c9-65cde1b45ad0">
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+            <dcat:downloadURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/mapa_pristupnosti_budovy/FeatureServer/0"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/0200e5465a7602e2b3a11f1004c76e68/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/0200e5465a7602e2b3a11f1004c76e68</dct:identifier>
+            <dcat:accessURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/mapa_pristupnosti_budovy/FeatureServer/0"/>
+            <dct:title xml:lang="cs">ArcGIS GeoService</dct:title>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/0200e5465a7602e2b3a11f1004c76e68/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="cs">Mapa přístupnosti - Budovy</dct:title>
+        <dcat:contactPoint>
+          <vcard:Individual rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/kontaktní-bod">
+            <vcard:fn xml:lang="cs">Rossi Eva, Mgr.</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:data@brno.cz"/>
+          </vcard:Individual>
+        </dcat:contactPoint>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/766b8d10-6280-41dd-8349-e52de339706e">
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/b443eed7e94b40eb32f7edefde72bae9/podmínky-užití">
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/b443eed7e94b40eb32f7edefde72bae9</dct:identifier>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/b443eed7e94b40eb32f7edefde72bae9/podmínky-užití"/>
+            <dct:title xml:lang="cs">OGC GeoPackage (S-JTSK)</dct:title>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_sjtsk.gpkg"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_sjtsk.gpkg"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b6208309-c34f-4e06-8960-fc10f4fa48ec">
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/cca344ea2fb24eecb4e449c5970fd401/geojson?layers=0"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/dfa544d2bfbaa0ba394f634ee59e3817/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/cca344ea2fb24eecb4e449c5970fd401/geojson?layers=0"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.geo+json"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/dfa544d2bfbaa0ba394f634ee59e3817/podmínky-užití"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/dfa544d2bfbaa0ba394f634ee59e3817</dct:identifier>
+            <dct:title xml:lang="cs">GeoJSON</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en">Accessibility map – Buildings</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d7eec695-01be-49d4-bc4a-f218d688be00">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/19ef775f0dbd2220c0881d0a906bb400/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:autor xml:lang="cs">Odbor zdraví (OZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_sjtsk.geojson"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/mapr_g_budovy_b_sjtsk.geojson"/>
+            <dct:title xml:lang="cs">GeoJSON (S-JTSK)</dct:title>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/19ef775f0dbd2220c0881d0a906bb400/podmínky-užití"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geo+json"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/2d4cad04f6cb6ebf464956d6cc36b0f1/distribuce/19ef775f0dbd2220c0881d0a906bb400</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://kod.brno.cz/nkod/dataset/cca344ea2fb24eecb4e449c5970fd401_0.ttl</dct:identifier>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:publisher rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785"/>
+        <dcat:keyword xml:lang="cs">GISM</dcat:keyword>
+      </j.1:LKOD>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-kod-brno-cz-nkod-dataset-cca344ea2fb24eecb4e449c5970fd401_0-ttl"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

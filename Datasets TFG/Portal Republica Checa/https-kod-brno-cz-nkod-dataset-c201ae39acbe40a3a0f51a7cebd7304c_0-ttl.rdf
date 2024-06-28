@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-kod-brno-cz-nkod-dataset-c201ae39acbe40a3a0f51a7cebd7304c_0-ttl">
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <dct:identifier>https://kod.brno.cz/nkod/dataset/c201ae39acbe40a3a0f51a7cebd7304c_0.ttl</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:38Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:26Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <j.1:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-kod-brno-cz-nkod-dataset-c201ae39acbe40a3a0f51a7cebd7304c_0-ttl">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bb49c049-3775-478b-94e4-2ba8dcfd3680">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7f9f23abd645ee1470398e6b52bae967/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_sjtsk.gpkg"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7f9f23abd645ee1470398e6b52bae967/podmínky-užití"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7f9f23abd645ee1470398e6b52bae967</dct:identifier>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_sjtsk.gpkg"/>
+            <dct:title xml:lang="cs">OGC GeoPackage (S-JTSK)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/identifikátorNKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dcd85513-bc31-49af-8be9-d44e0d7f6d38">
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/9115a52198df374b01d4435f5f18c1ba/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/9115a52198df374b01d4435f5f18c1ba/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_gml_sjtsk.zip"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/9115a52198df374b01d4435f5f18c1ba</dct:identifier>
+            <dct:title xml:lang="cs">GML (S-JTSK)</dct:title>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_gml_sjtsk.zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8ea25108-3a0e-42bd-9bd5-16f3cdbe4e33">
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_shp_sjtsk.zip"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/52540dcd8a40b1a8f8cc0852e1c64bec/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/52540dcd8a40b1a8f8cc0852e1c64bec</dct:identifier>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/52540dcd8a40b1a8f8cc0852e1c64bec/podmínky-užití"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_shp_sjtsk.zip"/>
+            <dct:title xml:lang="cs">ShapeFile (S-JTSK)</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/x-shapefile"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:title xml:lang="cs">Aktivní zóna záplavového území</dct:title>
+        <dct:description xml:lang="cs">Datová sada obsahuje data záplavových území včetně menších přítoků při úrovni povodně Q5, Q20, Q100 a vymezení aktivní zóny záplavového území města Brna.   Podle Zákona o vodách (vodní zákon) č. 254/2001 Sb. § 66 odst. jsou záplavová území administrativně určená území, která mohou být při výskytu přirozené povodně zaplavena vodou. Rozsah záplavového území stanovuje vodoprávní úřad na základě hydrotechnických výpočtů správce dotčeného vodního toku. V zastavěných územích, zastavitelných plochách a dalších územích vymezí vodoprávní úřad na návrh správce vodního toku aktivní zónu záplavového území podle nebezpečnosti povodňových průtoků. Záplavová území a jejich aktivní zóny stanovuje vodoprávní úřad opatřením obecné povahy. Způsob a rozsah zpracovávání návrhu a stanovování záplavových území je upraven vyhláškou MŽP č.79/2018 Sb., o způsobu a rozsahu zpracování návrhu a stanovování záplavových území a jejich dokumentace, v platném znění.   Záplavová území se stanovují hydraulickým výpočtem nejvyšších hladin vody pro průtoky s různou dobou opakování. Aktivní zóna záplavového území se stanovuje podle nebezpečnosti povodňového průtoku na základě zpracování map povodňového ohrožení. Povodňovým ohrožením se přitom rozumí vyhodnocení intenzity povodně na základě hydraulického výpočtu definované hloubkou a rychlostí proudění vody při povodních s různou dobou opakování. Při reálné povodňové situaci existuje mnoho ovlivňujících faktorů, které mohou způsobit odlišnost skutečného rozlivu od stanoveného záplavového území. Jedná se například o hromadění splavenin na průtokově nevhodných objektech, délka trvání a objem povodňové vlny, intenzita a doba trvání srážky a její plošný rozsah, nasycenost povodí a vsakovací schopnost půdy, stav vegetace, střet povodňových průtoků na soutoku vodních toků, porušení koryt vodních toků nebo staveb v inundaci, zvláštní povodně způsobené porušením vodních děl, ledové jevy apod.   Záplavové území zahrnuje pouze rozliv z uvedeného vodního toku, nezohledňuje rozliv způsobený povrchovým odtokem při intenzivní srážkové činnosti, výronem vody z kanalizační sítě nebo zaplavení spodní vodou v důsledku stoupání hladiny podzemních vod. Data povodní Q5, Q20, Q100 a aktivní zóny jsou zobrazeny v aplikaci Voda v Brně. Bližší informace o záplavových územích jsou k dispozici na stránkách „Povodňový plán České republiky“ včetně grafického znázornění v mapové podobě. Podrobnější informace najdete v dokumentaci. Data jsou v souřadnicovém systému GCS WGS84.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/59c827d1-6c1f-4aa1-a714-3713b2b89448">
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_sjtsk.geojson"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/6248159ce8ef8d7fee1a530302784038/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:title xml:lang="cs">GeoJSON (S-JTSK)</dct:title>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/6248159ce8ef8d7fee1a530302784038/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_sjtsk.geojson"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geo+json"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/6248159ce8ef8d7fee1a530302784038</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/be66c394-1425-45b2-8472-931f6de55359">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/72a42e45b6deadb20121499a9bb9d480/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_wgs84.dxf"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/72a42e45b6deadb20121499a9bb9d480/podmínky-užití"/>
+            <dct:title xml:lang="cs">DXF (WGS84)</dct:title>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_wgs84.dxf"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/72a42e45b6deadb20121499a9bb9d480</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9c29c3dc-342e-4dfc-94e2-1fad5ba46820">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7226393780eeda43ec396c35811f42c2/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_gml_wgs84.zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7226393780eeda43ec396c35811f42c2</dct:identifier>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7226393780eeda43ec396c35811f42c2/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_gml_wgs84.zip"/>
+            <dct:title xml:lang="cs">GML (WGS84)</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://kod.brno.cz/nkod/dataset/c201ae39acbe40a3a0f51a7cebd7304c_0.ttl</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cefd7dfc-62da-4a8c-8b4a-291549f8280c">
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/60f66dcc9110e36bf69f881f572d3bbc/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:title xml:lang="cs">CSV</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/60f66dcc9110e36bf69f881f572d3bbc</dct:identifier>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/c201ae39acbe40a3a0f51a7cebd7304c/csv?layers=0"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/c201ae39acbe40a3a0f51a7cebd7304c/csv?layers=0"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/60f66dcc9110e36bf69f881f572d3bbc/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7f1620cf-a610-43ba-b807-618ff5925d66">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/c201ae39acbe40a3a0f51a7cebd7304c/kml?layers=0"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/9bdac30fbd4dd1cb8fb1929c5692e334/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/9bdac30fbd4dd1cb8fb1929c5692e334</dct:identifier>
+            <dct:title xml:lang="cs">KML</dct:title>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/c201ae39acbe40a3a0f51a7cebd7304c/kml?layers=0"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/9bdac30fbd4dd1cb8fb1929c5692e334/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="cs">EDAS</dcat:keyword>
+        <dcat:contactPoint>
+          <vcard:Individual rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/kontaktní-bod">
+            <vcard:hasEmail rdf:resource="mailto:kolkova.marta@brno.cz"/>
+            <vcard:fn xml:lang="cs">Kolková Marta, JUDr.</vcard:fn>
+          </vcard:Individual>
+        </dcat:contactPoint>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785">
+            <foaf:name xml:lang="cs">Statutární město Brno</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bee13b8e-62ad-4977-bd96-a22d7f78d7ef">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/f67c026021de7dd21bf60d55438fd2e0/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/f67c026021de7dd21bf60d55438fd2e0</dct:identifier>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/c201ae39acbe40a3a0f51a7cebd7304c/shapefile?layers=0"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/c201ae39acbe40a3a0f51a7cebd7304c/shapefile?layers=0"/>
+            <dct:title xml:lang="cs">Shapefile</dct:title>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/f67c026021de7dd21bf60d55438fd2e0/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cb360937-a83c-4de7-a017-ac766f3578ac">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_sjtsk.dxf"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/3b54b4c4e8358642513aa689edb07c4c/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_sjtsk.dxf"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/3b54b4c4e8358642513aa689edb07c4c</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <dct:title xml:lang="cs">DXF (S-JTSK)</dct:title>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/3b54b4c4e8358642513aa689edb07c4c/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="cs">aktivní zóna</dcat:keyword>
+        <foaf:page rdf:resource="https://mmbonline.sharepoint.com/:x:/s/public/OMI/gis/EQf-TRaWVZVIselQ9TjcURYB0fm1MNm0D1-NimW-Lw29RA?e=FPknvH"/>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/identifikátorLKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://kod.brno.cz/nkod/dataset/c201ae39acbe40a3a0f51a7cebd7304c_0.ttl</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/14f8e133-2d00-47a0-a4e4-8ff44105a4cf">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7d8815809e98c09ef038b900b712b5e6/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7d8815809e98c09ef038b900b712b5e6</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/c201ae39acbe40a3a0f51a7cebd7304c/geojson?layers=0"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.geo+json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/c201ae39acbe40a3a0f51a7cebd7304c/geojson?layers=0"/>
+            <dct:title xml:lang="cs">GeoJSON</dct:title>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/7d8815809e98c09ef038b900b712b5e6/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="cs">povodeň</dcat:keyword>
+        <dcat:keyword xml:lang="cs">záplavová území</dcat:keyword>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/obec/582786"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dct:title xml:lang="en">Active flood zones</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3378e793-20c8-4965-8293-f4bf83104d33">
+            <dct:title xml:lang="cs">OGC GeoPackage (WGS84)</dct:title>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_wgs84.gpkg"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/6bec25b97b76a4e417640379d4cb7c81/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/vod_zaplava_azzu_p_wgs84.gpkg"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/6bec25b97b76a4e417640379d4cb7c81/podmínky-užití"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/6bec25b97b76a4e417640379d4cb7c81</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0d8ddedc-8c3b-44f7-a2ff-c9b6b13dff57">
+            <dct:title xml:lang="cs">ArcGIS GeoService</dct:title>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/4eee1d763ba2dda6341fca0d14129700/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor vodního a lesního hospodářství a zemědělství (OVLHZ)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/4eee1d763ba2dda6341fca0d14129700/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/zaplavova_uzemi_aktivni_zona/FeatureServer/0"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:downloadURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/zaplavova_uzemi_aktivni_zona/FeatureServer/0"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/9371a25398d07694bcec8667f9b02043/distribuce/4eee1d763ba2dda6341fca0d14129700</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </j.1:LKOD>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:26Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>46053365ef34858e2e40bd1b0e55ca83</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-kod-brno-cz-nkod-dataset-c201ae39acbe40a3a0f51a7cebd7304c_0-ttl"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

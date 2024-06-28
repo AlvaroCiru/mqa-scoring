@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/079b9a97-df89-4d86-9710-e4b7dad10b0c">
+    <dct:identifier>079b9a97-df89-4d86-9710-e4b7dad10b0c</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>5ecf2a74035dbfb3b748a13792fdf976</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/079b9a97-df89-4d86-9710-e4b7dad10b0c">
+        <dct:title xml:lang="et-t-en-t0-mtec">DCAT-AP: DataServiceRun</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">DCAT-AP: DataServiceRun</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:description xml:lang="da-t-en-t0-mtec">AgendaAnalytics er en use case for Linked Data og AI i SALTED projektet.
+Det stræber efter at måle en organisations overholdelse af en organisation (som en virksomhed eller by) til en given dagsorden (som udvikling eller overholdelse mål).  Sammenhængen mellem organisationens publikationer og dagsordenen beregnes ved hjælp af NLP-teknikker.
+ Det datasæt, der er relevant for use casen, består af 5 enhedstyper:
+
+Organisation, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Den fuldstændige dokumentation findes på:
+https://salted-project.eu/
+
+
+
+DataServiceRun repræsenterer en specifik kørsel af den tilsvarende DataService (enhedstype DataServiceDCAT-AP).
+Inden for AgendaAnalytics use case bruges det til gennemsigtigt at fortsætte processen med at indhente data for hver organisation.
+F.eks.:
+Hver gang data bliver gennemsøgt for en organisation, vil driften af Crawling-tjenesten blive ved med at være en enhed, der f.eks. indeholder tidsstempel, parametre, input og output.</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:title xml:lang="sv-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="fi-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="ga-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="de-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dcat:keyword>NGSI-LD</dcat:keyword>
+        <dct:title xml:lang="nl-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="ro-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title>DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="hu-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="el-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">DCAT-AP:DataServiceRun</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">DCAT-AP:DataServiceRun Systémové požadavky</dct:title>
+        <dct:description xml:lang="fi-t-en-t0-mtec">AgendaAnalytics on linkitetyn datan ja tekoälyn käyttötapaus SALTED-projektissa.
+Se pyrkii mittaamaan organisaation (kuten yrityksen tai kaupungin) sitoutumista tiettyyn ohjelmaan (kuten kehitys- tai vaatimustenmukaisuustavoitteisiin).  Organisaation julkaisujen ja agendan välinen vastaavuus lasketaan NLP-tekniikoiden avulla.
+ Käyttötapauksen kannalta merkityksellinen tietoaineisto koostuu viidestä yhteisötyypistä:
+
+Organisaatio, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Asiakirjat ovat kokonaisuudessaan saatavilla osoitteessa:
+https://salted-project.eu/
+
+
+
+DataServiceRun edustaa vastaavan DataServicen tiettyä suoritusta (yksikkötyyppi DataServiceDCAT-AP).
+AgendaAnalytics-käyttötapauksessa sitä käytetään jatkamaan läpinäkyvästi tietojen hankkimisprosessia kunkin organisaation osalta.
+Esim.:
+Aina, kun tietoja indeksoidaan organisaatioon, Crawling-palvelun käyttö jatkuu yksikkönä, joka sisältää esimerkiksi aikaleiman, parametrit, syötteet ja lähdöt.</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">AgendaAnalytics è un caso d'uso per Linked Data e AI all'interno del progetto SALTED.
+Si sforza di misurare l'adesione di un'organizzazione (come un'azienda o una città) a una data agenda (come obiettivi di sviluppo o conformità).  La congruenza tra le pubblicazioni dell'organizzazione e l'agenda viene calcolata utilizzando tecniche di PNL.
+ L'insieme di dati pertinente per il caso d'uso è costituito da 5 tipi di entità:
+
+Organizzazione, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   La documentazione completa è disponibile al seguente indirizzo:
+https://salted-project.eu/
+
+
+
+Il DataServiceRun rappresenta una specifica esecuzione del corrispondente DataService (entità DataServiceDCAT-AP).
+All'interno del caso d'uso AgendaAnalytics viene utilizzato per persistere in modo trasparente il processo di acquisizione dei dati per ogni organizzazione.
+Ad es.:
+Ogni volta che i dati vengono sottoposti a scansione per un'organizzazione, l'esecuzione del servizio Crawling verrà mantenuta come entità contenente ad esempio il timestamp, i parametri, gli input e gli output.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/574a75ed-d2a6-46a8-a5db-e38efce95c1c">
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">DCAT-AP:DataServiceRun datos en tiempo real representados en formato JSON</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="nl-t-en-t0-mtec">DCAT-AP:DataServiceRun realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">DCAT-AP:DataServiceRun dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">DCAT-AP:DataServiceRun podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">DCAT-AP:DataServiceRun údaje v reálnom čase zastúpené vo formáte JSON</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">DCAT-AP:DataServiceRun δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">DCAT-AP:DataServiceRun data f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">DCAT-AP:DataServiceRun realtidsdata representerad i JSON-format</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description>DCAT-AP:DataServiceRun realtime data represented in JSON format</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">DCAT-AP:DataServiceRun dados em tempo real representados no formato JSON</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="ro-t-en-t0-mtec">DCAT-AP:DataServiceRun date în timp real reprezentate în format JSON</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">DCAT-AP:DataServiceRun realaus laiko duomenys, pateikiami JSON formatu</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">DCAT-AP:DataServiceRun realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">DCAT-AP:DataServiceRun reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">DCAT-AP:DataServiceRun дані в реальному часі, представлені у форматі JSON</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">DCAT-AP:DataServiceRun reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/079b9a97-df89-4d86-9710-e4b7dad10b0c/resource/urn_ngsi-ld_distribution_salted_project_dcat-ap_dataservicerun_json</dct:identifier>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">DCAT-AP:DataServiceRun les données en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">DCAT-AP:DataServiceRun Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">DCAT-AP:DataServiceRun valós idejű adatok JSON formátumban</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T19:02:58.084847</dct:issued>
+            <dct:description xml:lang="ga-t-en-t0-mtec">DCAT-AP: Sonraí fíor-ama DataServiceRun léirithe i bhformáid JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">DCAT-AP: DataServiceRun reaalajas esitatud andmed JSON-vormingus</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">DCAT-AP:DataServiceRun podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.DCAT-AP%2FDataServiceRun__.json"/>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">DCAT-AP:DataServiceRun данни в реално време, представени във формат JSON</dct:description>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.DCAT-AP%2FDataServiceRun__.json"/>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T19:03:02.528795</dct:modified>
+            <dct:description xml:lang="it-t-en-t0-mtec">DCAT-AP:DataServiceRun dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">DCAT-AP:DataServiceUvolnění dat v reálném čase reprezentovaných ve formátu JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs-t-en-t0-mtec">AgendaAnalytics je případ použití pro propojená data a umělou inteligenci v rámci projektu SALTED.
+Snaží se měřit, zda organizace (jako společnost nebo město) přistupuje k určité agendě (jako jsou rozvojové cíle nebo cíle v oblasti dodržování předpisů).  Shoda mezi publikacemi organizace a agendou je vypočtena pomocí technik NLP.
+ Soubor údajů relevantní pro případ použití se skládá z 5 typů účetní jednotky:
+
+Organizace, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Úplná dokumentace je k dispozici na adrese:
+https://salted-project.eu/
+
+
+
+DataServiceRun představuje konkrétní běh odpovídající DataService (typ subjektu DataServiceDCAT-AP).
+V případě použití AgendaAnalytics se používá k transparentnímu přetrvávání procesu získávání údajů pro každou organizaci.
+Např.:
+Při každém procházení dat pro organizaci bude provoz služby Crawling přetrvávat jako entita obsahující například časové razítko, parametry, vstupy a výstupy.</dct:description>
+        <dct:description xml:lang="nl-t-en-t0-mtec">AgendaAnalytics is een use case voor Linked Data en AI binnen het SALTED project.
+Het streeft ernaar om de naleving van een organisatie (zoals een bedrijf of stad) aan een bepaalde agenda te meten (zoals ontwikkelings- of compliancedoelen).
+De samenhang tussen de publicaties van de organisatie en de agenda wordt berekend met behulp van NLP-technieken.
+
+De dataset die relevant is voor de use case bestaat uit 5 soorten entiteiten:   Organisatie, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+De volledige documentatie is beschikbaar op:
+https://salted-project.eu/
+
+
+
+De DataServiceRun vertegenwoordigt een specifieke run van de overeenkomstige DataService (entiteitstype DataServiceDCAT-AP).
+Binnen de AgendaAnalytics use case wordt het gebruikt om het proces van het verkrijgen van gegevens voor elke organisatie op transparante wijze voort te zetten.
+Bijv.:
+Telkens wanneer gegevens worden gecrawld voor een organisatie, zal de run van de Crawling-service worden voortgezet als entiteit die bijvoorbeeld de tijdstempel, parameters, inputs en outputs bevat.</dct:description>
+        <dct:description xml:lang="bg-t-en-t0-mtec">AgendaAnalytics е пример за използване на свързани данни и ИИ в рамките на проекта SALTED. Тя се стреми да измерва придържането на дадена организация (като компания или град) към даден дневен ред (като цели за развитие или съответствие). 
+Съответствието между публикациите на организацията и дневния ред се изчислява с помощта на НЛП техники. 
+Наборът от данни, който е от значение за случая на използване, се състои от 5 вида субекти: 
+Организация, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Пълната документация е достъпна на адрес: https://salted-project.eu/
+
+DataServiceRun представлява конкретна серия от съответната услуга за данни (тип на субекта DataServiceDCAT-AP). В рамките на AgendaAnalytics се използва за прозрачно продължаване на процеса на получаване на данни за всяка организация. Напр.: Всеки път, когато данните се обхождат за дадена организация, изпълнението на услугата Crawling ще продължи като субект, съдържащ например времеви печат, параметри, входове и изходи.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>KybeidosGmbH</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-11-30T19:02:58.084847</dct:issued>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Is cás úsáide é AgendaAnalytics le haghaidh Sonraí Nasctha agus IS laistigh den tionscadal SALTED.
+Déanann sé a dhícheall a thomhas go gcloíonn eagraíocht (cosúil le cuideachta nó cathair) le clár oibre ar leith (amhail spriocanna forbartha nó comhlíonta).  Déantar an chomhsheasamh idir foilseacháin na heagraíochta agus an clár oibre a ríomh trí úsáid a bhaint as teicnící NLP.
+ Tá 5 chineál eintitis sa tacar sonraí atá ábhartha don chás úsáide:
+
+Eagraíocht, KeyPerformanceIndicator, DáileadhDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Tá an doiciméadú iomlán ar fáil ag:
+https://salted-project.eu/
+
+
+
+Is éard atá sa DataServiceRun rith sonrach na Seirbhíse Sonraí comhfhreagraí (an cineál eintitis DataServiceDCAT-AP).
+Laistigh de Chlár OibreAnalytics úsáidtear é chun leanúint ar aghaidh go trédhearcach leis an bpróiseas chun sonraí a fháil do gach Eagraíocht.
+E.g.:
+Gach uair a ransaítear sonraí le haghaidh Eagraíochta, leanfar de reáchtáil na seirbhíse ransaithe mar eintiteas ina bhfuil, mar shampla, an stampa ama, na paraiméadair, na hionchuir agus na haschuir.</dct:description>
+        <dct:description>AgendaAnalytics is a use case for Linked Data and AI within the SALTED project. It strives to measure the adherence of a an organization (like a company or city) to a given agenda (like development or compliance goals).&#xD;
+The congruence between the organization’s publications and the agenda is computed using NLP techniques.&#xD;
+The dataset relevant for the use case consists of 5 entity types:&#xD;
+Organization, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.&#xD;
+The full documentation is available at: https://salted-project.eu/&#xD;
+&#xD;
+The DataServiceRun represents a specific run of the corresponding DataService (entity type DataServiceDCAT-AP).  Within the AgendaAnalytics use case it is used to transparently persist the process of obtaining data for each Organization. E.g.: Each time data gets crawled for an Organization, the run of the Crawling service will be persisted as entity containing for instance the timestamp, parameters, inputs and outputs.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T19:02:57.933087</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:description xml:lang="de-t-en-t0-mtec">AgendaAnalytics ist ein Anwendungsfall für vernetzte Daten und KI im SALTED-Projekt. Es ist bestrebt, die Einhaltung einer Organisation (wie eines Unternehmens oder einer Stadt) an einer bestimmten Agenda (wie Entwicklung oder Compliance-Ziele) zu messen. 
+Die Übereinstimmung zwischen den Publikationen der Organisation und der Agenda wird mithilfe von NLP-Techniken berechnet. 
+Der für den Anwendungsfall relevante Datensatz besteht aus 5 Entitätstypen: 
+Organisation, KeyPerformanceIndikator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Die vollständige Dokumentation ist abrufbar unter: https://salted-project.eu/
+
+Der DataServiceRun stellt einen bestimmten Lauf des entsprechenden DataService (Entity Type DataServiceDCAT-AP) dar. Innerhalb des Anwendungsfalls AgendaAnalytics wird es verwendet, um den Prozess der Datenerfassung für jede Organisation transparent fortzusetzen. Z. B.: Jedes Mal, wenn Daten für eine Organisation gecrawlt werden, wird die Ausführung des Crawling-Dienstes als Entität beibehalten, die beispielsweise den Zeitstempel, Parameter, Ein- und Ausgänge enthält.</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Η AgendaAnalytics είναι μια περίπτωση χρήσης για τα Συνδεδεμένα Δεδομένα και την Τεχνητή Νοημοσύνη στο πλαίσιο του έργου SALTED.
+Προσπαθεί να μετρήσει την τήρηση ενός οργανισμού (όπως μια εταιρεία ή μια πόλη) σε μια δεδομένη ατζέντα (όπως η ανάπτυξη ή οι στόχοι συμμόρφωσης).  Η αντιστοιχία μεταξύ των δημοσιεύσεων του οργανισμού και της ημερήσιας διάταξης υπολογίζεται με τη χρήση τεχνικών NLP.
+ Το σύνολο δεδομένων που αφορά την περίπτωση χρήσης αποτελείται από 5 τύπους οντοτήτων:
+
+Οργάνωση, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Η πλήρης τεκμηρίωση είναι διαθέσιμη στη διεύθυνση:
+https://salted-project.eu/
+
+
+
+Το DataServiceRun αντιπροσωπεύει μια συγκεκριμένη διαδρομή της αντίστοιχης υπηρεσίας δεδομένων (τύπος οντότητας DataServiceDCAT-AP).
+Στο πλαίσιο της περίπτωσης χρήσης της AgendaAnalytics χρησιμοποιείται για τη διαφανή συνέχιση της διαδικασίας λήψης δεδομένων για κάθε οργανισμό.
+Π.χ.:
+Κάθε φορά που τα δεδομένα ανιχνεύονται για έναν οργανισμό, η λειτουργία της υπηρεσίας Crawling θα συνεχίζεται ως οντότητα που περιέχει, για παράδειγμα, τη χρονοσφραγίδα, τις παραμέτρους, τις εισόδους και τις εξόδους.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+        <dct:identifier>079b9a97-df89-4d86-9710-e4b7dad10b0c</dct:identifier>
+        <dct:description xml:lang="sv-t-en-t0-mtec">AgendaAnalytics är ett användningsfall för länkade data och AI inom SALTED-projektet.
+Den strävar efter att mäta hur en organisation (som ett företag eller stad) ansluter sig till en viss agenda (som utvecklings- eller efterlevnadsmål).
+Kongruensen mellan organisationens publikationer och agendan beräknas med hjälp av NLP-tekniker.
+
+Den datamängd som är relevant för användningsfallet består av fem typer av entiteter:   Organisation, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Den fullständiga dokumentationen finns på:
+https://salted-project.eu/
+
+
+
+DataServiceRun representerar en specifik körning av motsvarande DataService (enhetstyp DataServiceDCAT-AP).
+Inom AgendaAnalytics användningsfall används det för att öppet fortsätta processen för att erhålla data för varje organisation.
+T.ex.
+Varje gång data genomsöks för en organisation, kommer körningen av Crawling-tjänsten kvarstå som entitet som innehåller t.ex. tidsstämpel, parametrar, indata och utgångar.</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+        <dct:description xml:lang="mt-t-en-t0-mtec">AgendaAnalytics huwa każ ta’ użu għal Data Marbuta u IA fi ħdan il-proġett SALTED.
+Huwa jistinka biex ikejjel l-aderenza ta’ organizzazzjoni (bħal kumpanija jew belt) ma’ aġenda partikolari (bħal għanijiet ta’ żvilupp jew ta’ konformità).
+
+
+Il-kongruwenza bejn il-pubblikazzjonijiet tal-organizzazzjoni u l-aġenda hija kkalkulata bl-użu ta’ tekniki NLP.
+
+
+Is-sett tad-data rilevanti għall-każ tal-użu jikkonsisti f’5 tipi ta’ entitajiet:
+
+
+Organizzazzjoni, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Id-dokumentazzjoni sħiħa hija disponibbli fuq:
+https://salted-project.eu/
+
+
+
+Id-DataServiceRun tirrappreżenta ħidma speċifika tad-DataService korrispondenti (tip ta’ entità DataServiceDCAT-AP).
+Fi ħdan il-każ ta’ użu ta’ AgendaAnalytics, dan jintuża biex jippersisti b’mod trasparenti l-proċess tal-kisba tad-data għal kull organizzazzjoni.
+Eż.:
+Kull darba li d-data tiġi mxekkla għal Organizzazzjoni, it-tmexxija tas-servizz tat-Tkaxkil se tippersisti bħala entità li jkun fiha, pereżempju, il-kronogramma, il-parametri, l-inputs u l-outputs.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a9546f66-9f05-4ca4-a9fb-65c3f5337f1b">
+            <dct:description xml:lang="sk-t-en-t0-mtec">DCAT-AP:DataServiceRun údaje v reálnom čase zastúpené vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">DCAT-AP:DataServiceRun dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="fi-t-en-t0-mtec">DCAT-AP:DataServiceRun reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">DCAT-AP: DataServiceRun reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">DCAT-AP:DataServiceRun podaci u stvarnom vremenu prikazani u formatu JSON_LD</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">DCAT-AP:DataServiceUvolnění dat v reálném čase reprezentovaných ve formátu JSON_LD</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T19:02:58.084847</dct:issued>
+            <dct:description xml:lang="el-t-en-t0-mtec">DCAT-AP:DataServiceRun δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφότυπο JSON_LD</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.DCAT-AP%2FDataServiceRun__.jsonld"/>
+            <dct:description xml:lang="es-t-en-t0-mtec">DCAT-AP:DataServiceRun datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="de-t-en-t0-mtec">DCAT-AP:DataServiceRun Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">DCAT-AP:DataServiceRun дані в реальному часі, представлені у форматі JSON_LD</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">DCAT-AP:DataServiceRun realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description>DCAT-AP:DataServiceRun realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">DCAT-AP:DataServiceRun dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">DCAT-AP:DataServiceRun realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">DCAT-AP:DataServiceRun les données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/079b9a97-df89-4d86-9710-e4b7dad10b0c/resource/urn_ngsi-ld_distribution_salted_project_dcat-ap_dataservicerun_jsonld</dct:identifier>
+            <dct:description xml:lang="hu-t-en-t0-mtec">DCAT-AP:DataServiceRun valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">DCAT-AP:DataServiceRun данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">DCAT-AP:DataServiceRun sonraí fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">DCAT-AP:DataServiceRun data f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">DCAT-AP:DataServiceRun realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T19:03:02.529966</dct:modified>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">DCAT-AP:DataServiceRun podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">DCAT-AP:DataServiceRun dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="lv-t-en-t0-mtec">DCAT-AP:DataServiceRun reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">DCAT-AP:DataServiceRun date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">DCAT-AP:DataServiceRun realaus laiko duomenys, pateikiami JSON_LD formatu</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.DCAT-AP%2FDataServiceRun__.jsonld"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pt-t-en-t0-mtec">O AgendaAnalytics é um caso de utilização para os dados vinculados e a IA no âmbito do projeto SALTED.
+Esforça-se para medir a adesão de uma organização (como uma empresa ou cidade) a uma determinada agenda (como objetivos de desenvolvimento ou conformidade).  A congruência entre as publicações da organização e a agenda é calculada utilizando técnicas de PNL.
+ O conjunto de dados relevante para o caso de utilização é composto por 5 tipos de entidades:
+
+Organização, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   A documentação completa está disponível em:
+https://salted-project.eu/
+
+
+
+O DataServiceRun representa uma execução específica do DataService correspondente (tipo de entidade DataServiceDCAT-AP).
+Dentro do caso de uso da AgendaAnalytics é usado para persistir de forma transparente o processo de obtenção de dados para cada organização.
+Por exemplo:
+Cada vez que os dados são rastreados para uma organização, a execução do serviço Crawling será persistente como entidade que contém, por exemplo, o carimbo temporal, parâmetros, entradas e saídas.</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">AgendaAnalytics est un cas d’utilisation pour les données liées et l’IA dans le cadre du projet SALTED.
+Il s’efforce de mesurer l’adhésion d’une organisation (comme une entreprise ou une ville) à un programme donné (comme les objectifs de développement ou de conformité).  La concordance entre les publications de l’organisation et l’agenda est calculée à l’aide des techniques de PNL.
+ L’ensemble de données pertinent pour le cas d’utilisation se compose de 5 types d’entités:
+
+Organisation, Indicateur de performance clé, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   La documentation complète est disponible à l’adresse suivante:
+https://salted-project.eu/
+
+
+
+Le DataServiceRun représente une exécution spécifique du DataService correspondant (type d’entité DataServiceDCAT-AP).
+Dans le cas d’utilisation de AgendaAnalytics, il est utilisé pour maintenir de manière transparente le processus d’obtention de données pour chaque organisation.
+Par exemple:
+Chaque fois que les données sont explorées pour une organisation, l’exécution du service Crawling sera maintenue en tant qu’entité contenant par exemple l’horodatage, les paramètres, les entrées et les sorties.</dct:description>
+        <dcat:keyword>AgendaAnalytics</dcat:keyword>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="sk-t-en-t0-mtec">AgendaAnalytics je prípad použitia prepojených údajov a umelej inteligencie v rámci projektu SALTED.
+Snaží sa merať dodržiavanie organizácie (ako je spoločnosť alebo mesto) k danej agende (ako sú rozvojové ciele alebo ciele dodržiavania predpisov).  Súlad medzi publikáciami organizácie a programom sa vypočíta pomocou techník NLP.
+ Súbor údajov relevantný pre prípad použitia pozostáva z 5 typov účtovnej jednotky:
+
+Organizácia, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Kompletná dokumentácia je k dispozícii na adrese:
+https://salted-project.eu/
+
+
+
+DataServiceRun predstavuje konkrétny beh príslušnej služby DataService (entity type DataServiceDCAT-AP).
+V prípade použitia AgendaAnalytics sa používa na transparentné pretrvávanie procesu získavania údajov pre každú organizáciu.
+Napr.:
+Pri každom prehľadávaní údajov pre organizáciu bude prevádzka služby Crawling pretrvávať ako subjekt obsahujúci napríklad časovú pečiatku, parametre, vstupy a výstupy.</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">AgendaAnalytics to przypadek wykorzystania danych połączonych i sztucznej inteligencji w ramach projektu SALTED.
+Stara się mierzyć przywiązanie organizacji (jak firma lub miasto) do danego programu (np. cele rozwoju lub zgodności).  Zgodność między publikacjami organizacji a programem jest obliczana za pomocą technik NLP.
+
+Zbiór danych istotny dla przypadku użycia składa się z 5 rodzajów podmiotów:  
+Organizacja, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Pełna dokumentacja dostępna jest pod adresem:
+https://salted-project.eu/
+
+
+
+DataServiceRun reprezentuje konkretną serię odpowiedniej usługi DataService (podmiot typu DataServiceDCAT-AP).
+W przypadku użycia AgendaAnalytics jest on używany do przejrzystego utrzymywania procesu pozyskiwania danych dla każdej organizacji.
+Np.:
+Za każdym razem, gdy dane są indeksowane dla organizacji, działanie usługi Crawling będzie kontynuowane jako jednostka zawierająca na przykład znacznik czasu, parametry, wejścia i wyjścia.</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">AgendaAnalytics je primer uporabe povezanih podatkov in umetne inteligence v okviru projekta SALTED.
+Prizadeva si za merjenje zavezanosti organizacije (kot je podjetje ali mesto) določenemu programu (kot so razvojni cilji ali cilji skladnosti).
+ Skladnost med publikacijami organizacije in dnevnim redom se izračuna s tehnikami NLP. 
+
+Nabor podatkov, ki je relevanten za primer uporabe, je sestavljen iz petih vrst subjektov:
+
+
+Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Celotna dokumentacija je na voljo na:
+https://salted-project.eu/
+
+
+
+DataServiceRun predstavlja poseben potek ustrezne storitve DataService (vrsta subjekta DataServiceDCAT-AP).
+V primeru uporabe AgendaAnalytics se uporablja za pregledno nadaljevanje postopka pridobivanja podatkov za vsako organizacijo.
+Npr.:
+Vsakič, ko se podatki plazijo za organizacijo, se bo storitev žičnice nadaljevala kot entiteta, ki na primer vsebuje časovni žig, parametre, vhode in izhode.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-11-30T19:02:58.084863</dct:modified>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="lt-t-en-t0-mtec">„DarbotvarkėAnalytics“ yra susietųjų duomenų ir dirbtinio intelekto naudojimo atvejis įgyvendinant projektą SALTED.
+Ji siekia įvertinti organizacijos (pvz., įmonės ar miesto) atitiktį tam tikrai darbotvarkei (pvz., plėtros ar atitikties tikslams).  Organizacijos publikacijų ir darbotvarkės atitikimas apskaičiuojamas naudojant NLP metodus.
+ Naudojimo atveju svarbų duomenų rinkinį sudaro 5 rūšių subjektai:
+
+Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Visus dokumentus galima rasti adresu
+https://salted-project.eu/
+
+
+
+DataServiceRun yra tam tikras atitinkamos DataService (subjekto tipas DataServiceDCAT-AP) važiavimas.
+Programoje „DarbotvarkėAnalytics“ naudojamas siekiant skaidriai tęsti kiekvienos organizacijos duomenų gavimo procesą.
+Pvz.,
+Kiekvieną kartą, kai organizacijos duomenys nuskaitomi, nuskaitymo paslaugos veikimas bus tęsiamas kaip subjektas, kuriame bus, pavyzdžiui, laiko žyma, parametrai, įvestis ir išėjimai.</dct:description>
+        <dct:description xml:lang="uk-t-en-t0-mtec">AgendaAnalytics — це приклад використання Linked Data та AI в рамках проекту SALTED.
+Вона прагне виміряти прихильність організації (наприклад, компанії або міста) до певного порядку денного (наприклад, цілей розвитку або комплаєнсу).
+ Конгруентність публікацій організації та порядку денного обчислюється за допомогою методів НЛП. 
+
+Набір даних, що має відношення до випадку використання, складається з 5 типів об'єктів:
+
+
+Організація, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Повна документація доступна за адресою:
+https://salted-project.eu/
+
+
+
+DataServiceRun являє собою специфічний запуск відповідної служби даних (сутність типу DataServiceDCAT-AP).
+У випадку використання програми AgendaAnalytics вона використовується для прозорого збереження процесу отримання даних для кожної Організації.
+Наприклад:
+Кожен раз, коли дані скануються для організації, запуск служби Повзання буде зберігатися як об'єкт, що містить, наприклад, часову мітку, параметри, входи та виходи.</dct:description>
+        <dct:description xml:lang="ro-t-en-t0-mtec">AgendaAnalytics este un caz de utilizare a datelor conectate și a IA în cadrul proiectului SALTED.
+Se străduiește să măsoare aderarea unei organizații (cum ar fi o companie sau oraș) la o anumită agendă (cum ar fi obiectivele de dezvoltare sau de conformitate).  Congruența dintre publicațiile organizației și ordinea de zi este calculată folosind tehnici NLP.
+
+Setul de date relevant pentru cazul de utilizare este format din 5 tipuri de entități:  
+Organizare, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Documentația completă este disponibilă la adresa:
+https://salted-project.eu/
+
+
+
+DataServiceRun reprezintă o execuție specifică a serviciului DataService corespunzător (entitate de tip DataServiceDCAT-AP).
+În cadrul dosarului de utilizare AgendaAnalytics se utilizează pentru a persista în mod transparent procesul de obținere a datelor pentru fiecare organizație.
+De exemplu:
+De fiecare dată când datele sunt accesate cu crawlere pentru o organizație, funcționarea serviciului Crawling va persista ca entitate care conține, de exemplu, marca temporală, parametrii, intrările și ieșirile.</dct:description>
+        <dcat:keyword>SALTED Project</dcat:keyword>
+        <dct:description xml:lang="es-t-en-t0-mtec">AgendaAnalytics es un caso de uso para datos enlazados e IA dentro del proyecto SALTED.
+Se esfuerza por medir la adhesión de una organización (como una empresa o ciudad) a una agenda determinada (como objetivos de desarrollo o cumplimiento).  La congruencia entre las publicaciones de la organización y la agenda se calcula utilizando técnicas de PNL.
+ El conjunto de datos pertinente para el caso de uso consta de 5 tipos de entidades:
+
+Organización, KeyPerformanceIndicator, DistribuciónDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   La documentación completa está disponible en:
+https://salted-project.eu/
+
+
+
+El DataServiceRun representa una ejecución específica del DataService correspondiente (tipo de entidad DataServiceDCAT-AP).
+Dentro del caso de uso de AgendaAnalytics se utiliza para persistir de manera transparente el proceso de obtención de datos para cada Organización.
+Por ejemplo:
+Cada vez que los datos se rastrean para una organización, la ejecución del servicio Crawling persistirá como entidad que contiene, por ejemplo, la marca de tiempo, parámetros, entradas y salidas.</dct:description>
+        <dct:description xml:lang="lv-t-en-t0-mtec">AgendaAnalytics ir saistīta datu un mākslīgā intelekta izmantošanas gadījums SALTED projekta ietvaros.
+Tā cenšas izmērīt organizācijas (piemēram, uzņēmuma vai pilsētas) atbilstību konkrētai programmai (piemēram, attīstības vai atbilstības mērķiem).  Atbilstība starp organizācijas publikācijām un darba kārtību tiek aprēķināta, izmantojot NLP metodes.
+ Datu kopa, kas attiecas uz izmantošanas gadījumu, sastāv no 5 vienību veidiem:
+
+Organizācija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Visa dokumentācija ir pieejama šādā tīmekļa vietnē:
+https://salted-project.eu/
+
+
+
+DataServiceRun ir attiecīgā DataService (organizācijas tips DataServiceDCAT-AP) konkrēta darbība.
+AgendaAnalytics lietošanas gadījumā to izmanto, lai pārredzami turpinātu datu iegūšanas procesu par katru organizāciju.
+Piemēram:
+Ikreiz, kad dati tiek pārmeklēti organizācijas vajadzībām, pārmeklēšanas pakalpojuma darbība tiks turpināta kā vienība, kas satur, piemēram, laika zīmogu, parametrus, ievades un izvades.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:description xml:lang="et-t-en-t0-mtec">AgendaAlytics on seotud andmete ja tehisintellekti kasutusjuht SALTED projekti raames.
+Selle eesmärk on mõõta organisatsiooni (nagu ettevõte või linn) vastavust konkreetsele tegevuskavale (nt arengu- või vastavuseesmärgid).  Organisatsiooni väljaannete ja päevakorra kooskõla arvutatakse NLP-tehnikate abil.
+ Kasutusjuhtumiga seotud andmestik koosneb viiest üksuse tüübist:
+
+Organisatsioon, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Täielik dokumentatsioon on kättesaadav aadressil:
+https://salted-project.eu/
+
+
+
+DataServiceRun tähistab vastava DataService (üksuse tüüp DataServiceDCAT-AP) konkreetset käivitamist.
+AgendaAlytics-analüüsi puhul kasutatakse seda läbipaistvalt iga organisatsiooni andmete kogumise protsessi jätkamiseks.
+Nt:
+Iga kord, kui andmeid kogutakse organisatsiooni jaoks, jätkub Crawling teenuse käitamine üksusena, mis sisaldab näiteks ajatemplit, parameetreid, sisendeid ja väljundeid.</dct:description>
+        <dct:description xml:lang="hr-t-en-t0-mtec">AgendaAnalytics je primjer korištenja povezanih podataka i umjetne inteligencije u okviru projekta SALTED.
+Nastoji mjeriti pridržavanje organizacije (kao što je poduzeće ili grad) određenom programu (kao što su ciljevi razvoja ili usklađenosti).  Usklađenost između publikacija organizacije i dnevnog reda izračunava se primjenom NLP tehnika.
+ Skup podataka relevantan za slučaj uporabe sastoji se od pet vrsta subjekata:
+
+Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.  
+Cjelokupna dokumentacija dostupna je na:
+https://salted-project.eu/
+
+
+
+DataServiceRun predstavlja poseban rad odgovarajuće podatkovne usluge (vrsta subjekta DataServiceDCAT-AP).
+U slučaju korištenja AgendaAnalytics koristi se za transparentno održavanje procesa dobivanja podataka za svaku organizaciju.
+Npr.:
+Svaki put kada se podaci učitaju za organizaciju, rad usluge Crawling nastavit će se kao subjekt koji, na primjer, sadrži vremenski žig, parametre, ulaze i izlaze.</dct:description>
+        <dcat:keyword>Technical Infrastructure Entity</dcat:keyword>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Az AgendaAnalytics a SALTED projekten belüli összekapcsolt adatok és mesterséges intelligencia felhasználási esete.
+Arra törekszik, hogy mérje egy szervezet (például egy vállalat vagy város) egy adott menetrendhez való ragaszkodását (például fejlesztési vagy megfelelési célokat).
+A szervezet kiadványai és a napirend közötti kongruenciát NLP technikákkal számítjuk ki.
+
+A felhasználási eset szempontjából releváns adatkészlet 5 szervezettípusból áll:   Szervezet, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+A teljes dokumentáció az alábbi címen érhető el:
+https://salted-project.eu/
+
+
+
+A DataServiceRun a megfelelő DataService (egységtípus: DataServiceDCAT-AP) egy adott futtatását képviseli.
+Az AgendaAnalytics használati esetén belül arra használják, hogy átláthatóan fenntartsák az adatok megszerzésének folyamatát az egyes szervezetek számára.
+Pl.:
+Minden alkalommal, amikor az adatokat feltérképezik egy Szervezet számára, a Crawling szolgáltatás futtatása olyan entitásként marad fenn, amely például az időbélyeget, a paramétereket, a bemeneteket és a kimeneteket tartalmazza.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T19:02:57.933087</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:18Z</dct:modified>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/079b9a97-df89-4d86-9710-e4b7dad10b0c"/>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:18Z</edp:transReceived>
+  </dcat:CatalogRecord>
+</rdf:RDF>

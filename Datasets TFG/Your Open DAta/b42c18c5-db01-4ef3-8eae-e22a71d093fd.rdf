@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/b42c18c5-db01-4ef3-8eae-e22a71d093fd">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:03Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:identifier>b42c18c5-db01-4ef3-8eae-e22a71d093fd</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/b42c18c5-db01-4ef3-8eae-e22a71d093fd"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:03Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-23T22:46:31Z</edp:transReceived>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:03Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/b42c18c5-db01-4ef3-8eae-e22a71d093fd">
+        <dct:title xml:lang="et-t-es-t0-mtec">meieense_1690a_ sademed</dct:title>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <dct:description xml:lang="de-t-es-t0-mtec">Niederschlag der OURENSE Station nach dem WeatherObserved Modell der NGSI-LD. Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Udfældning af OURENSE station efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Ourense_1690a_precipitace</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0a77ba6f-1b67-4018-a8ee-8f9e882387bb">
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">URENSEn sademäärän havainnointi</dct:description>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="el-t-es-t0-mtec">Παρατήρηση των βροχοπτώσεων της OURENSE</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:03.327005</dct:modified>
+            <dct:description xml:lang="et-t-es-t0-mtec">OURENSE sademete jälgimine</dct:description>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/b42c18c5-db01-4ef3-8eae-e22a71d093fd/resource/f0c9039d-0e46-4206-b944-8c84bde029f8</dct:identifier>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Waarneming van neerslag van OURENSE</dct:description>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1"/>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Pozorování srážení OURENSE</dct:description>
+            <dct:description>Observación de precipitaciones de OURENSE</dct:description>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação de precipitação de OURENSE</dct:description>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Opažanje padalina OURENSE</dct:description>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Наблюдение на валежите от OURENSE</dct:description>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Opazovanje padavin OURENSE</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A OURENSE csapadékának megfigyelése</dct:description>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja opadów OURENSE</dct:description>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Спостереження за опадами НАШИХ</dct:description>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni tal-preċipitazzjoni tal-OURENSE</dct:description>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea precipitațiilor din OURENSE</dct:description>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:description xml:lang="en-t-es-t0-mtec">Observation of precipitation of OURENSE</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Beobachtung des Niederschlags von OURENSE</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione delle precipitazioni di OURENSE</dct:description>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Observation av nederbörd från vår</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht ar fhrasaíocht a dhéanamh ar OURENSE</dct:description>
+            <dct:title>urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Pozorovanie zrážok z OURENSE</dct:description>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation des précipitations de OURENSE</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Observation af nedbør af OURENSE</dct:description>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1690A-1</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">OURENSE kritulių stebėjimas</dct:description>
+            <dct:description xml:lang="lv-t-es-t0-mtec">OURENSE nokrišņu novērošana</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:title xml:lang="fr-t-es-t0-mtec">ourense_1690a_précipitations</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Zrážky zo stanice OURENSE po WeatherObserved model NGSI-LD. Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dcat:landingPage>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:landingPage>
+        <dct:description>Precipitaciones de la estación de OURENSE siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Ourense_1690a_precipitações</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Καθίζηση του σταθμού OURENSE σύμφωνα με το WeatherObserved μοντέλο του NGSI-LD. Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Precipitação da estação OURENSE seguindo o modelo WeatherObserved de NGSI-LD. Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dcat:contactPoint rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:description xml:lang="lt-t-es-t0-mtec">OURENSE stoties krituliai pagal WeatherObserved modelį NGSI-LD. Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">ourense_1690a_precipitacije</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Ourense_1690a_precipitacije</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Ourense_1690a_Udfældninger</dct:title>
+        <dct:identifier>b42c18c5-db01-4ef3-8eae-e22a71d093fd</dct:identifier>
+        <dct:title xml:lang="lt-t-es-t0-mtec">weense_1690a_precipitations</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-08T20:32:33.745186</dct:issued>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Srážky stanice OURENSE podle WeatherObserved modelu NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">ourense_1690a_preċipitazzjonijiet</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Precipitation of the OURENSE station following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Padavine postaje OURENSE po VremeObserved modelu NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Deascadh an stáisiúin OURENSE tar éis an tsamhail WeatherObserved de NGSI-LD. Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit. Deascadh an stáisiúin OURENSE tar éis an tsamhail WeatherObserved de NGSI-LD.
+Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Ourense_1690a_precipitācijas</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">OURENSE-aseman sademäärä NGSI-LD:n WeatherObserved -mallin mukaisesti. Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">myense_1690a_precipitations</dct:title>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Précipitations de la station OURENSE suivant le modèle WeatherObserved de NGSI-LD. Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">ourense_1690a_κατακρημνίσεις</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Ourense_1690a_saosteet</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Preċipitazzjoni tal-istazzjon OURENSE wara l-mudell WeatherObserved ta ‘NGSI-LD. Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Nederbörd av OURENSE station efter WeatherObserved modell av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-08T20:32:34.388119</dct:modified>
+        <dct:description xml:lang="lv-t-es-t0-mtec">OURENSE stacijas nokrišņi pēc WeatherObserved modeli NGSI-LD. Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A OURENSE állomás csapadéka az NGSI-LD WeatherObserved modelljét követve. Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Ourense_1690a_precipitations</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Ourense_1690a_precipitations</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Neerslag van het OURENSE station volgens het WeatherObserved model van NGSI-LD. Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Ourense_1690a_fällningar</dct:title>
+        <dct:title>ourense_1690a_precipitations</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Ourense_1690a_precipitaties</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Ourense_1690a_precypacje</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">myense_1690a_precipitations</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">ourense_1690a_убежища</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Precipitații de la stația OURENSE după modelul WeatherObserved al NGSI-LD. Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Precipitazione della stazione OURENSE seguendo il modello WeatherObserv di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Валежи на станцията OURENSE по модела WeatherObserved на NGSI-LD. Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Ourense_1690a_Опади</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="en-t-es-t0-mtec">ourense_1690a_precipitations</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Ourense_1690a_ Niederschlag</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Wytrącanie się stacji OURENSE na podstawie WeatherObserwowany model NGSI-LD. Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Sademed OURENSE jaama pärast WeatherObserved mudel NGSI-LD. Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal. Sademed OURENSE jaama pärast WeatherObserved mudel NGSI-LD.
+Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Padaline na stanici OURENSE prema WeatherObserved modelu NGSI-LD-a. Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije. Padaline na stanici OURENSE prema WeatherObserved modelu NGSI-LD-a.
+Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Опади станції OURENSE слідують WeatherObserved моделі NGSI-LD. Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">ourense_1690a_ csapadék</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>17fc221ef9bd2f2704486c5132aae076</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

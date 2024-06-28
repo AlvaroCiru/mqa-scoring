@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/urn-ine-es-tabla-t3-341-67560">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-10T23:38:49Z</dct:issued>
+    <dct:identifier>urn:ine:es:TABLA:T3:341:67560</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/urn-ine-es-tabla-t3-341-67560"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>94f3d0b4aa774c8c901499c3f07ade82</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/urn-ine-es-tabla-t3-341-67560">
+        <dcat:keyword xml:lang="es">Estadísticas</dcat:keyword>
+        <dcat:keyword xml:lang="en">Educational level attained</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/71a4e91c-9633-4724-9fc7-110927ee8b59">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/6004dcf5-84c4-4814-8eef-a5e662bb1a90</dct:identifier>
+            <dct:title xml:lang="en">Html</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/Tabla.htm?t=67560"/>
+            <dct:title xml:lang="es">Html</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">Higher education</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:conformsTo rdf:resource="https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=30308"/>
+        <dct:description xml:lang="es">Tabla de INEbase
+Porcentaje de trabajo a tiempo parcial de las personas de entre 20 y 64 años por grupo de edad y nivel de formación alcanzado. Anual. Nacional. Encuesta de Población Activa (EPA)</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/742375dc-d1cc-4d74-b667-9bcdbdecb000">
+            <dct:title xml:lang="es">Pc-Axis</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/px/67560.px"/>
+            <dct:title xml:lang="en">Pc-Axis</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/95ee470e-a776-4e6c-b2df-1ab7b098e592</dct:identifier>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-11T12:30:00+02:00</dct:modified>
+        <dcat:keyword xml:lang="es">De 55 a 64 años</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0a6e8f71-9469-4847-a835-29f4ccdd926c">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Texto plano: separado por ;</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_sc/67560.csv_sc"/>
+            <dct:title xml:lang="en">Plain Text: separated by semicolons</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/8223c1d3-95ab-4d25-9969-059259bbee9f</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Menos que primaria</dcat:keyword>
+        <dct:title xml:lang="es">Porcentaje de trabajo a tiempo parcial de las personas de entre 20 y 64 años por grupo de edad y nivel de formación alcanzado. EPA (Identificador API: 67560)</dct:title>
+        <dct:title xml:lang="en">Percentage of part-time work for people between 20 and 64 years old by age group and educational level attained. EPA (API identifier: 67560)</dct:title>
+        <dcat:keyword xml:lang="es">Mercado laboral</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8cee5cc2-48a0-4d37-8b12-25ceb7cec500">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">CSV: separado por ;</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_bdsc/67560.csv"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="en">CSV: Separated by ;</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/011f83d8-4b4b-4b13-91d1-702f456a7f80</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f0785fce-30d5-4a99-8079-de59a3949df6">
+            <dct:title xml:lang="es">Excel: Extensión XLS</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/xls/67560.xls"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/fc5be3d0-a2a0-46df-a66f-fcdcc08db60d</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="en">Excel: XLS extension</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-02-25T12:00:00+01:00</dct:issued>
+        <dcat:keyword xml:lang="es">Segunda etapa de educación secundaria y educación postsecundaria no superior</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 25 to 54 years</dcat:keyword>
+        <dcat:keyword xml:lang="es">Nivel de formación alcanzado</dcat:keyword>
+        <dcat:keyword xml:lang="es">Encuesta de Población Activa (EPA)</dcat:keyword>
+        <dcat:keyword xml:lang="en">Economically Active Population Survey</dcat:keyword>
+        <dct:description xml:lang="en">Table of INEBase
+Percentage of part-time work for people between 20 and 64 years old by age group and educational level attained. Annual. National. Economically Active Population Survey</dct:description>
+        <dct:isReferencedBy rdf:resource="https://www.ine.es/dyngs/IOE/es/operacion.htm?numinv=30308"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/59266313-794e-4c84-88a9-d2cec63c2151">
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/xlsx/67560.xlsx"/>
+            <dct:title xml:lang="en">Excel: XLSx extension</dct:title>
+            <dct:title xml:lang="es">Excel: Extension XLSx</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/31fab95b-c72a-487f-9ab3-4c965d66cefe</dct:identifier>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Mercado laboral y salarios</dcat:keyword>
+        <dcat:keyword xml:lang="en">Labour market and wages</dcat:keyword>
+        <dcat:keyword xml:lang="en">Primary education and first stage of secondary education (levels 1 and 2)</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 55 to 64 years</dcat:keyword>
+        <dcat:keyword xml:lang="es">De 20 a 24 años</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c2a12cec-460c-47a4-83f8-e0f553c0ec56">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/989c80a6-1cba-44d6-b691-0d84dd91eab8</dct:identifier>
+            <dct:title xml:lang="en">Json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/67560?tip=AM"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">Json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0a2db686-2b77-483f-8533-23328f79adef">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_c/67560.csv_c"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/8c11b0c7-2f3c-4753-9fc9-114adfeeec8c</dct:identifier>
+            <dct:title xml:lang="es">Texto plano: separado por ,</dct:title>
+            <dct:title xml:lang="en">Plain Text: separated by comma</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+        <dcat:keyword xml:lang="en">Labour market</dcat:keyword>
+        <dcat:keyword xml:lang="en">Less than primary school</dcat:keyword>
+        <dcat:keyword xml:lang="es">Educación primaria y primera etapa de educación secundaria  (niveles 1 y 2)</dcat:keyword>
+        <dcat:keyword xml:lang="es">Grupos de edad</dcat:keyword>
+        <dcat:keyword xml:lang="es">Educación superior</dcat:keyword>
+        <dct:identifier>urn:ine:es:TABLA:T3:341:67560</dct:identifier>
+        <dcat:keyword xml:lang="en">Statistics</dcat:keyword>
+        <dcat:keyword xml:lang="es">EPA</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/PeriodOfTime-1">
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-01-01T01:00:00+01:00</schema:endDate>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2021-01-01T01:00:00+01:00</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:keyword xml:lang="en">Age group</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 20 to 24 years</dcat:keyword>
+        <dcat:keyword xml:lang="en">Second stage of secondary education and non-upper post-secondary education.</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/84079f79-e9da-4cfe-a437-87d669cbc6f9">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="en">Plain Text: separated by tab</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv/67560.csv"/>
+            <dct:title xml:lang="es">Texto plano: separado por tabuladores</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/d778930b-a324-4b44-bfae-f10ab7ba0daa</dct:identifier>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">De 25 a 54 años</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/892d3bba-39ab-4c08-a6d3-c15ceaeff999">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">CSV: separado por tabuladores</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/resource/1ed92fe4-47e2-476e-b988-008c268c0c65</dct:identifier>
+            <dct:title xml:lang="en">CSV: Tab Separated</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_bd/67560.csv"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587">
+            <foaf:name>Instituto Nacional de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/ea0010587-porcentaje-de-trabajo-a-tiempo-parcial-de-las-personas-de-entre-20-y-64-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67560/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:39:23Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:39:23Z</dct:modified>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

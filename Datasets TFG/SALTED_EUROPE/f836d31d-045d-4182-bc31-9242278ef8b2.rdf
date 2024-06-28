@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/f836d31d-045d-4182-bc31-9242278ef8b2">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/f836d31d-045d-4182-bc31-9242278ef8b2"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-16T14:02:38Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:40Z</edp:transReceived>
+    <dct:identifier>f836d31d-045d-4182-bc31-9242278ef8b2</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/f836d31d-045d-4182-bc31-9242278ef8b2">
+        <dct:description xml:lang="pl-t-en-t0-mtec">Oznacza on ilość CO2 zatrzymywaną przez glebę i uprawy w regionie Lorca w Murcji (Hiszpania). Dane są zbierane za pomocą technologii LIDAR.
+
+
+Reprezentuje jakość powietrza zbieraną przez czujniki stosowane w miastach Santander (platforma SmartSantander), Murcji (projekt Smart 5K), Barcelonie (portal Open Data BCN) i Oslo (laboratoria NILU).</dct:description>
+        <dct:description>It represents the air quality collected by the sensors deployed in the city of Madrid.
+
+It represents the amount of CO2 retained by soil and crops in the region of Lorca in Murcia (Spain). The data is collected using LIDAR technology.
+
+It represents the air quality collected by sensors deployed in the cities of Santander (SmartSantander platform), Murcia (Smart 5K project), Barcelona (Open Data BCN portal) and Oslo (NILU laboratories).
+
+It represents information in NGSI-LD format, sourced from the Madrid city Open Portal and European Open Portal, focusing on air pollutant data for the cities of Madrid and Dublin.</dct:description>
+        <dct:title>Environment:AirQualityObserved</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">Miljø:AirQualityObserved</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Životné prostredie:AirQualityObserved</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Навколишнє середовище: AirQualityObserved</dct:title>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Környezet:AirQualityObserved</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d10604d2-b662-4e39-8deb-2ba587bf2486">
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Περιβάλλον:AirQualityΠαρατηρημένα δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Навколишнє середовище:AirQualityОбслуговувані дані в режимі реального часу, представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Okruženje:AirQualityObserved podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Environment%2FAirQualityObserved__.json"/>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Ambiente:AirQualityObservou dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Környezet:AirQualityMegfigyelt valós idejű adatok JSON formátumban</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">Keskkond:AirQualityObserved reaalajas andmed, mis on esitatud JSON formaadis</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Umgebung:AirQualityBeobachtete Echtzeitdaten, die im JSON-Format dargestellt werden</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Ambjent:AirQualityId-data fil-ħin reali osservata rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Entorno:AirQualityObservado datos en tiempo real representados en formato JSON</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:01:10.629216</dct:issued>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Prostredie:AirQualityReserved realtime data reprezentované vo formáte JSON</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Okolje:AirQualityOpazovani podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Comhshaol:AirQualityObserved sonraí fíor-ama léirithe i bhformáid JSON</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Prostředí:AirQualityObserved realtime data reprezentovaná ve formátu JSON</dct:description>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Środowisko:AirQualityObserwowane dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description>Environment:AirQualityObserved realtime data represented in JSON format</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/f836d31d-045d-4182-bc31-9242278ef8b2/resource/urn_ngsi-ld_distribution_salted_project_environment_airqualityobserved_json</dct:identifier>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:01:16.986034</dct:modified>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Aplinka:AirQualityObserved realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Environment%2FAirQualityObserved__.json"/>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Environnement:AirQualityLes données en temps réel sont représentées au format JSON</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Ympäristö:AirQualityObserved reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Miljø: AirQualityObserved realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Mediu:AirQuality Datele în timp real observate în format JSON</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Околна среда:AirQualityHaблюдавани данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Vide:AirQualityObserved reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Ambiente:AirQualityObserved dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Miljö:AirQualityObserverad realtidsdata representerad i JSON-format</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Omgeving:AirQualityGeobserveerde realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo CO2 daudzumu, ko patur augsne un kultūraugi Lorkas reģionā Mursijā (Spānija). Dati tiek vākti, izmantojot LIDAR tehnoloģiju. 
+
+Tas atspoguļo gaisa kvalitāti, ko savāc sensori, kas izvietoti Santander (SmartSantander platforma), Mursijā (Smart 5K projekts), Barselonā (Open Data BCN portāls) un Oslo (NILU laboratorijās).</dct:description>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es repräsentiert die Menge an CO2, die von Böden und Kulturen in der Region Lorca in Murcia (Spanien) zurückgehalten wird. Die Daten werden mithilfe der LIDAR-Technologie erhoben. 
+
+Es repräsentiert die Luftqualität, die von Sensoren gesammelt wird, die in den Städten Santander (SmartSantander-Plattform), Murcia (Smart 5K-Projekt), Barcelona (Open Data BCN-Portal) und Oslo (NILU-Labors) eingesetzt werden.</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta l-ammont ta’ CO2 miżmum mill-ħamrija u mill-għelejjel fir-reġjun ta’ Lorca f’Murcia (Spanja). Id-data tinġabar bl-użu tat-teknoloġija LIDAR. 
+
+Dan jirrappreżenta l-kwalità tal-arja miġbura minn sensuri użati fl-ibliet ta’ Santander (pjattaforma SmartSantander), Murcia (il-proġett Smart 5K), Barċellona (Open Data BCN portal) u Oslo (laboratorji NILU).</dct:description>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja količinu CO2 koju zadržavaju tlo i usjevi u regiji Lorca u Murciji (Španjolska). Podaci se prikupljaju pomoću LIDAR tehnologije.
+
+
+Ona predstavlja kvalitetu zraka koju prikupljaju senzori raspoređeni u gradovima Santander (platforma SmartSantander), Murcia (projekt Smart 5K), Barcelona (Open Data BCN portal) i Oslo (laboratoriji NILU).</dct:description>
+        <dcat:keyword>Open Data</dcat:keyword>
+        <dct:title xml:lang="de-t-en-t0-mtec">Umwelt:AirQualityBeobachtet</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T15:01:10.629258</dct:modified>
+        <dcat:keyword>Madrid open data portal</dcat:keyword>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Miljö:AirQualityObserverad</dct:title>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Ympäristö:AirQualityObserved</dct:title>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC,Amper,NEC_Laboratories_Europe_GmbH,IMT</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Środowisko:Jakość powietrza obserwowana</dct:title>
+        <dcat:keyword>Lorca</dcat:keyword>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dcat:keyword>PM25</dcat:keyword>
+        <dct:title xml:lang="et-t-en-t0-mtec">Keskkond:AirQualityObserved</dct:title>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer den mængde CO2, der tilbageholdes af jord og afgrøder i regionen Lorca i Murcia (Spanien). Dataene indsamles ved hjælp af LIDAR-teknologi.
+
+
+Det repræsenterer den luftkvalitet, der indsamles af sensorer, der anvendes i byerne Santander (SmartSantander-platformen), Murcia (Smart 5K-projekt), Barcelona (Open Data BCN portal) og Oslo (NILU-laboratorier).</dct:description>
+        <dcat:keyword>NO2</dcat:keyword>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente la quantité de CO2 retenue par les sols et les cultures dans la région de Lorca à Murcie (Espagne). Les données sont collectées à l’aide de la technologie LIDAR.
+
+
+Il représente la qualité de l’air collectée par les capteurs déployés dans les villes de Santander (plateforme SmartSantander), Murcie (projet Smart 5K), Barcelone (portail Open Data BCN) et Oslo (laboratoires NILU).</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:keyword>Smart 5K</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:01:10.488304</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="hu-t-en-t0-mtec">A talaj és a növények által visszatartott CO2 mennyiségét jelenti a Murcia (Spanyolország) Lorca régióban. Az adatokat LIDAR technológiával gyűjtjük. 
+
+A Santander (SmartSantander platform), Murcia (Smart 5K projekt), Barcelona (Open Data BCN Portal) és Oslo (NILU laboratóriumok) városokban telepített érzékelők által összegyűjtött levegőminőséget képviseli.</dct:description>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Mediu:AirQualityObserved</dct:title>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kujutab endast Lorca piirkonnas Murcias (Hispaania) mullas ja põllukultuurides säilitatud CO2 kogust. Andmeid kogutakse LIDAR-tehnoloogia abil. 
+
+See vastab õhukvaliteedile, mida koguvad andurid Santanderi linnades (SmartSantander platvorm), Murcias (projekt Smart 5K), Barcelonas (avatud andmete BCN-portaal) ja Oslos (NILU laborid).</dct:description>
+        <dcat:keyword>PM10</dcat:keyword>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Milieu:Geobserveerd Luchtkwaliteit</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Environnement:AirQualityObservé</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">Medio ambiente:AirQualityObserved</dct:title>
+        <dcat:keyword>CO</dcat:keyword>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою кількість CO2, що зберігається грунтом і культурами в регіоні Лорка в Мурсії (Іспанія). Дані збираються за допомогою технології LIDAR.
+
+
+Він являє собою якість повітря, зібрану датчиками, розгорнутими в містах Сантандер (платформа SmartSantander), Мурсія (проект Smart 5K), Барселона (портал Open Data BCN) і Осло (лабораторії NILU).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/de420628-88d3-4307-a3c4-df6d513cc3a5">
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Entorno:AirQualityObservado datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Keskkond:AirQualityObserved reaalajas andmed, mis on esitatud JSON_LD formaadis</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Miljö:AirQualityObserverad realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Okruženje:AirQualityObserved podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Comhshaol:AirQualitySonraí fíor-ama breathnaithe i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Prostredie:AirQualityObserved realtime data reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Środowisko:AirQualityObserwowane dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Mediu:AirQuality Date în timp real observate în format JSON_LD</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Навколишнє середовище:AirQualityОбслуговувані дані в режимі реального часу, представлені у форматі JSON_LD</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Environment%2FAirQualityObserved__.jsonld"/>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Environnement:AirQualityLes données en temps réel sont représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Ympäristö:AirQualityObserved reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">Περιβάλλον:AirQualityΠαρατηρημένα δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Ambjent:AirQualityId-data fil-ħin reali osservata rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:description>Environment:AirQualityObserved realtime data represented in JSON_LD format</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Environment%2FAirQualityObserved__.jsonld"/>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/f836d31d-045d-4182-bc31-9242278ef8b2/resource/urn_ngsi-ld_distribution_salted_project_environment_airqualityobserved_jsonld</dct:identifier>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Ambiente:AirQualityObservou dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Umgebung:AirQualityBeobachtete Echtzeitdaten, die im JSON_LD-Format dargestellt werden</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Ambiente:AirQualityI dati osservati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Okolje:AirQualityOpazovani podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Prostředí:AirQualityObserved realtime data reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Околна среда:AirQualityHaблюдавани данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:01:16.988665</dct:modified>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Vide:AirQualityObserved reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Aplinka:AirQualityObserved realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:01:10.629216</dct:issued>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Környezet:AirQualityMegfigyelt valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Omgeving:AirQualityGeobserveerde realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Miljø:AirQualityObserved realtidsdata repræsenteret i JSON_LD-format</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de hoeveelheid CO2 die wordt vastgehouden door bodem en gewassen in de regio Lorca in Murcia (Spanje). De gegevens worden verzameld met behulp van LIDAR-technologie. 
+
+Het vertegenwoordigt de luchtkwaliteit die wordt verzameld door sensoren die worden ingezet in de steden Santander (SmartSantander-platform), Murcia (Smart 5K-project), Barcelona (Open Data BCN-portaal) en Oslo (NILU-laboratoria).</dct:description>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa la cantidad de CO2 retenida por el suelo y los cultivos en la región de Lorca en Murcia (España). Los datos se recopilan utilizando la tecnología LIDAR.
+
+
+Representa la calidad del aire recogida por sensores desplegados en las ciudades de Santander (plataforma SmartSantander), Murcia (proyecto Smart 5K), Barcelona (Open Data BCN portal) y Oslo (laboratorios NILU).</dct:description>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa a quantidade de CO2 retida pelo solo e pelas culturas na região de Lorca, em Múrcia (Espanha). Os dados são recolhidos através da tecnologia LIDAR.
+
+
+Representa a qualidade do ar recolhida pelos sensores instalados nas cidades de Santander (plataforma SmartSantander), Murcia (projeto Smart 5K), Barcelona (portal Open Data BCN) e Oslo (laboratórios NLU).</dct:description>
+        <dcat:keyword>O3</dcat:keyword>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява количеството CO2, задържано от почвата и културите в района на Лорка в Мурсия (Испания). Данните се събират с помощта на технологията LIDAR.
+
+
+Той представлява качеството на въздуха, събирано от сензорите, разположени в градовете Santander (платформа SmartSantander), Мурсия (проект Smart 5K), Барселона (портал „Open Data BCN“) и Осло (лаборатории NILU).</dct:description>
+        <dcat:keyword>CO2</dcat:keyword>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă cantitatea de CO2 reținută de sol și culturi în regiunea Lorca din Murcia (Spania). Datele sunt colectate cu ajutorul tehnologiei LIDAR.
+
+
+Aceasta reprezintă calitatea aerului colectată de senzorii desfășurați în orașele Santander (platforma SmartSantander), Murcia (proiectul Smart 5K), Barcelona (portalul de date deschise BCN) și Oslo (laboratoarele NILU).</dct:description>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Životní prostředí:AirQualityObserved</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Ambiente:AirQualityObserved</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Okoliš: AirQualityObserved</dct:title>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Comhshaol:AirQualityObserved</dct:title>
+        <dcat:keyword>AirQualityObserved</dcat:keyword>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Vide: AirQualityObserved</dct:title>
+        <dcat:keyword>CityLiveabilityIndex</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:01:10.488304</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:identifier>f836d31d-045d-4182-bc31-9242278ef8b2</dct:identifier>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se vastaa Murcian (Espanja) Lorcan alueella maaperään ja viljelykasveihin jäävän hiilidioksidin määrää. Tiedot kerätään käyttäen LIDAR-teknologiaa. 
+
+Se edustaa Santanderin (SmartSantander-alusta), Murcian (Smart 5K -hanke), Barcelonan (Open Data BCN-portaali) ja Oslon (NILU-laboratoriot) kaupungeissa käytettävien ilmanlaatua.</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja količino CO2, ki ga zadržujejo tla in pridelki v regiji Lorca v Murcii (Španija). Podatki se zbirajo z uporabo tehnologije LIDAR. 
+
+Predstavlja kakovost zraka, ki jo zbirajo senzorji, nameščeni v mestih Santander (platforma SmartSantander), Murcia (projekt Smart 5K), Barcelona (portal BCN odprtih podatkov) in Oslo (laboratoriji NILU).</dct:description>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje množstvo CO2 zachyteného pôdou a plodinami v regióne Lorca v Murcii (Španielsko). Údaje sa zhromažďujú pomocou technológie LIDAR.
+
+
+Predstavuje kvalitu ovzdušia zozbieranú senzormi nasadenými v mestách Santander (platforma SmartSantander), Murcia (projekt Smart 5K), Barcelona (portál Open Data BCN) a Oslo (laboratóriáNILU).</dct:description>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Околна среда: Качество на въздуха Наблюдавани</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">Ambiente: AirQualityObservato</dct:title>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Den motsvarar den mängd koldioxid som behålls av jord och grödor i regionen Lorca i Murcia (Spanien). Uppgifterna samlas in med hjälp av LIDAR-teknik. 
+
+Den representerar luftkvaliteten som samlas in av sensorer som används i städerna Santander (SmartSantander-plattformen), Murcia (Smart 5K-projektet), Barcelona (Open Data BCN-portalen) och Oslo (NILU-laboratorier).</dct:description>
+        <dcat:keyword>SmartSantander</dcat:keyword>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει την ποσότητα CO2 που συγκρατείται από το έδαφος και τις καλλιέργειες στην περιφέρεια Lorca στη Murcia (Ισπανία). Τα δεδομένα συλλέγονται με τη χρήση της τεχνολογίας LIDAR.
+
+
+Αντιπροσωπεύει την ποιότητα του αέρα που συλλέγεται από αισθητήρες που αναπτύσσονται στις πόλεις Santander (πλατφόρμα SmartSantander), Murcia (Smart 5K project), Βαρκελώνη (Open Data BCN portal) και Oslo (εργαστήρια NiLU).</dct:description>
+        <dct:title xml:lang="el-t-en-t0-mtec">Περιβάλλον: AirQualityObserved</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dcat:keyword>Open Data BCN</dcat:keyword>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Is ionann é agus an méid CO2 a choinnítear in ithir agus i mbarra i réigiún Lorca in Murcia na Spáinne. Bailítear na sonraí trí úsáid a bhaint as teicneolaíocht LIDAR.
+
+
+Léiríonn sé an cháilíocht aeir a bhailigh braiteoirí a úsáidtear i gcathracha Santander (ardán SmartSantander), Murcia (tionscadal Smart 5K), Barcelona (tairseach Sonraí Oscailte BCN) agus Osló (saotharlanna NILU).</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Ambjent: AirQuality Osservata</dct:title>
+        <dcat:keyword>NILU</dcat:keyword>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta la quantità di CO2 trattenuta dal suolo e dalle colture nella regione di Lorca a Murcia (Spagna). I dati vengono raccolti utilizzando la tecnologia LIDAR.
+
+
+Rappresenta la qualità dell'aria raccolta dai sensori impiegati nelle città di Santander (piattaforma SmartSantander), Murcia (progetto Smart 5K), Barcellona (portale Open Data BCN) e Oslo (laboratori NILU).</dct:description>
+        <dcat:keyword>Air Quality</dcat:keyword>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai yra Mursijos (Ispanija) Lorkos regiono dirvožemyje ir pasėliuose likęs CO2 kiekis. Duomenys renkami naudojant LIDAR technologiją. 
+
+Ji atspindi oro kokybę, kurią surenka jutikliai, naudojami Santandero (SmartSantander platforma), Mursijos (Smart 5K projektas), Barselonoje (atvirų duomenų BCN portalas) ir Oslo (NILU laboratorijose) miestuose.</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Okolje:AirQualityOpazovano</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Aplinka: AirQualityObserved</dct:title>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje množství CO2 zadržovaného půdou a plodinami v regionu Lorca v Murcii (Španělsko). Data jsou shromažďována pomocí technologie LIDAR. 
+
+Představuje kvalitu ovzduší shromážděnou senzory umístěnými ve městech Santander (platforma SmartSantander), Murcia (projekt Smart 5K), Barcelona (portál Open Data BCN) a Oslo (laboratořeNILU).</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T15:01:10.629216</dct:issued>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>eefb56bf7bd95959a4697c316d0607aa</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-calidad-aire-en-euskadi-2023-">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:32:21Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:25:48Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-calidad-aire-en-euskadi-2023-">
+        <dct:title xml:lang="el-t-es-t0-mtec">Η ποιότητα του αέρα στη Χώρα των Βάσκων το 2023</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A levegő minősége Baszkföldön 2023-ban</dct:title>
+        <dcat:keyword xml:lang="eu">kalitatea</dcat:keyword>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Oddelek za okolje in teritorialno politiko baskovske vlade je odgovoren za spremljanje in spremljanje ravni onesnaženosti v baskovski avtonomni skupnosti v okviru mreže za nadzor kakovosti zraka v skladu z obveznostjo avtonomnih skupnosti, da ocenijo kakovost zraka na svojem ozemlju.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Den baskiska regeringens miljö- och territoriella politik ansvarar för att genom nätverket för luftkvalitet övervaka och övervaka föroreningsnivåerna i den autonoma regionen Baskien, i enlighet med de autonoma regionernas skyldighet att bedöma luftkvaliteten på sitt territorium.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/55971a8b-cc63-4f7c-a1dc-856c28ce16dc">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2023/es_def/adjuntos/estaciones.xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >10035</dcat:byteSize>
+            <dct:title xml:lang="es">Estaciones de medición</dct:title>
+            <dct:title xml:lang="eu">Neurketa-estazioak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/69de7456-a13a-4f8e-b1b0-633717130e97</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Het ministerie van Milieu en Territoriaal Beleid van de Baskische regering is verantwoordelijk voor de monitoring en monitoring via het netwerk voor luchtkwaliteitscontrole van de verontreinigingsniveaus in de Baskische autonome gemeenschap, in overeenstemming met de verplichting van de autonome gemeenschappen om de luchtkwaliteit op hun grondgebied te beoordelen.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Basku zemes valdības Vides un teritoriālās politikas departaments ir atbildīgs par piesārņojuma līmeņa monitoringu un monitoringu, izmantojot gaisa kvalitātes kontroles tīklu Basku autonomajā apgabalā, ievērojot autonomo kopienu pienākumu novērtēt gaisa kvalitāti to teritorijā.</dct:description>
+        <dcat:keyword xml:lang="es">aire</dcat:keyword>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Gaisa kvalitāte Basku zemē 2023. gadā</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/PeriodOfTime-1">
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-31T00:00:00+01:00</schema:endDate>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-01-01T00:00:00+01:00</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:keyword xml:lang="eu">zaintzeko sarea</dcat:keyword>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Kvalita ovzduší v Baskicku v roce 2023</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A baszk kormány Környezetvédelmi és Területi Politikai Főosztálya felel a Baszk Autonóm Közösség szennyezési szintjének a levegőminőség-ellenőrzési hálózaton keresztül történő nyomon követéséért és ellenőrzéséért, összhangban az autonóm közösségek azon kötelezettségével, hogy területükön értékeljék a levegőminőséget.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Cáilíocht an aeir i dTír na mBascach le linn 2023</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8a10f8c0-c731-42c9-a836-cf61dfb0e28f">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/e5e39b81-fd19-4b79-8de5-e833df7ee5ae</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >38377882</dcat:byteSize>
+            <dct:title xml:lang="es">Datos de índices de calidad del aire</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2023/es_def/adjuntos/datos_historicos_indice_xlsx.zip"/>
+            <dct:title xml:lang="eu">Aire kalitatearen indizeetako datuak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Baskų krašto aplinkos ir teritorinės politikos departamentas, laikydamasis autonominių sričių įsipareigojimo įvertinti oro kokybę savo teritorijoje, per Oro kokybės kontrolės tinklą yra atsakingas už taršos lygio stebėseną ir stebėseną Baskų autonominėje srityje.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Tá an Roinn Comhshaoil agus Beartas Críochach Rialtas na mBascach freagrach as monatóireacht agus monatóireacht a dhéanamh tríd an Líonra um Rialú ar Cháilíocht an Aeir ar na leibhéil truaillithe i gComhphobal Uathrialach na mBascach, i gcomhréir le hoibleagáid na gComhphobal Féinrialaitheach cáilíocht an aeir ina gcríoch a mheas.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/07532895-6827-4b9c-8460-dd3e160982c8">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2023/es_def/adjuntos/datos_historicos_indice_csv.zip"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/9126d345-98b3-4492-8457-f5f7ba40cf70</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >10653532</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Datos de índices de calidad del aire</dct:title>
+            <dct:title xml:lang="eu">Aire kalitatearen indizeetako datuak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Якість повітря в країні Басків протягом 2023 року</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Departament Środowiska i Polityki Terytorialnej rządu Basków jest odpowiedzialny za monitorowanie i monitorowanie za pośrednictwem sieci kontroli jakości powietrza poziomów zanieczyszczeń we Wspólnocie Autonomicznej Basków, zgodnie z obowiązkiem wspólnot autonomicznych do oceny jakości powietrza na ich terytorium.</dct:description>
+        <dcat:keyword xml:lang="es">calidad</dcat:keyword>
+        <dct:description xml:lang="et-t-es-t0-mtec">Baski autonoomse piirkonna keskkonna- ja territoriaalse poliitika osakond vastutab õhukvaliteedi kontrolli võrgustiku kaudu Baski autonoomse piirkonna saastetaseme seire ja seire eest kooskõlas autonoomsete piirkondade kohustusega hinnata õhukvaliteeti oma territooriumil.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Oro kokybė Baskų krašte 2023 m.</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">O Departamento de Ambiente e Política Territorial do Governo Basco é responsável pela monitorização e monitorização, através da Rede de Controlo da Qualidade do Ar, dos níveis de poluição na Comunidade Autónoma Basca, no cumprimento da obrigação das Comunidades Autónomas de avaliar a qualidade do ar no seu território.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Il Dipartimento di Ambiente e Politica Territoriale del Governo Basco è incaricato di monitorare e monitorare attraverso la Rete di Controllo della Qualità dell'Aria i livelli di inquinamento nella Comunità Autonoma Basca, nel rispetto dell'obbligo delle Comunità Autonome di valutare la qualità dell'aria nel loro territorio.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Il-kwalità tal-arja fil-Pajjiż Bask matul l-2023</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Qualità dell'aria nei Paesi Baschi nel 2023</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Baskimaa õhukvaliteet 2023. aastal</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Kvaliteta zraka u Baskiji tijekom 2023.</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Den baskiske regerings departement for miljø og territorialpolitik har ansvaret for gennem luftkvalitetskontrollen at overvåge forureningsniveauet i den baskiske selvstyrende region i overensstemmelse med de selvstyrende regioners forpligtelse til at vurdere luftkvaliteten på deres område.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Ministerstvo životného prostredia a územnej politiky baskickej vlády je zodpovedné za monitorovanie a monitorovanie úrovne znečistenia v Baskicku autonómneho spoločenstva prostredníctvom siete kontroly kvality ovzdušia v súlade s povinnosťou autonómnych spoločenstiev posudzovať kvalitu ovzdušia na svojom území.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6a1db888-c5df-411f-9d50-982b6165415d">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2023/es_def/adjuntos/datos_historicos_csv.zip"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >8074035</dcat:byteSize>
+            <dct:title xml:lang="es">Diarios y horarios</dct:title>
+            <dct:title xml:lang="eu">Egunka eta orduka</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/df59ed2b-0386-485c-8319-2770bed07470</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/364dc091-5d95-4977-8ccd-09cebc8ba5f9">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2023/es_def/adjuntos/estaciones.json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Estaciones de medición</dct:title>
+            <dct:title xml:lang="eu">Neurketa-estazioak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >16865</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/48b7b860-62aa-420b-a60a-58a36aa7b885</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/54e738b4-0c01-4cd5-a3dd-d9bbefa544f8">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/d12d7138-c86d-47d3-8ce8-f350e39cee33</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >30723277</dcat:byteSize>
+            <dct:title xml:lang="es">Diarios y horarios</dct:title>
+            <dct:title xml:lang="eu">Egunka eta orduka</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2023/es_def/adjuntos/datos_historicos_xlsx.zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">red vigilancia</dcat:keyword>
+        <dct:title xml:lang="en-t-es-t0-mtec">Air quality in the Basque Country during 2023</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/873830e8-12da-4102-bc50-396c4368cd7e">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Diarios, horarios e índices de calidad del aire</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/ca782bc7-79d9-409f-a194-2343085276fc</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >36413</dcat:byteSize>
+            <dct:title xml:lang="eu">Egunka, orduka eta aire kalitate indizeak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2023/es_def/adjuntos/index.json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Luchtkwaliteit in Baskenland in 2023</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e62f4b18-bf04-46c6-bf49-5931658764d8">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Estaciones de medición</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/4af07510-c24e-4b8f-a994-73c7b17ab207</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >7455</dcat:byteSize>
+            <dct:title xml:lang="eu">Neurketa-estazioak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2023/es_def/adjuntos/estaciones.csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Qualité de l’air au Pays Basque en 2023</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Kakovost zraka v Baskiji v letu 2023</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Qualidade do ar no País Basco em 2023</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Качество на въздуха в Страната на баските през 2023 г.</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Ministerstvo životního prostředí a územní politiky baskické vlády odpovídá za monitorování a monitorování úrovní znečištění v baskické autonomní oblasti prostřednictvím sítě pro kontrolu kvality ovzduší v souladu s povinností autonomních společenství posuzovat kvalitu ovzduší na svém území.</dct:description>
+        <dct:isReferencedBy rdf:resource="http://www.ingurumena.ejgv.euskadi.eus/r49-aa17a/es/aa17aCalidadAireWar/estacion/mapa?locale=es"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:description xml:lang="eu">Eusko Jaurlaritzaren Ingurumen eta Lurralde Politika Sailak Euskadiko kutsadura-mailak kontrolatu eta zaindu egiten ditu Airearen Kalitatea Kontrolatzeko Sarearen bitartez, izan ere, autonomia-erkidegoek beren lurraldeko airearen kalitatea ebaluatzeko betebeharra dute.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Министерството на околната среда и териториалната политика на баското правителство отговаря за наблюдението и мониторинга чрез мрежата за контрол на качеството на въздуха на нивата на замърсяване в Баската автономна област в съответствие със задължението на автономните области да оценяват качеството на въздуха на тяхна територия.</dct:description>
+        <dct:title xml:lang="es">Calidad del aire en Euskadi durante el 2023</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Luftqualität im Baskenland im Jahr 2023</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-01T00:00:00+01:00</dct:issued>
+        <dcat:keyword xml:lang="eu">airea</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="eu">Airearen kalitatea Euskadin 2023. urtean</dct:title>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/calidad-aire-en-euskadi-2023/</dct:identifier>
+        <dcat:keyword xml:lang="es">contaminación</dcat:keyword>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Departamentul de Mediu și Politică Teritorială al Guvernului Basc este responsabil de monitorizarea și monitorizarea, prin intermediul rețelei de control al calității aerului, a nivelurilor de poluare din Comunitatea Autonomă Bascilor, în conformitate cu obligația comunităților autonome de a evalua calitatea aerului pe teritoriul lor.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Id-Dipartiment tal-Ambjent u l-Politika Territorjali tal-Gvern Bask huwa responsabbli għall-monitoraġġ u l-monitoraġġ permezz tan-Netwerk għall-Kontroll tal-Kwalità tal-Arja tal-livelli ta’ tniġġis fil-Komunità Awtonoma Baska, f’konformità mal-obbligu tal-Komunitajiet Awtonomi li jivvalutaw il-kwalità tal-arja fit-territorju tagħhom.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Kvalita ovzdušia v Baskicku v roku 2023</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/calidad-aire-en-euskadi-2023/"/>
+        <dcat:keyword xml:lang="eu">kutsadura</dcat:keyword>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Ilmanlaatu Baskimaassa vuonna 2023</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Департамент екології та територіальної політики уряду Басків несе відповідальність за моніторинг і моніторинг через мережу контролю якості повітря рівня забруднення в автономному співтоваристві Басків, відповідно до зобов'язання автономних громад оцінювати якість повітря на своїй території.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Calitatea aerului în Țara Bascilor în 2023</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Le département de l’environnement et de la politique territoriale du gouvernement basque est responsable du suivi et du suivi, par l’intermédiaire du réseau de contrôle de la qualité de l’air, des niveaux de pollution dans la Communauté autonome basque, conformément à l’obligation des communautés autonomes d’évaluer la qualité de l’air sur leur territoire.</dct:description>
+        <dct:isReferencedBy rdf:resource="http://www.ingurumena.ejgv.euskadi.net/informacion/la-red-de-control-de-calidad-del-aire/r49-3614/es/"/>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Luftkvaliteten i Baskien under 2023</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Odjel za okoliš i teritorijalnu politiku baskijske vlade odgovoran je za praćenje i praćenje razina onečišćenja u baskijskoj autonomnoj zajednici putem mreže za kontrolu kvalitete zraka, u skladu s obvezom autonomnih zajednica da procijene kvalitetu zraka na svojem državnom području.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9ef6a6d8-deac-4680-aaa2-d4de70535fcc">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dct:title xml:lang="es">Calidad del aire</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/api-air-quality/?api=air-quality"/>
+            <dct:title xml:lang="eu">Airearen kalitatea</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2023/resource/e75b2edc-f7eb-4eb8-9529-3b7b4836a075</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:description xml:lang="de-t-es-t0-mtec">Das Ministerium für Umwelt und Territoriale Politik der baskischen Regierung ist für die Überwachung und Überwachung der Verschmutzung in der baskischen Autonomen Gemeinschaft durch das Luftqualitätskontrollnetz zuständig, unter Einhaltung der Verpflichtung der Autonomen Gemeinschaften, die Luftqualität in ihrem Hoheitsgebiet zu bewerten.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Jakość powietrza w Kraju Basków w 2023 r.</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Baskimaan hallituksen ympäristö- ja aluepolitiikan osasto vastaa ilmanlaadunvalvontaverkoston kautta Baskimaan itsehallintoalueen saastetasojen seurannasta ja seurannasta autonomisten alueiden velvollisuutta arvioida alueensa ilmanlaatu.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="el-t-es-t0-mtec">Το Τμήμα Περιβάλλοντος και Εδαφικής Πολιτικής της Κυβέρνησης των Βάσκων είναι υπεύθυνο για την παρακολούθηση και την παρακολούθηση, μέσω του Δικτύου Ελέγχου της Ποιότητας του Αέρα, των επιπέδων ρύπανσης στη βασκική Αυτόνομη Κοινότητα, σύμφωνα με την υποχρέωση των αυτόνομων κοινοτήτων να αξιολογούν την ποιότητα του αέρα στην επικράτειά τους.</dct:description>
+        <dct:description xml:lang="es">El departamento de Medio Ambiente y Política Territorial del Gobierno Vasco se encarga de controlar y vigilar a través de la Red de Control de Calidad del Aire los niveles de contaminación en la Comunidad Autónoma Vasca, en cumplimiento de la obligación que tienen las Comunidades Autónomas de evaluar la calidad del aire en su territorio.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">The Department of Environment and Territorial Policy of the Basque Government is responsible for monitoring and monitoring through the Air Quality Control Network the levels of pollution in the Basque Autonomous Community, in compliance with the obligation of the Autonomous Communities to assess the air quality in their territory.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:title xml:lang="da-t-es-t0-mtec">Luftkvaliteten i Baskerlandet i 2023</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2017/es_def/adjuntos/interpretacion-datos-opendata-es.pdf"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/calidad-aire-en-euskadi-2023/</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:25:48Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>c11925eccd910aab6972205ac76157af</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-calidad-aire-en-euskadi-2023-"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

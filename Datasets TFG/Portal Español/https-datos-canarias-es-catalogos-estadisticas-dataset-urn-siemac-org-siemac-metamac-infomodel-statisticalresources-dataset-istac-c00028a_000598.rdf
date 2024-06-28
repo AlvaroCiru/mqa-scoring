@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000598">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000598">
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423">
+            <foaf:name>Instituto Canario de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ee92ea7d-36d3-4e3a-87d1-421bead0ad4d">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000598 (JSON)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000598/1.0.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-gasto-turistico-total-segun-nuts-de-residencia-islas-de-canarias-por-anos/resource/548ffe4a-3fab-4851-8f66-4f007d0095a9</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Micromercados turísticos. Gasto turístico total según las principales regiones socio-económica de residencia (NUTS). Datos correspondientes a las Islas Canarias por años. Series anuales desde 2011 hasta 2017</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T11:46:17+02:00</dct:modified>
+        <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000598</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2cab9a4d-3127-40d9-abe0-14563c30aa77">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000598/1.0.xml"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000598 (XML)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-gasto-turistico-total-segun-nuts-de-residencia-islas-de-canarias-por-anos/resource/883da4c7-27c7-4bf1-bdce-43b3c6083216</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fc5dc37f-22e7-427b-a0b7-807beae5b1dd">
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000598 (CSV)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-gasto-turistico-total-segun-nuts-de-residencia-islas-de-canarias-por-anos/resource/904fa898-2b93-40dc-841b-74af08d20e4e</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000598/1.0.csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0d17268e-7c30-400d-b76d-29440d1c0663">
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000598 (JSONSTAT)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000598/1.0.jsonstat"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-gasto-turistico-total-segun-nuts-de-residencia-islas-de-canarias-por-anos/resource/6ec7d704-8b4d-4a29-94c2-4c62697f73df</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8f037387-b2e4-48bd-9f53-ba766931e5e7">
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-gasto-turistico-total-segun-nuts-de-residencia-islas-de-canarias-por-anos/resource/e40cf885-2a2d-4867-bf02-aa63e1b5feb5</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000598/1.0.tsv"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000598 (TSV)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Cubo estadístico</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/68f4d78a-34d1-4a25-b62c-25a7c5f45cb2">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000598/1.0.xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-gasto-turistico-total-segun-nuts-de-residencia-islas-de-canarias-por-anos/resource/c6d7a33a-a04d-4d06-b961-c5f15fbfa863</dct:identifier>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000598 (XLSX)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="es">Gasto turístico total según NUTS de residencia. Islas de Canarias por años</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T11:46:17+02:00</dct:issued>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:38:08Z</dct:issued>
+    <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000598</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:38:08Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>149b21e70ae074aba99eead0f740dcbe</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:38:08Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000598"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

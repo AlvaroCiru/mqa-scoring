@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-lkod-mff-cuni-cz-zdroj-datove-sady-stirdata-cz-nace-stirdata">
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:02:51Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <j.1:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-lkod-mff-cuni-cz-zdroj-datove-sady-stirdata-cz-nace-stirdata">
+        <dcat:contactPoint>
+          <vcard:Organization rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/kontaktní-bod">
+            <vcard:hasEmail rdf:resource="mailto:jakub.klimek@matfyz.cuni.cz"/>
+            <vcard:fn xml:lang="cs">Jakub Klímek</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="en">Czech extension of the Classification of Economic Activities (CZ-NACE). Transformed to RDF from the dataset https://data.gov.cz/zdroj/datové-sady/00025593/f884f59498ad1717083b498b21ef2283</dct:description>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata</dct:identifier>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:keyword xml:lang="en">classification of economic activities</dcat:keyword>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dct:description xml:lang="cs">České rozšíření Klasifikace ekonomických činností (CZ-NACE). Převedeno do RDF na základě datové sady https://data.gov.cz/zdroj/datové-sady/00025593/f884f59498ad1717083b498b21ef2283</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2ed71834-0602-4e2f-9720-aab4ff8fffee">
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/trig"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TRIG"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/414085c45e407c4e67b5e3eb698c7dc8</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://obchodní-rejstřík.stirdata.opendata.cz/soubor/nace-cz.trig"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/414085c45e407c4e67b5e3eb698c7dc8/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/414085c45e407c4e67b5e3eb698c7dc8/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://obchodní-rejstřík.stirdata.opendata.cz/soubor/nace-cz.trig"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en">Czech extension of the Classification of Economic Activities (CZ-NACE)</dct:title>
+        <dcat:keyword xml:lang="cs">Česko</dcat:keyword>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/identifikátorLKOD">
+            <dct:creator>
+              <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208">
+                <foaf:name xml:lang="cs">Univerzita Karlova</foaf:name>
+              </foaf:Agent>
+            </dct:creator>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:title xml:lang="cs">České rozšíření Klasifikace ekonomických činností (CZ-NACE)</dct:title>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/identifikátorNKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:publisher rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208"/>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4f2554c7-c291-4fd3-9fae-0df8a86f0e64">
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/471154cc21f4f0aa02f4ec53f1ea8fd6</dct:identifier>
+            <dcat:accessURL rdf:resource="https://obchodní-rejstřík.stirdata.opendata.cz/sparql"/>
+            <dct:title xml:lang="en">Apache Jena Fuseki SPARQL endpoint</dct:title>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/471154cc21f4f0aa02f4ec53f1ea8fd6/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:title xml:lang="cs">Apache Jena Fuseki SPARQL endpoint</dct:title>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/471154cc21f4f0aa02f4ec53f1ea8fd6/podmínky-užití"/>
+            <dcat:accessService>
+              <dcat:DataService rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/471154cc21f4f0aa02f4ec53f1ea8fd6/datová-služba/17067230356623b83215712fb7942249">
+                <dcat:endpointDescription rdf:resource="https://obchodní-rejstřík.stirdata.opendata.cz/sparql"/>
+                <dct:title xml:lang="en">Apache Jena Fuseki SPARQL endpoint</dct:title>
+                <dcat:endpointURL rdf:resource="https://obchodní-rejstřík.stirdata.opendata.cz/sparql"/>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/471154cc21f4f0aa02f4ec53f1ea8fd6/datová-služba/17067230356623b83215712fb7942249/identifikátorNKOD">
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/471154cc21f4f0aa02f4ec53f1ea8fd6/datová-služba/17067230356623b83215712fb7942249</skos:notation>
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+                  </rdf:Description>
+                </adms:identifier>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/471154cc21f4f0aa02f4ec53f1ea8fd6/datová-služba/17067230356623b83215712fb7942249/identifikátorLKOD">
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208"/>
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata/distribuce/sparql/přístupové-služby/sparql</skos:notation>
+                  </rdf:Description>
+                </adms:identifier>
+                <dct:title xml:lang="cs">Apache Jena Fuseki SPARQL endpoint</dct:title>
+                <dct:conformsTo rdf:resource="https://www.w3.org/TR/sparql11-protocol/"/>
+                <dcat:servesDataset rdf:resource="http://data.europa.eu/88u/dataset/https-lkod-mff-cuni-cz-zdroj-datove-sady-stirdata-cz-nace-stirdata"/>
+              </dcat:DataService>
+            </dcat:accessService>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="cs">CZ-NACE</dcat:keyword>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:keyword xml:lang="cs">STIRData</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1e9654f0-775f-4e95-b8b8-7939518bb752">
+            <dct:title xml:lang="en">OpenLink Virtuoso SPARQL endpoint</dct:title>
+            <dct:title xml:lang="cs">OpenLink Virtuoso SPARQL endpoint</dct:title>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/a90849350f0425af2745fd7e81d60c84/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/a90849350f0425af2745fd7e81d60c84/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://obchodní-rejstřík.stirdata.opendata.cz/vsparql"/>
+            <dcat:accessService>
+              <dcat:DataService rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/a90849350f0425af2745fd7e81d60c84/datová-služba/31a238f4ae8156972ea55cbc32065135">
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/a90849350f0425af2745fd7e81d60c84/datová-služba/31a238f4ae8156972ea55cbc32065135/identifikátorNKOD">
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/a90849350f0425af2745fd7e81d60c84/datová-služba/31a238f4ae8156972ea55cbc32065135</skos:notation>
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+                  </rdf:Description>
+                </adms:identifier>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/a90849350f0425af2745fd7e81d60c84/datová-služba/31a238f4ae8156972ea55cbc32065135/identifikátorLKOD">
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208"/>
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata/distribuce/vsparql/přístupové-služby/vsparql</skos:notation>
+                  </rdf:Description>
+                </adms:identifier>
+                <dcat:endpointDescription rdf:resource="https://obchodní-rejstřík.stirdata.opendata.cz/vsparql"/>
+                <dcat:endpointURL rdf:resource="https://obchodní-rejstřík.stirdata.opendata.cz/vsparql"/>
+                <dct:title xml:lang="en">OpenLink Virtuoso SPARQL endpoint</dct:title>
+                <dct:conformsTo rdf:resource="https://www.w3.org/TR/sparql11-protocol/"/>
+                <dcat:servesDataset rdf:resource="http://data.europa.eu/88u/dataset/https-lkod-mff-cuni-cz-zdroj-datove-sady-stirdata-cz-nace-stirdata"/>
+                <dct:title xml:lang="cs">OpenLink Virtuoso SPARQL endpoint</dct:title>
+              </dcat:DataService>
+            </dcat:accessService>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00216208/03c70bed41ee7397c72b6daeba9257a4/distribuce/a90849350f0425af2745fd7e81d60c84</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dcat:keyword xml:lang="cs">klasifikace ekonomických činností</dcat:keyword>
+        <dcat:keyword xml:lang="en">CZ-NACE</dcat:keyword>
+        <dcat:keyword xml:lang="en">Czechia</dcat:keyword>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+        <dcat:keyword xml:lang="en">NACE</dcat:keyword>
+        <dcat:keyword xml:lang="en">STIRData</dcat:keyword>
+        <dcat:keyword xml:lang="cs">NACE</dcat:keyword>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/stat/1"/>
+      </j.1:LKOD>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>5ad41b2f59f0213a8e0d11811a394420</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:02:51Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:01:23Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-lkod-mff-cuni-cz-zdroj-datove-sady-stirdata-cz-nace-stirdata"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

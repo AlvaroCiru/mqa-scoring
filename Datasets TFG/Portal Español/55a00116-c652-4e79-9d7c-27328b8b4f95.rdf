@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#">
+  <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/55a00116-c652-4e79-9d7c-27328b8b4f95">
+    <dct:license>
+      <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    </dct:license>
+    <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в В'їзному парку ETSI центру Камінос (Мадрид).</dct:description>
+    <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in Entrance parking van het ETSI centrum van Caminos (Madrid).</dct:description>
+    <dct:description>Densidad de equipos y población en Entrada parking del centro ETSI de Caminos (Madrid).</dct:description>
+    <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione nel parcheggio d'ingresso del centro ETSI di Caminos (Madrid).</dct:description>
+    <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population dans le parking d’entrée du centre ETSI de Caminos (Madrid).</dct:description>
+    <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dcat:mediaType>
+      <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+    </dcat:mediaType>
+    <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T00:00:01.469768</dct:modified>
+    <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:format>
+      <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    </dct:format>
+    <dct:description xml:lang="ga-t-es-t0-mtec">Dlús an trealaimh agus an daonra i bPáirceáil iontrála ionad ETSI Caminos (Madrid).</dct:description>
+    <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung im Eingangsparkplatz des ETSI Zentrums von Caminos (Madrid).</dct:description>
+    <dct:description xml:lang="lv-t-es-t0-mtec">Iekārtu blīvums un iedzīvotāju skaits Ieejas autostāvvieta ETSI centrā Caminos (Madride).</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-11-01T00:00:00Z</dct:issued>
+    <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége a Caminos (Madrid) ETSI központjának bejárati parkolójában.</dct:description>
+    <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w parkingu wejściowym centrum ETSI w Caminos (Madryt).</dct:description>
+    <dct:description xml:lang="mt-t-es-t0-mtec">Densità ta ‘tagħmir u l-popolazzjoni fil-parkeġġ Entrance taċ-ċentru ETSI ta’ Caminos (Madrid).</dct:description>
+    <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dcat:accessURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-19-26-0b"/>
+    <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației în parcarea de intrare a centrului ETSI din Caminos (Madrid).</dct:description>
+    <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i indgangsparkering i ETSI-centret i Caminos (Madrid).</dct:description>
+    <dct:rights>
+      <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    </dct:rights>
+    <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στο χώρο στάθμευσης Εισόδου στο κέντρο ETSI Caminos (Μαδρίτη).</dct:description>
+    <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadenia a obyvateľstva v vstupnom parkovisku centra ETSI Caminos (Madrid).</dct:description>
+    <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Entré parkering av ETSI centrum av Caminos (Madrid).</dct:description>
+    <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden tiheys ja väestö sisäänkäynnin pysäköinti ETSI keskus Caminos (Madrid).</dct:description>
+    <dct:identifier>https://portal-yoda.dit.upm.es/dataset/030c4ad1-5958-418d-8a7c-05fc3de14c79/resource/52a2ee26-de2a-4eaa-ba2b-5189c533d165</dct:identifier>
+    <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace ve vstupním parkování centra ETSI v Caminos (Madrid).</dct:description>
+    <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv ETSI keskuse Caminos (Madrid) sissesõidu parkimisel.</dct:description>
+    <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Entrance parking of the ETSI center of Caminos (Madrid).</dct:description>
+    <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população em Parque de entrada do centro ETSI de Caminos (Madrid).</dct:description>
+    <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u ulaznom parkiralištu ETSI centra Caminos (Madrid).</dct:description>
+    <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+    >1300</dcat:byteSize>
+    <dct:title>urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението в паркинга на ETSI центъра на Каминос (Мадрид).</dct:description>
+    <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva na parkirišču ETSI centra Caminos (Madrid).</dct:description>
+    <dcat:downloadURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-19-26-0b"/>
+    <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+    <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:description xml:lang="lt-t-es-t0-mtec">Įrangos tankis ir gyventojų tankis įėjimo automobilių stovėjimo aikštelė ETSI centras Caminos (Madridas).</dct:description>
+    <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+    <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-19-26-0b</dct:title>
+  </dcat:Distribution>
+</rdf:RDF>

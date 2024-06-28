@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000030">
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:39:28Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000030"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:39:28Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000030">
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Affiliaties in het Gewone Algemene Regime volgens bijdragegroepen en geslachten. Plaats van citaat. Gemeenten van de Canarische Eilanden en maanden</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d2688cc2-b68e-41f9-9559-26c48c124201">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000030/1.29.csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-en-el-regimen-general-ordinario-segun-grupos-de-cotizacion-y-sexos-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/2459b6d6-ad04-4bb2-a62d-0bc7b1a7649f</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000030 (CSV)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Ez a táblázat 2012 márciusa óta havi adatokat tartalmaz a rendes általános szociális biztonsági rendszerhez való tartozásokról a járulékok helye, a járulékcsoportok és a nemek szerint. Az információkat területi bontásban, a Kanári-szigetek önkormányzatainak szintjén kell megadni.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Тази таблица предоставя ежемесечно, от март 2012 г., данни за осигуряване по обикновената обща схема за социално осигуряване в зависимост от мястото на плащане, групите с вноски и пола. Информацията е дезагрегирана териториално на равнището на общините на Канарските острови.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Tato tabulka poskytuje od března 2012 měsíční údaje o příslušnosti v obecném systému sociálního zabezpečení podle místa příspěvku, příspěvkových skupin a pohlaví. Informace jsou členěny územně na úrovni obcí Kanárských ostrovů.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Zugehörigkeiten im ordentlichen Generalregime nach Beitragsgruppen und Geschlechtern. Ort des Angebots. Gemeinden der Kanarischen Inseln und Monate</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Questa tabella fornisce mensilmente, da marzo 2012, i dati sulle affiliazioni nel regime generale ordinario di previdenza sociale in base al luogo di contribuzione, ai gruppi contributivi e ai sessi. Le informazioni sono disaggregate territorialmente a livello dei comuni delle Isole Canarie.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Affiljazzjonijiet fir-Reġim Ġenerali Ordinarju skont il-gruppi ta’ kontribuzzjoni u s-sessi. Post tal-kwotazzjoni. Muniċipalitajiet tal-Gżejjer Kanarji u xhur</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Σχέσεις με το Τακτικό Γενικό Καθεστώς ανάλογα με τις ομάδες συνεισφοράς και τα φύλα. Τόπος αναφοράς. Δήμοι Καναρίων Νήσων και μήνες</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Selles tabelis on alates 2012. aasta märtsist esitatud igakuised andmed üldisesse sotsiaalkindlustusskeemi kuulumise kohta vastavalt sissemaksete asukohale, sissemaksete rühmadele ja soole. Teave on jaotatud territoriaalselt Kanaari saarte omavalitsusüksuste tasandil.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Tilslutninger i den almindelige generelle ordning efter bidragsgrupper og køn. Sted for citat. Kommuner på De Kanariske Øer og måneder</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Affiliazioni nel Regime Generale Ordinario secondo i gruppi contributivi e i sessi. Luogo di citazione. Comuni delle Isole Canarie e mesi</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Kuulumine tavapärasesse üldrežiimi vastavalt panustamisrühmadele ja soole. Noteerimise koht. Kanaari saarte omavalitsusüksused ja kuud</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/14d8559e-84a6-445e-89af-8043c804e262">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-en-el-regimen-general-ordinario-segun-grupos-de-cotizacion-y-sexos-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/6d225555-b0fd-42a9-a79c-4b2072b00e3b</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000030/1.29.tsv"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000030 (TSV)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Príslušnosť k bežnému všeobecnému režimu podľa príspevkových skupín a pohlaví. Miesto citácie. Obce Kanárskych ostrovov a mesiace</dct:title>
+        <dct:description xml:lang="es">En esta tabla se ofrecen mensualmente, desde marzo de 2012, datos de afiliaciones en el Régimen General Ordinario de la Seguridad Social según lugar de cotización, grupos de cotización y sexos. La información se desagrega territorialmente a nivel de municipios de Canarias. Los datos han sido redondeados a múltiplos de 5.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Soláthraíonn an tábla seo sonraí míosúla, ó mhí an Mhárta 2012, maidir le cleamhnachtaí sa Ghnáthscéim Ghinearálta Slándála Sóisialta de réir na háite ranníocaíochta, grúpaí ranníocaíochta agus inscne. Déantar an fhaisnéis a dhí-chomhiomlánú ó thaobh críche de ar leibhéal bhardais na nOileán Canárach.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">U ovoj su tablici od ožujka 2012. dostupni mjesečni podaci o osiguranjima u redovnom općem sustavu socijalne sigurnosti prema mjestu doprinosa, skupinama doprinosa i spolovima. Informacije su teritorijalno raščlanjene na razini općina Kanarskih otoka.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">V tejto tabuľke sa od marca 2012 poskytujú mesačné údaje o príbuzenstve v riadnom všeobecnom systéme sociálneho zabezpečenia podľa miesta príspevku, príspevkových skupín a pohlaví. Informácie sú rozčlenené územne na úrovni obcí Kanárskych ostrovov.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Denne tabel indeholder månedlige data fra marts 2012 om tilslutninger i den almindelige almindelige socialsikringsordning efter bidragssted, bidragsgrupper og køn. Oplysningerne opdeles geografisk i kommunerne på De Kanariske Øer.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Šajā tabulā kopš 2012. gada marta ir sniegti ikmēneša dati par dalību vispārējā sociālā nodrošinājuma shēmā atbilstoši iemaksu veikšanas vietai, iemaksu grupām un dzimumiem. Informācija ir sadalīta teritoriāli Kanāriju salu pašvaldību līmenī.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Ce tableau fournit, depuis mars 2012, des données mensuelles sur les affiliations au régime général ordinaire de sécurité sociale selon le lieu de cotisation, les groupes de cotisation et les sexes. Les informations sont ventilées territorialement au niveau des municipalités des îles Canaries.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T07:28:28+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0cbf00c1-3e56-4566-94a5-49bebc9a7b7b">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000030/1.29.jsonstat"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-en-el-regimen-general-ordinario-segun-grupos-de-cotizacion-y-sexos-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/ba3b3276-b251-4cdc-bca8-cf7c6d99d0d1</dct:identifier>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000030 (JSONSTAT)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Afiliacje w Zwyczajnym Systemie Ogólnym według grup składkowych i płci. Miejsce cytatu. Gminy Wysp Kanaryjskich i miesiące</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Приналежність в звичайному загальному режимі відповідно до груп вкладів і статей. Місце котирування. Муніципалітети Канарських островів і місяці</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">This table provides monthly, since March 2012, data on affiliations in the Ordinary General Social Security Scheme according to place of contribution, contribution groups and sexes. The information is disaggregated territorially at the level of municipalities of the Canary Islands.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423">
+            <foaf:name>Instituto Canario de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Принадлежност в Обикновения общ режим по групи за вноски и полове. Място на цитиране. Общини на Канарските острови и месеци</dct:title>
+        <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000030</dct:identifier>
+        <dct:title xml:lang="es">Afiliaciones en el Régimen General Ordinario según grupos de cotización y sexos. Lugar de cotización. Municipios de Canarias y meses</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Liittyminen yleiseen järjestelmään maksuryhmittäin ja sukupuolittain. Lainauspaikka. Kanariansaarten kunnat ja kuukaudet</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Este quadro fornece mensalmente, desde março de 2012, dados relativos às afiliações no Regime Geral Ordinário de Segurança Social, de acordo com o local de contribuição, os grupos contributivos e os sexos. A informação é desagregada territorialmente ao nível dos municípios das Ilhas Canárias.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Affiliations au régime général ordinaire selon les groupes de contribution et les sexes. Lieu de citation. Municipalités des îles Canaries et mois</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Ο πίνακας αυτός παρέχει μηνιαία, από τον Μάρτιο του 2012, στοιχεία σχετικά με τις συμμετοχές στο Τακτικό Γενικό Σύστημα Κοινωνικής Ασφάλισης ανάλογα με τον τόπο εισφοράς, τις ομάδες εισφορών και τα φύλα. Οι πληροφορίες αναλύονται εδαφικά σε επίπεδο δήμων των Καναρίων Νήσων.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Tillhörigheter i den ordinarie allmänna ordningen enligt bidragsgrupper och kön. Plats för citat. Kanarieöarnas kommuner och månader</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Denna tabell innehåller månadsvisa, sedan mars 2012, uppgifter om anslutningar till det ordinarie allmänna socialförsäkringssystemet enligt avgiftsorten, avgiftsgrupperna och könen. Informationen är uppdelad territoriellt på Kanarieöarnas kommunnivå.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Affiliations in the Ordinary General Regime according to contribution groups and sexes. Place of quotation. Municipalities of the Canary Islands and months</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Od marca 2012 r. tabela ta zawiera dane na temat powiązań w Zwyczajnym Ogólnym Systemie Zabezpieczenia Społecznego w zależności od miejsca składki, grup składek i płci. Informacje są zdezagregowane terytorialnie na poziomie gmin Wysp Kanaryjskich.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Pripadnosti u redovni opći režim prema skupinama doprinosa i spolovima. Mjesto citata. Općine Kanarskih otoka i mjeseci</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Cleamhnachtaí sa Ghnáthchóras Ginearálta de réir grúpaí ranníocaíochta agus inscne. Áit athfhriotail. Bardais na nOileán Canárach agus míonna</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Taulukossa esitetään maaliskuusta 2012 alkaen kuukausittaiset tiedot yleisen sosiaaliturvajärjestelmän jäsenyyksistä maksupaikan, maksuryhmien ja sukupuolen mukaan. Tiedot eritellään alueellisesti Kanariansaarten kuntien tasolla.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A rendes általános rendszerhez való tartozások hozzájárulási csoportok és nemek szerint. Az idézés helye. Kanári-szigetek települései és hónapjai</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Pripadnosti v rednem splošnem režimu glede na skupine prispevkov in spol. Kraj citiranja. Občine Kanarskih otokov in meseci</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Afilierea la regimul general ordinar în funcție de grupurile de contribuții și sexe. Locul citării. Comunele din Insulele Canare și lunile</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Diese Tabelle enthält seit März 2012 monatliche Daten zu den Zugehörigkeiten im Allgemeinen Sozialversicherungssystem nach Beitragsort, Beitragsgruppen und Geschlechtern. Die Informationen sind auf der Ebene der Gemeinden der Kanarischen Inseln territorial aufgeschlüsselt.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/02a863cb-5130-453e-8322-a525c0f23de0">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000030/1.29.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-en-el-regimen-general-ordinario-segun-grupos-de-cotizacion-y-sexos-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/b7db7d1d-0e8f-4836-b36f-bfea71e38dbf</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000030 (JSON)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-09-21T20:59:39+02:00</dct:issued>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Priklausymas eiliniam bendrajam režimui pagal įnašų grupes ir lytį. Citatos vieta. Kanarų salų savivaldybės ir mėnesiai</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">V tej tabeli so od marca 2012 mesečno navedeni podatki o vključenosti v redni splošni sistem socialne varnosti glede na kraj prispevka, skupine prispevkov in spol. Informacije so ozemeljsko razčlenjene na ravni občin Kanarskih otokov.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Afiliações no Regime Geral Ordinário segundo grupos de contribuições e sexos. Local de cotação. Municípios das Ilhas Canárias e meses</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Příslušnost k běžnému všeobecnému režimu podle příspěvkových skupin a pohlaví. Místo citace. Obce Kanárské ostrovy a měsíce</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Acest tabel furnizează lunar, începând cu luna martie 2012, date privind afilierea la sistemul general ordinar de securitate socială în funcție de locul de contribuție, grupurile de contribuții și sexe. Informațiile sunt defalcate teritorial la nivelul municipalităților din Insulele Canare.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Deze tabel bevat sinds maart 2012 maandelijks gegevens over aansluitingen bij het Gewone algemene socialezekerheidsstelsel op basis van de plaats van bijdrage, premiegroepen en geslachten. De informatie wordt territoriaal uitgesplitst op het niveau van de gemeenten van de Canarische Eilanden.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c88d5f18-4094-4552-afa6-a384a72d560a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000030/1.29.xlsx"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000030 (XLSX)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-en-el-regimen-general-ordinario-segun-grupos-de-cotizacion-y-sexos-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/432bb277-490d-4ed3-bde3-9c061b377b81</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5d9bbcd8-f2f8-465a-a701-9eee1e566477">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-en-el-regimen-general-ordinario-segun-grupos-de-cotizacion-y-sexos-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/2bf59133-4fb1-460a-a1aa-fa86e6a7dcbb</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000030/1.29.xml"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000030 (XML)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Din it-tabella tipprovdi kull xahar, minn Marzu 2012, data dwar l-affiljazzjonijiet fl-Iskema tas-Sigurtà Soċjali Ġenerali Ordinarja skont il-post tal-kontribuzzjoni, il-gruppi ta’ kontribuzzjoni u s-sessi. l-informazzjoni hija diżaggregata territorjalment fil-livell tal-muniċipalitajiet tal-Gżejjer Kanarji.</dct:description>
+        <dcat:keyword xml:lang="es">Cubo estadístico</dcat:keyword>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Ця таблиця надає щомісяця, починаючи з березня 2012 року, дані про приналежність до звичайної загальної схеми соціального забезпечення за місцем внесків, груп вкладів і статей. Інформація дезагрегована територіально на рівні муніципалітетів Канарських островів.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Piederība parastajam vispārējam režīmam atkarībā no iemaksu grupām un dzimumiem. Kotācijas vieta. Kanāriju salu pašvaldības un mēneši</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Šioje lentelėje kas mėnesį nuo 2012 m. kovo mėn. pateikiami duomenys apie priklausymą bendrajai socialinės apsaugos sistemai pagal įmokų vietą, įmokų grupes ir lytį. Informacija suskirstyta į teritorijas Kanarų salų savivaldybių lygmeniu.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>4b43a3f8ab99b74047b214f5fe8a0a94</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-09T23:21:53Z</dct:issued>
+    <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000030</dct:identifier>
+  </dcat:CatalogRecord>
+</rdf:RDF>

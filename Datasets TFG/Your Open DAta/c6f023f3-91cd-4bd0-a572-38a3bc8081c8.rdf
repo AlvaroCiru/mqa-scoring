@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/c6f023f3-91cd-4bd0-a572-38a3bc8081c8">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>455d97d8fe98763fdfc995bdb5654ccb</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/c6f023f3-91cd-4bd0-a572-38a3bc8081c8">
+        <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v Entrance A, hlavní části ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στην είσοδο Α, κύρια του Κέντρου Αεροναυτικής και Διαστήματος ETSI (Μαδρίτη).</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége az „A” bejáratnál, az ETSI Aeronautics and Space Center (Madrid) főépületében.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">dlús_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/957d07d1-ee7b-4e60-83d4-f1fa46f6c377">
+            <foaf:name>cei_moncloa</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="et-t-es-t0-mtec">tihedus_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Densità delle attrezzature e della popolazione nell'ingresso A, principale del centro aeronautico e spaziale ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">density_etsi_aeron_utica_y_space_b8—27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden ja väestön tiheys sisäänkäynnissä A, tärkein ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Įrangos tankis ir gyventojų tankis A įėjimo, pagrindinis ETSI aeronautikos ir kosmoso centras (Madridas).</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">density_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">gustoća_etsi_aeron_utica_y_space_b8 – 27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Density_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">dichtheid_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в В'їзді А, головний центр аеронавтики та космонавтики ETSI (Мадрид).</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">hustota_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">tankis_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Sissepääs A, ETSI Aeronautika- ja Kosmosekeskuse (Madrid) peamine seadmete tihedus ja rahvaarv.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației la intrarea A, principală a Centrului Aeronautic și Spațial ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">density_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">denzitás_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">hustota_etsi_aeron_utica_y_space_b8 – 27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Entrance A, huvuddelen av ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população na entrada A, principal do ETSI Aeronáutica e Centro Espacial (Madrid).</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">densitate_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population à l’entrée A, principale de l’ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">blīvums_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5dfb9a55-a74e-41b0-84e4-be89d44221df">
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1300</dcat:byteSize>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението във вход А, основен на ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population à l’entrée A, principale de l’ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w wejściu A, głównym centrum lotnictwa i przestrzeni kosmicznej ETSI (Madryt).</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v Entrance A, hlavní části ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Entrance A, huvuddelen av ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população na entrada A, principal do ETSI Aeronáutica e Centro Espacial (Madrid).</dct:description>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung in Eingang A, Haupt des ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i indgang A, vigtigste af ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u ulazu A, glavnom ETSI zrakoplovnom i svemirskom centru (Madrid).</dct:description>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in Entrance A, hoofd van het ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Entrance A, main of the ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dcat:downloadURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd"/>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dct:issued>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége az „A” bejáratnál, az ETSI Aeronautics and Space Center (Madrid) főépületében.</dct:description>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/c6f023f3-91cd-4bd0-a572-38a3bc8081c8/resource/1de9e691-413e-49d0-9576-e4127122a04a</dct:identifier>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в В'їзді А, головний центр аеронавтики та космонавтики ETSI (Мадрид).</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:01.435913</dct:modified>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Įrangos tankis ir gyventojų tankis A įėjimo, pagrindinis ETSI aeronautikos ir kosmoso centras (Madridas).</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dcat:accessURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description>Densidad de equipos y población en Entrada A, principal del centro ETSI Aeronáutica y del Espacio (Madrid).</dct:description>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="et-t-es-t0-mtec">Sissepääs A, ETSI Aeronautika- ja Kosmosekeskuse (Madrid) peamine seadmete tihedus ja rahvaarv.</dct:description>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadení a obyvateľstva v vstupe A, hlavná časť ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Densità tat-tagħmir u l-popolazzjoni fil Entrance A, prinċipali tal-Aeronawtika ETSI u Ċentru Spazjali (Madrid).</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației la intrarea A, principală a Centrului Aeronautic și Spațial ETSI (Madrid).</dct:description>
+            <dct:description xml:lang="lv-t-es-t0-mtec">Iekārtu blīvums un iedzīvotāju skaits ieejā A, galvenais ETSI Aeronautics and Space Center (Madride).</dct:description>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title>urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra in Iontrála A, príomhphríomhionad Aerloingseoireachta agus Spáis ETSI (Maidrid).</dct:description>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden ja väestön tiheys sisäänkäynnissä A, tärkein ETSI Aeronautics and Space Center (Madrid).</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Densità delle attrezzature e della popolazione nell'ingresso A, principale del centro aeronautico e spaziale ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-ac-7c-bd</dct:title>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στην είσοδο Α, κύρια του Κέντρου Αεροναυτικής και Διαστήματος ETSI (Μαδρίτη).</dct:description>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v Vstopu A, glavnem centru ETSI za aeronavtiko in vesolje (Madrid).</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i indgang A, vigtigste af ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">densitet_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/place/ESP_MAD"/>
+        </dct:spatial>
+        <dct:title xml:lang="mt-t-es-t0-mtec">density_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dcat:keyword>densidad</dcat:keyword>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v Vstopu A, glavnem centru ETSI za aeronavtiko in vesolje (Madrid).</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-12-28T17:23:01.379523</dct:issued>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadení a obyvateľstva v vstupe A, hlavná časť ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w wejściu A, głównym centrum lotnictwa i przestrzeni kosmicznej ETSI (Madryt).</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Dichte_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">density_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението във вход А, основен на ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">gęstość_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra in Iontrála A, príomhphríomhionad Aerloingseoireachta agus Spáis ETSI (Maidrid).</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">densità_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Densità tat-tagħmir u l-popolazzjoni fil Entrance A, prinċipali tal-Aeronawtika ETSI u Ċentru Spazjali (Madrid).</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">gostota_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">tiheys_etsi_aeron_utica_y_space_b8–27-eb-ac-7c-bd</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:identifier>c6f023f3-91cd-4bd0-a572-38a3bc8081c8</dct:identifier>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        </dcat:theme>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u ulazu A, glavnom ETSI zrakoplovnom i svemirskom centru (Madrid).</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung in Eingang A, Haupt des ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dcat:keyword>ocupacion</dcat:keyword>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:title xml:lang="da-t-es-t0-mtec">tæthed_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">density_etsi_aeron_utica_y_space_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Iekārtu blīvums un iedzīvotāju skaits ieejā A, galvenais ETSI Aeronautics and Space Center (Madride).</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Entrance A, main of the ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:title>densidad_etsi_aeron_utica_y_del_espacio_b8-27-eb-ac-7c-bd</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in Entrance A, hoofd van het ETSI Aeronautics and Space Center (Madrid).</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-12-28T17:23:02.025484</dct:modified>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description>Densidad de equipos y población en Entrada A, principal del centro ETSI Aeronáutica y del Espacio (Madrid).</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-01T05:00:01Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/c6f023f3-91cd-4bd0-a572-38a3bc8081c8"/>
+    <dct:identifier>c6f023f3-91cd-4bd0-a572-38a3bc8081c8</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:01Z</dct:modified>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-01T05:00:01Z</edp:transIssued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-02T09:44:51Z</edp:transReceived>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

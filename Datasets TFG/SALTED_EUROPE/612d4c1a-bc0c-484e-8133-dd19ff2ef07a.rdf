@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/612d4c1a-bc0c-484e-8133-dd19ff2ef07a">
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>320d4da6184c967db3439d1e6d7d60c9</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>612d4c1a-bc0c-484e-8133-dd19ff2ef07a</dct:identifier>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:52Z</edp:transReceived>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:52Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:06Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/612d4c1a-bc0c-484e-8133-dd19ff2ef07a"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/612d4c1a-bc0c-484e-8133-dd19ff2ef07a">
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:40:56.802488</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa SIGPACin Espanjan hallintorekisterissä määriteltyä lohkoa Lorcan alueella Murciassa.
+Se on yhteydessä AirQuality Observed -yksiköihin hiilidioksiditietojen osalta ja AgriCrop-yksiköihin lohkossa käytetyn viljelykasvityypin osalta.</dct:description>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Produse agroalimentare:Agriparcel</dct:title>
+        <dct:description xml:lang="hu-t-en-t0-mtec">A SIGPAC spanyol kormányzati nyilvántartásban meghatározott parcella a Murciai Lorca régióban. Kapcsolata van az AirQualityObserved entitásokkal a szén-dioxid-adatok tekintetében, és az AgriCrop entitásokkal a csomagban használt növényfajták tekintetében.</dct:description>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Агропродовольство: AgriParcel</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява парцела, определен в испанския регистър за управление на SIGPAC в района на Лорка в Мурсия. Тя има връзка със субектите на AirQualityObserved за данните за CO2 и със субектите на AgriCrop за вида на културите, използвани в парцела.</dct:description>
+        <dct:title xml:lang="el-t-en-t0-mtec">Αγροδιατροφικά προϊόντα:AgriParcel</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:keyword>AgriParcel</dcat:keyword>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Den representerar det skifte som definieras i SIGPAC:s spanska regeringsregister i regionen Lorca i Murcia.
+Det har ett samband med AirQualityObserved-enheterna för CO2-data och med AgriCrop-enheter för den typ av beskärning som används i skiftet.</dct:description>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Agropotraviny:AgriParcel</dct:title>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje parcelu definovanú v španielskom registri vlády SIGPAC v regióne Lorca v Murcii. Má vzťah so subjektmi AirQualityObserved pre údaje o CO2 a so subjektmi AgriCrop pre druh plodiny používanej v balíku.</dct:description>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa la parcela definida en el Registro Español de Gobierno SIGPAC en la región de Lorca en Murcia.
+Tiene relación con las entidades AirQualityObserved para los datos de CO2 y con las entidades AgriCrop para el tipo de cultivo utilizado en la parcela.</dct:description>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt het perceel dat is gedefinieerd in het Spaanse overheidsregister van SIGPAC in de regio Lorca in Murcia. Het heeft een relatie met de AirQualityObserved-entiteiten voor CO2-gegevens en met AgriCrop-entiteiten voor het soort gewas dat in het perceel wordt gebruikt.</dct:description>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Zemědělské potraviny:AgriParcel</dct:title>
+        <dct:title>Agrifood:AgriParcel</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Agrifood:AgriParcel</dct:title>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai sklypas, nurodytas SIGPAC Ispanijos vyriausybės registre, esančiame Mursijos Lorkos regione.
+Ji yra susijusi su „AirQualityObserved“ subjektais CO2 duomenims gauti ir su „AgriCrop“ subjektais, susijusiais su sklype naudojamų pasėlių rūšimis.</dct:description>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé an dáileacht a shainítear ar Chlár Rialachais na Spáinne SIGPAC ar réigiún Lorca in Murcia.
+Tá caidreamh aige leis na heintitis AirQualityObserved le haghaidh sonraí CO2 agus le heintitis AgriCrop le haghaidh an chineáil barr a úsáidtear sa bheartán.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:40:56.802488</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente la parcelle définie sur SIGPAC Spanish Goverment Register dans la région de Lorca à Murcie.
+Il entretient des relations avec les entités AirQualityObserved pour les données sur le CO2 et avec les entités AgriCrop pour le type de culture utilisé dans la parcelle.</dct:description>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa a parcela definida no SIGPAC Espanhol Goverment Register na região de Lorca em Múrcia.
+Tem relação com as entidades AirQualityObserved para os dados de CO2 e com entidades AgriCrop para o tipo de Crop utilizado na parcela.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e0cb5711-578a-4d80-b8c6-e58f977d02e2">
+            <dct:description xml:lang="uk-t-en-t0-mtec">Agrifood: дані AgriParcel в реальному часі представлені у форматі JSON_LD</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Agrifood:AgriParcel Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Agraibhia: AgriParcel sonraí fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:40:57.021620</dct:issued>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">Põllumajanduslik toidutööstus: AgriParceli reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Maatalouselintarvikkeet:AgriParcel reaaliaikaiset tiedot esitetään JSON_LD-muodossa</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/612d4c1a-bc0c-484e-8133-dd19ff2ef07a/resource/urn_ngsi-ld_distribution_salted_project_agrifood_agriparcel_jsonld</dct:identifier>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Produse agroalimentare:AgriParcel date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Agrifood:AgriParcel данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Agrifood:AgriParcel data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Agropotraviny:AgriParcel údaje v reálnom čase zastúpené vo formáte JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="da-t-en-t0-mtec">Landbrugsfødevarer:AgriParcel realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:41:02.759177</dct:modified>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description>Agrifood:AgriParcel realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Agroalimentaire:AgriParcel données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αγροδιατροφικά προϊόντα:AgriParcel δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφότυπο JSON_LD</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Agrifood%2FAgriParcel__.jsonld"/>
+            <dct:description xml:lang="es-t-en-t0-mtec">Agroalimentación:AgriParcel datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Agrifood%2FAgriParcel__.jsonld"/>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Agroalimentari:AgriParcel data fil-ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Agrifood:AgriParcel realtime gegevens vertegenwoordigd in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Agrifood:AgriParcel realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Agroživilski:AgriParcel podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Žemės ūkio maisto produktai: „AgriParcel“ realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Agrifood:AgriParcel dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Poljoprivredno-prehrambeni: AgriParcel podaci u stvarnom vremenu prikazani u formatu JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Lauksaimniecības pārtika:AgriParcel reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Agroalimentar:AgriParcel dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Agrifood:AgriParcel valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Agroalimentare:AgriParcel dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Agroalimentar:AgriParcel</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Lauksaimniecības pārtika:AgriParcel</dct:title>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Agrár-élelmiszeripari termékek:AgriParcel</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta la parcella definita nel registro spagnolo di governo SIGPAC nella regione di Lorca a Murcia. Ha rapporti con le entità AirQualityObserved per i dati di CO2 e con le entità AgriCrop per il tipo di Crop utilizzato nel pacco.</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Jedná se o pozemek vymezený ve španělském vládním rejstříku SIGPAC v regionu Lorca v Murcii. Má vztah se subjekty AirQualityObserved pro údaje o CO2 a se subjekty AgriCrop pro druh plodiny používané na pozemku.</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Stanowi ona działkę zdefiniowaną w rejestrze władz hiszpańskich SIGPAC w regionie Lorca w Murcji.
+Jest powiązany z podmiotami AirQualityObserved w zakresie danych CO2 oraz z podmiotami AgriCrop w odniesieniu do rodzaju uprawy wykorzystywanej na działce.</dct:description>
+        <dct:identifier>612d4c1a-bc0c-484e-8133-dd19ff2ef07a</dct:identifier>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt die Parzelle dar, die im SIGPAC Spanish Goverment Register in der Region Lorca in Murcia definiert wurde. Es hat Beziehungen zu den AirQualityObserved-Einheiten für CO2-Daten und zu AgriCrop-Einheiten für die Art der in der Parzelle verwendeten Ernte.</dct:description>
+        <dct:title xml:lang="et-t-en-t0-mtec">Põllumajanduslik toidutööstus: AgriParcel</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Agroalimentaire:AgriParcel</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-05T15:40:57.021657</dct:modified>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas ir zemes gabals, kas noteikts SIGPAC Spānijas Pārvaldības reģistrā Lorkas reģionā Mursijā. Tai ir saistība ar AirQualityObserved vienībām attiecībā uz CO2 datiem un ar AgriCrop struktūrām par zemes gabalā izmantoto kultūraugu veidu.</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει το αγροτεμάχιο που ορίζεται στο ισπανικό μητρώο διακυβέρνησης της SIGPAC στην περιφέρεια Lorca στη Μούρθια. Έχει σχέση με τις οντότητες AirQualityObserved για τα δεδομένα CO2 και με τους φορείς της AgriCrop για το είδος της καλλιέργειας που χρησιμοποιείται στο αγροτεμάχιο.</dct:description>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja parcelu definiranu u španjolskom registru SIGPAC-a u regiji Lorca u Murciji.
+Povezan je sa subjektima AirQualityObserved za podatke o CO2 i sa subjektima AgriCrop za vrstu usjeva koji se koristi u parceli.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a6525a35-3078-42cb-bbe5-3e5baad8136a">
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description>Agrifood:AgriParcel realtime data represented in JSON format</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Agrifood:AgriParcel dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Agrifood:AgriParcel data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/612d4c1a-bc0c-484e-8133-dd19ff2ef07a/resource/urn_ngsi-ld_distribution_salted_project_agrifood_agriparcel_json</dct:identifier>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="da-t-en-t0-mtec">Landbrugsfødevarer:AgriParcel realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Produse agroalimentare:AgriParcel date în timp real reprezentate în format JSON</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αγροδιατροφικά προϊόντα:AgriParcel δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφότυπο JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Agrifood:AgriParcel Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Agroalimentaire:AgriParcel données en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Agrifood:AgriParcel valós idejű adatok JSON formátumban</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Agrifood:AgriParcel realtime gegevens vertegenwoordigd in JSON-formaat</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:41:02.758029</dct:modified>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Agrifood%2FAgriParcel__.json"/>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Agroalimentari:AgriParcel data fil-ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Agropotraviny:AgriParcel údaje v reálnom čase zastúpené vo formáte JSON</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Poljoprivredno-prehrambeni: AgriParcel podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Agroživilski:AgriParcel podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Agrifood:AgriParcel данни в реално време, представени във формат JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Agrifood:AgriParcel realtidsdata representerad i JSON-format</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Agrifood%2FAgriParcel__.json"/>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Žemės ūkio maisto produktai: „AgriParcel“ realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Agrifood: дані AgriParcel в реальному часі представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Agroalimentación:AgriParcel datos en tiempo real representados en formato JSON</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Agroalimentar:AgriParcel Dados em tempo real representados no formato JSON</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Agraibhia: AgriParcel sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Agroalimentare:AgriParcel dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Põllumajanduslik toidutööstus: JSON-vormingus reaalajas esitatud andmed AgriParcel</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Maatalouselintarvikkeet:AgriParcel reaaliaikaiset tiedot esitetään JSON-muodossa</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Lauksaimniecības pārtika:AgriParcel reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:40:57.021620</dct:issued>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Žemės ūkio maisto produktai: „AgriParcel“</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:title xml:lang="es-t-en-t0-mtec">Agroalimentación:AgriParcel</dct:title>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja parcelo, opredeljeno v španskem registru upravljanja SIGPAC v regiji Lorca v Murcii.
+Je povezan z AirQualityObserved subjekti za podatke o CO2 in s subjekti AgriCrop za vrsto pridelka, ki se uporablja na parceli.</dct:description>
+        <dct:title xml:lang="de-t-en-t0-mtec">Landwirtschaft:AgriParcel</dct:title>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою посилку, визначену в іспанському реєстрі управління SIGPAC в регіоні Лорка в Мурсії.
+Він має зв'язок з AirQualityObserved для даних CO2 і з сутностями AgriCrop для виду Crop, що використовується в посилці.</dct:description>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Хранително-вкусова промишленост: AgriParcel</dct:title>
+        <dcat:keyword>Parcel</dcat:keyword>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Maatalouselintarvikkeet:AgriParcel</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">Landbrugsfødevarer: AgriParcel</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Artykuły rolno-spożywcze:AgriParcel</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Agroalimentari: AgriParcel</dct:title>
+        <dcat:keyword>Lorca</dcat:keyword>
+        <dcat:keyword>Agriculture</dcat:keyword>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Agraibhia: AgriParcel</dct:title>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kujutab maatükki, mis on määratletud Murcias asuvas Lorca piirkonnas asuvas Hispaania valitsuse registris SIGPAC. See on seotud AirQualityObserved’i üksustega CO2 andmete osas ja AgriCrop’i üksustega maatükil kasutatava põllukultuuri liigi osas.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer den parcel, der er defineret i SIGPAC's spanske statsregister for regionen Lorca i Murcia.
+Det har relation til AirQualityObserved-enheder for CO2-data og med AgriCrop-enheder for den type afgrøde, der anvendes i parcellen.</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta r-roqgħa art definita fir-Reġistru Spanjol tal-Goverment tas-SIGPAC fir-reġjun ta’ Lorca f’Murcia.
+Hija għandha relazzjoni mal-entitajiet AirQualityObserved għad-data tas-CO2 u ma ‘entitajiet AgriCrop għat-tip ta’ uċuħ tar-raba’ użati fir-roqgħa.</dct:description>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Poljoprivredno-prehrambeni proizvodi: AgriParcel</dct:title>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>Amper</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description>It represents the parcel defined on SIGPAC Spanish Goverment Register on the region of Lorca in Murcia. It has relationship with the AirQualityObserved entities for CO2 data and with AgriCrop entities for the kind of Crop used in the parcel.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-05T15:40:57.021620</dct:issued>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Aceasta reprezintă parcela definită în Registrul spaniol de guvernare SIGPAC din regiunea Lorca din Murcia.
+Aceasta are relații cu entitățile AirQualityObserved pentru datele privind emisiile de CO2 și cu entitățile AgriCrop pentru tipul de cultură utilizată în parcelă.</dct:description>
+        <dct:title xml:lang="it-t-en-t0-mtec">Agroalimentare:AgriParcel</dct:title>
+        <dcat:keyword>Crops</dcat:keyword>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Agrovoeding:AgriParcel</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Agroživilska industrija: AgriParcel</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:06Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

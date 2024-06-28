@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000546">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>d1b0f95af5c0bd04d95be096478d92f9</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:37:00Z</dct:modified>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000546"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:37:00Z</edp:transIssued>
+    <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000546</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000546">
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/38b4be3d-24f2-4757-b930-18eb04f69dda">
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-intervalos-de-gasto-en-canarias-y-tipos-de-alojamiento-islas-por-periodos/resource/91cdce34-ac6d-45a3-bec3-378625433b29</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000546/1.0.tsv"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000546 (TSV)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b5837c9c-d250-452c-a1e4-172d6685f41c">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000546/1.0.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-intervalos-de-gasto-en-canarias-y-tipos-de-alojamiento-islas-por-periodos/resource/df12f352-9bc3-4d0b-82e8-e09a302215ef</dct:identifier>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000546 (JSON)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2304cf93-6ba3-4bd2-a1f2-88903ad99f84">
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000546 (XLSX)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-intervalos-de-gasto-en-canarias-y-tipos-de-alojamiento-islas-por-periodos/resource/3a228127-4581-4eb4-ba78-496a5e9efd49</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000546/1.0.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000546</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b24499bb-16eb-4985-ae28-7aff952f0447">
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-intervalos-de-gasto-en-canarias-y-tipos-de-alojamiento-islas-por-periodos/resource/d001d2f3-f00f-476e-961e-d2af8b16f904</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000546/1.0.jsonstat"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000546 (JSONSTAT)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Características de los viajes y satisfacción de los turistas. Estancia media según intervalos de gasto en Canarias y tipos de alojamiento. Islas por años y trimestres. Series desde 2010 hasta 2017.</dct:description>
+        <dcat:keyword xml:lang="es">Cubo estadístico</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b72fbada-b6e4-4aae-8520-d5f261891a3b">
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000546 (XML)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000546/1.0.xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-intervalos-de-gasto-en-canarias-y-tipos-de-alojamiento-islas-por-periodos/resource/2fb151e9-47f1-413a-98eb-b7d9501f999c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T11:42:59+02:00</dct:modified>
+        <dct:title xml:lang="es">Estancia media según intervalos de gasto en Canarias y tipos de alojamiento. Islas por periodos</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423">
+            <foaf:name>Instituto Canario de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e19739b1-b67e-4971-9037-c47dd2a51f9f">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000546/1.0.csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000546 (CSV)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-intervalos-de-gasto-en-canarias-y-tipos-de-alojamiento-islas-por-periodos/resource/a1bce0a9-e6ba-43fa-b7b8-5553c59a9ed9</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T11:42:59+02:00</dct:issued>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:37:00Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-raw-githubusercontent-com-mze-opendata-lkod-min-main-datove-sady-lpis20-20okres20nymburk-jsonld">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:00:51Z</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:00:46Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>44bc308611d2eb5e8aa3eca6fa607d26</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-raw-githubusercontent-com-mze-opendata-lkod-min-main-datove-sady-lpis20-20okres20nymburk-jsonld"/>
+    <foaf:primaryTopic>
+      <j.1:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-raw-githubusercontent-com-mze-opendata-lkod-min-main-datove-sady-lpis20-20okres20nymburk-jsonld">
+        <dcat:keyword xml:lang="en">vineyards</dcat:keyword>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://raw.githubusercontent.com/MZe-OpenData/lkod-min/main/datové-sady/LPIS%20-%20okres%20Nymburk.jsonld</dct:identifier>
+        <dcat:keyword xml:lang="cs">LPIS</dcat:keyword>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/identifikátorNKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00020478">
+            <foaf:name xml:lang="cs">Ministerstvo zemědělství</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/eccd7927-58ca-469f-826b-03b1ef44e500">
+            <dct:title xml:lang="cs">OPV - SHP</dct:title>
+            <dcat:accessURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-OPV-SHP.zip"/>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/6426ddb98204c78f43684ae8d9f28686</dct:identifier>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/6426ddb98204c78f43684ae8d9f28686/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dct:title xml:lang="en">OPV - SHP</dct:title>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/6426ddb98204c78f43684ae8d9f28686/podmínky-užití"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.shp"/>
+            <dcat:downloadURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-OPV-SHP.zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">ecologically important elements</dcat:keyword>
+        <dcat:keyword xml:lang="en">farmer's blocks</dcat:keyword>
+        <dct:title xml:lang="cs">LPIS - okres Nymburk</dct:title>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/93bd173e-2ca5-452b-a87f-c79bdbe3524c">
+            <dcat:downloadURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-DPB-SHP.zip"/>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.shp"/>
+            <dct:title xml:lang="cs">DPB - SHP</dct:title>
+            <dct:title xml:lang="en">DPB - SHP</dct:title>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/fd2a776ed3aa14eed0c2d1c526b9de80/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/fd2a776ed3aa14eed0c2d1c526b9de80/podmínky-užití"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/fd2a776ed3aa14eed0c2d1c526b9de80</dct:identifier>
+            <dcat:accessURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-DPB-SHP.zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs">Datová sada obsahuje prostorová data půdních bloků, dílů půdních bloků, osázených ploch vinic a ekologicky významných prvků ve formátu SHP. Dále obsahuje aktuální a historická data dílů půdních bloků ve formátu XML. DPB - Díly půdních bloků, PB - Půdní bloky, OPV - Osázená plocha vinic, EVP - Ekologicky významné prvky
+</dct:description>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <foaf:page rdf:resource="https://eagri.cz/public/web/mze/farmar/LPIS/uzivatelske-prirucky/prirucky-pro-verejny-lpis/export-dat-lpis.html"/>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/okres/3208"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/73cb3e02-9275-4e43-962d-5a649371f440">
+            <dcat:accessURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-PB-SHP.zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/4c75e650e242ad77b720f2c759f1f123</dct:identifier>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/4c75e650e242ad77b720f2c759f1f123/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dct:title xml:lang="en">PB - SHP</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.shp"/>
+            <dcat:downloadURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-PB-SHP.zip"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/4c75e650e242ad77b720f2c759f1f123/podmínky-užití"/>
+            <dct:title xml:lang="cs">PB - SHP</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/kontaktní-bod">
+            <vcard:fn xml:lang="cs">Ministerstvo zemědělství</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:helpdesk@mze.gov.cz"/>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dcat:keyword xml:lang="cs">DPB</dcat:keyword>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bb86bc3a-863f-4abf-8651-2d19a43c2cb9">
+            <dct:title xml:lang="cs">EVP - SHP</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.shp"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/b5a4572ec82f97a67fa466d7a39b6776/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/b5a4572ec82f97a67fa466d7a39b6776/podmínky-užití"/>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/b5a4572ec82f97a67fa466d7a39b6776</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-EVP-SHP.zip"/>
+            <dct:title xml:lang="en">EVP - SHP</dct:title>
+            <dcat:accessURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-EVP-SHP.zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/AGRI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:keyword xml:lang="cs">EVP</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/96725b10-24ff-45c6-92ac-c964a22c20cf">
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/86d761bb1fb4c0e22e502346b330df2e/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:title xml:lang="en">DPB - XML - current</dct:title>
+            <dcat:accessURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-DPB-XML-A.zip"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+            <dct:title xml:lang="cs">DPB - XML - aktuální</dct:title>
+            <dcat:downloadURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-DPB-XML-A.zip"/>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/86d761bb1fb4c0e22e502346b330df2e</dct:identifier>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/86d761bb1fb4c0e22e502346b330df2e/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">soil blocks</dcat:keyword>
+        <dcat:keyword xml:lang="en">LPIS</dcat:keyword>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/identifikátorLKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00020478"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://raw.githubusercontent.com/MZe-OpenData/lkod-min/main/datové-sady/LPIS%20-%20okres%20Nymburk.jsonld</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:description xml:lang="en">The data set contains spatial data of soil blocks, farmer's blocks, vineyards and ecologically important elements in SHP format. It also contains current and historical data of farmer's blocks in XML format. DPB - Farmer's blocks, PB - Soil blocks, OPV - Vineyards, EVP - Ecologically important elements </dct:description>
+        <dcat:keyword xml:lang="cs">OPV</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cebf2898-b4d2-49a4-b84c-7ad3f54c4952">
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/a8a877de13e8dad4cfbe093789b5f33b/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/a8a877de13e8dad4cfbe093789b5f33b/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-DPB-XML-H.zip"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="cs">DPB - XML - historické</dct:title>
+            <dcat:downloadURL rdf:resource="https://eagri.cz/public/app/eagriapp/lpisdata/3607-DPB-XML-H.zip"/>
+            <dct:title xml:lang="en">DPB - XML - historical</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00020478/150d1c952164fa2ab962938d86658bac/distribuce/a8a877de13e8dad4cfbe093789b5f33b</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="cs">PB</dcat:keyword>
+        <dct:title xml:lang="en">LPIS - district Nymburk</dct:title>
+      </j.1:LKOD>
+    </foaf:primaryTopic>
+    <dct:identifier>https://raw.githubusercontent.com/MZe-OpenData/lkod-min/main/datové-sady/LPIS%20-%20okres%20Nymburk.jsonld</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:00:51Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

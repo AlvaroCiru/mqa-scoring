@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/7b1d4785-f23e-47f2-a49e-14685be7fbd1">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-16T14:02:38Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:36Z</edp:transReceived>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/7b1d4785-f23e-47f2-a49e-14685be7fbd1">
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje status i pewne właściwości (tj. prędkość i położenie) autobusów miejskich Santander uzyskanych w ramach inicjatywy Open Data Santander.</dct:description>
+        <dct:description>It represents the status and certain properties (i.e. speed and position) of Santander's urban buses obtained through the Open Data Santander initiative.</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar statusen och vissa egenskaper (dvs. hastighet och position) för Santanders stadsbussar som erhållits genom initiativet Open Data Santander.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:19:01.485005</dct:issued>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé stádas agus airíonna áirithe (i.e. luas agus suíomh) bhusanna uirbeacha Santander a fuarthas tríd an tionscnamh Sonraí Oscailte Santander.</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει το καθεστώς και ορισμένες ιδιότητες (δηλαδή την ταχύτητα και τη θέση) των αστικών λεωφορείων του Santander που αποκτήθηκαν μέσω της πρωτοβουλίας Open Data Santander.</dct:description>
+        <dct:title xml:lang="it-t-en-t0-mtec">Trasporto:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Prijevoz:FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="et-t-en-t0-mtec">See esindab Santanderi linnabusside staatust ja teatavaid omadusi (st kiirust ja asukohta), mis on saadud algatuse Open Data Santander kaudu.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:19:01.162733</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente le statut et certaines propriétés (c’est-à-dire la vitesse et la position) des bus urbains de Santander obtenus grâce à l’initiative Open Data Santander.</dct:description>
+        <dcat:keyword>Fleet Vehicles</dcat:keyword>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt den Status und bestimmte Eigenschaften (d. h. Geschwindigkeit und Position) der Stadtbusse von Santander dar, die im Rahmen der Open Data Santander-Initiative erhalten wurden.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/10fdcd93-9441-4a8c-8553-c93ded87189f">
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Szállítás:FleetVehicleStatus valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Transportas:FleetVehicleStatus realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Iompar:FleetVehicleStatus sonraí fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Kuljetus: FleetVehicleStatus reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Transport:FleetVehicleStatus dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Trasporto:FleetVehicleStatus dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FFleetVehicleStatus__.jsonld"/>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Транспорт:FleetVehicleStatus данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Transports:FleetVehicleStatus reāllaika dati pārstāvēti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Transport:FleetVehicleStatus données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Транспорт:FleetVehicleStatus дані в реальному часі, представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Transport:FleetVehicleStatus Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/7b1d4785-f23e-47f2-a49e-14685be7fbd1/resource/urn_ngsi-ld_distribution_salted_project_transportation_fleetvehiclestatus_jsonld</dct:identifier>
+            <dct:description>Transportation:FleetVehicleStatus realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Prevoz:FleetVehicleStatus podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Transport: FleetVehicleStatus reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Transport:FleetVehicleStatus realtidsdata representerad i JSON_LD-format</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FFleetVehicleStatus__.jsonld"/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Trasport: Data tal-FlottaVehicleStatus f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Doprava:FleetVehicleStatus data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Transport:FleetVehicleStatus realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Transport:FleetVehicleStatus realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:19:01.485005</dct:issued>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Doprava:FleetVehicleStatus dáta v reálnom čase reprezentované vo formáte JSON_LD</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Transport:FleetVehicleStatus Date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Prijevoz:FleetVehicleStatus podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Μεταφορά:FleetVehicleStatus δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Transporte:FleetVehicleStatus datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:17:49.061403</dct:modified>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Transporte:FleetVehicleStatus Dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:title xml:lang="es-t-en-t0-mtec">Transporte:FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява статута и някои свойства (т.е. скорост и местоположение) на градските автобуси на Santander, получени чрез инициативата Open Data Santander.</dct:description>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Transporte:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Doprava:FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa el estado y ciertas propiedades (es decir, velocidad y posición) de los autobuses urbanos de Santander obtenidos a través de la iniciativa Open Data Santander.</dct:description>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Doprava:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Vervoer:FleetVehicleStatus</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:19:01.485041</dct:modified>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă statutul și anumite proprietăți (de exemplu, viteza și poziția) autobuzelor urbane Santander obținute prin inițiativa Open Data Santander.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dcat:keyword>Open Data Santander</dcat:keyword>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Перевезення:FleetVehicleStatus</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Транспорт:FleetVehicleStatus</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:19:01.162733</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:keyword>Fleet Buses</dcat:keyword>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de status en bepaalde eigenschappen (d.w.z. snelheid en positie) van de stadsbussen van Santander die zijn verkregen via het Open Data Santander-initiatief.</dct:description>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Kuljetus:FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta lo stato e alcune proprietà (cioè velocità e posizione) degli autobus urbani di Santander ottenuti attraverso l'iniziativa Open Data Santander.</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Jis atspindi Santandero miesto autobusų statusą ir tam tikras savybes (t. y. greitį ir padėtį), gautas įgyvendinant iniciatyvą „Open Data Santander“.</dct:description>
+        <dct:title>Transportation:FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo Santander pilsētas autobusu statusu un noteiktas īpašības (t. i., ātrumu un atrašanās vietu), kas iegūti, izmantojot Atvērto datu Santander iniciatīvu.</dct:description>
+        <dct:title xml:lang="el-t-en-t0-mtec">Μεταφορά:FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje stav a určité vlastnosti (t. j. rýchlosť a polohu) mestských autobusov Santander získaných prostredníctvom iniciatívy Open Data Santander.</dct:description>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa o estatuto e certas propriedades (ou seja, velocidade e posição) dos autocarros urbanos de Santander obtidos através da iniciativa Open Data Santander.</dct:description>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Trasport:Flotta VehicleStatus</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Prevoz:FleetVehicleStatus</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer status og visse egenskaber (dvs. hastighed og position) for Santanders bybusser, der er opnået gennem Open Data Santander-initiativet.</dct:description>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Transports: FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja status i određena svojstva (tj. brzinu i položaj) gradskih autobusa Santandera dobivenih inicijativom Open Data Santander.</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta l-istatus u ċerti proprjetajiet (jiġifieri l-veloċità u l-pożizzjoni) tax-xarabanks urbani ta’ Santander miksuba permezz tal-inizjattiva Open Data Santander.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Szállítás:FleetVehicleStatus</dct:title>
+        <dcat:keyword>FleetVehicleStatus</dcat:keyword>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Iompar:FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja status in določene lastnosti (tj. hitrost in položaj) mestnih avtobusov Santander, pridobljenih s pobudo Open Data Santander.</dct:description>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою статус і певні властивості (наприклад, швидкість і положення) міських автобусів Сантандер, отримані в рамках ініціативи Open Data Santander.</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa Santanderin kaupunkibussien tilaa ja tiettyjä ominaisuuksia (nopeutta ja sijaintia), jotka on saatu Open Data Santander -aloitteen kautta.</dct:description>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Az Open Data Santander kezdeményezés keretében Santander városi buszainak státuszát és bizonyos tulajdonságait (azaz sebességét és helyzetét) képviseli.</dct:description>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Transportas:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Transport:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Transport:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">Transport:FleetVehicleStatus</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a6562420-325e-46e5-98f4-c313152d3127">
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="de-t-en-t0-mtec">Transport:FleetVehicleStatus Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description>Transportation:FleetVehicleStatus realtime data represented in JSON format</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Transport:FleetVehicleStatus realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Транспорт:FleetVehicleStatus данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Kuljetus: FleetVehicleStatus reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Transporte:FleetVehicleStatus datos en tiempo real representados en formato JSON</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Doprava:FleetVehicleStatus dáta v reálnom čase reprezentované vo formáte JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Prijevoz:FleetVehicleStatus podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Iompar:FleetVehicleStatus sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Transportas:FleetVehicleStatus realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Prevoz:FleetVehicleStatus podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/7b1d4785-f23e-47f2-a49e-14685be7fbd1/resource/urn_ngsi-ld_distribution_salted_project_transportation_fleetvehiclestatus_json</dct:identifier>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Transport:FleetVehicleStatus dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:17:49.057162</dct:modified>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Transport:FleetVehicleStatus date în timp real reprezentate în format JSON</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FFleetVehicleStatus__.json"/>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Trasport: Data tal-FlottaVehicleStatus f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Транспорт:FleetVehicleStatus дані в реальному часі, представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Doprava:FleetVehicleStatus data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Transport:FleetVehicleStatus realtidsdata representerad i JSON-format</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Transport: FleetVehicleStatus reaalajas esitatud andmed JSON formaadis</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FFleetVehicleStatus__.json"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">Μεταφορά:FleetVehicleStatus δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Trasporto:FleetVehicleStatus dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Transporte:FleetVehicleStatus Dados em tempo real representados no formato JSON</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Szállítás:FleetVehicleStatus valós idejű adatok JSON formátumban</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:19:01.485005</dct:issued>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Transports: FleetVehicleStatus reāllaika dati pārstāvēti JSON formātā</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Transport:FleetVehicleStatus données en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Transport:FleetVehicleStatus realtidsdata repræsenteret i JSON-format</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="de-t-en-t0-mtec">Transport:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Transport:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">Transport:FleetVehicleStatus</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Transport:FleetVehicleStatus</dct:title>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje stav a určité vlastnosti (tj. rychlost a polohu) městských autobusů Santander získaných prostřednictvím iniciativy Open Data Santander.</dct:description>
+        <dct:identifier>7b1d4785-f23e-47f2-a49e-14685be7fbd1</dct:identifier>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>17e9e92bf61d753df3cf393c30bc83ea</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:36Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/7b1d4785-f23e-47f2-a49e-14685be7fbd1"/>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>7b1d4785-f23e-47f2-a49e-14685be7fbd1</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-navarra-es-dataset-apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:20:06Z</dct:issued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-navarra-es-dataset-apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra">
+        <dct:description xml:lang="nl-t-es-t0-mtec">Officiële lijst van toeristische appartementen in werking van de Navarra Tourism Registry met gedetailleerde informatie over hen: naam, modaliteit, categorie, adres, locatie, enz.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Oficjalna lista apartamentów turystycznych działających w Rejestrze Turystyki Nawarry wraz ze szczegółowymi informacjami na ich temat: nazwa, modalność, kategoria, adres, lokalizacja itp. Nie uwzględnia się sytuacji tymczasowego zaprzestania działalności.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Uradni seznam turističnih apartmajev v obratovanju Turističnega registra Navarre s podrobnimi informacijami o njih: ime, način, kategorija, naslov, lokacija itd. Začasna ukinitev ni vključena.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Turistički apartmani u radu Registra turizma Navarre</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"/>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Turistické apartmány v prevádzke registra cestovného ruchu Navarra</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Apartamentos turísticos em funcionamento do Registo de Turismo de Navarra</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Turistična stanovanja v delovanju Turističnega registra Navarra</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/99a0e779-1134-4ef0-a009-7cbb67658ca0">
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?format=csv&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?format=csv&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra - CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="el-t-es-t0-mtec">Επίσημος κατάλογος τουριστικών διαμερισμάτων σε λειτουργία του Τουριστικού Μητρώου της Ναβάρρας με λεπτομερείς πληροφορίες σχετικά με αυτά: όνομα, τρόπος, κατηγορία, διεύθυνση, τοποθεσία κ.λπ. Δεν περιλαμβάνονται καταστάσεις προσωρινής παύσης.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Árasáin turasóireachta a oibríonn Clárlann Turasóireachta Navarra</dct:title>
+        <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2283faac-690b-4255-8eb8-409b66167743">
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak - JSON - API</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?format=json&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?format=json&amp;bom=True"/>
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak - JSON</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra - JSON - API</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Aisialdia</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8b2535f5-b6fb-43e7-bac5-3653c1c8af57">
+            <dct:title xml:lang="hr-t-es-t0-mtec">Turistički apartmani u radu Registra turizma Navarre</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/73dbe8fb-bc45-4d47-bc1a-d08dd7d601db/resource/e761b1ec-23ed-4523-bf56-d8f7a338ae3c/download/downloadfile.aspxcodigoaccesoopendataficheroturismoopendata_resultados_dd_establecimientos_apart.csv</dct:identifier>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Navaros turizmo registro valdomi turistiniai butai</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Touristische Wohnungen in Betrieb des Tourismusregisters von Navarra</dct:title>
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Turistické apartmány v prevádzke registra cestovného ruchu Navarra</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Apartamente turistice în funcțiune a Registrului de Turism din Navarra</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Apartamenty turystyczne działające w Rejestrze Turystyki Nawarry</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Matkailuhuoneistoja, jotka toimivat Navarran matkailurekisterissä</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/73dbe8fb-bc45-4d47-bc1a-d08dd7d601db/resource/e761b1ec-23ed-4523-bf56-d8f7a338ae3c/download/downloadfile.aspxcodigoaccesoopendataficheroturismoopendata_resultados_dd_establecimientos_apart.csv"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Туристически апартаменти в експлоатация на туристическия регистър на Навара</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Toeristische appartementen in werking van de Toerisme Register van Navarra</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Árasáin turasóireachta a oibríonn Clárlann Turasóireachta Navarra</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Apartamentos turísticos em funcionamento do Registo de Turismo de Navarra</dct:title>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Туристичні квартири в роботі туристичного реєстру Наварри</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Appartamenti turistiċi fl-operat tar-Reġistru tat-Turiżmu ta’ Navarra</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma dzīvokļi Navarras Tūrisma reģistra darbībā</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Turistické apartmány v provozu registru cestovního ruchu Navarra</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Appartamenti turistici in esercizio del Registro del Turismo di Navarra</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Turisztikai apartmanok a Navarrai Idegenforgalmi Nyilvántartás működtetésében</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Turistična stanovanja v delovanju Turističnega registra Navarra</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Turistlägenheter i drift av turistregistret i Navarra</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Turistlejligheder i drift af Turismeregistret i Navarra</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Navarra turismiregistrit haldavad turismikorterid</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Appartements touristiques en exploitation du Registre du Tourisme de Navarre</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τουριστικά διαμερίσματα σε λειτουργία του Μητρώου Τουρισμού της Ναβάρας</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Tourist apartments in operation of the Tourism Registry of Navarra</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Appartamenti turistiċi fl-operat tar-Reġistru tat-Turiżmu ta’ Navarra</dct:title>
+        <dcat:keyword xml:lang="es">Consumo</dcat:keyword>
+        <dct:description xml:lang="da-t-es-t0-mtec">Officiel liste over turistlejligheder i drift af Navarra Turismeregister med detaljerede oplysninger om dem: navn, modalitet, kategori, adresse, placering osv. Der er ikke medtaget situationer med midlertidigt ophør.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Oficiální seznam turistických apartmánů v provozu registru cestovního ruchu Navarre s podrobnými informacemi o nich: jméno, způsob, kategorie, adresa, místo atd. Nejsou zahrnuty žádné dočasné zastavení činnosti.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Službeni popis turističkih apartmana u radu Registra turizma Navarre s detaljnim informacijama o njima: naziv, način, kategorija, adresa, lokacija itd. Ne uključuju situacije privremenog prestanka.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Appartamenti turistici in esercizio del Registro del Turismo di Navarra</dct:title>
+        <dcat:keyword xml:lang="es">Kontsumoa</dcat:keyword>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Toeristische appartementen in werking van de Toerisme Register van Navarra</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Elenco ufficiale degli appartamenti turistici in funzione del Registro del Turismo Navarra con informazioni dettagliate su di essi: nome, modalità, categoria, indirizzo, posizione, ecc.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Apartamente turistice în funcțiune a Registrului de Turism din Navarra</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Touristische Wohnungen in Betrieb des Tourismusregisters von Navarra</dct:title>
+        <dcat:keyword xml:lang="es">Ocio</dcat:keyword>
+        <dct:title xml:lang="et-t-es-t0-mtec">Navarra turismiregistrit haldavad turismikorterid</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Oficiālais tūrisma dzīvokļu saraksts Navarras Tūrisma reģistra darbībā ar detalizētu informāciju par tiem: nosaukums, veids, kategorija, adrese, atrašanās vieta utt. Nav iekļautas pagaidu pārtraukšanas situācijas.</dct:description>
+        <dct:description xml:lang="es">Listado oficial de apartamentos turísticos en activo del Registro de Turismo de Navarra con información detallada sobre los mismos: nombre, modalidad, categoría, dirección, ubicación, etc. No se incluyen situaciones de cese temporal.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Apartamenty turystyczne działające w Rejestrze Turystyki Nawarry</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a15002917-apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a15002917-apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:keyword xml:lang="es">Turismoa</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ce49290a-a62f-4e24-9c55-0a11cf7942c3">
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/e761b1ec-23ed-4523-bf56-d8f7a338ae3c.ods</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">Appartamenti turistici in funzione del Registro del Turismo della Navarra — ODS</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Appartements touristiques en exploitation du Registre du Tourisme de Navarre — ODS</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Matkailuhuoneistoja, jotka toimivat Navarran matkailurekisterissä – ODS</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Apartamentos turísticos em funcionamento do Registo de Turismo de Navarra — ODS</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Turistlägenheter i drift av turistregistret i Navarra – ODS</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Turistički apartmani u radu Registra turizma Navarre – ODS</dct:title>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra - ODS</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τουριστικά διαμερίσματα σε λειτουργία του Μητρώου Τουρισμού της Ναβάρας — ODS</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Turisztikai apartmanok a Navarrai Idegenforgalmi Nyilvántartás működésében – ODS</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Appartamenti turistiċi fl-operat tar-Reġistru tat-Turiżmu ta’ Navarra — ODS</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Туристичні квартири в експлуатації Туристичного реєстру Наварри - ODS</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Turistična stanovanja v delovanju Turističnega registra Navarra – ODS</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Turistické apartmány v provozu registru cestovního ruchu Navarra – ODS</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Navarra turismiregistrit haldavad turismikorterid – ODS</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Apartamenty turystyczne działające w Rejestrze Turystyki Nawarry – ODS</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Toeristische appartementen in werking van de Toerisme Register van Navarra — ODS</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Navaros turizmo registro valdomi turistiniai butai – ODS</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Turistické apartmány v prevádzke registra cestovného ruchu Navarra – ODS</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Árasáin turasóireachta atá ag oibriú Chlárlann Turasóireachta Navarra — ODS</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma dzīvokļi Navarras Tūrisma reģistra darbībā — ODS</dct:title>
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak - ODS</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Apartamente turistice în funcțiune a Registrului de Turism din Navarra – ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Туристически апартаменти в експлоатация на туристическия регистър на Навара — ВНОС</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Turist lejligheder i drift af Turistregisteret i Navarra — ODS</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/e761b1ec-23ed-4523-bf56-d8f7a338ae3c.ods"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">Tourist apartments in operation of the Tourism Registry of Navarra — ODS</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Touristische Wohnungen in Betrieb des Tourismusregisters von Navarra – ODS</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Officiell lista över turistlägenheter i drift av Navarres turistregister med detaljerad information om dem: namn, modalitet, kategori, adress, plats osv. Inga situationer med tillfälligt upphörande ingår.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4b0c3dfa-0e6c-4f7a-98cf-e2a5cf1f4755">
+            <dct:title xml:lang="ga-t-es-t0-mtec">Árasáin turasóireachta i bhfeidhm Chlárlann Turasóireachta Navarra — XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Apartamentos turísticos em funcionamento do Registo de Turismo de Navarra — XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/e761b1ec-23ed-4523-bf56-d8f7a338ae3c.xlsx"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Turistické apartmány v provozu registru cestovního ruchu Navarra – XLSX</dct:title>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra - XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Туристичні квартири в експлуатації Туристичного реєстру Наварри - XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/e761b1ec-23ed-4523-bf56-d8f7a338ae3c.xlsx</dct:identifier>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Turistički apartmani u radu Registra turizma Navarre – XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">Navarra turismiregistris asuvad turismikorterid – XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Appartamenti turistici in esercizio del Registro del Turismo della Navarra — XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Matkailuhuoneistoja, jotka toimivat Navarran matkailurekisterissä – XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Tourist apartments in operation of the Tourism Registry of Navarra — XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Туристически апартаменти в експлоатация на туристическия регистър на Навара — XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma dzīvokļi Navarras Tūrisma reģistra darbībā — XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Navaros turizmo registro turistiniai butai – XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Appartamenti turistiċi fl-operat tar-Reġistru tat-Turiżmu ta’ Navarra — XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Turist lejligheder i drift af Turistregisteret i Navarra — XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Turistlägenheter i drift av Turistregistret i Navarra – XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Apartamente turistice în funcțiune a Registrului de Turism din Navarra – XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Apartamenty turystyczne działające w Rejestrze Turystyki Navarry – XLSX</dct:title>
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak - XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Appartements touristiques en exploitation du Registre du Tourisme de Navarre — XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Turisztikai apartmanok a Navarrai Idegenforgalmi Nyilvántartás működésében – XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Touristische Wohnungen in Betrieb des Tourismusregisters von Navarra – XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Toeristische appartementen in werking van de Toerisme Register van Navarra — XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Turistické apartmány v prevádzke registra cestovného ruchu Navarra – XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Turistični apartmaji v obratovanju Turističnega registra Navarra – XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τουριστικά διαμερίσματα σε λειτουργία του Μητρώου Τουρισμού της Ναβάρας — XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="eu">Listado oficial de apartamentos turísticos en activo del Registro de Turismo de Navarra con información detallada sobre los mismos: nombre, modalidad, categoría, dirección, ubicación, etc. No se incluyen situaciones de cese temporal.</dct:description>
+        <dcat:keyword xml:lang="es">Turismo</dcat:keyword>
+        <dct:description xml:lang="en-t-es-t0-mtec">Official list of tourist apartments in operation of the Navarre Tourism Registry with detailed information about them: name, modality, category, address, location, etc. No temporary cessation situations are included.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Τουριστικά διαμερίσματα σε λειτουργία του Μητρώου Τουρισμού της Ναβάρας</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Lista uffiċjali ta’ appartamenti turistiċi fl-operat tar-Reġistru tat-Turiżmu Navarra b’informazzjoni dettaljata dwarhom: l-isem, il-modalità, il-kategorija, l-indirizz, il-post, eċċ. L-ebda sitwazzjoni ta’ waqfien temporanju ma hija inkluża.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A15002917">
+            <foaf:name>Comunidad Foral de Navarra</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-06-30T00:00:00+02:00</dct:issued>
+        <dct:identifier>https://datosabiertos.navarra.es/dataset/apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra</dct:identifier>
+        <dct:title xml:lang="en-t-es-t0-mtec">Tourist apartments in operation of the Tourism Registry of Navarra</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Offizielle Liste der touristischen Wohnungen in Betrieb des Tourismusregisters Navarra mit detaillierten Informationen über sie:
+Name, Modalität, Kategorie, Adresse, Ort, etc. Es sind keine vorübergehenden Einstellungssituationen enthalten.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/350a9524-ea4c-461d-82d8-66d98f8e2542">
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?format=tsv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?format=tsv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra - TSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Ekonomia</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Туристичні квартири в роботі туристичного реєстру Наварри</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Oficialus Navaros turizmo registro eksploatuojamų turistinių butų sąrašas su išsamia informacija apie juos:
+pavadinimas, būdas, kategorija, adresas, vieta ir t. t. Neįtraukiami laikino veiklos nutraukimo atvejai.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d675103e-e14d-45f1-be0c-a156a6a5284a">
+            <dct:title xml:lang="nl-t-es-t0-mtec">Toeristische appartementen in werking van de Toerisme Register van Navarra</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Árasáin turasóireachta a oibríonn Clárlann Turasóireachta Navarra</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Turistlägenheter i drift av turistregistret i Navarra</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Apartamenty turystyczne działające w Rejestrze Turystyki Nawarry</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Appartamenti turistici in esercizio del Registro del Turismo di Navarra</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma dzīvokļi Navarras Tūrisma reģistra darbībā</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Turistična stanovanja v delovanju Turističnega registra Navarra</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Apartamente turistice în funcțiune a Registrului de Turism din Navarra</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Tourist apartments in operation of the Tourism Registry of Navarra</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Apartamentos turísticos em funcionamento do Registo de Turismo de Navarra</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Туристически апартаменти в експлоатация на туристическия регистър на Навара</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/73dbe8fb-bc45-4d47-bc1a-d08dd7d601db/resource/434157a5-e7f2-40ab-862d-2d0ced378c1d/download/downloadfile.aspxcodigoaccesoopendataficheroturismoopendata_resultados_dd_establecimientos_apart.xsd"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Turistički apartmani u radu Registra turizma Navarre</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Туристичні квартири в роботі туристичного реєстру Наварри</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Turistické apartmány v provozu registru cestovního ruchu Navarra</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Appartements touristiques en exploitation du Registre du Tourisme de Navarre</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Touristische Wohnungen in Betrieb des Tourismusregisters von Navarra</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Appartamenti turistiċi fl-operat tar-Reġistru tat-Turiżmu ta’ Navarra</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Navarra turismiregistrit haldavad turismikorterid</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Turisztikai apartmanok a Navarrai Idegenforgalmi Nyilvántartás működtetésében</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τουριστικά διαμερίσματα σε λειτουργία του Μητρώου Τουρισμού της Ναβάρας</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Turistlejligheder i drift af Turismeregistret i Navarra</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Turistické apartmány v prevádzke registra cestovného ruchu Navarra</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/73dbe8fb-bc45-4d47-bc1a-d08dd7d601db/resource/434157a5-e7f2-40ab-862d-2d0ced378c1d/download/downloadfile.aspxcodigoaccesoopendataficheroturismoopendata_resultados_dd_establecimientos_apart.xsd</dct:identifier>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Matkailuhuoneistoja, jotka toimivat Navarran matkailurekisterissä</dct:title>
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak</dct:title>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Navaros turizmo registro valdomi turistiniai butai</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Turisztikai apartmanok a Navarrai Idegenforgalmi Nyilvántartás működtetésében</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Matkailuhuoneistoja, jotka toimivat Navarran matkailurekisterissä</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Liste officielle des appartements touristiques en exploitation du registre du tourisme de Navarre avec des informations détaillées à leur sujet:
+nom, modalité, catégorie, adresse, lieu, etc. Aucune situation de cessation temporaire n’est incluse.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/940f5644-4c78-4923-9ec9-b482493d567f">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak - Explorador de Datos</dct:title>
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra - Explorador de Datos</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra/resource/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?view_id=d98aae4c-a451-4dfe-82f4-30c621859755</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra/resource/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?view_id=d98aae4c-a451-4dfe-82f4-30c621859755"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8337b342-44fd-4dbd-9b74-be2a930420b4">
+            <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra - XML</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?format=xml&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/e761b1ec-23ed-4523-bf56-d8f7a338ae3c?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="eu">Jarduneko apartamentu turistikoak, Nafarroako Turismo Erregistrokoak - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-es-t0-mtec">Turistlejligheder i drift af Turismeregistret i Navarra</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Туристически апартаменти в експлоатация на туристическия регистър на Навара</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Официален списък на туристическите апартаменти в експлоатация на туристическия регистър на Навара с подробна информация за тях: име, модалност, категория, адрес, местоположение и т.н. Не са включени ситуации на временно преустановяване.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Lista oficial de apartamentos turísticos em operação do Registo de Turismo Navarra com informações detalhadas sobre eles:
+nome, modalidade, categoria, endereço, localização, etc. Não são incluídas situações de cessação temporária.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Appartements touristiques en exploitation du Registre du Tourisme de Navarre</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Turistické apartmány v provozu registru cestovního ruchu Navarra</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Liosta oifigiúil na n-árasán turasóireachta atá i mbun Chlárlann Turasóireachta Navarre ina bhfuil eolas mionsonraithe fúthu: ainm, módúlacht, catagóir, seoladh, suíomh, etc. Ní áirítear aon staideanna scoir shealadaigh.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:title xml:lang="es">Apartamentos turísticos en activo del Registro de Turismo de Navarra</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma dzīvokļi Navarras Tūrisma reģistra darbībā</dct:title>
+        <dcat:keyword xml:lang="es">Economia</dcat:keyword>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Oficiálny zoznam turistických apartmánov v prevádzke registra cestovného ruchu Navarre s podrobnými informáciami o nich: názov, spôsob, kategória, adresa, miesto atď. Nie sú zahrnuté žiadne situácie dočasného zastavenia.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Navarra turismiregistrisse kuuluvate turismikorterite ametlik nimekiri koos üksikasjaliku teabega nende kohta: nimi, meetod, kategooria, aadress, asukoht jne.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Navaros turizmo registro valdomi turistiniai butai</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Lista oficială a apartamentelor turistice aflate în exploatare a Registrului de Turism Navarra cu informații detaliate despre acestea: nume, modalitate, categorie, adresă, locație etc. Nu sunt incluse situații de încetare temporară.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Офіційний список туристичних апартаментів в експлуатації Наваррського туристичного реєстру з детальною інформацією про них:
+Ім'я, модальність, категорія, адреса, місце розташування і т.д.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Virallinen luettelo Navarren matkailurekisterin käytössä olevista matkailuhuoneistoista, joissa on yksityiskohtaista tietoa niistä: nimi, liikennemuoto, luokka, osoite, sijainti jne. Väliaikaista lopettamista ei mainita.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A Navarrai Idegenforgalmi Nyilvántartásban működő turisztikai apartmanok hivatalos listája, részletes információkkal:
+név, mód, kategória, cím, tartózkodási hely stb.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Turistlägenheter i drift av turistregistret i Navarra</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-navarra-es-dataset-apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>4f26c1ac4398a93f62ef9b251348289a</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>https://datosabiertos.navarra.es/dataset/apartamentos-turisticos-en-activo-del-registro-de-turismo-de-navarra</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:28:51Z</dct:modified>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:28:51Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:j.1="http://localhost/base/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.2="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-plzen-eu-public-opendata-dataset-168">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>8e2910df9ae053d37b74b05a3953a0a1</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>https://opendata.plzen.eu/public/opendata/dataset/168</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:02:42Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:02:42Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:01:22Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-plzen-eu-public-opendata-dataset-168"/>
+    <foaf:primaryTopic>
+      <j.2:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-opendata-plzen-eu-public-opendata-dataset-168">
+        <dcat:keyword xml:lang="cs">úřední deska</dcat:keyword>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00075370/ac12c322b2c1252ba78ce255c0b9f363/identifikátorNKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/00075370/ac12c322b2c1252ba78ce255c0b9f363</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/57b48bcc-f3f9-4a08-b269-871d387c4d92">
+            <dct:conformsTo rdf:resource="https://ofn.gov.cz/úřední-desky/2021-07-20/schémata/úřední-deska.json"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00075370/ac12c322b2c1252ba78ce255c0b9f363/distribuce/91c5d51ad0e589985db6becd4a3c39b0/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00075370/ac12c322b2c1252ba78ce255c0b9f363/distribuce/91c5d51ad0e589985db6becd4a3c39b0</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dcat:accessURL rdf:resource="https://opendata.plzen.eu/public/opendata/dashboard-data?organisation=mmp"/>
+            <dct:title xml:lang="cs">Magistrát města Plzně - elektronická úřední deska</dct:title>
+            <dct:title xml:lang="en">Magistrát města Plzně - official bulletin board</dct:title>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00075370/ac12c322b2c1252ba78ce255c0b9f363/distribuce/91c5d51ad0e589985db6becd4a3c39b0/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://opendata.plzen.eu/public/opendata/dashboard-data?organisation=mmp"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://eurovoc.europa.eu/492">
+            <skos:inScheme rdf:resource="http://eurovoc.europa.eu/"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:keyword xml:lang="en">pilsen</dcat:keyword>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/stat/1"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dct:description xml:lang="en">Magistrát města Plzně- official bulletin board</dct:description>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00075370/ac12c322b2c1252ba78ce255c0b9f363/identifikátorLKOD">
+            <dct:creator>
+              <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00075370">
+                <foaf:name xml:lang="cs">Statutární město Plzeň</foaf:name>
+              </foaf:Agent>
+            </dct:creator>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://opendata.plzen.eu/public/opendata/dataset/168</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:keyword xml:lang="en">bulletin board</dcat:keyword>
+        <dct:conformsTo rdf:resource="https://ofn.gov.cz/úřední-desky/2021-07-20/"/>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://opendata.plzen.eu/public/opendata/dataset/168</dct:identifier>
+        <dct:title xml:lang="cs">Magistrát města Plzně - elektronická úřední deska</dct:title>
+        <dcat:keyword xml:lang="cs">plzeň</dcat:keyword>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+        <dcat:contactPoint>
+          <j.1:organizace rdf:about="https://data.gov.cz/zdroj/datové-sady/00075370/ac12c322b2c1252ba78ce255c0b9f363/kontaktní-bod">
+            <vcard:fn xml:lang="cs">Správa informačních technologie města Plzně</vcard:fn>
+          </j.1:organizace>
+        </dcat:contactPoint>
+        <foaf:page rdf:resource="https://ofn.gov.cz/úřední-desky/2021-07-20/"/>
+        <dct:publisher rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00075370"/>
+        <dct:title xml:lang="en">Magistrát města Plzně- official bulletin board</dct:title>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:conformsTo rdf:resource="https://ofn.gov.cz/úřední-desky/"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="cs">Magistrát města Plzně - elektronická úřední deska</dct:description>
+        <dcat:keyword xml:lang="en">plzeň</dcat:keyword>
+      </j.2:LKOD>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

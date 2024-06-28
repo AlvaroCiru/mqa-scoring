@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-zonas-de-compras-de-euskadi-">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>68dfea06c8348747e62b3c8ca1cb6b99</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:35:07Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-zonas-de-compras-de-euskadi-"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:35:07Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-zonas-de-compras-de-euskadi-">
+        <dct:description xml:lang="es">Información  de interés sobre las zonas de compras y los centros comerciales más conocidos de Euskadi.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Dzielnice handlowe Euskadi</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Информация от интерес за най-известните търговски зони и търговски центрове в Страната на баските.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Zone comerciale din Euskadi</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Limistéir siopadóireachta de chuid Euskadi</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Aree commerciali di Euskadi</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace o nejznámějších nákupních zónách a nákupních centrech v Baskicku.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Informatie van belang over de bekendste winkelgebieden en winkelcentra in Baskenland.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Interesujące informacje o najbardziej znanych dzielnicach handlowych i centrach handlowych w Kraju Basków.</dct:description>
+        <dcat:keyword xml:lang="es">rebajas</dcat:keyword>
+        <dcat:keyword xml:lang="es">centro comercial</dcat:keyword>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Winkelgebieden van Euskadi</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:title xml:lang="eu">Euskadiko erosketaguneak</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Zonas comerciais de Euskadi</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Nakupovalna območja Euskadi</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:keyword xml:lang="es">compras</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5a55ae68-06d6-418d-8562-1e5a21c91bc8">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/resource/448dafdc-b552-42c7-8c2e-1c2d084563f8</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/zonas_de_compras/opendata/compras.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >473713</dcat:byteSize>
+            <dct:title xml:lang="eu">Erosketaguneak</dct:title>
+            <dct:title xml:lang="es">Compras</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">beherapenak</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Żoni tax-xiri ta’ Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/813cbb27-3a40-495f-b44e-51ed0a707c4a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/zonas_de_compras/opendata/compras.geojson"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >365025</dcat:byteSize>
+            <dct:title xml:lang="eu">Erosketaguneak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/resource/9be0ea29-ac46-43b0-99b2-bae060b90172</dct:identifier>
+            <dct:title xml:lang="es">Compras</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a903b89e-6de2-49d4-afab-3e9610468e6e">
+            <dct:title xml:lang="es">Compras</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/resource/c35306c6-ba27-4a41-9a01-5c8219aa4c6e</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/zonas_de_compras/opendata/compras-padding.geojson"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >365046</dcat:byteSize>
+            <dct:title xml:lang="eu">Erosketaguneak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie, ktoré vás zaujímajú o najznámejšie nákupné oblasti a nákupné centrá v Baskicku.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2010-03-25T00:00:00+01:00</dct:issued>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Торгові центри Euskadi</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/zonas-de-compras-de-euskadi/"/>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Informacije o najbolj znanih nakupovalnih območjih in nakupovalnih centrih v Baskiji.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1e08e0bc-60d8-47c3-bb15-f4cf7aa69fe1">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Compras</dct:title>
+            <dct:title xml:lang="eu">Erosketaguneak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >382065</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/zonas_de_compras/opendata/compras.xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/resource/9b36e063-a873-4b9e-b9bb-bd2d73cd9840</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-utilizar-datos/"/>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Eolas faoi na limistéir siopadóireachta is fearr atá ar eolas agus faoi ionaid siopadóireachta i dTír na mBascach.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Einkaufsviertel von Euskadi</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Nákupné oblasti Euskadi</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Viešbučių paieška – Euskadi</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Információk a Baszkföld legismertebb bevásárlóközpontjairól és bevásárlóközpontjairól.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações de interesse sobre as áreas comerciais mais conhecidas e centros comerciais do País Basco.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Euskadi ostupiirkonnad</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πληροφορίες ενδιαφέροντος σχετικά με τις πιο γνωστές εμπορικές περιοχές και εμπορικά κέντρα στη Χώρα των Βάσκων.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tietoa Baskimaan tunnetuimmista ostosalueista ja ostoskeskuksista.</dct:description>
+        <dcat:keyword xml:lang="eu">merkataritzagunea</dcat:keyword>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Euskadin ostosalueet</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Shoppingområden i Euskadi</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații de interes despre cele mai cunoscute zone comerciale și centre comerciale din Țara Bascilor.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Informacije od interesa o najpoznatijim trgovačkim područjima i trgovačkim centrima u Baskiji.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen von Interesse über die bekanntesten Einkaufsviertel und Einkaufszentren im Baskenland.</dct:description>
+        <dct:description xml:lang="eu">Euskadiko erosketa eta merkataritzagune ezagunenei buruzko informazioa.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations d’intérêt sur les zones commerciales et les centres commerciaux les plus connus du Pays Basque.</dct:description>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/DurationDescription">
+                <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:weeks>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Nákupní centra Euskadi</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Domėjimosi informacija apie geriausiai žinomas prekybos zonas ir prekybos centrus Baskų krašte.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni ta ‘interess dwar l-oqsma tax-xiri aħjar magħrufa u ċentri tax-xiri fil-Pajjiż Bask.</dct:description>
+        <dct:title xml:lang="es">Zonas de compras de Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/79001053-085b-47cf-afb4-8c35efe9a712">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >82156</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/resource/5326d750-d070-401d-9a7a-aae3229e66cc</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/zonas_de_compras/opendata/compras.xlsx"/>
+            <dct:title xml:lang="eu">Erosketaguneak</dct:title>
+            <dct:title xml:lang="es">Compras</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Trgovačka područja Euskadija</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація, що представляє інтерес про найвідоміші торгові центри і торгові центри в Країні Басків.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni di interesse sulle più note aree commerciali e centri commerciali nei Paesi Baschi.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Euskadi iepirkšanās zonas</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Huvitavat teavet kõige tuntumate ostupiirkondade ja ostukeskuste kohta Baskimaal.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Interesējoša informācija par pazīstamākajiem iepirkšanās rajoniem un tirdzniecības centriem Basku zemē.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Zones commerçantes de Euskadi</dct:title>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/zonas-de-compras-de-euskadi/</dct:identifier>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information av intresse om de mest kända shoppingområdena och köpcentrumen i Baskien.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Εμπορικές περιοχές του Ευσκάδι</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Indkøbsområder i Euskadi</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Shopping areas of Euskadi</dct:title>
+        <dct:isReferencedBy rdf:resource="http://turismoa.euskadi.eus/"/>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information of interest about the best known shopping areas and shopping centers in the Basque Country.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Oplysninger af interesse om de mest kendte shoppingområder og indkøbscentre i Baskerlandet.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Търговски площи на Euskadi</dct:title>
+        <dcat:keyword xml:lang="eu">erosketak</dcat:keyword>
+        <dcat:keyword xml:lang="eu">merkatal</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6f4dfc4f-ddba-4e00-91dd-ec28fc160464">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC%3Aeuskadi%3BtF%3Aturismo%3BtT%3Al_compras%3Bm%3AdocumentLanguage.EQ.es%3Bp%3AInter_portal%2CInter%3B"/>
+            <dct:title xml:lang="es">Compras</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/resource/ae1d5d10-d31e-4128-8199-aacbc3c11a0a</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dct:title xml:lang="eu">Erosketaguneak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/01c3df90-efa3-4444-ae87-4ecb9db964db">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-zonas-de-compras-de-euskadi1/resource/15e501d7-32a2-4c84-b174-e62a4ba0f219</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Compras</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/zonas_de_compras/opendata/compras.jsonp"/>
+            <dct:title xml:lang="eu">Erosketaguneak</dct:title>
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >473733</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">comercio</dcat:keyword>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Euskadi bevásárlóközpontok</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:11:00Z</dct:issued>
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/zonas-de-compras-de-euskadi/</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

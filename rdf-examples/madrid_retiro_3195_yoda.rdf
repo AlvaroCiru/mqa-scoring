@@ -11,8 +11,6 @@
 >
   <dcat:Dataset rdf:about="https://portal-yoda.dit.upm.es/dataset/0d7509d6-82ca-4dc3-a61a-95e45dab7a1e">
     <dcat:keyword>weather</dcat:keyword>
-    <dcat:keyword>temperature</dcat:keyword>
-    <dcat:keyword>station</dcat:keyword>
     <dcat:landingPage>
       <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
         <vcard:fn>yoda</vcard:fn>

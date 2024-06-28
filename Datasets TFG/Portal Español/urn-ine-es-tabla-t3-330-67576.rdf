@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/urn-ine-es-tabla-t3-330-67576">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:27:40Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>2285c7979947d0c145ff4e5b0cf9b295</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/urn-ine-es-tabla-t3-330-67576">
+        <dcat:keyword xml:lang="en">Less than primary school</dcat:keyword>
+        <dct:identifier>urn:ine:es:TABLA:T3:330:67576</dct:identifier>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:keyword xml:lang="es">Nivel de formación alcanzado</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8cb08565-c0cc-455d-8787-b047f53bc781">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">CSV: separado por ;</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_bdsc/67576.csv"/>
+            <dct:title xml:lang="en">CSV: Separated by ;</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/f7440b60-dd80-4528-93f3-344614dd9bb9</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en">Unemployment rate of people between 16 and 74 years old by age group and educational level attained. EPA (API identifier: 67576)</dct:title>
+        <dcat:keyword xml:lang="es">Mercado laboral y salarios</dcat:keyword>
+        <dcat:keyword xml:lang="es">Encuesta de Población Activa (EPA)</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/62b8bb8c-22d1-4188-acc2-cc68d542268b">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">Texto plano: separado por tabuladores</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv/67576.csv"/>
+            <dct:title xml:lang="en">Plain Text: separated by tab</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/63a2af56-37ed-402a-bb69-5ea2429be377</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">EPA</dcat:keyword>
+        <dcat:keyword xml:lang="en">Higher education</dcat:keyword>
+        <dcat:keyword xml:lang="es">Educación primaria y primera etapa de educación secundaria  (niveles 1 y 2)</dcat:keyword>
+        <dct:isReferencedBy rdf:resource="https://www.ine.es/dyngs/IOE/es/operacion.htm?numinv=30308"/>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/DurationDescription">
+                <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >3</time:months>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:keyword xml:lang="en">From 55 to 74 years old</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2725be4b-3d73-4233-adb6-3eab5b91fa77">
+            <dcat:accessURL rdf:resource="https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/67576?tip=AM"/>
+            <dct:title xml:lang="es">Json</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/ec5b1177-8e6f-4381-9d99-3784ec79d2fe</dct:identifier>
+            <dct:title xml:lang="en">Json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-11T12:30:00+02:00</dct:modified>
+        <dcat:keyword xml:lang="es">Mercado laboral</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/PeriodOfTime-1">
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-01-01T01:00:00+01:00</schema:endDate>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2021-01-01T01:00:00+01:00</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:keyword xml:lang="es">Educación superior</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d764d4af-d3ec-4546-8762-b55fc908bc50">
+            <dct:title xml:lang="es">CSV: separado por tabuladores</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_bd/67576.csv"/>
+            <dct:title xml:lang="en">CSV: Tab Separated</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/14f78792-3f4e-4239-a385-dc3d6e3baa93</dct:identifier>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Segunda etapa de educación secundaria y educación postsecundaria no superior</dcat:keyword>
+        <dcat:keyword xml:lang="es">Menos que primaria</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 16 to 24 years</dcat:keyword>
+        <dct:title xml:lang="es">Tasa de paro de las personas entre 16 y 74 años por grupo de edad y nivel de formación alcanzado. EPA (Identificador API: 67576)</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587">
+            <foaf:name>Instituto Nacional de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="en">Age group</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 25 to 54 years</dcat:keyword>
+        <dct:conformsTo rdf:resource="https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=30308"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cf82f2f8-c258-4c46-8a57-052a388c6ec4">
+            <dct:title xml:lang="en">Excel: XLS extension</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/b3aed5d9-ed2a-4d93-bcd7-810c45c1a052</dct:identifier>
+            <dct:title xml:lang="es">Excel: Extensión XLS</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/xls/67576.xls"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">Economically Active Population Survey</dcat:keyword>
+        <dcat:keyword xml:lang="es">De 16 a 24 años</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/51c2b9c4-3a74-4f3e-b6d7-fcbe9478e773">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="en">Plain Text: separated by semicolons</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_sc/67576.csv_sc"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/d2442f90-c724-4892-a741-5a8fdce246c1</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Texto plano: separado por ;</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">Labour market</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0b57cfb6-320c-4266-b045-a8f63e9e1b4f">
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/xlsx/67576.xlsx"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="en">Excel: XLSx extension</dct:title>
+            <dct:title xml:lang="es">Excel: Extension XLSx</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/8b9d274e-de26-4972-8667-e900f54de308</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">Labour market and wages</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-04-29T11:00:00+02:00</dct:issued>
+        <dct:description xml:lang="en">Table of INEBase
+Unemployment rate of people between 16 and 74 years old by age group and educational level attained. Quarterly. National. Economically Active Population Survey</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cf81c9f4-1282-4fcd-978c-4874e963ab21">
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:title xml:lang="en">Pc-Axis</dct:title>
+            <dct:title xml:lang="es">Pc-Axis</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/px/67576.px"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/7634e71c-47e7-4fdd-a0d1-42a7efb0a44f</dct:identifier>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0b3e93a2-dfc2-45da-897b-e74306521733">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="en">Html</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="es">Html</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/1589bdd5-8193-415a-aec6-f08146934907</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/Tabla.htm?t=67576"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Estadísticas</dcat:keyword>
+        <dcat:keyword xml:lang="es">De 55 a 74 años</dcat:keyword>
+        <dcat:keyword xml:lang="en">Second stage of secondary education and non-upper post-secondary education.</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2def9c7d-9a24-4fc9-bc33-040a327f859b">
+            <dct:title xml:lang="es">Texto plano: separado por ,</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_c/67576.csv_c"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="en">Plain Text: separated by comma</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-grupo-de-edad-y-nivel-de-formacion-alcanzado-epa-identificador-api-67576/resource/896610ba-67d6-4051-bab5-4caaf25bef8b</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">Educational level attained</dcat:keyword>
+        <dcat:keyword xml:lang="es">De 25 a 54 años</dcat:keyword>
+        <dcat:keyword xml:lang="es">Grupos de edad</dcat:keyword>
+        <dcat:keyword xml:lang="en">Primary education and first stage of secondary education (levels 1 and 2)</dcat:keyword>
+        <dcat:keyword xml:lang="en">Statistics</dcat:keyword>
+        <dct:description xml:lang="es">Tabla de INEbase
+Tasa de paro de las personas entre 16 y 74 años por grupo de edad y nivel de formación alcanzado. Trimestral. Nacional. Encuesta de Población Activa (EPA)</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>urn:ine:es:TABLA:T3:330:67576</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-10T23:27:31Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/urn-ine-es-tabla-t3-330-67576"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:27:40Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

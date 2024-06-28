@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/c210e943-3e77-4e14-bfd6-ad32b8247a71">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>49429ccd91baf6d9d7edc25bd265f4dd</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/c210e943-3e77-4e14-bfd6-ad32b8247a71">
+        <dct:title xml:lang="bg-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8—27-eb-e5—79-a3</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">hustota_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Dichte_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population dans la bibliothèque du Centre de télécommunications ETSI (Madrid).</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="pl-t-es-t0-mtec">gęstość_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadení a obyvateľstva v knižnici telekomunikačného centra ETSI (Madrid).</dct:description>
+        <dcat:landingPage>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:landingPage>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Id-densità tat-tagħmir u l-popolazzjoni fil-Librerija taċ-Ċentru tat-Telekomunikazzjoni ETSI (Madrid).</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv ETSI Telekommunikatsioonikeskuse raamatukogus (Madrid).</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione nella Biblioteca del Centro di telecomunicazioni ETSI (Madrid).</dct:description>
+        <dcat:contactPoint rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στη Βιβλιοθήκη του Κέντρου Τηλεπικοινωνιών ETSI (Μαδρίτη).</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i biblioteket i ETSI Telekommunikation Center (Madrid).</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden ja väestön tiheys ETSI Telecommunication Centerin kirjastossa (Madrid).</dct:description>
+        <dcat:keyword>densidad</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-11-25T19:27:27.789201</dct:issued>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението в Библиотеката на далекосъобщителния център ETSI (Мадрид).</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Įrangos ir gyventojų tankis ETSI Telekomunikacijų centro bibliotekoje (Madridas).</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в бібліотеці Телекомунікаційного центру ETSI (Мадрид).</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Iekārtu blīvums un iedzīvotāju skaits ETSI Telekomunikāciju centra bibliotēkā (Madride).</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">densitet_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">tiheys_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">hustota_etsi_de_telecomunicaci_n_b8 – 27-eb-e5 – 79-a3</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">щільність_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">dlús_etsi_de_telecomunicaci_n_b8-27-e5-79-a3</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">πυκνότητα_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">blīvums_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">gostota_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:identifier>c210e943-3e77-4e14-bfd6-ad32b8247a71</dct:identifier>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației în Biblioteca Centrului de Telecomunicații ETSI (Madrid).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/27e0a313-7c32-4758-b64e-ee37d21b3ff0">
+            <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in the Library of the ETSI Telecommunication Center (Madrid).</dct:description>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Id-densità tat-tagħmir u l-popolazzjoni fil-Librerija taċ-Ċentru tat-Telekomunikazzjoni ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1300</dcat:byteSize>
+            <dct:title>urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u Knjižnici telekomunikacijskog centra ETSI (Madrid).</dct:description>
+            <dct:description>Densidad de equipos y población en Biblioteca del centro ETSI de Telecomunicación (Madrid).</dct:description>
+            <dcat:accessURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението в Библиотеката на далекосъобщителния център ETSI (Мадрид).</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w Bibliotece Centrum Telekomunikacyjnego ETSI (Madryt).</dct:description>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στη Βιβλιοθήκη του Κέντρου Τηλεπικοινωνιών ETSI (Μαδρίτη).</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og befolkning i biblioteket i ETSI Telekommunikation Center (Madrid).</dct:description>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in de bibliotheek van het ETSI Telecommunicatiecentrum (Madrid).</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadení a obyvateľstva v knižnici telekomunikačného centra ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv ETSI Telekommunikatsioonikeskuse raamatukogus (Madrid).</dct:description>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației în Biblioteca Centrului de Telecomunicații ETSI (Madrid).</dct:description>
+            <dct:description xml:lang="lv-t-es-t0-mtec">Iekārtu blīvums un iedzīvotāju skaits ETSI Telekomunikāciju centra bibliotēkā (Madride).</dct:description>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/c210e943-3e77-4e14-bfd6-ad32b8247a71/resource/86353981-ffba-4184-97ee-8f6d01a51156</dct:identifier>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra i Leabharlann Ionad Teileachumarsáide ETSI (Maidrid).</dct:description>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в бібліотеці Телекомунікаційного центру ETSI (Мадрид).</dct:description>
+            <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung in der Bibliothek des ETSI-Telekommunikationszentrums (Madrid).</dct:description>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:01.796340</dct:modified>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione nella Biblioteca del Centro di telecomunicazioni ETSI (Madrid).</dct:description>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden ja väestön tiheys ETSI Telecommunication Centerin kirjastossa (Madrid).</dct:description>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége az ETSI Távközlési Központ (Madrid) könyvtárában.</dct:description>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população na Biblioteca do Centro de Telecomunicações ETSI (Madrid).</dct:description>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v knjižnici telekomunikacijskega centra ETSI (Madrid).</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v knihovně telekomunikačního centra ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Įrangos ir gyventojų tankis ETSI Telekomunikacijų centro bibliotekoje (Madridas).</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dct:issued>
+            <dcat:downloadURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i biblioteket för ETSI Telekommunikationscenter (Madrid).</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population dans la bibliothèque du Centre de télécommunications ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-e5-79-a3</dct:title>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title>densidad_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">densitate_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dcat:keyword>ocupacion</dcat:keyword>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v knihovně telekomunikačního centra ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">densità_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-11-25T19:27:28.437321</dct:modified>
+        <dct:title xml:lang="hu-t-es-t0-mtec">denzitás_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/957d07d1-ee7b-4e60-83d4-f1fa46f6c377">
+            <foaf:name>cei_moncloa</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população na Biblioteca do Centro de Telecomunicações ETSI (Madrid).</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i biblioteket för ETSI Telekommunikationscenter (Madrid).</dct:description>
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/place/ESP_MAD"/>
+        </dct:spatial>
+        <dct:title xml:lang="da-t-es-t0-mtec">tæthed_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        </dcat:theme>
+        <dct:title xml:lang="lt-t-es-t0-mtec">tankis_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in de bibliotheek van het ETSI Telecommunicatiecentrum (Madrid).</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung in der Bibliothek des ETSI-Telekommunikationszentrums (Madrid).</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w Bibliotece Centrum Telekomunikacyjnego ETSI (Madryt).</dct:description>
+        <dct:description>Densidad de equipos y población en Biblioteca del centro ETSI de Telecomunicación (Madrid).</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u Knjižnici telekomunikacijskog centra ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Density_etsi_de_telecomunicaci_n_b8-27-eb-e5-79-a3</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v knjižnici telekomunikacijskega centra ETSI (Madrid).</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra i Leabharlann Ionad Teileachumarsáide ETSI (Maidrid).</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">tihedus_etsi_de_telecomunicaci_n_b8–27-eb-e5–79-a3</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">gustoća_etsi_de_telecomunicaci_n_b8 – 27-eb-e5 – 79-a3</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége az ETSI Távközlési Központ (Madrid) könyvtárában.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in the Library of the ETSI Telecommunication Center (Madrid).</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/c210e943-3e77-4e14-bfd6-ad32b8247a71"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-11-27T05:00:02Z</dct:issued>
+    <dct:identifier>c210e943-3e77-4e14-bfd6-ad32b8247a71</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-11-27T05:00:02Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:01Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-11-27T08:24:54Z</edp:transReceived>
+  </dcat:CatalogRecord>
+</rdf:RDF>

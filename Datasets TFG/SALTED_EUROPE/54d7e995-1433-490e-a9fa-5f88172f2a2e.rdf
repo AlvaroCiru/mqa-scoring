@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/54d7e995-1433-490e-a9fa-5f88172f2a2e">
+    <dct:identifier>54d7e995-1433-490e-a9fa-5f88172f2a2e</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:08:59Z</edp:transReceived>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/54d7e995-1433-490e-a9fa-5f88172f2a2e"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:08:59Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/54d7e995-1433-490e-a9fa-5f88172f2a2e">
+        <dct:title xml:lang="lt-t-en-t0-mtec">Sūdytas:CityLiveabilityIndeksas: Berlynas: SubIndeksas: Oro kokybėMetinis vidurkis</dct:title>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente les sous-indices AirQualityObserved pour la ville de Berlin.</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+        <dct:title xml:lang="de-t-en-t0-mtec">Salted:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Suolattu:CityLiveabilityIndex:Berliini:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Slano:CityLiveabilityIndex:Berlin:SubIndex: AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Solone:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Immellaħ:CityLiveabilityIndex:Berlin: Subdex:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa Berliinin kaupungin AirQualityObserved-alaindeksejä.</dct:description>
+        <dcat:keyword>CO</dcat:keyword>
+        <dct:title xml:lang="da-t-en-t0-mtec">Saltet:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:42:42.935841</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-11T15:42:43.074816</dct:issued>
+        <dct:title xml:lang="el-t-en-t0-mtec">Αλατισμένος:CityLiveabilityΔείκτης:Βερολίνο:Δείκτης:AirQualityAnnualMean</dct:title>
+        <dcat:keyword>PM25</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/96e5701a-cd44-412c-8ef5-adb2ae1baff8">
+            <dct:description xml:lang="et-t-en-t0-mtec">Soolatud:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualkeskmine reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Slano:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Solone:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/54d7e995-1433-490e-a9fa-5f88172f2a2e/resource/urn_ngsi-ld_distribution_salted_project_salted_cli_berlin_subindex_airqualityannualmean_jsonld</dct:identifier>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Gezouten:CityLiveabilityIndex:Berlijn:SubIndex:AirQualityAnnualMean realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Salato:CityLiveabilityIndex:Berlino:SubIndex:AirQualityAnnualDati medi in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Salado:CityLiveabilityIndex:Berlin:Subíndice:AirQualityAnnualMean datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:42:43.074816</dct:issued>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:59:27.585273</dct:modified>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Sālīti:CityLiveabilityIndekss:Berlin:SubIndex:AirQualityAnnualMean reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Saillte:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean sonraí fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Salgado:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean Dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Salted:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMes données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αλατισμένος:CityLiveabilityΔείκτης:Βερολίνο:SubIndex:AirQualityAnnualMean δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Immellaħ:CityLiveabilityIndex:Berlin: Subdex:AirQualityAnnualId-data fil-ħin reali medja rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Sūdyta:CityLiveabilityIndex:Berlynas:SubIndex:AirQualityMenualMean realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Saled:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean realtime data reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Осолени:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMeждинни данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Saltad:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean realtidsdata representerad i JSON_LD-format</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FCityLiveabilityIndex%2FBerlin%2FSubIndex%2FAirQualityAnnualMean__.jsonld"/>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FCityLiveabilityIndex%2FBerlin%2FSubIndex%2FAirQualityAnnualMean__.jsonld"/>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Sózott:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Salted:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean Echtzeitdaten im JSON_LD Format dargestellt</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Saltet:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean realtime data repræsenteret i JSON_LD format</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Sărat:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMai multe date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Solené:CityLiveabilityIndex:Berlín:SubIndex:AirQualityAnnualMean realtime data reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description>SALTED:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Солоні:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean дані в реальному часі представлені у форматі JSON_LD</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Suolattu:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Soljeni:CityLiveabilityIndex:Berlin:SubIndex:AirQualityLenialSrednji podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="de-t-en-t0-mtec">Sie stellt die AirQualityObserved Subindexes für die Stadt Berlin dar.</dct:description>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Salé:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Nasoljeno:CityLiveabilityIndex:Berlin:Podindeks:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">Soolatud:CityLiveabilityIndex:Berliin:SubIndex:AirQualityAnnualkeskmine</dct:title>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Déanann sé ionadaíocht ar na fo-innéacsanna AirQualityObserved do chathair Bheirlín.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:42:42.935841</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Jis atstovauja „AirQualityObserved“ subindeksus Berlyno miestui.</dct:description>
+        <dct:description>It represents the AirQualityObserved subindexes for the city of Berlin.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:title xml:lang="es-t-en-t0-mtec">Salado:CityLiveabilityÍndice:Berlín:Subíndice:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява AirQualityObserved subindexes за град Берлин.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-11T15:42:43.074855</dct:modified>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer AirQualityObserved subindexes for byen Berlin.</dct:description>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він представляє AirQualityObserved subindexes для міста Берлін.</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje subindexy AirQualityObserved pro město Berlín.</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta i sottoindici AirQualityObserved per la città di Berlino.</dct:description>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje subindexy AirQualityObserved pre mesto Berlín.</dct:description>
+        <dcat:keyword>O3</dcat:keyword>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa os subindexes AirQualityObserved para a cidade de Berlim.</dct:description>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Saillte:CityLiveabilityIndex: Beirlín:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar AirQualityObserved subindex för staden Berlin.</dct:description>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Solené:CityLiveabilityIndex:Berlín:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Solené:CityLiveabilityIndex:Berlín:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas ir AirQualityObserved apakšindeksi Berlīnes pilsētai.</dct:description>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa los subíndices AirQualityObserved para la ciudad de Berlín.</dct:description>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Ez képviseli az AirQualityObserved alindexek a város Berlin.</dct:description>
+        <dct:description xml:lang="hr-t-en-t0-mtec">To predstavlja AirQualityObserved subindekse za grad Berlin.</dct:description>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Sālīta:CityLiveabilityIndekss:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>NEC_Laboratories_Europe_GmbH</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Sózott:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">Salato:CityLiveabilityIndex:Berlino:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Осолени:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:description xml:lang="et-t-en-t0-mtec">See esindab Berliini linna AirQualityObserved subdekseid.</dct:description>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă subindicele AirQualityObserved pentru orașul Berlin.</dct:description>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Salgado:CityLiveabilityIndex:Berlim:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Gezouten: StadLiveabilityIndex:Berlijn:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Sărat:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:identifier>54d7e995-1433-490e-a9fa-5f88172f2a2e</dct:identifier>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje subindeksy AirQualityObserved dla miasta Berlin.</dct:description>
+        <dcat:keyword>AirQualityObserved</dcat:keyword>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει τους υποδείκτες AirQualityObserved για την πόλη του Βερολίνου.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d49757f5-356a-428a-b8c5-5ebde1d3e0a3">
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Saled:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean realtime data reprezentovaná ve formátu JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Slano:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Осолени:CityLiveabilityIndex:Berlin:SubIndex:AirQualityГодишногодишни данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Solone:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Солоні:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean дані в реальному часі представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Salgado:CityLiveabilityIndex:Berlim:SubIndex:AirQualityAnnualMean Dados em tempo real representados no formato JSON</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:42:43.074816</dct:issued>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FCityLiveabilityIndex%2FBerlin%2FSubIndex%2FAirQualityAnnualMean__.json"/>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Immellaħ:CityLiveabilityIndex:Berlin: Subdex:AirQualityAnnualId-data fil-ħin reali medja rrappreżentata fil-format JSON</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Saillte:CityLiveabilityIndex: Beirlín:SubIndex:AirQualityAnnualMean sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Salato:CityLiveabilityIndex:Berlino:SubIndex:AirQualityAnnualDati medi in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Soolatud:CityLiveabilityIndex:Berliin:SubIndex:AirQualityAnnualkeskmine reaalajas esitatud andmed JSON-vormingus</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Saltet:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean realtime data repræsenteret i JSON format</dct:description>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Sărat:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMeanual Date în timp real reprezentate în format JSON</dct:description>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Soljeni:CityLiveabilityIndex:Berlin:SubIndex:AirQualityLenialSrednji podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Salted:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Sālīti:CityLiveabilityIndekss:Berlīne:SubIndex:AirQualityAnnualMean reāllaika dati attēloti JSON formātā</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FCityLiveabilityIndex%2FBerlin%2FSubIndex%2FAirQualityAnnualMean__.json"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:59:27.584134</dct:modified>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Sūdyta:CityLiveabilityIndex:Berlynas:SubIndex:AirQualityMenualMean realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/54d7e995-1433-490e-a9fa-5f88172f2a2e/resource/urn_ngsi-ld_distribution_salted_project_salted_cli_berlin_subindex_airqualityannualmean_json</dct:identifier>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Suolattu:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Sózott:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean valós idejű adatok JSON formátumban</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Salted:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMes données en temps réel représentées au format JSON</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Gezouten:CityLiveabilityIndex:Berlijn:SubIndex:AirQualityAnnualMean realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Saltad:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean realtidsdata representerad i JSON-format</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Solené:CityLiveabilityIndex:Berlín:SubIndex:AirQualityAnnualMean realtime data reprezentované vo formáte JSON</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αλατισμένος:CityLiveabilityΔείκτης:Βερολίνο:SubIndex:AirQualityAnnualMean δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Salado:CityLiveabilityIndex:Berlin:Subíndice:AirQualityAnnualMean datos en tiempo real representados en formato JSON</dct:description>
+            <dct:description>SALTED:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean realtime data represented in JSON format</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja AirQualityObserved podindeks za mesto Berlin.</dct:description>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Saltad:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Солоний:CityLiveabilityIndex:Berlin:SubIndex:AirЯкістьЩорічнийсередній</dct:title>
+        <dcat:keyword>NO2</dcat:keyword>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta s-subindiċijiet tal-AirQualityOsservati għall-belt ta’ Berlin.</dct:description>
+        <dct:title>SALTED:CityLiveabilityIndex:Berlin:SubIndex:AirQualityAnnualMean</dct:title>
+        <dcat:keyword>CityLiveabilityIndex</dcat:keyword>
+        <dcat:keyword>PM10</dcat:keyword>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de AirQualityObserved subindexen voor de stad Berlijn.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>95b3f092fa27b09dd1a03b15d549c5dc</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>en</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

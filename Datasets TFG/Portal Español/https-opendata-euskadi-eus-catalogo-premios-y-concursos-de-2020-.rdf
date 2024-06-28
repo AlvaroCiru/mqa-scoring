@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-premios-y-concursos-de-2020-">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>6a56b75f7d102660572b2885728efefb</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:37:06Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:30:54Z</dct:issued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:37:06Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-premios-y-concursos-de-2020-"/>
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/premios-y-concursos-de-2020/</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-premios-y-concursos-de-2020-">
+        <dct:description xml:lang="en-t-es-t0-mtec">Prizes and competitions of the Basque Government, its autonomous bodies and public entities during the year 2020. Basic information about prizes and contests is included.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A baszk kormány, annak autonóm szervei és közintézményei 2020. évi díjai és versenyei.
+A nyereményekről és versenyekről alapvető információk találhatók.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Prijzen en wedstrijden van de Baskische regering, haar autonome organen en overheidsinstanties in het jaar 2020. Basisinformatie over prijzen en wedstrijden is inbegrepen.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Prix et concours du gouvernement basque, de ses organismes autonomes et d’entités publiques au cours de l’année 2020.
+Des informations de base sur les prix et les concours sont incluses.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">2020. aasta auhinnad ja võistlused</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Nagrade i natječaji baskijske vlade, njezinih autonomnih tijela i javnih tijela tijekom 2020. Uključene su osnovne informacije o nagradama i natjecanjima.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7b43d841-512a-4117-baa5-d2688afc9635">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >39373</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_premios_concursos/premios_y_concursos_2020/opendata/premios.jsonp"/>
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-20201/resource/7920deeb-c4b5-4251-bd5a-802951b97652</dct:identifier>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Награди и конкурси на правителството на баските, неговите автономни органи и публичноправни субекти през 2020 г. Включена е основна информация за наградите и конкурсите.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Prémios e concursos do Governo Basco, dos seus órgãos autónomos e entidades públicas durante o ano de 2020. Informações básicas sobre prémios e concursos estão incluídas.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-reutilizar/-/reutilizar-datos-abiertos/"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-20201/PeriodOfTime-1">
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2021-01-04T00:00:00+01:00</schema:endDate>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2020-01-01T00:00:00+01:00</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Premjijiet u kompetizzjonijiet tal-Gvern Bask, il-korpi awtonomi u l-entitajiet pubbliċi tiegħu matul is-sena 2020.
+Informazzjoni bażika dwar premjijiet u kompetizzjonijiet hija inkluża.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-13T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="de-t-es-t0-mtec">Preise und Wettbewerbe der baskischen Regierung, ihrer autonomen Einrichtungen und öffentlichen Einrichtungen im Jahr 2020.
+Grundlegende Informationen über Preise und Wettbewerbe sind enthalten.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Нагороди та конкурси 2020</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Premi e Concorsi 2020</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Βραβεία και διαγωνισμοί της κυβέρνησης των Βάσκων, των αυτόνομων φορέων της και των δημόσιων φορέων κατά τη διάρκεια του 2020.
+Περιλαμβάνονται βασικές πληροφορίες σχετικά με τα βραβεία και τους διαγωνισμούς.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Premi e concorsi del governo basco, dei suoi enti autonomi ed enti pubblici nel corso del 2020.
+Informazioni di base su premi e concorsi sono incluse.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Priser og konkurrencer fra den baskiske regering, dens selvstyrende organer og offentlige enheder i 2020.
+Grundlæggende oplysninger om præmier og konkurrencer er inkluderet.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Basku zemes valdības, tās autonomo struktūru un publisko struktūru balvas un konkursi 2020. gadā. Iekļauta pamatinformācija par balvām un konkursiem.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/api-del-buscador-de-euskadi-eus/webopd00-comoreu/es/"/>
+        <dcat:keyword xml:lang="es">procedimientos administrativos</dcat:keyword>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Nagrody i konkursy rządu baskijskiego, jego autonomicznych organów i podmiotów publicznych w 2020 r.
+Podstawowe informacje o nagrodach i konkursach są zawarte.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Nagrade in natečaji za leto 2020</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:title xml:lang="de-t-es-t0-mtec">2020 Auszeichnungen und Wettbewerbe</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Призи та конкурси уряду Басків, його автономних органів та державних утворень протягом 2020 року.
+Основна інформація про призи та конкурси включається.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Ceny a soutěže baskické vlády, jejích autonomních orgánů a veřejných subjektů v průběhu roku 2020.
+Základní informace o výhrách a soutěžích jsou zahrnuty.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="eu">lehiaketak</dcat:keyword>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Prijzen en wedstrijden 2020</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2020-01-07T00:00:00+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9ce9f942-e787-4565-9533-ff71d967564c">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-20201/resource/60ff29ce-e50e-4dbe-8f23-4b4c83612d21</dct:identifier>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC%3Aeuskadi%3BtT%3Apremio_concurso%3Bm%3AprocedureStartDate.BETWEEN.01/01/2020%2C31/12/2020%2CdocumentLanguage.EQ.es%3B"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">premios</dcat:keyword>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Награди и конкурси за 2020 г.</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">2020 Díjak és versenyek</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">2020 Utmärkelser och tävlingar</dct:title>
+        <dct:title xml:lang="es">Premios y concursos de 2020</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Prémios e Concursos 2020</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Βραβεία και Διαγωνισμοί 2020</dct:title>
+        <dcat:keyword xml:lang="eu">sariak</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:title xml:lang="cs-t-es-t0-mtec">2020 Ocenění a soutěže</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Prix et concours 2020</dct:title>
+        <dcat:keyword xml:lang="es">concursos</dcat:keyword>
+        <dct:title xml:lang="da-t-es-t0-mtec">Udmærkelser og konkurrencer 2020</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Ceny a súťaže baskickej vlády, jej autonómnych orgánov a verejných subjektov v roku 2020. Základné informácie o cenách a súťažiach sú zahrnuté.</dct:description>
+        <dct:title xml:lang="eu">2020ko sariak eta lehiaketak</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">2020. gada balvas un konkursi</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:description xml:lang="et-t-es-t0-mtec">Baskimaa valitsuse, selle autonoomsete asutuste ja avalik-õiguslike üksuste auhinnad ja konkursid 2020. aastal.
+Lisatud on põhiteave auhindade ja võistluste kohta.</dct:description>
+        <dct:description xml:lang="eu">Eusko Jaurlaritzak, haren erakunde autonomoek eta erakunde publikoek antolatutako sari eta lehiaketak 2020an. Sari eta lehiaketen oinarrizko informazioa jasotzen da.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/df2c4f43-886b-4aa3-85ac-67072367fbb7">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-20201/resource/028b0caf-04c7-43f0-a457-06203b02b461</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >9789</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_premios_concursos/premios_y_concursos_2020/opendata/premios.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Gradaim agus Comórtais 2020</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">2020 Awards and Contests</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Vuoden 2020 palkinnot ja kilpailut</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0b3acfb7-b34d-4afe-9fba-db6deccd09ed">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_premios_concursos/premios_y_concursos_2020/opendata/premios.json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-20201/resource/7838e8cd-fff7-4aa0-b3ea-7213cf26a8f6</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >37458</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Baskimaan hallituksen, sen autonomisten elinten ja julkisten elinten palkinnot ja kilpailut vuonna 2020.
+Perustiedot palkinnoista ja kilpailuista ovat mukana.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Baskų krašto vyriausybės, jos autonominių įstaigų ir viešųjų subjektų apdovanojimai ir konkursai 2020 m. Pateikiama pagrindinė informacija apie prizus ir konkursus.</dct:description>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/premios-y-concursos-de-2020/</dct:identifier>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Premii și Concursuri 2020</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Súťaže a súťaže 2020</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Nagrade in natečaji baskovske vlade, njenih avtonomnih organov in javnih subjektov v letu 2020. Vključene so tudi osnovne informacije o nagradah in tekmovanjih.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Nagrody i konkursy 2020</dct:title>
+        <dcat:keyword xml:lang="eu">administrazio-prozedurak</dcat:keyword>
+        <dct:title xml:lang="lt-t-es-t0-mtec">2020 m. apdovanojimai ir konkursai</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Premjijiet u Kompetizzjonijiet 2020</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Nagrade i natječaji za 2020.</dct:title>
+        <dct:description xml:lang="es">Premios y concursos del Gobierno Vasco, sus organismos autónomos y entes públicos durante el año 2020. Se incluye información báscia sobre los premios y concursos.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4b2d070a-3d0e-4e04-a58d-218bd349bdb7">
+            <dcat:accessURL rdf:resource="https://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&amp;r01kQry=tC%3Aeuskadi%3BtT%3Apremio_concurso%3Bm%3AdocumentLanguage.EQ.es%2CprocedureStartDate.BETWEEN.01/01/2020%2C31/12/2020%3Bp%3AInter_portal%2CInter%3Bpp%3Ar01NavBarBlockSize.10%2Cr01PageSize.100"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-20201/resource/ff26e663-e94f-4174-8810-151cd9b847ce</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Premii și concursuri ale guvernului basc, ale organismelor sale autonome și ale entităților publice în cursul anului 2020.
+Sunt incluse informații de bază despre premii și concursuri.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Duaiseanna agus comórtais Rialtas na mBascach, a chomhlachtaí uathrialacha agus eintitis phoiblí le linn na bliana 2020.
+Tá eolas bunúsach faoi dhuaiseanna agus comórtais san áireamh.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/premios-y-concursos-de-2020/"/>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Priser och tävlingar för den baskiska regeringen, dess autonoma organ och offentliga organ under 2020.
+Grundläggande information om priser och tävlingar ingår.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/93f05084-7d1e-4ec4-b797-2f3767af0bdb">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_premios_concursos/premios_y_concursos_2020/opendata/premios.xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-20201/resource/dd18383f-89ba-402c-b40a-f067508c2abf</dct:identifier>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >33731</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/4434189e-f200-4bc0-951b-ed33c4af1cfd">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/4434189e-f200-4bc0-951b-ed33c4af1cfd"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-08T05:00:00Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/4434189e-f200-4bc0-951b-ed33c4af1cfd">
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Klimatologie van het ALICANTE-ELCHE/AEROPUERTO-station volgens het weerobserveerde model van NGSI-LD. Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d3ef220d-6f67-42f1-b477-5022da2edfb4">
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:title>urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="lv-t-es-t0-mtec">ALICANTE-ELCHE/AEROPUERTO klimatoloģiskā novērošana</dct:description>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:8019-1"/>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Klimatologické pozorovanie ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht Clíomeolaíochta ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="hu-t-es-t0-mtec">Az ALICANTE-ELCHE/AEROPUERTO klimatológiai megfigyelése</dct:description>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Klimatologische observatie van ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="en-t-es-t0-mtec">Climatology observation of ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni klimatoloġika ta’ ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="de-t-es-t0-mtec">Klimatologische Beobachtung von ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation climatologique d’ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione climatologica di ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Klimatologinis ALICANTE-ELCHE/AEROPUERTO stebėjimas</dct:description>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Klimatološko promatranje ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação climática de ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Климатологично наблюдение на ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:00.461529</dct:modified>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:8019-1"/>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Klimatologické pozorování ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="et-t-es-t0-mtec">ALICANTE-ELCHE/AEROPUERTO klimatoloogiline vaatlus</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja klimatologiczna ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Klimatologiska observationer av ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Klimatologian havainto ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:description>Observación de climatología de ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Кліматологічні спостереження ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Klimatologi observation af ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:8019-1</dct:title>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/4434189e-f200-4bc0-951b-ed33c4af1cfd/resource/cc8a9cf7-bc6c-4962-8568-d5dedb004487</dct:identifier>
+            <dct:description xml:lang="el-t-es-t0-mtec">Κλιματολογική παρατήρηση ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Klimatološko opazovanje ALICANTE-ELCHE/AEROPUERTO</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea climatologiei ALICANTE-ELCHE/AEROPUERTO</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-es-t0-mtec">Klimatoloogia ALICANTE-ELCHE/AEROPUERTO jaama pärast WeatherObserved mudel NGSI-LD. Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Klimatologi för ALICANTE-ELCHE/AEROPUERTO-stationen efter WeatherObserved-modellen av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:identifier>4434189e-f200-4bc0-951b-ed33c4af1cfd</dct:identifier>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Alicante-elche_flygplats_8019</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Alicante-elche_flughafen_8019</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Aeroporto di Alicante-elche_8019</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Alikantė-elche_airport_8019</dct:title>
+        <dct:description>Climatología de la estación de ALICANTE-ELCHE/AEROPUERTO siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Climatology of the ALICANTE-ELCHE/AEROPUERTO station following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Alikante-elche_lidosta_8019</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-01T23:20:26.857595</dct:modified>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Alicante-elche_repülőtér_8019</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">ALICANTE-ELCHE/AEROPUERTO stoties klimatologija pagal WeatherObserved NGSI-LD modelį. Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Klimatologija stanice ALICANTE-ELCHE/AEROPUERTO prema Weather Observed modelu NGSI-LD-a. Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Climatologia da estação ALICANTE-ELCHE/AEROPUERTO seguindo o modelo WeatherObserved de NGSI-LD. Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Klimatoloġija tal-istazzjon ALICANTE-ELCHE/AEROPUERTO skont il-mudell ta’ WeatherObserved ta’ NGSI-LD. Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-01T23:20:26.255526</dct:issued>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Alicante-elche_aeroport_8019</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Klimatologija postaje ALICANTE-ELCHE/AEROPUERTO po modelu WeatherObserved modela NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Klimatológia stanice ALICANTE-ELCHE/AEROPUERTO podľa modelu WeatherObserved NGSI-LD. Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Climatologia stației ALICANTE-ELCHE/AEROPUERTO după modelul WeatherObserved al NGSI-LD. Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Alicante-elche_αεροδρόμιο_8019</dct:title>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Clíomeolaíocht an stáisiúin ALICANTE-ELCHE/AEROPUERTO tar éis an tsamhail WeatherObserved de NGSI-LD. Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Climatologie de la station ALICANTE-ELCHE/AEROPUERTO suivant le modèle WeatherObserved de NGSI-LD. Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Klimatologi af ALICANTE-ELCHE/AEROPUERTO stationen efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Klimatologia stacji ALICANTE-ELCHE/AEROPUERTO według modelu WeatherObserved NGSI-LD. Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dct:title>alicante-elche_aeropuerto_8019</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Alicante-elche_lotport_8019</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Az ALICANTE-ELCHE/AEROPUERTO állomás klimatológiája az NGSI-LD WeatherObserved modelljét követve. Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κλιματολογία του σταθμού ALICANTE-ELCHE/AEROPUERTO σύμφωνα με το WeatherObserved μοντέλο NGSI-LD. Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Аліканте-ельче_аеропорт_8019</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">ALICANTE-ELCHE/AEROPUERTO-aseman ilmastotiede, joka seuraa NGSI-LD:n WeatherObserved -mallia. Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Alicante-elche_aeroporto_8019</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Alicante-elche_letisko_8019</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Аликанте-elche_airport_8019</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Кліматологія станції ALICANTE-ELCHE/AEROPUERTO за моделлю WeatherObserved NGSI-LD.
+Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Klimatologie stanice ALICANTE-ELCHE/AEROPUERTO podle modelu pozorování počasí NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="lv-t-es-t0-mtec">ALICANTE-ELCHE/AEROPUERTO stacijas klimatoloģija saskaņā ar WeatherObserved modeli NGSI-LD. Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">Climatologia della stazione ALICANTE-ELCHE/AEROPUERTO seguendo il modello WeatherObserv di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Климатология на станция ALICANTE-ELCHE/AEROPUERTO, следвайки WeatherObserved модел на NGSI-LD. Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Klimatologie der Station ALICANTE-ELCHE/AEROPUERTO nach dem WeatherObserved-Modell der NGSI-LD. Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Alicante-elche_airport_8019</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>4434189e-f200-4bc0-951b-ed33c4af1cfd</dct:identifier>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-08T05:00:17Z</edp:transReceived>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-08T05:00:00Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>1b47285d74fb1e234897f6ca5922e8c4</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:00Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

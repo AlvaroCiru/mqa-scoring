@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-ofertas-de-empleo-de-lanbide-">
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/ofertas-de-empleo-de-lanbide/</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-ofertas-de-empleo-de-lanbide-"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:21:25Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-ofertas-de-empleo-de-lanbide-">
+        <dct:description xml:lang="fi-t-es-t0-mtec">Avoimet työpaikat, joita hallinnoi Baskimaan työvoimapalvelu Lanbide. Se ei sisällä työtarjouksia, joita Lanbide ei hallinnoi vaan julkaisee portaalissaan (esimerkki: ne, jotka tulevat mediasta.)</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A Lanbide (Baszk Foglalkoztatási Szolgálat) által kezelt állásajánlatok.
+Nem tartalmazza azokat az állásajánlatokat, amelyeket a Lanbide nem kezel, hanem közzéteszi a portálján (Példa:
+a médiából érkezők).</dct:description>
+        <dcat:keyword xml:lang="eu">lana</dcat:keyword>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Folúntais phoist ó Lanbide</dct:title>
+        <dct:description xml:lang="es">Ofertas de empleo gestionadas por Lanbide, Servicio Vasco de Empleo. No incluye las ofertas de trabajo que Lanbide no gestiona pero publica en su portal (Ejemplo: las que provienen de medios de comunicación).</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Job vacancies from Lanbide</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Folúntais phoist á mbainistiú ag Lanbide, Seirbhís Fostaíochta na mBascach.
+Ní chuimsíonn sé tairiscintí poist nach mbainistíonn Lanbide ach a fhoilsíonn ar a thairseach (Sampla:
+iad siúd a thagann ó na meáin).</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Offres d’emploi gérées par Lanbide, Service de l’emploi basque.
+Elle n’inclut pas les offres d’emploi que Lanbide ne gère pas mais publie sur son portail (exemple:
+ceux qui viennent des médias).</dct:description>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-ofertas-de-empleo-de-lanbide1/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-ofertas-de-empleo-de-lanbide1/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/530cb3de-6e9b-4edd-b3e4-82b9254ecc34">
+            <dct:title xml:lang="es">Ofertas de empleo</dct:title>
+            <dct:title xml:lang="eu">Lan-eskaintzak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://apps.lanbide.euskadi.net/apps/OF_OFERTAS_ODE_JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-ofertas-de-empleo-de-lanbide1/resource/86135f26-a80f-49e1-8786-b91fbb31f94c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Oferty pracy zarządzane przez Lanbide, baskijskie służby zatrudnienia.
+Nie obejmuje ofert pracy, którymi Lanbide nie zarządza, ale publikuje na swoim portalu (przykład:
+tych pochodzących z mediów).</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Volná pracovní místa vedená společností Lanbide, baskická služba zaměstnanosti.
+Nezahrnuje pracovní nabídky, které společnost Lanbide nespravuje, ale zveřejňuje na svém portálu (příklad:
+ty, které pocházejí z médií).</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Slobodna radna mjesta iz Lanbidea</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Locuri de muncă vacante din Lanbide</dct:title>
+        <dcat:keyword xml:lang="eu">langabezia</dcat:keyword>
+        <dct:title xml:lang="es">Ofertas de empleo de Lanbide</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Offerte di lavoro gestite da Lanbide, Basque Employment Service.
+Non include offerte di lavoro che Lanbide non gestisce ma pubblica sul suo portale (Esempio:
+quelli provenienti dai media).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bc3f1483-a027-4b08-9a04-af40c6cc0b6f">
+            <dcat:accessURL rdf:resource="https://apps.lanbide.euskadi.net/apps/OF_OFERTAS_ODE_JSON?jsonCallback=ofertasLanbide"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-ofertas-de-empleo-de-lanbide1/resource/6d566b9b-f323-4ef8-bcf9-1992cc1c95de</dct:identifier>
+            <dct:title xml:lang="es">Ofertas de empleo (JSONP)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Lan-eskaintzak (JSONP)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/contenidos/ds_eventos/ofertas_empleo_lanbide/es_calendar/adjuntos/ofertas-lanbide-json.pdf"/>
+        <dct:title xml:lang="it-t-es-t0-mtec">Offerte di lavoro da Lanbide</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Свободни работни места, управлявани от Lanbide, Basque Employment Service.
+Тя не включва предложения за работа, които Lanbide не управлява, а публикува на своя портал (Пример:
+тези, които идват от медиите).</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Voľné pracovné miesta spravované spoločnosťou Lanbide, Baskická služba zamestnanosti.
+Nezahŕňa pracovné ponuky, ktoré Lanbide neriadi, ale uverejňuje na svojom portáli (príklad:
+tie, ktoré pochádzajú z médií).</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Vabad töökohad Lanbide’ist</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Prosta delovna mesta upravlja Lanbide, baskovski zavod za zaposlovanje.
+Ne vključuje ponudb za delo, ki jih Lanbide ne upravlja, ampak objavlja na svojem portalu (primer:
+ki prihajajo iz medijev).</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Θέσεις εργασίας που διαχειρίζεται η Lanbide, υπηρεσία απασχόλησης των Βάσκων. Δεν περιλαμβάνει προσφορές εργασίας που η Lanbide δεν διαχειρίζεται αλλά δημοσιεύει στην πύλη της (Παράδειγμα: αυτοί που προέρχονται από τα μέσα μαζικής ενημέρωσης).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/63186bc9-22f8-478d-abb1-edfb08252c1d">
+            <dct:title xml:lang="eu">Lan-eskaintzak</dct:title>
+            <dct:title xml:lang="es">Ofertas de empleo</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-ofertas-de-empleo-de-lanbide1/resource/84efb2d8-d168-47bc-8176-f9a0d6187330</dct:identifier>
+            <dcat:accessURL rdf:resource="https://apps.lanbide.euskadi.net/apps/OF_OFERTAS_ODE_RSS"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Állásajánlatok a Lanbide-tól</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Ledige stillinger administreret af Lanbide, baskisk arbejdsformidling. Det omfatter ikke jobtilbud, som Lanbide ikke administrerer, men offentliggør på sin portal (eksempel: dem, der kommer fra medierne).</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Prosta delovna mesta Lanbide</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Offres d’emploi de Lanbide</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Lediga jobb från Lanbide</dct:title>
+        <dcat:keyword xml:lang="eu">eskaintzak</dcat:keyword>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Postijiet tax-xogħol battala minn Lanbide</dct:title>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/ofertas-de-empleo-de-lanbide/</dct:identifier>
+        <dct:title xml:lang="de-t-es-t0-mtec">Stellenangebote von Lanbide</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Vakances no Lanbide</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Ofertas de emprego geridas pela Lanbide, Serviço de Emprego Basco.
+Não inclui ofertas de emprego que a Lanbide não gere, mas publica no seu portal (exemplo:
+os que vêm dos meios de comunicação).</dct:description>
+        <dct:isReferencedBy rdf:resource="http://apps.lanbide.euskadi.net/apps/OF_BUSQUEDA_OFERTAS?LG=C&amp;ML=OFEMEN1&amp;MS=Ea"/>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Вакансії, якими керує компанія Lanbide, Basque Employment Service.
+Він не включає пропозиції про роботу, які Lanbide не управляє, але публікує на своєму порталі (приклад:
+тих, хто прийшов із ЗМІ).</dct:description>
+        <dcat:keyword xml:lang="es">empleo</dcat:keyword>
+        <dct:title xml:lang="el-t-es-t0-mtec">Κενές θέσεις εργασίας από Lanbide</dct:title>
+        <dct:title xml:lang="eu">Lanbideren lan-eskaintzak</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Volná pracovní místa z Lanbide</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Ledige stillinger hos Lanbide</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Job vacancies managed by Lanbide, Basque Employment Service. It does not include job offers that Lanbide does not manage but publishes on its portal (Example: those coming from the media).</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Lediga jobb som förvaltas av Lanbide, baskiska arbetsförmedlingen.
+Det inkluderar inte jobberbjudanden som Lanbide inte hanterar men publicerar på sin portal (Exempel:
+de som kommer från media).</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Stellenangebote, die von Lanbide, baskischer Arbeitsverwaltung verwaltet werden.
+Es enthält keine Stellenangebote, die Lanbide nicht verwaltet, sondern auf seinem Portal veröffentlicht (Beispiel:
+die aus den Medien kommen).</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Voľné pracovné miesta od Lanbide</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Свободни работни места от Lanbide</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Locuri de muncă vacante gestionate de Lanbide, Serviciul Bască pentru Ocuparea Forței de Muncă.
+Aceasta nu include ofertele de locuri de muncă pe care Lanbide nu le gestionează, ci le publică pe portalul său (Exemplu:
+cei care vin din mass-media).</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Slobodna radna mjesta kojima upravlja Lanbide, baskijska služba za zapošljavanje.
+Ne uključuje ponude za posao kojima Lanbide ne upravlja, već ih objavljuje na svojem portalu (primjer:
+one koje dolaze iz medija).</dct:description>
+        <dct:description xml:lang="eu">Lanbide, Euskal Enplegu Zerbitzuak, kudeatzen dituen lan-eskaintzak. Datu multzo honetan ez daude Lanbidek kudeatzen ez dituen lan-eskaintzak (adib. komunikabideetako eskaintzak).</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Laisvos darbo vietos, kurias valdo Lanbide, Baskų užimtumo tarnyba.
+Ji neapima darbo pasiūlymų, kurių „Lanbide“ nevaldo, bet skelbia savo portale (pvz.,
+tie, kurie ateina iš žiniasklaidos).</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="et-t-es-t0-mtec">Vabad töökohad, mida haldab Lanbide, Baski tööturuasutus.
+See ei hõlma tööpakkumisi, mida Lanbide ei halda, kuid avaldab oma portaalis (näide:
+need, kes tulevad meediast).</dct:description>
+        <dcat:keyword xml:lang="eu">enplegua</dcat:keyword>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/ofertas-de-empleo-de-lanbide/"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:keyword xml:lang="es">trabajo</dcat:keyword>
+        <dcat:keyword xml:lang="es">ofertas</dcat:keyword>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Avoimet työpaikat kohteesta Lanbide</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Вакансії від Lanbide</dct:title>
+        <dcat:keyword xml:lang="es">anuncios</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2019-01-25T00:00:00+01:00</dct:issued>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Laisvos darbo vietos iš Lanbide</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Postijiet tax-xogħol battala ġestiti minn Lanbide, Servizz tal-Impjiegi Bask.
+Dan ma jinkludix offerti ta’ impjieg li Lanbide ma tamministrax iżda tippubblika fuq il-portal tagħha (Eżempju:
+dawk li ġejjin mill-midja).</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Vacatures beheerd door Lanbide, Basque Employment Service.
+Het omvat geen vacatures die Lanbide niet beheert, maar publiceert op haar portaal (voorbeeld:
+die uit de media komen).</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Vacatures bij Lanbide</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Ofertas de emprego na Lanbide</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Vakances, ko pārvalda Basku nodarbinātības dienesta pārstāvis Lanbide.
+Tajā nav iekļauti darba piedāvājumi, kurus Lanbide nepārvalda, bet publicē savā portālā (piemērs:
+tie, kas nāk no plašsaziņas līdzekļiem).</dct:description>
+        <dcat:keyword xml:lang="es">paro</dcat:keyword>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Oferty pracy od Lanbide</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:21:25Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>70eade45f879d49c9ffc2d26a0d8a83b</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:33:59Z</dct:issued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

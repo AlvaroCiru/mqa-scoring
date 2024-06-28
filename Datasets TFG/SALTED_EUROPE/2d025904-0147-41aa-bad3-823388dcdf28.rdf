@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/2d025904-0147-41aa-bad3-823388dcdf28">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:42Z</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-16T14:02:38Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:42Z</edp:transReceived>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/2d025904-0147-41aa-bad3-823388dcdf28">
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă starea locurilor de parcare din orașul Santander. Măsurătorile sunt obținute prin intermediul platformei SmartSantander și al rețelei LoRa implementate în oraș și conectate la TTN (The Things Network).</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Jis atstovauja parkavimo vietų Santandero mieste būklę. Matavimai gaunami per SmartSantander platformą ir LoRa tinklą, įdiegtą mieste ir prijungtą prie TTN (The Things Network).</dct:description>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer tilstanden af ​​parkeringspladser i byen Santander. Målingerne opnås via SmartSantander-platformen og LoRa-netværket, der er udrullet i byen og forbundet til TTN (The Things Network).</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta lo stato dei parcheggi nella città di Santander. Le misurazioni sono ottenute attraverso la piattaforma SmartSantander e la rete LoRa implementata all'interno della città e collegata a TTN (The Things Network).</dct:description>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Parkovanie: Parkovacie miesto</dct:title>
+        <dcat:keyword>Parking Spot</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:26:46.780648</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa el estado de los aparcamientos en la ciudad de Santander. Las mediciones se obtienen a través de la plataforma SmartSantander y la red LoRa desplegada dentro de la ciudad y conectada a TTN (The Things Network).</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:26:46.780648</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Parqueamento:parkingspot</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Parkeren:parkeerplaats</dct:title>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa Santanderin kaupungin parkkipaikkojen tilaa. Mittaukset saadaan SmartSantander-alustasta ja kaupungin sisällä käyttöön otetusta LoRa-verkosta, joka on liitetty TTN:ään (The Things Network).</dct:description>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa o estado dos locais de estacionamento na cidade de Santander. As medições são obtidas através da plataforma SmartSantander e da rede LoRa implantada na cidade e ligada à TTN (The Things Network).</dct:description>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Parkiranje: Parkirišče</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Парковка: Parkingspot</dct:title>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Parkeġġ: Post tal-parkeġġ</dct:title>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente l’état des places de stationnement dans la ville de Santander. Les mesures sont obtenues via la plate-forme SmartSantander et le réseau LoRa déployé dans la ville et connecté à TTN (The Things Network).</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει την κατάσταση των θέσεων στάθμευσης στην πόλη Σανταντέρ. Οι μετρήσεις λαμβάνονται μέσω της πλατφόρμας SmartSantander και του δικτύου LoRa που αναπτύσσεται εντός της πόλης και συνδέεται με το TTN (The Things Network).</dct:description>
+        <dct:title xml:lang="da-t-en-t0-mtec">Parkering:parkeringsplads</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">Aparcamiento:parkingspot</dct:title>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de staat van de parkeerplaatsen in de stad Santander. De metingen worden verkregen via het SmartSantander-platform en het LoRa-netwerk dat in de stad wordt ingezet en is aangesloten op TTN (The Things Network).</dct:description>
+        <dcat:keyword>ParkingSpot</dcat:keyword>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою стан паркувальних місць в місті Сантандер. Вимірювання отримані за допомогою платформи SmartSantander і мережі LoRa, розгорнутої в місті і підключена до TTN (The Things Network).</dct:description>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Parcare: loc de parcare</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">Parcheggio:parkingspot</dct:title>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje stan miejsc parkingowych w mieście Santander. Pomiary uzyskuje się za pośrednictwem platformy SmartSantander i sieci LoRa wdrożonej w mieście i połączonej z TTN (The Things Network).</dct:description>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Parking: Parkiralište</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Parking:parkingspot</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Parking:parkingspot</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Parkering: Parkeringsplats</dct:title>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Páirceáil: láthair pháirceála</dct:title>
+        <dct:identifier>2d025904-0147-41aa-bad3-823388dcdf28</dct:identifier>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява състоянието на местата за паркиране в град Сантандер. Измерванията се получават чрез платформата SmartSantander и мрежата LoRa, внедрена в града и свързана с TTN (The Things Network).</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:26:46.999323</dct:issued>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Automobilių stovėjimo aikštelė: automobilių stovėjimo aikštelė</dct:title>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar tillståndet för parkeringsplatserna i staden Santander. Mätningarna erhålls via SmartSantander-plattformen och LoRa-nätverket som distribueras inom staden och kopplas till TTN (The Things Network).</dct:description>
+        <dcat:keyword>Parking</dcat:keyword>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Паркинг: място за паркиране</dct:title>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja stanje parkirnih mjesta u gradu Santanderu. Mjerenja se dobivaju putem SmartSantander platforme i LoRa mreže postavljene unutar grada i spojene na TTN (The Things Network).</dct:description>
+        <dct:description xml:lang="et-t-en-t0-mtec">See on Santanderi linna parkimiskohtade osariik. Mõõtmised tehakse SmartSantanderi platvormi ja linnasisese LoRa võrgu kaudu, mis on ühendatud TTN-iga (The Things Network).</dct:description>
+        <dct:title>Parking:ParkingSpot</dct:title>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé staid na láithreacha páirceála i gcathair Santander. Faightear na tomhais trí ardán SmartSantander agus trí líonra LoRa a imscaradh laistigh den chathair agus atá nasctha le TTN (The Things Network).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cbcf7185-5438-4a27-8ffa-e69a50ffcaae">
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Parking:parkingspot données en temps réel représentées au format JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Parkiranje: podaci o parkiralištu u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Parking:parkingspot datos en tiempo real representados en formato JSON</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description>Parking:ParkingSpot realtime data represented in JSON format</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Parkiranje: Parkirišče v realnem času podatki, predstavljeni v formatu JSON</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Parking:parkingspot dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Parken:Parkplatz Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Parkeġġ: data f’ħin reali tal-parkingspot irrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Parcare:parkingspot date în timp real reprezentate în format JSON</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Parkování:parkingspot data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Parking:parkingspot dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Паркинг: данни в реално време, представени във формат JSON</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:16:53.711792</dct:modified>
+            <dct:description xml:lang="da-t-en-t0-mtec">Parkering:parkeringspot realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Parkavimas: Parkingspot realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Parkovanie: Parkingspot údaje v reálnom čase reprezentované vo formáte JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Parkimine: JSON-vormingus parkimiskoha reaalajas esitatud andmed</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Parkingspot dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Χώρος στάθμευσης: δεδομένα σε πραγματικό χρόνο σημείων στάθμευσης που αντιπροσωπεύονται σε μορφότυπο JSON</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Parkolás: Parkingspot valós idejű adatok JSON formátumban</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Pysäköinti: pysäköintipaikan reaaliaikainen data esitettynä JSON-muodossa</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Parking%2FParkingSpot__.json"/>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Парковка: дані Parkingspot в режимі реального часу представлені у форматі JSON</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:26:46.999323</dct:issued>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Páirceáil:Sonraí fíor-ama ionad páirceála a léirítear i bhformáid JSON</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/2d025904-0147-41aa-bad3-823388dcdf28/resource/urn_ngsi-ld_distribution_salted_project_parking_parkingspot_json</dct:identifier>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Parkering: Parkeringsplats realtidsdata representerad i JSON-format</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Parking%2FParkingSpot__.json"/>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Parkeren:parkingspot realtime gegevens vertegenwoordigd in JSON-formaat</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Autostāvvieta: autostāvvieta reāllaika dati attēloti JSON formātā</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9dad8dcc-4710-4f6c-ac9e-5fdcc473f085">
+            <dct:description xml:lang="lt-t-en-t0-mtec">Parkavimas: parkavimo vietoje realiu laiku pateikti duomenys JSON_LD formatu</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Parkingspot dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Parkolás: Parkingspot valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Parkiranje: Parkirišče v realnem času podatki, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Parkovanie: Parkingspot údaje v reálnom čase reprezentované vo formáte JSON_LD</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:description>Parking:ParkingSpot realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Parking%2FParkingSpot__.jsonld"/>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Autostāvvieta: autostāvvieta reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Parkiranje: podaci o parkiralištu u stvarnom vremenu prikazani u formatu JSON_LD</dct:description>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Parking:parkingspot dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Parkeren:parkingspot realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Pysäköinti: pysäköintipaikan reaaliaikainen data esitettynä JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Parking:parkingspot datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Páirceáil:spot páirceála sonraí fíor-ama léirithe i bhformáid JSON_LD</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/2d025904-0147-41aa-bad3-823388dcdf28/resource/urn_ngsi-ld_distribution_salted_project_parking_parkingspot_jsonld</dct:identifier>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:26:46.999323</dct:issued>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Parking%2FParkingSpot__.jsonld"/>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Парковка: дані Parkingspot в реальному часі представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Parking:parkingspot dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:16:53.712933</dct:modified>
+            <dct:description xml:lang="de-t-en-t0-mtec">Parking:parkingspot Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Parkimine: parkimiskoha reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Χώρος στάθμευσης: δεδομένα σε πραγματικό χρόνο σημείων στάθμευσης που αντιπροσωπεύονται σε μορφότυπο JSON_LD</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Parkering: Parkeringsplats realtidsdata representerad i JSON_LD-format</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Паркинг: данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Parking:parkingspot données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Parcare:parkingspot date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Parkování:parkingspot data reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Parkeġġ: data f’ħin reali tal-parkingspot irrappreżentata fil-format JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Parkering:parkeringspot realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Ez képviseli Santander város parkolóhelyeinek állapotát.
+A mérések a SmartSantander platformon és a városon belül telepített LoRa hálózaton keresztül érhetők el, és csatlakoznak a TTN-hez (The Things Network).</dct:description>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje stav parkovacích miest v meste Santander. Merania sa získavajú prostredníctvom platformy SmartSantander a siete LoRa nasadenej v meste a napojenej na TTN (The Things Network).</dct:description>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Parkolás: Parkingspot</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:26:46.999359</dct:modified>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja stanje parkirnih mest v mestu Santander. Meritve se pridobivajo prek platforme SmartSantander in omrežja LoRa, ki se izvaja v mestu in je povezano z omrežjem TTN (The Things Network).</dct:description>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas pārstāv stāvvietu stāvokli Santander pilsētā. Mērījumus iegūst, izmantojot SmartSantander platformu un LoRa tīklu, kas izvietots pilsētā un savienots ar TTN (The Things Network).</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt den Zustand der Parkplätze in der Stadt Santander dar. Die Messungen werden über die SmartSantander-Plattform und das LoRa-Netzwerk in der Stadt durchgeführt und mit TTN (The Things Network) verbunden.</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:title xml:lang="el-t-en-t0-mtec">Χώρος στάθμευσης: Χώρος στάθμευσης</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">Parkimine: parkimiskoht</dct:title>
+        <dcat:keyword>SmartSantander</dcat:keyword>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje stav parkovacích míst ve městě Santander. Měření jsou získávána prostřednictvím platformy SmartSantander a sítě LoRa nasazené ve městě a připojené k síti TTN (The Things Network).</dct:description>
+        <dcat:keyword>TTN Santander</dcat:keyword>
+        <dct:description>It represents the state of the parking spots in the city of Santander. The measurements are obtained through the SmartSantander platform and the LoRa network deployed within the city and connected to TTN (The Things Network).</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Huwa jirrappreżenta l-istat tal-postijiet ta ‘parkeġġ fil-belt ta’ Santander. Il-kejl jinkiseb permezz tal-pjattaforma SmartSantander u n-network LoRa varat fil-belt u konness mat-TTN (in-Netwerk tal-Oġġetti).</dct:description>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Pysäköinti: parkkipaikka</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Autostāvvieta: autostāvvieta</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Parkování:parkingspot</dct:title>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:title xml:lang="de-t-en-t0-mtec">Parken:Parkplatz</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>36f2dc6b442d548a8731fcaf1a3e1b0b</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/2d025904-0147-41aa-bad3-823388dcdf28"/>
+    <dct:identifier>2d025904-0147-41aa-bad3-823388dcdf28</dct:identifier>
+  </dcat:CatalogRecord>
+</rdf:RDF>

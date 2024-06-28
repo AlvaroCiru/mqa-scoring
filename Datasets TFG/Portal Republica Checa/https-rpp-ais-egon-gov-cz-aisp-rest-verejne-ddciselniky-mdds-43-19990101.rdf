@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-rpp-ais-egon-gov-cz-aisp-rest-verejne-ddciselniky-mdds-43-19990101">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-rpp-ais-egon-gov-cz-aisp-rest-verejne-ddciselniky-mdds-43-19990101"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:13Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:13Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <j.1:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-rpp-ais-egon-gov-cz-aisp-rest-verejne-ddciselniky-mdds-43-19990101">
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/stat/1"/>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/27757adb-79f9-4038-bde5-b24f30d5a67b">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/db711caefba93e51dd58eea48f241cd8/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_43_19990101.jsonld"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/db711caefba93e51dd58eea48f241cd8</dct:identifier>
+            <dct:conformsTo rdf:resource="https://ofn.gov.cz/číselníky/2022-02-08/schémata/json-ld/číselník.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/db711caefba93e51dd58eea48f241cd8/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_43_19990101.jsonld"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en">Geographical zones - valid from 01.01.1999</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921">
+            <foaf:name xml:lang="en">Digital and Information agency</foaf:name>
+            <foaf:name xml:lang="cs">Digitální a informační agentura</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dct:conformsTo rdf:resource="https://ofn.gov.cz/číselníky/2022-02-08/"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:inSeries rdf:resource="https://data.gov.cz/zdroj/datové-sady/17651921/9f52b77280b5d407c607469d007df646"/>
+        <dct:title xml:lang="cs">Geografické zóny - platný od 01.01.1999</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a437c623-ed9d-4362-b438-404a21416943">
+            <dcat:downloadURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_43_19990101.csv"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/49f5ed9d38e13124d8d17b9db410656f/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_43_19990101.csv"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/49f5ed9d38e13124d8d17b9db410656f</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+            <dct:conformsTo rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_43_19990101.csv-metadata.json"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/49f5ed9d38e13124d8d17b9db410656f/podmínky-užití"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dcat:keyword xml:lang="cs">CZ-GEONOM</dcat:keyword>
+        <dcat:keyword xml:lang="cs">číselník</dcat:keyword>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/kontaktní-bod">
+            <vcard:hasEmail rdf:resource="mailto:pavla.koncelikova@czso.cz"/>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://rpp-ais.egon.gov.cz/AISP/rest/verejne/ddciselniky/mdds/43/19990101</dct:identifier>
+        <dct:description xml:lang="cs">Klasifikace CZ-GEONOM - Geografické zóny, kód ČSÚ: 5582</dct:description>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/33c4185d-be80-442a-b291-a052c7b38cf2">
+            <dct:title xml:lang="en">SPARQL Endpoint</dct:title>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/23e9823a9cfdfd13c712a76dd9c0da59/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessService>
+              <dcat:DataService rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/23e9823a9cfdfd13c712a76dd9c0da59/datová-služba/0fa69f2674560637b3e44b3ec6e10e1e">
+                <dcat:endpointDescription rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/sparql/"/>
+                <dcat:endpointURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/sparql/"/>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/23e9823a9cfdfd13c712a76dd9c0da59/datová-služba/0fa69f2674560637b3e44b3ec6e10e1e/identifikátorNKOD">
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/23e9823a9cfdfd13c712a76dd9c0da59/datová-služba/0fa69f2674560637b3e44b3ec6e10e1e</skos:notation>
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+                  </rdf:Description>
+                </adms:identifier>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/23e9823a9cfdfd13c712a76dd9c0da59/datová-služba/0fa69f2674560637b3e44b3ec6e10e1e/identifikátorLKOD">
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://rpp-ais.egon.gov.cz/AISP/rest/verejne/ddciselniky/mdds/43/19990101/distribuce/1/přístupová-služba</skos:notation>
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+                  </rdf:Description>
+                </adms:identifier>
+                <dct:title xml:lang="cs">SPARQL Endpoint</dct:title>
+                <dct:title xml:lang="en">SPARQL Endpoint</dct:title>
+                <dct:conformsTo rdf:resource="https://www.w3.org/TR/sparql11-protocol/"/>
+                <dcat:servesDataset rdf:resource="http://data.europa.eu/88u/dataset/https-rpp-ais-egon-gov-cz-aisp-rest-verejne-ddciselniky-mdds-43-19990101"/>
+              </dcat:DataService>
+            </dcat:accessService>
+            <dct:title xml:lang="cs">SPARQL Endpoint</dct:title>
+            <dcat:accessURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/sparql/"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/23e9823a9cfdfd13c712a76dd9c0da59</dct:identifier>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/distribuce/23e9823a9cfdfd13c712a76dd9c0da59/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/identifikátorNKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+        <dcat:keyword xml:lang="cs">geografické zóny</dcat:keyword>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/40d790661918ccdca345e6b4d9b282fc/identifikátorLKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://rpp-ais.egon.gov.cz/AISP/rest/verejne/ddciselniky/mdds/43/19990101</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+      </j.1:LKOD>
+    </foaf:primaryTopic>
+    <dct:identifier>https://rpp-ais.egon.gov.cz/AISP/rest/verejne/ddciselniky/mdds/43/19990101</dct:identifier>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>a377d9620cf3273bd37dadf6a5190486</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:33Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

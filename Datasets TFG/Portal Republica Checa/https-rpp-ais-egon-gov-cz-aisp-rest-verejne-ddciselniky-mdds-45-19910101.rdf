@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-rpp-ais-egon-gov-cz-aisp-rest-verejne-ddciselniky-mdds-45-19910101">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>945a6524f910c18ab2ab3c8c200f429c</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:16Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <j.1:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-rpp-ais-egon-gov-cz-aisp-rest-verejne-ddciselniky-mdds-45-19910101">
+        <dcat:inSeries rdf:resource="https://data.gov.cz/zdroj/datové-sady/17651921/3e13588782c7c5d3f0557f1798e012b3"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/621356e5-91e0-4f59-8b5a-c804aaf8510a">
+            <dct:conformsTo rdf:resource="https://ofn.gov.cz/číselníky/2022-02-08/schémata/json-ld/číselník.json"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dcat:accessURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_45_19910101.jsonld"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/6fab373dca5f65ccb97dccf18577a4fe/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/6fab373dca5f65ccb97dccf18577a4fe/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_45_19910101.jsonld"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/6fab373dca5f65ccb97dccf18577a4fe</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921">
+            <foaf:name xml:lang="en">Digital and Information agency</foaf:name>
+            <foaf:name xml:lang="cs">Digitální a informační agentura</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="cs">Kombinovaná nomenklatura v členění na 8 míst (KN8) - platný od 01.01.1991</dct:title>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/771ddcaf-3774-4a7d-b41c-415d54cd18ce">
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/e277f9a02c11d086ac461be277c94301</dct:identifier>
+            <dcat:accessService>
+              <dcat:DataService rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/e277f9a02c11d086ac461be277c94301/datová-služba/41dac46c2d0f5bedfe6596ab4bb774df">
+                <dct:conformsTo rdf:resource="https://www.w3.org/TR/sparql11-protocol/"/>
+                <dcat:servesDataset rdf:resource="http://data.europa.eu/88u/dataset/https-rpp-ais-egon-gov-cz-aisp-rest-verejne-ddciselniky-mdds-45-19910101"/>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/e277f9a02c11d086ac461be277c94301/datová-služba/41dac46c2d0f5bedfe6596ab4bb774df/identifikátorLKOD">
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://rpp-ais.egon.gov.cz/AISP/rest/verejne/ddciselniky/mdds/45/19910101/distribuce/1/přístupová-služba</skos:notation>
+                  </rdf:Description>
+                </adms:identifier>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/e277f9a02c11d086ac461be277c94301/datová-služba/41dac46c2d0f5bedfe6596ab4bb774df/identifikátorNKOD">
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/e277f9a02c11d086ac461be277c94301/datová-služba/41dac46c2d0f5bedfe6596ab4bb774df</skos:notation>
+                  </rdf:Description>
+                </adms:identifier>
+                <dct:title xml:lang="cs">SPARQL Endpoint</dct:title>
+                <dct:title xml:lang="en">SPARQL Endpoint</dct:title>
+                <dcat:endpointDescription rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/sparql/"/>
+                <dcat:endpointURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/sparql/"/>
+              </dcat:DataService>
+            </dcat:accessService>
+            <dct:title xml:lang="cs">SPARQL Endpoint</dct:title>
+            <dcat:accessURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/sparql/"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/e277f9a02c11d086ac461be277c94301/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/e277f9a02c11d086ac461be277c94301/podmínky-užití"/>
+            <dct:title xml:lang="en">SPARQL Endpoint</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://rpp-ais.egon.gov.cz/AISP/rest/verejne/ddciselniky/mdds/45/19910101</dct:identifier>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/stat/1"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/abd6d421-2fea-4f98-bb8d-8f2750c96e0d">
+            <dct:conformsTo rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_45_19910101.csv-metadata.json"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/d1cf48ac49cba2f79325276729e1af3f</dct:identifier>
+            <dcat:accessURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_45_19910101.csv"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/d1cf48ac49cba2f79325276729e1af3f/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/distribuce/d1cf48ac49cba2f79325276729e1af3f/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ciselnikyVdf/ciselnik_45_19910101.csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:conformsTo rdf:resource="https://ofn.gov.cz/číselníky/2022-02-08/"/>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/identifikátorNKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:keyword xml:lang="cs">KN8</dcat:keyword>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:description xml:lang="cs">Kombinovaná nomenklatura (KN nebo též CN) je zpodrobnění mezinárodní klasifikace Harmonizovaný systém (HS). KN vytváří Evropská komise (DG TAXUD a Eurostat) pro účely sledování zahraničního obchodu se zbožím zemí Evropské unie.  Jedná se o pátou úroveň klasifikace HS/CN kódovanou osmimístným numerickým kódem, kód ČSÚ: 5585</dct:description>
+        <dcat:keyword xml:lang="cs">kombinovaná nomenklatura</dcat:keyword>
+        <dcat:keyword xml:lang="cs">číselník</dcat:keyword>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/identifikátorLKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://rpp-ais.egon.gov.cz/AISP/rest/verejne/ddciselniky/mdds/45/19910101</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:keyword xml:lang="cs">celní sazebník</dcat:keyword>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dct:title xml:lang="en">Combined nomenclature 8 digits - valid from 01.01.1991</dct:title>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:about="https://data.gov.cz/zdroj/datové-sady/17651921/f8b1216efb191af797f54165b9d47280/kontaktní-bod">
+            <vcard:hasEmail rdf:resource="mailto:pavla.koncelikova@czso.cz"/>
+          </vcard:Organization>
+        </dcat:contactPoint>
+      </j.1:LKOD>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-rpp-ais-egon-gov-cz-aisp-rest-verejne-ddciselniky-mdds-45-19910101"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:37Z</dct:issued>
+    <dct:identifier>https://rpp-ais.egon.gov.cz/AISP/rest/verejne/ddciselniky/mdds/45/19910101</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:16Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

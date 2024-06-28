@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/236742f4-caa2-4674-83c4-75206a8d1836">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:14Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>bebd9f8e337426c957ff5137f30063a5</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>236742f4-caa2-4674-83c4-75206a8d1836</dct:identifier>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:14Z</edp:transReceived>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/236742f4-caa2-4674-83c4-75206a8d1836"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/236742f4-caa2-4674-83c4-75206a8d1836">
+        <dct:title xml:lang="uk-t-en-t0-mtec">Організація:Організація</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8bd0968b-4ee1-4a57-8c80-59b2595825ac">
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Організація:Організація даних в реальному часі, представлені у форматі JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T18:45:15.264235</dct:modified>
+            <dct:description xml:lang="es-t-en-t0-mtec">Organización:Organización de datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Organizzazzjoni: l-organizzazzjoni tad-data f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:description>Organization:Organization realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Organisation:Organisation Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Organizacja:Organizacja danych w czasie rzeczywistym reprezentowanych w formacie JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Οργανισμός:Οργανισμός δεδομένων σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Organisation:Organisation realtidsdata repræsenteret i JSON_LD format</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Organizácia:Organizácia údajov v reálnom čase reprezentovaných vo formáte JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Eagraíocht: Sonraí i bhfíor-am eagrúcháin a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Organizacija: Podaci o organizaciji u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Organization%2FOrganization__.jsonld"/>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Organization%2FOrganization__.jsonld"/>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Organisatie:Organisatie realtime gegevens vertegenwoordigd in JSON_LD-formaat</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Organizace:Organizace dat v reálném čase reprezentovaných ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Organizacija: Organizacija realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Organizācija:Organizācijas reāllaika dati pārstāvēti JSON_LD formātā</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Organizacija: Organizacija podatkov v realnem času, predstavljenih v formatu JSON_LD</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Organisation:Organisationsdata i realtid representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Organização:Organização dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Организация: Организация на данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Szervezet: JSON_LD formátumban megjelenített valós idejű adatok szervezése</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/236742f4-caa2-4674-83c4-75206a8d1836/resource/urn_ngsi-ld_distribution_salted_project_organization_organization_jsonld</dct:identifier>
+            <dct:description xml:lang="et-t-en-t0-mtec">Organisatsioon: JSON_LD vormingus esindatud reaalajas andmete organisatsioon</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T18:45:11.206755</dct:issued>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Organizare: Date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Organisaatio: Reaaliaikaiset tiedot JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Organizzazione dei dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Organisation: Données d’organisation en temps réel représentées au format JSON_LD</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Eagraíocht: Eagraíocht</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Organisatie:Organisatie</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:description xml:lang="hr-t-en-t0-mtec">AgendaAnalytics je primjer korištenja povezanih podataka i umjetne inteligencije u okviru projekta SALTED. Nastoji mjeriti pridržavanje organizacije (kao što je poduzeće ili grad) određenom programu (kao što su ciljevi razvoja ili usklađenosti).
+ Usklađenost između publikacija organizacije i dnevnog reda izračunava se primjenom NLP tehnika.   Skup podataka relevantan za slučaj uporabe sastoji se od pet vrsta subjekata:
+ Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Cjelokupna dokumentacija dostupna je na:
+https://salted-project.eu/  
+Organizacija predstavlja subjekt kao što su škola, nevladina organizacija, korporacija, klub itd. U slučaju korištenja AgendaAnalytics ona je osnova za izračun/analizu. AgendaAnalytics je primjer korištenja povezanih podataka i umjetne inteligencije u okviru projekta SALTED. Nastoji mjeriti pridržavanje organizacije (kao što je poduzeće ili grad) određenom programu (kao što su ciljevi razvoja ili usklađenosti).
+ Usklađenost između publikacija organizacije i dnevnog reda izračunava se primjenom NLP tehnika.
+
+
+Skup podataka relevantan za slučaj uporabe sastoji se od pet vrsta subjekata:
+
+
+Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Cjelokupna dokumentacija dostupna je na:
+https://salted-project.eu/
+
+
+
+Organizacija predstavlja subjekt kao što su škola, nevladina organizacija, korporacija, klub itd. U slučaju korištenja AgendaAnalytics ona je osnova za izračun/analizu.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T18:45:11.092883</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="fi-t-en-t0-mtec">AgendaAnalytics on linkitetyn datan ja tekoälyn käyttötapaus SALTED-projektissa. Se pyrkii mittaamaan organisaation (kuten yrityksen tai kaupungin) sitoutumista tiettyyn ohjelmaan (kuten kehitys- tai vaatimustenmukaisuustavoitteisiin).   Organisaation julkaisujen ja agendan välinen vastaavuus lasketaan NLP-tekniikoiden avulla. 
+
+Käyttötapauksen kannalta merkityksellinen tietoaineisto koostuu viidestä yhteisötyypistä:
+
+
+Organisaatio, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Asiakirjat ovat kokonaisuudessaan saatavilla osoitteessa:
+https://salted-project.eu/
+
+
+
+Organisaatio edustaa yksikköä, kuten koulua, kansalaisjärjestöä, yhtiötä, klubia jne.</dct:description>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Organisation:Organisation</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Organizácia:Organizácia</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Organisation:Organisation</dct:title>
+        <dct:title xml:lang="de-t-en-t0-mtec">Organisation:Organisation</dct:title>
+        <dct:description xml:lang="cs-t-en-t0-mtec">AgendaAnalytics je případ použití pro propojená data a umělou inteligenci v rámci projektu SALTED. Snaží se měřit, zda organizace (jako společnost nebo město) přistupuje k určité agendě (jako jsou rozvojové cíle nebo cíle v oblasti dodržování předpisů). 
+Shoda mezi publikacemi organizace a agendou je vypočtena pomocí technik NLP. 
+Soubor údajů relevantní pro případ použití se skládá z 5 typů účetní jednotky: 
+Organizace, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Úplná dokumentace je k dispozici na adrese: https://salted-project.eu/
+ 
+Organizace zastupuje subjekt, jako je škola, nevládní organizace, korporace, klub atd. V případě použití AgendaAnalytics je základem pro jakýkoli výpočet/analýzu.</dct:description>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Organizație:Organizație</dct:title>
+        <dct:description xml:lang="es-t-en-t0-mtec">AgendaAnalytics es un caso de uso para datos enlazados e IA dentro del proyecto SALTED. Se esfuerza por medir la adhesión de una organización (como una empresa o ciudad) a una agenda determinada (como objetivos de desarrollo o cumplimiento). 
+La congruencia entre las publicaciones de la organización y la agenda se calcula utilizando técnicas de PNL. 
+El conjunto de datos pertinente para el caso de uso consta de 5 tipos de entidades: 
+Organización, KeyPerformanceIndicator, DistribuciónDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+La documentación completa está disponible en: https://salted-project.eu/
+ 
+Una Organización representa a una entidad como una escuela, ONG, corporación, club, etc. Dentro del caso de uso de AgendaAnalytics es la base para cualquier cálculo/análisis.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Az AgendaAnalytics a SALTED projekten belüli összekapcsolt adatok és mesterséges intelligencia felhasználási esete. Arra törekszik, hogy mérje egy szervezet (például egy vállalat vagy város) egy adott menetrendhez való ragaszkodását (például fejlesztési vagy megfelelési célokat).
+ A szervezet kiadványai és a napirend közötti kongruenciát NLP technikákkal számítjuk ki.   A felhasználási eset szempontjából releváns adatkészlet 5 szervezettípusból áll:
+ Szervezet, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+A teljes dokumentáció az alábbi címen érhető el:
+https://salted-project.eu/  
+A szervezet olyan entitást képvisel, mint például iskola, nem kormányzati szervezet, vállalat, klub stb. Az AgendaAnalytics használati esetén belül ez az alapja minden számításnak/elemzésnek. Az AgendaAnalytics a SALTED projekten belüli összekapcsolt adatok és mesterséges intelligencia felhasználási esete. Arra törekszik, hogy mérje egy szervezet (például egy vállalat vagy város) egy adott menetrendhez való ragaszkodását (például fejlesztési vagy megfelelési célokat).
+A szervezet kiadványai és a napirend közötti kongruenciát NLP technikákkal számítjuk ki.
+
+A felhasználási eset szempontjából releváns adatkészlet 5 szervezettípusból áll:  Szervezet, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+  A teljes dokumentáció az alábbi címen érhető el:
+https://salted-project.eu/
+
+
+
+A szervezet olyan entitást képvisel, mint például iskola, nem kormányzati szervezet, vállalat, klub stb. Az AgendaAnalytics használati esetén belül ez az alapja minden számításnak/elemzésnek.</dct:description>
+        <dct:description xml:lang="nl-t-en-t0-mtec">AgendaAnalytics is een use case voor Linked Data en AI binnen het SALTED project. Het streeft ernaar om de naleving van een organisatie (zoals een bedrijf of stad) aan een bepaalde agenda te meten (zoals ontwikkelings- of compliancedoelen).
+ De samenhang tussen de publicaties van de organisatie en de agenda wordt berekend met behulp van NLP-technieken.   De dataset die relevant is voor de use case bestaat uit 5 soorten entiteiten:
+ Organisatie, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+De volledige documentatie is beschikbaar op:
+https://salted-project.eu/  
+Een organisatie vertegenwoordigt een entiteit zoals een school, ngo, bedrijf, club, etc. Binnen de AgendaAnalytics use case is het de basis voor elke berekening/analyse. AgendaAnalytics is een use case voor Linked Data en AI binnen het SALTED project. Het streeft ernaar om de naleving van een organisatie (zoals een bedrijf of stad) aan een bepaalde agenda te meten (zoals ontwikkelings- of compliancedoelen).
+De samenhang tussen de publicaties van de organisatie en de agenda wordt berekend met behulp van NLP-technieken.
+
+De dataset die relevant is voor de use case bestaat uit 5 soorten entiteiten:  Organisatie, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+  De volledige documentatie is beschikbaar op:
+https://salted-project.eu/
+
+
+
+Een organisatie vertegenwoordigt een entiteit zoals een school, ngo, bedrijf, club, etc. Binnen de AgendaAnalytics use case is het de basis voor elke berekening/analyse.</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">AgendaAnalytics è un caso d'uso per Linked Data e AI all'interno del progetto SALTED. Si sforza di misurare l'adesione di un'organizzazione (come un'azienda o una città) a una data agenda (come obiettivi di sviluppo o conformità).   La congruenza tra le pubblicazioni dell'organizzazione e l'agenda viene calcolata utilizzando tecniche di PNL. 
+L'insieme di dati pertinente per il caso d'uso è costituito da 5 tipi di entità:
+ Organizzazione, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+La documentazione completa è disponibile al seguente indirizzo: https://salted-project.eu/
+ 
+Un'organizzazione rappresenta un'entità come una scuola, una ONG, una società, un club, ecc.</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="da-t-en-t0-mtec">AgendaAnalytics er en use case for Linked Data og AI i SALTED projektet. Det stræber efter at måle en organisations overholdelse af en organisation (som en virksomhed eller by) til en given dagsorden (som udvikling eller overholdelse mål). 
+Sammenhængen mellem organisationens publikationer og dagsordenen beregnes ved hjælp af NLP-teknikker. 
+Det datasæt, der er relevant for use casen, består af 5 enhedstyper: 
+Organisation, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Den fuldstændige dokumentation findes på: https://salted-project.eu/
+ 
+En organisation repræsenterer en enhed som en skole, NGO, selskab, klub osv. Inden for AgendaAnalytics brug tilfælde det er grundlaget for enhver beregning/analyse.</dct:description>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Organizace:Organizace</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:title xml:lang="it-t-en-t0-mtec">Organizzazione:Organizzazione</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Organizācija:Organizācija</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:title xml:lang="da-t-en-t0-mtec">Organisation: Organisering</dct:title>
+        <dcat:keyword>AgendaAnalytics</dcat:keyword>
+        <dct:title>Organization:Organization</dct:title>
+        <dct:description xml:lang="el-t-en-t0-mtec">Η AgendaAnalytics είναι μια περίπτωση χρήσης για τα Συνδεδεμένα Δεδομένα και την Τεχνητή Νοημοσύνη στο πλαίσιο του έργου SALTED. Προσπαθεί να μετρήσει την τήρηση ενός οργανισμού (όπως μια εταιρεία ή μια πόλη) σε μια δεδομένη ατζέντα (όπως η ανάπτυξη ή οι στόχοι συμμόρφωσης).   Η αντιστοιχία μεταξύ των δημοσιεύσεων του οργανισμού και της ημερήσιας διάταξης υπολογίζεται με τη χρήση τεχνικών NLP. 
+Το σύνολο δεδομένων που αφορά την περίπτωση χρήσης αποτελείται από 5 τύπους οντοτήτων:
+ Οργάνωση, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Η πλήρης τεκμηρίωση είναι διαθέσιμη στη διεύθυνση: https://salted-project.eu/
+
+Ένας οργανισμός αντιπροσωπεύει μια οντότητα όπως ένα σχολείο, μια ΜΚΟ, μια εταιρεία, μια λέσχη, κ.λπ. Στην περίπτωση χρήσης της AgendaAnalytics αποτελεί τη βάση για κάθε υπολογισμό/ανάλυση. Η AgendaAnalytics είναι μια περίπτωση χρήσης για τα Συνδεδεμένα Δεδομένα και την Τεχνητή Νοημοσύνη στο πλαίσιο του έργου SALTED. Προσπαθεί να μετρήσει την τήρηση ενός οργανισμού (όπως μια εταιρεία ή μια πόλη) σε μια δεδομένη ατζέντα (όπως η ανάπτυξη ή οι στόχοι συμμόρφωσης).
+ Η αντιστοιχία μεταξύ των δημοσιεύσεων του οργανισμού και της ημερήσιας διάταξης υπολογίζεται με τη χρήση τεχνικών NLP.
+Το σύνολο δεδομένων που αφορά την περίπτωση χρήσης αποτελείται από 5 τύπους οντοτήτων:
+ Οργάνωση, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+ Η πλήρης τεκμηρίωση είναι διαθέσιμη στη διεύθυνση:
+https://salted-project.eu/ 
+
+
+Ένας οργανισμός αντιπροσωπεύει μια οντότητα όπως ένα σχολείο, μια ΜΚΟ, μια εταιρεία, μια λέσχη, κ.λπ. Στην περίπτωση χρήσης της AgendaAnalytics αποτελεί τη βάση για κάθε υπολογισμό/ανάλυση.</dct:description>
+        <dct:description xml:lang="de-t-en-t0-mtec">AgendaAnalytics ist ein Anwendungsfall für vernetzte Daten und KI im SALTED-Projekt. Es ist bestrebt, die Einhaltung einer Organisation (wie eines Unternehmens oder einer Stadt) an einer bestimmten Agenda (wie Entwicklung oder Compliance-Ziele) zu messen.   Die Übereinstimmung zwischen den Publikationen der Organisation und der Agenda wird mithilfe von NLP-Techniken berechnet. 
+Der für den Anwendungsfall relevante Datensatz besteht aus 5 Entitätstypen:
+ Organisation, KeyPerformanceIndikator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Die vollständige Dokumentation ist abrufbar unter: https://salted-project.eu/
+
+Eine Organisation vertritt eine Einheit wie eine Schule, NGO, Corporation, Club, etc. Im Rahmen des AgendaAnalytics Use Case ist es die Grundlage für jede Berechnung/Analyse. AgendaAnalytics ist ein Anwendungsfall für vernetzte Daten und KI im SALTED-Projekt. Es ist bestrebt, die Einhaltung einer Organisation (wie eines Unternehmens oder einer Stadt) an einer bestimmten Agenda (wie Entwicklung oder Compliance-Ziele) zu messen.
+ Die Übereinstimmung zwischen den Publikationen der Organisation und der Agenda wird mithilfe von NLP-Techniken berechnet.
+Der für den Anwendungsfall relevante Datensatz besteht aus 5 Entitätstypen:
+ Organisation, KeyPerformanceIndikator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+ Die vollständige Dokumentation ist abrufbar unter:
+https://salted-project.eu/ 
+
+
+Eine Organisation vertritt eine Einheit wie eine Schule, NGO, Corporation, Club, etc. Im Rahmen des AgendaAnalytics Use Case ist es die Grundlage für jede Berechnung/Analyse.</dct:description>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Organizacja:Organizacja</dct:title>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:title xml:lang="et-t-en-t0-mtec">Organisatsioon: Organisatsioon</dct:title>
+        <dct:identifier>236742f4-caa2-4674-83c4-75206a8d1836</dct:identifier>
+        <dct:description xml:lang="fr-t-en-t0-mtec">AgendaAnalytics est un cas d’utilisation pour les données liées et l’IA dans le cadre du projet SALTED. Il s’efforce de mesurer l’adhésion d’une organisation (comme une entreprise ou une ville) à un programme donné (comme les objectifs de développement ou de conformité).   La concordance entre les publications de l’organisation et l’agenda est calculée à l’aide des techniques de PNL. 
+L’ensemble de données pertinent pour le cas d’utilisation se compose de 5 types d’entités:
+ Organisation, Indicateur de performance clé, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.  
+La documentation complète est disponible à l’adresse suivante:
+https://salted-project.eu/
+
+
+
+Une organisation représente une entité telle qu’une école, une ONG, une entreprise, un club, etc. Dans le cas d’utilisation AgendaAnalytics, c’est la base de tout calcul/analyse.</dct:description>
+        <dct:description xml:lang="et-t-en-t0-mtec">AgendaAlytics on seotud andmete ja tehisintellekti kasutusjuht SALTED projekti raames. Selle eesmärk on mõõta organisatsiooni (nagu ettevõte või linn) vastavust konkreetsele tegevuskavale (nt arengu- või vastavuseesmärgid).   Organisatsiooni väljaannete ja päevakorra kooskõla arvutatakse NLP-tehnikate abil. 
+Kasutusjuhtumiga seotud andmestik koosneb viiest üksuse tüübist:
+ Organisatsioon, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Täielik dokumentatsioon on kättesaadav aadressil: https://salted-project.eu/
+
+Organisatsioon esindab sellist üksust nagu kool, valitsusväline organisatsioon, korporatsioon, klubi jne. AgendaAnalüütilise kasutamise puhul on see mis tahes arvutuse/analüüsi alus. AgendaAlytics on seotud andmete ja tehisintellekti kasutusjuht SALTED projekti raames. Selle eesmärk on mõõta organisatsiooni (nagu ettevõte või linn) vastavust konkreetsele tegevuskavale (nt arengu- või vastavuseesmärgid).
+ Organisatsiooni väljaannete ja päevakorra kooskõla arvutatakse NLP-tehnikate abil.
+Kasutusjuhtumiga seotud andmestik koosneb viiest üksuse tüübist:
+ Organisatsioon, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+ Täielik dokumentatsioon on kättesaadav aadressil:
+https://salted-project.eu/ 
+
+
+Organisatsioon esindab sellist üksust nagu kool, valitsusväline organisatsioon, korporatsioon, klubi jne. AgendaAnalüütilise kasutamise puhul on see mis tahes arvutuse/analüüsi alus.</dct:description>
+        <dcat:keyword>SALTED Project</dcat:keyword>
+        <dct:description xml:lang="lt-t-en-t0-mtec">„DarbotvarkėAnalytics“ yra susietųjų duomenų ir dirbtinio intelekto naudojimo atvejis įgyvendinant projektą SALTED. Ji siekia įvertinti organizacijos (pvz., įmonės ar miesto) atitiktį tam tikrai darbotvarkei (pvz., plėtros ar atitikties tikslams).
+ Organizacijos publikacijų ir darbotvarkės atitikimas apskaičiuojamas naudojant NLP metodus.   Naudojimo atveju svarbų duomenų rinkinį sudaro 5 rūšių subjektai:
+ Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Visus dokumentus galima rasti adresu
+https://salted-project.eu/  
+Organizacija atstovauja tokiam subjektui kaip mokykla, NVO, korporacija, klubas ir kt. „DarbotvarkėAnalytics“ yra susietųjų duomenų ir dirbtinio intelekto naudojimo atvejis įgyvendinant projektą SALTED. Ji siekia įvertinti organizacijos (pvz., įmonės ar miesto) atitiktį tam tikrai darbotvarkei (pvz., plėtros ar atitikties tikslams).
+Organizacijos publikacijų ir darbotvarkės atitikimas apskaičiuojamas naudojant NLP metodus.
+
+Naudojimo atveju svarbų duomenų rinkinį sudaro 5 rūšių subjektai:  Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+  Visus dokumentus galima rasti adresu
+https://salted-project.eu/
+
+
+
+Organizacija atstovauja tokiam subjektui kaip mokykla, NVO, korporacija, klubas ir kt.</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">AgendaAnalytics je primer uporabe povezanih podatkov in umetne inteligence v okviru projekta SALTED.Prizadeva si za merjenje zavezanosti organizacije (kot je podjetje ali mesto) določenemu programu (kot so razvojni cilji ali cilji skladnosti).
+  Skladnost med publikacijami organizacije in dnevnim redom se izračuna s tehnikami NLP.
+Nabor podatkov, ki je relevanten za primer uporabe, je sestavljen iz petih vrst subjektov:
+  Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Celotna dokumentacija je na voljo na:
+https://salted-project.eu/ 
+ Organizacija predstavlja subjekt, kot so šola, nevladna organizacija, korporacija, klub itd. AgendaAnalytics je primer uporabe povezanih podatkov in umetne inteligence v okviru projekta SALTED.Prizadeva si za merjenje zavezanosti organizacije (kot je podjetje ali mesto) določenemu programu (kot so razvojni cilji ali cilji skladnosti).
+ 
+Skladnost med publikacijami organizacije in dnevnim redom se izračuna s tehnikami NLP.
+
+
+Nabor podatkov, ki je relevanten za primer uporabe, je sestavljen iz petih vrst subjektov:
+
+
+Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Celotna dokumentacija je na voljo na:
+https://salted-project.eu/
+
+
+
+Organizacija predstavlja subjekt, kot so šola, nevladna organizacija, korporacija, klub itd.</dct:description>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Organizzazzjoni: Organizzazzjoni</dct:title>
+        <dct:description xml:lang="pt-t-en-t0-mtec">O AgendaAnalytics é um caso de utilização para os dados vinculados e a IA no âmbito do projeto SALTED.
+Esforça-se para medir a adesão de uma organização (como uma empresa ou cidade) a uma determinada agenda (como objetivos de desenvolvimento ou conformidade). 
+A congruência entre as publicações da organização e a agenda é calculada utilizando técnicas de PNL. 
+O conjunto de dados relevante para o caso de utilização é composto por 5 tipos de entidades:   Organização, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+A documentação completa está disponível em: https://salted-project.eu/  
+Uma organização representa uma entidade como uma escola, ONG, corporação, clube, etc. No caso de uso da AgendaAnalytics, é a base para qualquer cálculo/análise. O AgendaAnalytics é um caso de utilização para os dados vinculados e a IA no âmbito do projeto SALTED.Esforça-se para medir a adesão de uma organização (como uma empresa ou cidade) a uma determinada agenda (como objetivos de desenvolvimento ou conformidade).
+
+A congruência entre as publicações da organização e a agenda é calculada utilizando técnicas de PNL.  O conjunto de dados relevante para o caso de utilização é composto por 5 tipos de entidades:
+  Organização, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+A documentação completa está disponível em:
+https://salted-project.eu/
+
+
+
+Uma organização representa uma entidade como uma escola, ONG, corporação, clube, etc. No caso de uso da AgendaAnalytics, é a base para qualquer cálculo/análise.</dct:description>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Organização: Organização</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Organizacija: Organizacija</dct:title>
+        <dct:description xml:lang="uk-t-en-t0-mtec">AgendaAnalytics — це приклад використання Linked Data та AI в рамках проекту SALTED.Вона прагне виміряти прихильність організації (наприклад, компанії або міста) до певного порядку денного (наприклад, цілей розвитку або комплаєнсу).
+  Конгруентність публікацій організації та порядку денного обчислюється за допомогою методів НЛП.
+Набір даних, що має відношення до випадку використання, складається з 5 типів об'єктів:
+  Організація, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Повна документація доступна за адресою:
+https://salted-project.eu/ 
+ Організація представляє таку організацію, як школа, НУО, корпорація, клуб і т. д. AgendaAnalytics — це приклад використання Linked Data та AI в рамках проекту SALTED.Вона прагне виміряти прихильність організації (наприклад, компанії або міста) до певного порядку денного (наприклад, цілей розвитку або комплаєнсу).
+ 
+Конгруентність публікацій організації та порядку денного обчислюється за допомогою методів НЛП.
+
+
+Набір даних, що має відношення до випадку використання, складається з 5 типів об'єктів:
+
+
+Організація, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Повна документація доступна за адресою:
+https://salted-project.eu/
+
+
+
+Організація представляє таку організацію, як школа, НУО, корпорація, клуб і т. д.</dct:description>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Organizacija: Organizacija</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:description xml:lang="bg-t-en-t0-mtec">AgendaAnalytics е пример за използване на свързани данни и ИИ в рамките на проекта SALTED. Тя се стреми да измерва придържането на дадена организация (като компания или град) към даден дневен ред (като цели за развитие или съответствие). 
+Съответствието между публикациите на организацията и дневния ред се изчислява с помощта на НЛП техники. 
+Наборът от данни, който е от значение за случая на използване, се състои от 5 вида субекти: 
+Организация, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Пълната документация е достъпна на адрес: https://salted-project.eu/
+ 
+Организацията представлява субект като училище, НПО, корпорация, клуб и т.н. В рамките на случая с използването на AgendaAnalytics това е основата за всяко изчисление/анализ.</dct:description>
+        <dct:description xml:lang="sk-t-en-t0-mtec">AgendaAnalytics je prípad použitia prepojených údajov a umelej inteligencie v rámci projektu SALTED.Snaží sa merať dodržiavanie organizácie (ako je spoločnosť alebo mesto) k danej agende (ako sú rozvojové ciele alebo ciele dodržiavania predpisov).
+  Súlad medzi publikáciami organizácie a programom sa vypočíta pomocou techník NLP.
+Súbor údajov relevantný pre prípad použitia pozostáva z 5 typov účtovnej jednotky:
+  Organizácia, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Kompletná dokumentácia je k dispozícii na adrese:
+https://salted-project.eu/ 
+ Organizácia zastupuje subjekt, ako je škola, mimovládna organizácia, korporácia, klub atď. AgendaAnalytics je prípad použitia prepojených údajov a umelej inteligencie v rámci projektu SALTED.Snaží sa merať dodržiavanie organizácie (ako je spoločnosť alebo mesto) k danej agende (ako sú rozvojové ciele alebo ciele dodržiavania predpisov).
+ 
+Súlad medzi publikáciami organizácie a programom sa vypočíta pomocou techník NLP.
+
+
+Súbor údajov relevantný pre prípad použitia pozostáva z 5 typov účtovnej jednotky:
+
+
+Organizácia, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Kompletná dokumentácia je k dispozícii na adrese:
+https://salted-project.eu/
+
+
+
+Organizácia zastupuje subjekt, ako je škola, mimovládna organizácia, korporácia, klub atď.</dct:description>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Szervezet: Szervezet</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Организация: Организация</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-11-30T18:45:11.206772</dct:modified>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Is cás úsáide é AgendaAnalytics le haghaidh Sonraí Nasctha agus IS laistigh den tionscadal SALTED.
+Déanann sé a dhícheall a thomhas go gcloíonn eagraíocht (cosúil le cuideachta nó cathair) le clár oibre ar leith (amhail spriocanna forbartha nó comhlíonta). 
+Déantar an chomhsheasamh idir foilseacháin na heagraíochta agus an clár oibre a ríomh trí úsáid a bhaint as teicnící NLP. 
+Tá 5 chineál eintitis sa tacar sonraí atá ábhartha don chás úsáide:   Eagraíocht, KeyPerformanceIndicator, DáileadhDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Tá an doiciméadú iomlán ar fáil ag: https://salted-project.eu/  
+Déanann Eagraíocht ionadaíocht ar aonán amhail scoil, eagraíocht neamhrialtasach, corparáid, club, etc. Laistigh de chás úsáide AgendaAnalytics is é an bonn le haghaidh aon ríomh/anailís. Is cás úsáide é AgendaAnalytics le haghaidh Sonraí Nasctha agus IS laistigh den tionscadal SALTED.Déanann sé a dhícheall a thomhas go gcloíonn eagraíocht (cosúil le cuideachta nó cathair) le clár oibre ar leith (amhail spriocanna forbartha nó comhlíonta).
+
+Déantar an chomhsheasamh idir foilseacháin na heagraíochta agus an clár oibre a ríomh trí úsáid a bhaint as teicnící NLP.  Tá 5 chineál eintitis sa tacar sonraí atá ábhartha don chás úsáide:
+  Eagraíocht, KeyPerformanceIndicator, DáileadhDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Tá an doiciméadú iomlán ar fáil ag:
+https://salted-project.eu/
+
+
+
+Déanann Eagraíocht ionadaíocht ar aonán amhail scoil, eagraíocht neamhrialtasach, corparáid, club, etc. Laistigh de chás úsáide AgendaAnalytics is é an bonn le haghaidh aon ríomh/anailís.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dct:description xml:lang="pl-t-en-t0-mtec">AgendaAnalytics to przypadek wykorzystania danych połączonych i sztucznej inteligencji w ramach projektu SALTED.
+Stara się mierzyć przywiązanie organizacji (jak firma lub miasto) do danego programu (np. cele rozwoju lub zgodności). 
+Zgodność między publikacjami organizacji a programem jest obliczana za pomocą technik NLP. 
+Zbiór danych istotny dla przypadku użycia składa się z 5 rodzajów podmiotów:   Organizacja, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Pełna dokumentacja dostępna jest pod adresem: https://salted-project.eu/
+
+
+
+Organizacja reprezentuje jednostkę, taką jak szkoła, organizacja pozarządowa, korporacja, klub itp.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/471d2462-3219-4b0b-86c4-107b930b2ba9">
+            <dct:description xml:lang="es-t-en-t0-mtec">Organización:Organización de datos en tiempo real representados en formato JSON</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Eagraíocht: Sonraí eagrúcháin fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Organizacija: Organizacija realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Organizzazzjoni: l-organizzazzjoni tad-data f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Organizácia:Organizácia údajov v reálnom čase reprezentovaných vo formáte JSON</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Organizācija:Organizācijas reāllaika dati pārstāvēti JSON formātā</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Organizacija: podaci o organizaciji u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Organizacja:Organizacja danych w czasie rzeczywistym reprezentowanych w formacie JSON</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Organisatie:Organisatie realtime gegevens vertegenwoordigd in JSON-formaat</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Organisation: Données d’organisation en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Organizacija: Organizacija podatkov v realnem času, predstavljenih v formatu JSON</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T18:45:15.263074</dct:modified>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/236742f4-caa2-4674-83c4-75206a8d1836/resource/urn_ngsi-ld_distribution_salted_project_organization_organization_json</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Organizzazione dei dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description>Organization:Organization realtime data represented in JSON format</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T18:45:11.206755</dct:issued>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Organization%2FOrganization__.json"/>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Organisation:Organisationsdata i realtid representerad i JSON-format</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Організація:Організація даних в реальному часі, представлені у форматі JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Organisaatio: Reaaliaikaiset tiedot esitetään JSON-muodossa</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Organisation: Organisering af realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Organizace:Organizace dat v reálném čase reprezentovaných ve formátu JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Organisatsioon: JSON-vormingus esindatud reaalajas andmete organisatsioon</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Szervezet: A JSON formátumú valós idejű adatok szervezése</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Organization%2FOrganization__.json"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">Οργανισμός:Οργανισμός δεδομένων σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Organização: Organização de dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Organisation:Im JSON-Format dargestellte Echtzeitdaten</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Организация: Организация на данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Organizare: Date în timp real reprezentate în format JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="ro-t-en-t0-mtec">AgendaAnalytics este un caz de utilizare a datelor conectate și a IA în cadrul proiectului SALTED.Se străduiește să măsoare aderarea unei organizații (cum ar fi o companie sau oraș) la o anumită agendă (cum ar fi obiectivele de dezvoltare sau de conformitate).
+  Congruența dintre publicațiile organizației și ordinea de zi este calculată folosind tehnici NLP.
+Setul de date relevant pentru cazul de utilizare este format din 5 tipuri de entități:
+  Organizare, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Documentația completă este disponibilă la adresa:
+https://salted-project.eu/ 
+ O organizație reprezintă o entitate, cum ar fi o școală, ONG, corporație, club, etc. În cadrul cazului de utilizare AgendaAnalytics este baza pentru orice calcul/analiză. AgendaAnalytics este un caz de utilizare a datelor conectate și a IA în cadrul proiectului SALTED.Se străduiește să măsoare aderarea unei organizații (cum ar fi o companie sau oraș) la o anumită agendă (cum ar fi obiectivele de dezvoltare sau de conformitate).
+ 
+Congruența dintre publicațiile organizației și ordinea de zi este calculată folosind tehnici NLP.
+
+
+Setul de date relevant pentru cazul de utilizare este format din 5 tipuri de entități:
+
+
+Organizare, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Documentația completă este disponibilă la adresa:
+https://salted-project.eu/
+
+
+
+O organizație reprezintă o entitate, cum ar fi o școală, ONG, corporație, club, etc. În cadrul cazului de utilizare AgendaAnalytics este baza pentru orice calcul/analiză.</dct:description>
+        <dcat:keyword>NGSI-LD</dcat:keyword>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Organisaatio: Organisaatio</dct:title>
+        <dct:description xml:lang="mt-t-en-t0-mtec">AgendaAnalytics huwa każ ta’ użu għal Data Marbuta u IA fi ħdan il-proġett SALTED.
+Huwa jistinka biex ikejjel l-aderenza ta’ organizzazzjoni (bħal kumpanija jew belt) ma’ aġenda partikolari (bħal għanijiet ta’ żvilupp jew ta’ konformità). 
+Il-kongruwenza bejn il-pubblikazzjonijiet tal-organizzazzjoni u l-aġenda hija kkalkulata bl-użu ta’ tekniki NLP. 
+Is-sett tad-data rilevanti għall-każ tal-użu jikkonsisti f’5 tipi ta’ entitajiet:   Organizzazzjoni, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Id-dokumentazzjoni sħiħa hija disponibbli fuq: https://salted-project.eu/  
+Organizzazzjoni tirrappreżenta entità bħal skola, NGO, korporazzjoni, klabb, eċċ. Fil-każ ta’ użu ta’ AgendaAnalytics hija l-bażi għal kwalunkwe kalkolu/analiżi. AgendaAnalytics huwa każ ta’ użu għal Data Marbuta u IA fi ħdan il-proġett SALTED.Huwa jistinka biex ikejjel l-aderenza ta’ organizzazzjoni (bħal kumpanija jew belt) ma’ aġenda partikolari (bħal għanijiet ta’ żvilupp jew ta’ konformità).
+
+Il-kongruwenza bejn il-pubblikazzjonijiet tal-organizzazzjoni u l-aġenda hija kkalkulata bl-użu ta’ tekniki NLP.  
+Is-sett tad-data rilevanti għall-każ tal-użu jikkonsisti f’5 tipi ta’ entitajiet:
+
+
+Organizzazzjoni, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Id-dokumentazzjoni sħiħa hija disponibbli fuq:
+https://salted-project.eu/
+
+
+
+Organizzazzjoni tirrappreżenta entità bħal skola, NGO, korporazzjoni, klabb, eċċ. Fil-każ ta’ użu ta’ AgendaAnalytics hija l-bażi għal kwalunkwe kalkolu/analiżi.</dct:description>
+        <dct:description>AgendaAnalytics is a use case for Linked Data and AI within the SALTED project. It strives to measure the adherence of a an organization (like a company or city) to a given agenda (like development or compliance goals).&#xD;
+The congruence between the organization’s publications and the agenda is computed using NLP techniques.&#xD;
+The dataset relevant for the use case consists of 5 entity types:&#xD;
+Organization, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.&#xD;
+The full documentation is available at: https://salted-project.eu/&#xD;
+&#xD;
+An Organization represents an entity such as a school, NGO, corporation, club, etc. Within the AgendaAnalytics use case it is the base for any calculation / analysis.</dct:description>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Organizacija:Organizacija</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-30T18:45:11.092883</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-11-30T18:45:11.206755</dct:issued>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>KybeidosGmbH</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="lv-t-en-t0-mtec">AgendaAnalytics ir saistīta datu un mākslīgā intelekta izmantošanas gadījums SALTED projekta ietvaros. Tā cenšas izmērīt organizācijas (piemēram, uzņēmuma vai pilsētas) atbilstību konkrētai programmai (piemēram, attīstības vai atbilstības mērķiem).
+ Atbilstība starp organizācijas publikācijām un darba kārtību tiek aprēķināta, izmantojot NLP metodes.   Datu kopa, kas attiecas uz izmantošanas gadījumu, sastāv no 5 vienību veidiem:
+ Organizācija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Visa dokumentācija ir pieejama šādā tīmekļa vietnē:
+https://salted-project.eu/
+
+
+
+Organizācija pārstāv tādu struktūru kā skola, NVO, korporācija, klubs utt. AgendaAnalytics lietošanas gadījumā tā ir aprēķinu/analīzes pamats.</dct:description>
+        <dct:title xml:lang="es-t-en-t0-mtec">Organización:Organización</dct:title>
+        <dct:title xml:lang="el-t-en-t0-mtec">Οργανισμός:Οργανισμός</dct:title>
+        <dct:description xml:lang="sv-t-en-t0-mtec">AgendaAnalytics är ett användningsfall för länkade data och AI inom SALTED-projektet.Den strävar efter att mäta hur en organisation (som ett företag eller stad) ansluter sig till en viss agenda (som utvecklings- eller efterlevnadsmål).
+  Kongruensen mellan organisationens publikationer och agendan beräknas med hjälp av NLP-tekniker.
+Den datamängd som är relevant för användningsfallet består av fem typer av entiteter:
+  Organisation, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Den fullständiga dokumentationen finns på:
+https://salted-project.eu/ 
+ En organisation representerar en enhet som en skola, en icke-statlig organisation, ett företag, en klubb etc. I fallet AgendaAnalytics är det basen för alla beräkningar/analyser. AgendaAnalytics är ett användningsfall för länkade data och AI inom SALTED-projektet.Den strävar efter att mäta hur en organisation (som ett företag eller stad) ansluter sig till en viss agenda (som utvecklings- eller efterlevnadsmål).
+ 
+Kongruensen mellan organisationens publikationer och agendan beräknas med hjälp av NLP-tekniker.
+
+
+Den datamängd som är relevant för användningsfallet består av fem typer av entiteter:
+
+
+Organisation, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Den fullständiga dokumentationen finns på:
+https://salted-project.eu/
+
+
+
+En organisation representerar en enhet som en skola, en icke-statlig organisation, ett företag, en klubb etc. I fallet AgendaAnalytics är det basen för alla beräkningar/analyser.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

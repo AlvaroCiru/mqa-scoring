@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-aquariums-de-euskadi-">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:21:12Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:21:12Z</dct:modified>
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/aquariums-de-euskadi/</dct:identifier>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>5b12e7d427d31173cbeb564a13053c4a</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:15:14Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-aquariums-de-euskadi-"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-aquariums-de-euskadi-">
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tietoa Baskimaan kahdesta akvaariosta: Getxo ja Donostia-San Sebastian: kuvaus, sijainti, aikataulu jne.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bbbfb0db-bf45-470c-a2fd-8a69ee92e4e1">
+            <dct:title xml:lang="es">Aquariums</dct:title>
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1987</dcat:byteSize>
+            <dct:title xml:lang="eu">Akuarioak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/416727c1-2ec9-4f7e-b426-af060490676b</dct:identifier>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/aquariums_de_euskadi/opendata/aquariums.jsonp"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9cc8052e-c638-4af0-8cc6-6cde63f4860c">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1567</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/aquariums_de_euskadi/opendata/aquariums-padding.geojson"/>
+            <dct:title xml:lang="eu">Akuarioak</dct:title>
+            <dct:title xml:lang="es">Aquariums</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/273953ed-c8ae-4802-8139-9f9da09c916e</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Acvarii din Țara Bascilor</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Információk a Baszkföld két akváriumáról: Getxo és Donostia-San Sebastian: leírás, helyszín, ütemterv stb.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fc120d45-5039-4de0-abd9-0f1c42647f71">
+            <dct:title xml:lang="es">Aquariums</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/8bd19212-fdec-4740-a6e6-96f2a4c05012</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/aquariums_de_euskadi/opendata/aquariums.xlsx"/>
+            <dct:title xml:lang="eu">Akuarioak</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >4936</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Akvariji Baskije</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie o dvoch akváriách v Baskicku: Getxo a Donostia-San Sebastian: popis, umiestnenie, harmonogram atď.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Informācija par diviem akvārijiem Basku zemē: Getxo un Donostia-San Sebastian: apraksts, atrašanās vieta, grafiks utt.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Baskų krašto akvariumai</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni dwar iż-żewġ akkwarji fil-Pajjiż Bask: Getxo u Donostia-San Sebastian: deskrizzjoni, post, skeda, eċċ.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="et-t-es-t0-mtec">Teave Baskimaa kahe akvaariumi kohta: Getxo ja Donostia-San Sebastian: kirjeldus, asukoht, ajakava jne.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Basku zemes akvāriji</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Aquariums of the Basque Country</dct:title>
+        <dct:description xml:lang="eu">Euskadiko Getxo eta Donostiako aquariumei buruzko informazioa: deskribapena, kokapena, ordutegia, etab.</dct:description>
+        <dcat:keyword xml:lang="es">ocio</dcat:keyword>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations sur les deux aquariums du Pays Basque: Getxo et Donostia-San Sebastian: description, emplacement, horaire, etc.</dct:description>
+        <dcat:keyword xml:lang="eu">akuarioa</dcat:keyword>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information about the two aquariums in the Basque Country: Getxo and Donostia-San Sebastian: description, location, schedule, etc.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Akvarier i Baskien</dct:title>
+        <dct:isReferencedBy rdf:resource="http://turismo.euskadi.net/x65-15332/es/"/>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Informacija apie du akvariumus Baskų krašte: Getxo ir Donostia-San Sebastian: aprašymas, vieta, tvarkaraštis ir t. t.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3703e155-7a91-4623-8e9e-fde1bdbd42e7">
+            <dct:title xml:lang="es">Aquariums</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/f0432253-9bb9-4f80-a8b5-57f124c69285</dct:identifier>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tT%3Ak_ocio%3Bm%3AdocumentLanguage.EQ.es%2CtemplateType.EQ.k5%3Bp%3AInter_portal%2CInter%3B"/>
+            <dct:title xml:lang="eu">Akuarioak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2010-03-25T00:00:00+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5fbb96e3-06e7-4dc6-ae0a-74b0ae2f7740">
+            <dct:title xml:lang="eu">Aireportuak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Aeropuertos</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/0cb6ca2e-2fa4-4255-aecc-e0fb10b1c56d</dct:identifier>
+            <dcat:accessURL rdf:resource="http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/26e9a453-1f0c-4132-b35c-da430345d6be">
+            <dct:title xml:lang="es">Aquariums</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/e19d9854-0e99-4a2c-aa32-4d878b04038a</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1966</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/aquariums_de_euskadi/opendata/aquariums.json"/>
+            <dct:title xml:lang="eu">Akuarioak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-es-t0-mtec">Oplysninger om de to akvarier i Baskerlandet: Getxo og Donostia-San Sebastian: beskrivelse, beliggenhed, tidsplan osv.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Akvariji Baskije</dct:title>
+        <dct:title xml:lang="es">Aquariums de Euskadi</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Akwaria Kraju Basków</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Informatie over de twee aquaria in Baskenland: Getxo en Donostia-San Sebastian: beschrijving, locatie, schema, etc.</dct:description>
+        <dcat:keyword xml:lang="eu">aquarium</dcat:keyword>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information om de två akvarierna i Baskien: Getxo och Donostia-San Sebastian: beskrivning, plats, schema, etc.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/921cc521-62da-408a-8b1a-2b3742a69ee1">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1546</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/778ea798-bdcd-43a0-b4d5-875c118d940c</dct:identifier>
+            <dct:title xml:lang="eu">Akuarioak</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/aquariums_de_euskadi/opendata/aquariums.geojson"/>
+            <dct:title xml:lang="es">Aquariums</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Uisceadáin Thír na mBascach</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Akváriá Baskicka</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace o dvou akváriích v Baskicku: Getxo a Donostia-San Sebastian: popis, umístění, rozvrh, atd.</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Baskimaan akvaariot</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații despre cele două acvarii din Țara Bascilor: Getxo și Donostia-San Sebastian: descriere, locație, program etc.</dct:description>
+        <dct:isReferencedBy rdf:resource="http://turismoa.euskadi.eus/"/>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen zu den beiden Aquarien im Baskenland: Getxo und Donostia-San Sebastian: Beschreibung, Lage, Zeitplan, etc.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="el-t-es-t0-mtec">Ενυδρεία της Χώρας των Βάσκων</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πληροφορίες για τα δύο ενυδρεία στη Χώρα των Βάσκων: Γκέτξο και Ντονόστια-Σαν Σεμπάστιαν: περιγραφή, τοποθεσία, χρονοδιάγραμμα, κ.λπ.</dct:description>
+        <dcat:keyword xml:lang="eu">aisialdia</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5559598c-4ef4-4ba9-92e8-c4c571463734">
+            <dct:title xml:lang="es">Aquariums</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1587</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/295b60b6-47db-4e0b-88fc-d1dab29c5f18</dct:identifier>
+            <dct:title xml:lang="eu">Akuarioak</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/aquariums_de_euskadi/opendata/aquariums.xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Informacije o dveh akvarijih v Baskiji: Getxo in Donostia-San Sebastian: opis, lokacija, urnik itd.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni sui due acquari nei Paesi Baschi: Getxo e Donostia-San Sebastian: descrizione, posizione, orario, ecc.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Акваріуми Країни Басків</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Acquari dei Paesi Baschi</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Akvarier i Baskerlandet</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/DurationDescription">
+                <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:weeks>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація про два акваріуми в Країні Басків: Getxo і Donostia-San Sebastian: опис, розташування, графік і т.д.</dct:description>
+        <dct:title xml:lang="eu">Euskadiko akuarioak</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bb103061-7799-4db5-8d43-696cab1db630">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+            <dcat:accessURL rdf:resource="http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&amp;r01kQry=tT%3Ak_ocio%3Bm%3AdocumentLanguage.EQ.eu%2CtemplateType.EQ.k5%3Bp%3AInter_portal%2CInter%3Bpp%3Ar01NavBarBlockSize.10%2Cr01PageSize.100"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-aquariums-de-euskadi/resource/bbb1a6da-ddad-498c-86fa-ff5d2dffe5e6</dct:identifier>
+            <dct:title xml:lang="eu">Akuarioak</dct:title>
+            <dct:title xml:lang="es">Aquariums</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Informacije o dva akvarija u Baskiji: Getxo i Donostia-San Sebastian: opis, lokacija, raspored itd.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Аквариуми на Страната на баските</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Информация за двата аквариума в Страната на баските: Гетсо и Доностия-Сан Себастиан: описание, местоположение, график и т.н.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Aquariums du Pays Basque</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A baszk ország akváriumai</dct:title>
+        <dcat:keyword xml:lang="es">aquarium</dcat:keyword>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Aquários do País Basco</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Eolas faoin dá uisceadán i dTír na mBascach: Allah warns a seirbhísigh leis a chuid Word: cur síos, suíomh, sceideal, etc.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações sobre os dois aquários do País Basco: Getxo e Donostia-San Sebastian: descrição, localização, horário, etc.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Akvária Baskicka</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-utilizar-datos/"/>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/aquariums-de-euskadi/</dct:identifier>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/aquariums-de-euskadi/"/>
+        <dct:title xml:lang="de-t-es-t0-mtec">Aquarien des Baskenlandes</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Aquaria van Baskenland</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Akkwarji tal-Pajjiż Bask</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Informacje o dwóch akwariach w Kraju Basków: Getxo i Donostia-San Sebastian: opis, lokalizacja, harmonogram itp.</dct:description>
+        <dct:description xml:lang="es">Información de los dos aquariums de Euskadi: Getxo y Donostia-San Sebastián: descripción, ubicación, horario, etc.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Baskimaa akvaariumid</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

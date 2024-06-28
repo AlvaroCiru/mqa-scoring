@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/b193aece-efe1-4d02-ac28-9f26c8a56eb3">
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/b193aece-efe1-4d02-ac28-9f26c8a56eb3">
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:title xml:lang="ga-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Počasie stanice SEVILLA/SAN PABLO podľa modelu WeatherObserved NGSI-LD.
+Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Καιρός του σταθμού SEVILLA/SAN PABLO σύμφωνα με το WeatherObserved μοντέλο NGSI-LD.
+Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-10-30T10:03:38.074208</dct:modified>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Vreme postaje SEVILLA/SAN PABLO po VremeObserved modelu NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Laika apstākļi SEVILLA/SAN PABLO stacijā pēc WeatherObserved modeli NGSI-LD.
+Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Weather of the SEVILLA/SAN PABLO station following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Clima da estação SEVILLA/SAN PABLO seguindo o modelo WeatherObserved de NGSI-LD.
+Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Sevilla_san_pablo_5783</dct:title>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dct:identifier>b193aece-efe1-4d02-ac28-9f26c8a56eb3</dct:identifier>
+        <dct:title xml:lang="sk-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Времето на станцията SEVILLA/SAN PABLO, следвайки WeatherObserved модел на NGSI-LD. Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Vremea stației SEVILLA/SAN PABLO urmând modelul WeatherObserved al NGSI-LD.
+Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="lt-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:description>Climatología de la estación de SEVILLA/SAN PABLO siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Vejret i SEVILLA/SAN PABLO station efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Počasí stanice SEVILLA/SAN PABLO podle modelu NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Ilm SEVILLA/SAN PABLO jaama pärast WeatherObserved mudel NGSI-LD.
+Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Aimsir an stáisiúin SEVILLA/SAN PABLO tar éis an tsamhail WeatherObserved de NGSI-LD.
+Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">It-temp tal-istazzjon SEVILLA/SAN PABLO skont il-mudell WeatherObserved ta’ NGSI-LD. Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Vrijeme postaje SEVILLA/SAN PABLO prema WeatherObserved modelu NGSI-LD-a.
+Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">севілья_san_pablo_5783</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Météo de la station SEVILLA/SAN PABLO suivant le modèle WeatherObserved de NGSI-LD.
+Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Sää SEVILLA/SAN PABLO aseman jälkeen WeatherObserved malli NGSI-LD.
+Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Meteo della stazione SEVILLA/SAN PABLO seguendo il modello WeatherObserved di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Pogoda stacji SEVILLA/SAN PABLO według modelu WeatherObserved NGSI-LD.
+Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:title>sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Погода станції SEVILLA/SAN PABLO за моделлю WeatherObserved NGSI-LD.
+Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Wetter der Station SEVILLA/SAN PABLO nach dem WeatherObserved-Modell der NGSI-LD.
+Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A SEVILLA/SAN PABLO állomás időjárása az NGSI-LD WeatherObserved modelljét követve.
+Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:accessRights>
+          <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        </dct:accessRights>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Sevilla_san_pablo_5783</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Weer van het SEVILLA/SAN PABLO station volgens het WeatherObserved model van NGSI-LD. Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cbb6b4c2-ca2a-41d0-8ff2-abb9fb8c87b4">
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht Aimsire ar SEVILLA/SAN PABLO</dct:description>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Weerobservatie van SEVILLA/SAN PABLO</dct:description>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Promatranje vremena SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="el-t-es-t0-mtec">Μετεωρολογική παρατήρηση του SEVILLA/SAN PABLO</dct:description>
+            <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title>urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation météorologique de SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="hu-t-es-t0-mtec">SEVILLA/SAN PABLO időjárás megfigyelése</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Vremensko opazovanje SEVILLA/SAN PABLO</dct:description>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Väder observation av Sealla/SAN PABLO</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Pozorování počasí SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Pozorovanie počasia SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="de-t-es-t0-mtec">Wetterbeobachtung von SEVILLA/SAN PABLO</dct:description>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:5783-1"/>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:5783-1"/>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni tat-temp ta’ SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione meteo di SEVILLA/SAN PABLO</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="lv-t-es-t0-mtec">SEVILLA/SAN PABLO laika apstākļu novērošana</dct:description>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:05.919223</dct:modified>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea vremii SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Säähavainnot SEVILLA/SAN PABLO</dct:description>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+            <dct:description>Observación de climatología de SEVILLA/SAN PABLO</dct:description>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/b193aece-efe1-4d02-ac28-9f26c8a56eb3/resource/71a89bb4-2f26-4347-92c4-b802ddac91e3</dct:identifier>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Наблюдение на времето на SEVILLA/SAN PABLO</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="en-t-es-t0-mtec">Weather observation of SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Vejrobservation af SEVILLA/SAN PABLO</dct:description>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">SEVILLA/SAN PABLO oro stebėjimas</dct:description>
+            <dct:description xml:lang="et-t-es-t0-mtec">SEVILLA/SAN PABLO ilmavaatlus</dct:description>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5783-1</dct:title>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja pogody SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Спостереження за погодою SEVILLA/SAN PABLO</dct:description>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação meteorológica de SEVILLA/SAN PABLO</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Vädret för SEVILLA/SAN PABLO-stationen efter WeatherObserved-modellen av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Orai SEVILLA/SAN PABLO stotyje pagal WeatherObserved modelį NGSI-LD.
+Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">sevilla_san_pablo_5783</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-07-18T20:08:46.512459</dct:issued>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>b193aece-efe1-4d02-ac28-9f26c8a56eb3</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:06Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>5ece2765aa0a154d2d3f97090ae353b3</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-10-31T11:40:15Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/b193aece-efe1-4d02-ac28-9f26c8a56eb3"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-11-04T15:34:48Z</edp:transReceived>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-10-31T11:40:15Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

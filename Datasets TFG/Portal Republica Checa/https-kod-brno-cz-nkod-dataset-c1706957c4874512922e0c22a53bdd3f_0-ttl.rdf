@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-kod-brno-cz-nkod-dataset-c1706957c4874512922e0c22a53bdd3f_0-ttl">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:37Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-22T08:00:26Z</dct:modified>
+    <dct:identifier>https://kod.brno.cz/nkod/dataset/c1706957c4874512922e0c22a53bdd3f_0.ttl</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-kod-brno-cz-nkod-dataset-c1706957c4874512922e0c22a53bdd3f_0-ttl"/>
+    <foaf:primaryTopic>
+      <j.1:DokumentyDCAT rdf:about="http://data.europa.eu/88u/dataset/https-kod-brno-cz-nkod-dataset-c1706957c4874512922e0c22a53bdd3f_0-ttl">
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/identifikátorNKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/36e2afe1-78b4-4f6e-b6d9-2a3a4fd89f88">
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/d3369b7d5f66c676b14cb2ac4703b7d8</dct:identifier>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_gml_wgs84.zip"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_gml_wgs84.zip"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/d3369b7d5f66c676b14cb2ac4703b7d8/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:title xml:lang="cs">GML (WGS84)</dct:title>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/d3369b7d5f66c676b14cb2ac4703b7d8/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c89600ea-9829-42db-bcb8-81fd6a50256c">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_sjtsk.dxf"/>
+            <dct:title xml:lang="cs">DXF (S-JTSK)</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_sjtsk.dxf"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/f9bdb60ac3b5d32582e896a7794c3e59</dct:identifier>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/f9bdb60ac3b5d32582e896a7794c3e59/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/f9bdb60ac3b5d32582e896a7794c3e59/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/681255ff-6d69-4768-bea8-77c23f4bf0ae">
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/6fcd091a72ab9f771b8c21abd1e29629</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_shp_sjtsk.zip"/>
+            <dct:title xml:lang="cs">ShapeFile (S-JTSK)</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/x-shapefile"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_shp_sjtsk.zip"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/6fcd091a72ab9f771b8c21abd1e29629/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/6fcd091a72ab9f771b8c21abd1e29629/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/obec/582786"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d1fc56ac-01a7-43f2-8f71-47cb0468f1c4">
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_gml_sjtsk.zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/6e4e38de5b8dc3f4939c1b4af8749cc2</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_gml_sjtsk.zip"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/6e4e38de5b8dc3f4939c1b4af8749cc2/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/6e4e38de5b8dc3f4939c1b4af8749cc2/podmínky-užití"/>
+            <dct:title xml:lang="cs">GML (S-JSTK)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="cs">Intenzita dopravy - Intenzita cyklistů</dct:title>
+        <dcat:contactPoint>
+          <vcard:Individual rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/kontaktní-bod">
+            <vcard:fn xml:lang="cs">Komínek Jiří, Mgr.</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:kominek.jiri@brno.cz"/>
+          </vcard:Individual>
+        </dcat:contactPoint>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/identifikátorLKOD">
+            <dct:creator>
+              <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785">
+                <foaf:name xml:lang="cs">Statutární město Brno</foaf:name>
+              </foaf:Agent>
+            </dct:creator>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://kod.brno.cz/nkod/dataset/c1706957c4874512922e0c22a53bdd3f_0.ttl</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0d2774cb-e945-41ee-bc07-07c17910c0e0">
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/c1706957c4874512922e0c22a53bdd3f/geojson?layers=0"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/c1706957c4874512922e0c22a53bdd3f/geojson?layers=0"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.geo+json"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/3b7c43cc77d272703e531b3ff452bf8d/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/3b7c43cc77d272703e531b3ff452bf8d/podmínky-užití"/>
+            <dct:title xml:lang="cs">GeoJSON</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/3b7c43cc77d272703e531b3ff452bf8d</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <foaf:page rdf:resource="https://mmbonline.sharepoint.com/:x:/s/public/OMI/gis/EcUZbVW_uitChOviENsJMU0BQaOy71kTPtGg_7PQzsYVFA?e=LRNmV1"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f31f900d-7db3-4b58-8fb8-e30e8ed2c02d">
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/4c4905eb784413942f57d2ba801b3b2a</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/4c4905eb784413942f57d2ba801b3b2a/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+              </j.0:Specifikace>
+            </dct:license>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/c1706957c4874512922e0c22a53bdd3f/kml?layers=0"/>
+            <dct:title xml:lang="cs">KML</dct:title>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/4c4905eb784413942f57d2ba801b3b2a/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/c1706957c4874512922e0c22a53bdd3f/kml?layers=0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2b466ccd-1d1d-46e9-b373-7aa909db7102">
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/8f68608b28915a77e5c575c30dc06425</dct:identifier>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/c1706957c4874512922e0c22a53bdd3f/shapefile?layers=0"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/8f68608b28915a77e5c575c30dc06425/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/8f68608b28915a77e5c575c30dc06425/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/c1706957c4874512922e0c22a53bdd3f/shapefile?layers=0"/>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dct:title xml:lang="cs">Shapefile</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en">Bike traffic intensity</dct:title>
+        <dct:publisher rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785"/>
+        <dct:description xml:lang="cs">Pentlogramy intenzity dopravy zpracovávají pravidelně Brněnské komunikace, a.s. (dále zkráceně BKOM). Výstupy pentlogramů jsou schémata uzlů a úseků mezi nimi. Tato data jsou od roku 2016 zpracována do gisové podoby (SHP) nad uličním grafem a jsou s vydáním nového pentlogramu doplněna. Aktualizace probíhá každé dva roky. Pentlogramy sledují intenzitu motorových vozidel a cyklistů. Číselná hodnota pro jednotlivé roky definuje počet cyklistů (v desítkách) za 24hodin během všedního dne / v neděli. Tato sada je zobrazena v interních mapových aplikacích Mapa dopravy, Mapa BKOM a Cyklistická opatření (interní i veřejná). Podrobnější informace najdete v dokumentaci. Data jsou v souřadnicovém systému GCS WGS84.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/95bb16d8-2399-4eb4-b215-44147623d5c8">
+            <dct:title xml:lang="cs">OGC GeoPackage (WGS84)</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/5125d174db56be80b2242050edb5c8fd</dct:identifier>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_wgs84.gpkg"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_wgs84.gpkg"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/5125d174db56be80b2242050edb5c8fd/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/5125d174db56be80b2242050edb5c8fd/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aa1500aa-7216-46e0-b3f2-f7faca49edfb">
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_wgs84.dxf"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <dct:title xml:lang="cs">DXF (WGS84)</dct:title>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_wgs84.dxf"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/2e5840bdbab310bf8bf5f036fc6aad13/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/2e5840bdbab310bf8bf5f036fc6aad13/podmínky-užití"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/2e5840bdbab310bf8bf5f036fc6aad13</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e9188b14-6d15-4e52-b20c-bebae64b2a4b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="cs">ArcGIS GeoService</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/a41842cccce35c8ab8973a7d850d7a17</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+            <dcat:downloadURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/intenzita_cyklodopravy_pentlogramy/FeatureServer/0"/>
+            <dcat:accessURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/intenzita_cyklodopravy_pentlogramy/FeatureServer/0"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/a41842cccce35c8ab8973a7d850d7a17/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/a41842cccce35c8ab8973a7d850d7a17/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://kod.brno.cz/nkod/dataset/c1706957c4874512922e0c22a53bdd3f_0.ttl</dct:identifier>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ffcc3034-3278-42dd-90a7-9b47b15acae9">
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/ad4adf8f87fe0c0647ef05258ec0e583/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/c1706957c4874512922e0c22a53bdd3f/csv?layers=0"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/ad4adf8f87fe0c0647ef05258ec0e583/podmínky-užití"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/ad4adf8f87fe0c0647ef05258ec0e583</dct:identifier>
+            <dct:title xml:lang="cs">CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/c1706957c4874512922e0c22a53bdd3f/csv?layers=0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="cs">gismb</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e24e29df-b293-44c0-8ecc-2c18b8e14cb1">
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_sjtsk.gpkg"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_sjtsk.gpkg"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <dct:title xml:lang="cs">OGC GeoPackage (S-JTSK)</dct:title>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/77e45e05c4ca8276405b7fddc1a031e0/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/77e45e05c4ca8276405b7fddc1a031e0/podmínky-užití"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/77e45e05c4ca8276405b7fddc1a031e0</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fd7f6c32-55bd-4870-b192-53592090a253">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_sjtsk.geojson"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geo+json"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/od_cyklopentlogram_sjtsk.geojson"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/28bf86d177f31cf63188470ff436afc8</dct:identifier>
+            <dct:title xml:lang="cs">GeoJSON (S-JTSK)</dct:title>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/28bf86d177f31cf63188470ff436afc8/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor dopravy (OD)</j.0:autor>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/5e8c39d2f310479778e7bdd4c6f00ddf/distribuce/28bf86d177f31cf63188470ff436afc8/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/LKOD"/>
+      </j.1:DokumentyDCAT>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-22T08:00:26Z</edp:transIssued>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>c49f61fddbd39a97f89d36adbb0dc6eb</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

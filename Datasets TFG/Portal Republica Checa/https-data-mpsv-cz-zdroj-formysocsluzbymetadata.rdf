@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-data-mpsv-cz-zdroj-formysocsluzbymetadata">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-data-mpsv-cz-zdroj-formysocsluzbymetadata"/>
+    <foaf:primaryTopic>
+      <j.1:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-data-mpsv-cz-zdroj-formysocsluzbymetadata">
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/stat/1"/>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://eurovoc.europa.eu/4143">
+            <skos:inScheme rdf:resource="http://eurovoc.europa.eu/"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/kontaktní-bod">
+            <vcard:fn xml:lang="en">Ministry of Labour and Social Affairs</vcard:fn>
+            <vcard:fn xml:lang="cs">Ministerstvo práce a sociálních věcí</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:ales.kral@mpsv.cz"/>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e087b569-91f9-4b55-8d66-4ecd45af9345">
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/e70871efd9cc26a0fb78937fd9c747a7/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:title xml:lang="en">SPARQL endpoint</dct:title>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/e70871efd9cc26a0fb78937fd9c747a7/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://data.mpsv.cz/sparql/"/>
+            <dcat:accessService>
+              <dcat:DataService rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/e70871efd9cc26a0fb78937fd9c747a7/datová-služba/63c9322fda053edbaf2910dacd20395e">
+                <dct:title xml:lang="en">SPARQL endpoint</dct:title>
+                <dcat:endpointURL rdf:resource="https://data.mpsv.cz/sparql/"/>
+                <dcat:servesDataset rdf:resource="http://data.europa.eu/88u/dataset/https-data-mpsv-cz-zdroj-formysocsluzbymetadata"/>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/e70871efd9cc26a0fb78937fd9c747a7/datová-služba/63c9322fda053edbaf2910dacd20395e/identifikátorLKOD">
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://data.mpsv.cz/zdroj/FormySocSluzbyMetadata/sparqlservice</skos:notation>
+                    <dct:creator>
+                      <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00551023">
+                        <foaf:name xml:lang="cs">Ministerstvo práce a sociálních věcí</foaf:name>
+                      </foaf:Agent>
+                    </dct:creator>
+                  </rdf:Description>
+                </adms:identifier>
+                <adms:identifier>
+                  <rdf:Description rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/e70871efd9cc26a0fb78937fd9c747a7/datová-služba/63c9322fda053edbaf2910dacd20395e/identifikátorNKOD">
+                    <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+                    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+                    >https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/e70871efd9cc26a0fb78937fd9c747a7/datová-služba/63c9322fda053edbaf2910dacd20395e</skos:notation>
+                  </rdf:Description>
+                </adms:identifier>
+                <dct:title xml:lang="cs">SPARQL endpoint</dct:title>
+              </dcat:DataService>
+            </dcat:accessService>
+            <dct:title xml:lang="cs">SPARQL endpoint</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/e70871efd9cc26a0fb78937fd9c747a7</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/36ddddb3-31fe-4d33-9e23-191e0290651c">
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/390c278aac1e38428aec05211bceef2c/podmínky-užití">
+                <j.0:autor xml:lang="cs">Ministerstvo práce a sociálních věcí</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:autor-databáze xml:lang="cs">Ministerstvo práce a sociálních věcí</j.0:autor-databáze>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dcat:accessURL rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby-ofn.jsonld"/>
+            <dct:title xml:lang="en">JSON-LD distribution</dct:title>
+            <dct:conformsTo rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby.schema.json"/>
+            <dcat:downloadURL rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby-ofn.jsonld"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/390c278aac1e38428aec05211bceef2c/podmínky-užití"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/390c278aac1e38428aec05211bceef2c</dct:identifier>
+            <dct:title xml:lang="cs">JSON-LD distribuce</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="cs">sociální služby</dcat:keyword>
+        <dct:title xml:lang="cs">Formy sociálních služeb</dct:title>
+        <foaf:page rdf:resource="https://data.mpsv.cz/web/data/-/ciselnik-forem-socialnich-sluzeb"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:description xml:lang="en">Code list of forms of social services</dct:description>
+        <dct:title xml:lang="en">Forms of social services</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://data.mpsv.cz/zdroj/FormySocSluzbyMetadata</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+        <dcat:keyword xml:lang="en">social services</dcat:keyword>
+        <dcat:keyword xml:lang="cs">číselník</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/30c4daa9-f3e4-4576-b51b-d98363ead500">
+            <dct:title xml:lang="cs">JSON distribuce</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/d46ce3b3d92940c3f5346c940913b5c5/podmínky-užití">
+                <j.0:autor-databáze xml:lang="cs">Ministerstvo práce a sociálních věcí</j.0:autor-databáze>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:autor xml:lang="cs">Ministerstvo práce a sociálních věcí</j.0:autor>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:title xml:lang="en">JSON distribution</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/d46ce3b3d92940c3f5346c940913b5c5</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby.json"/>
+            <dcat:accessURL rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby.json"/>
+            <dct:conformsTo rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby.schema.json"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/d46ce3b3d92940c3f5346c940913b5c5/podmínky-užití"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs">Číselník forem sociálních služeb</dct:description>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/SPARQL"/>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/identifikátorLKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.mpsv.cz/zdroj/FormySocSluzbyMetadata</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00551023"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:publisher rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00551023"/>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/identifikátorNKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1b975b8a-7653-446c-a176-883534a584a5">
+            <dcat:downloadURL rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby.jsonld"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/86da3d39177077ec852e62fa7ec8e05c</dct:identifier>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/86da3d39177077ec852e62fa7ec8e05c/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:autor-databáze xml:lang="cs">Ministerstvo práce a sociálních věcí</j.0:autor-databáze>
+                <j.0:autor xml:lang="cs">Ministerstvo práce a sociálních věcí</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:title xml:lang="en">JSON-LD distribution</dct:title>
+            <dct:title xml:lang="cs">JSON-LD distribuce</dct:title>
+            <dct:conformsTo rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby.schema.json"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/00551023/454f8a1fdeb7c48d4ce8c3b6fad1d62c/distribuce/86da3d39177077ec852e62fa7ec8e05c/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://data.mpsv.cz/od/soubory/ciselniky/formy-soc-sluzby.jsonld"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:conformsTo rdf:resource="https://ofn.gov.cz/číselníky/draft/"/>
+        <dcat:keyword xml:lang="en">code list</dcat:keyword>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+      </j.1:LKOD>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:02:59Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:13Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:identifier>https://data.mpsv.cz/zdroj/FormySocSluzbyMetadata</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:02:59Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>2b7e3edabaabb07e56ba8827429fc2fe</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

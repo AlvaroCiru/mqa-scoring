@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/f8f9401e-1953-4101-9cde-188185074a54">
+    <dct:identifier>f8f9401e-1953-4101-9cde-188185074a54</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:06Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>5f9bcbc500e79e148d78fdf11a1c68e2</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:25:03Z</edp:transReceived>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/f8f9401e-1953-4101-9cde-188185074a54">
+        <dct:title xml:lang="hr-t-en-t0-mtec">Kvaliteta podataka:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Qualité des données:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Tietojen laatu:DataQualityAssessment</dct:title>
+        <dct:identifier>f8f9401e-1953-4101-9cde-188185074a54</dct:identifier>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Тя представлява измеренията на качеството на данните, отнасящи се до различни видове данни.</dct:description>
+        <dct:description xml:lang="hu-t-en-t0-mtec">A különböző típusú adatokra vonatkozó adatminőségi dimenziókat képviseli.</dct:description>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Jakość danych:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Kakovost podatkov:Ocena kakovosti podatkov</dct:title>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою розміри якості даних, що стосуються різних типів даних.</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta d-dimensjonijiet tal-kwalità tad-data li jikkonċernaw tipi differenti ta’ data.</dct:description>
+        <dct:title xml:lang="de-t-en-t0-mtec">Datenqualität:DataQualityAssessment</dct:title>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé na gnéithe cáilíochta sonraí a bhaineann le cineálacha éagsúla sonraí.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-11-06T16:54:48.577964</dct:issued>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa as dimensões da qualidade dos dados relativas aos diferentes tipos de dados.</dct:description>
+        <dct:title xml:lang="da-t-en-t0-mtec">Datakvalitet:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Datakvalitet:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Cáilíocht Sonraí:DataQualityMeasúnú</dct:title>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt die Datenqualitätsdimensionen für verschiedene Arten von Daten dar.</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja razsežnosti kakovosti podatkov za različne vrste podatkov.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje rozmery kvality údajov týkajúce sa rôznych typov údajov.</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Jis atspindi duomenų kokybės aspektus, susijusius su įvairių rūšių duomenimis.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ac0ca790-ff16-4563-84d7-669a65a8866d">
+            <dct:description>DataQuality:DataQualityAssessment realtime data represented in JSON format</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Kvalita údajov:DataQualityAssessment údaje v reálnom čase reprezentované vo formáte JSON</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Tietojen laatu:DataQualityAssessment reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Ποιότητα δεδομένων:DataQualityAssessment σε πραγματικό χρόνο δεδομένα που αντιπροσωπεύονται σε μορφότυπο JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Kvaliteta podataka:DataQualityAssessment podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Qualidade dos dados:DataQualityAssessment dados em tempo real representados no formato JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Dataquality:DataQualityAssessment realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Dataquality:DataQualityNovērtējums reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Qualité des données:DataQualityAssessment données en temps réel représentées au format JSON</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Datakvalitet: DataQualityAssessment realtidsdata representerad i JSON-format</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Dataquality:DataQualityAssessment data f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Jakość danych:DataQualityOcena danych w czasie rzeczywistym reprezentowanych w formacie JSON</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Kvalita dat:DataQualityAssessment data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Cáilíocht Sonraí:DataQualityMeasúnú sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Qualità dei dati:DataQualityValutazione dei dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-06T16:54:48.577964</dct:issued>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Datakwaliteit:DataQualityAssessment realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">Andmekvaliteet: JSON-vormingus esitatud andmekvaliteedi hindamine reaalajas</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Datakvalitet:DataQualityAssessment realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Якість даних:DataQualityОцінка даних в реальному часі, представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Calidad de datos:DataQualityAsessment datos en tiempo real representados en formato JSON</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Качество на данните:DataQualityAssessment данни в реално време, представени във формат JSON</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.DataQuality%2FDataQualityAssessment__.json"/>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.DataQuality%2FDataQualityAssessment__.json"/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Kakovost podatkov:DataQualityAssessment podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Adatminőség:DataQualityAssessment valós idejű adatok JSON formátumban</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/f8f9401e-1953-4101-9cde-188185074a54/resource/urn_ngsi-ld_distribution_salted_project_dataquality_dataqualityassessment_json</dct:identifier>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Datenqualität:DataQualityAssessment Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:14:42.081063</dct:modified>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Calitatea datelor: Date de evaluare a calității datelor în timp real reprezentate în format JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="el-t-en-t0-mtec">Ποιότητα δεδομένων:DataQualityAssessment</dct:title>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Adatminőség:DataQualityAssessment</dct:title>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Aceasta reprezintă dimensiunile calității datelor referitoare la diferite tipuri de date.</dct:description>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa las dimensiones de la calidad de los datos en relación con diferentes tipos de datos.</dct:description>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer datakvalitetsdimensionerne for forskellige typer data.</dct:description>
+        <dct:title>DataQuality:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Dataquality:DataQualityAssessment</dct:title>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo datu kvalitātes dimensijas attiecībā uz dažādiem datu veidiem.</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Ona predstavlja dimenzije kvalitete podataka koje se odnose na različite vrste podataka.</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta le dimensioni della qualità dei dati per quanto riguarda i diversi tipi di dati.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-06T16:54:48.212110</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Gegevenskwaliteit:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Duomenų kokybė:DataQualityAssessment</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description>It represents the data quality dimensions concerning different types of data.</dct:description>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Качество на данните:Оценка на качеството на данните</dct:title>
+        <dcat:keyword>Data Quality Assessment</dcat:keyword>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Kvalita údajov:DataQualityAssessment</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-11-06T16:54:48.578031</dct:modified>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Den representerar datakvalitetsdimensionerna för olika typer av data.</dct:description>
+        <dct:title xml:lang="et-t-en-t0-mtec">Andmekvaliteet:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">Qualità dei dati:DataQualityValutazione</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Datu kvalitāte:DataQualityNovērtējums</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Якість даних:Оцінка якості даних</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5b24b30e-c9a3-4604-9ba3-5ff8c8e76c95">
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Datakvalitet: DataQualityAssessment realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Qualità dei dati:DataQualityValutazione dei dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.DataQuality%2FDataQualityAssessment__.jsonld"/>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Kvalita dat:DataQualityAssessment data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Dataquality:DataQualityAssessment data f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Качество на данните:DataQualityAssessment данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Duomenų kokybė:DataQualityAssessment realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Kvalita údajov:DataQualityAssessment údaje v reálnom čase reprezentované vo formáte JSON_LD</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Qualité des données:DataQualityAssessment données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Andmekvaliteet: JSON_LD formaadis esitatud andmekvaliteedi hindamine reaalajas</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Dataquality:DataQualityNovērtējums reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Calitatea datelor:DataQualityAssessment Date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Jakość danych:DataQualityOcena danych w czasie rzeczywistym reprezentowanych w formacie JSON_LD</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.DataQuality%2FDataQualityAssessment__.jsonld"/>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Adatminőség:DataQualityAssessment valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description>DataQuality:DataQualityAssessment realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Якість даних:DataQualityОцінка даних в реальному часі, представлені у форматі JSON_LD</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Ποιότητα δεδομένων:DataQualityAssessment σε πραγματικό χρόνο δεδομένα που αντιπροσωπεύονται σε μορφότυπο JSON_LD</dct:description>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Datakvalitet:DataQualityAssessment realtime data repræsenteret i JSON_LD format</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-06T16:54:48.577964</dct:issued>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Cáilíocht Sonraí:DataQualityMeasúnú sonraí fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Datakwaliteit:DataQualityAssessment realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Kakovost podatkov:DataQualityAssessment podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Qualidade dos dados:DataQualityAssessment dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/f8f9401e-1953-4101-9cde-188185074a54/resource/urn_ngsi-ld_distribution_salted_project_dataquality_dataqualityassessment_jsonld</dct:identifier>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Kvaliteta podataka:DataQualityAssessment podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Calidad de datos:DataQualityAssessment datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Tietojen laatu:DataQualityAssessment reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:14:42.082492</dct:modified>
+            <dct:description xml:lang="de-t-en-t0-mtec">Datenqualität:DataQualityAssessment Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de gegevenskwaliteitsdimensies met betrekking tot verschillende soorten gegevens.</dct:description>
+        <dct:title xml:lang="es-t-en-t0-mtec">Calidad de los datos:DataQualityAsssment</dct:title>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Calitatea datelor:DataQualityEvaluare</dct:title>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente les dimensions de la qualité des données concernant différents types de données.</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa erityyppisiä tietoja koskevien tietojen laatuulottuvuuksia.</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/OP_DATPRO"/>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Kvalita dat:DataQualityAssessment</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Qualidade dos dados:DataQualityAssessment</dct:title>
+        <dcat:keyword>DataQualityAssessment</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-11-06T16:54:48.212110</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Przedstawia wymiary jakości danych dotyczące różnych rodzajów danych.</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje rozměry kvality údajů o různých typech dat.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kajastab eri liiki andmete andmete kvaliteedi mõõtmeid.</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει τις διαστάσεις ποιότητας των δεδομένων που αφορούν διαφορετικούς τύπους δεδομένων.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-11-08T11:30:00Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/f8f9401e-1953-4101-9cde-188185074a54"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:25:03Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

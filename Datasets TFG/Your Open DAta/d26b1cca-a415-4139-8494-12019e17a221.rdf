@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/d26b1cca-a415-4139-8494-12019e17a221">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:01Z</dct:modified>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-23T22:45:50Z</edp:transReceived>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/d26b1cca-a415-4139-8494-12019e17a221">
+        <dct:description xml:lang="nl-t-es-t0-mtec">Klimatologie van het CEUTA-station volgens het weerobserveerde model van NGSI-LD. Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ecce4b30-397e-46a4-827c-21828391dfaa">
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:description xml:lang="et-t-es-t0-mtec">CEUTA klimatoloogiline vaatlus</dct:description>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Klimatologiska observationer av CEUTA</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Klimatologické pozorování CEUTA</dct:description>
+            <dct:description xml:lang="en-t-es-t0-mtec">Climatology observation of CEUTA</dct:description>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Klimatologische observatie van de CEUTA</dct:description>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:description xml:lang="fi-t-es-t0-mtec">CEUTA:n klimatologian havainnointi</dct:description>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja klimatologiczna CEUTA</dct:description>
+            <dct:title>urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+            <dct:description xml:lang="lt-t-es-t0-mtec">CEUTA klimatologinis stebėjimas</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:description xml:lang="lv-t-es-t0-mtec">CEUTA klimatoloģiskā novērošana</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione climatologica del CEUTA</dct:description>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:5000C-1"/>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/d26b1cca-a415-4139-8494-12019e17a221/resource/5a81048a-012b-4c9f-87e5-254e2ea16c6c</dct:identifier>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação climática do CEUTA</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:description xml:lang="da-t-es-t0-mtec">Klimatologisk observation af CEUTA</dct:description>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni tal-klimatoloġija tas-CEUTA</dct:description>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Klimatološko opazovanje CEUTA</dct:description>
+            <dct:description>Observación de climatología de CEUTA</dct:description>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Klimatološko promatranje CEUTA-e</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:01.313624</dct:modified>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Кліматологічне спостереження CEUTA</dct:description>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Климатологично наблюдение на CEUTA</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Klimatologické pozorovanie CEUTA</dct:description>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea climatologiei CEUTA</dct:description>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:5000C-1"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Klimatologische Beobachtung von CEUTA</dct:description>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation climatologique du CEUTA</dct:description>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:description xml:lang="el-t-es-t0-mtec">Κλιματολογική παρατήρηση του CEUTA</dct:description>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A CEUTA klimatológiai megfigyelése</dct:description>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht chlíomeolaíochta ar CEUTA</dct:description>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:5000C-1</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-14T10:37:26.491395</dct:modified>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Климатология на станция CEUTA, следвайки WeatherObserved модел на NGSI-LD. Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Climatologia da estação CEUTA seguindo o modelo WeatherObserved de NGSI-LD. Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">CEUTA-stationens klimatologi följer WeatherObserved-modellen av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">CEUTA stacijas klimatoloģija saskaņā ar WeatherObserved modeli NGSI-LD. Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dct:title xml:lang="en-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">CEUTA jaama klimatoloogia pärast WeatherObserved mudelit NGSI-LD. Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Climatologie de la station CEUTA suivant le modèle WeatherObserved de NGSI-LD. Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">cé gurbh iad Avondale rogha na coitianta tháinig buachaillí GCM le plean agus chuireadar I bhfeidhm é.</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-14T10:37:25.888483</dct:issued>
+        <dct:identifier>d26b1cca-a415-4139-8494-12019e17a221</dct:identifier>
+        <dct:title xml:lang="hr-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Climatology of the CEUTA station following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:title xml:lang="el-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description>Climatología de la estación de CEUTA siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:description xml:lang="lt-t-es-t0-mtec">CEUTA stoties klimatologija pagal WeatherObserved modelį NGSI-LD. Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Кліматологія станції CEUTA за моделлю WeatherObserved NGSI-LD. Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Il-klimatoloġija tal-istazzjon tas-CEUTA skont il-mudell ta’ WeatherObserved tal-NGSI-LD. Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Klimatologija postaje CEUTA po modelu WeatherObserved modela NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Klimatologi af CEUTA station efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Clíomeolaíocht stáisiún CEUTA de réir mhúnla WeatherObserved de NGSI-LD. Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="fi-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Climatologia stației CEUTA după modelul WeatherObserved al NGSI-LD. Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A CEUTA állomás klimatológiája az NGSI-LD WeatherObserved modelljét követve. Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Klimatologia stacji CEUTA według modelu WeatherObserved NGSI-LD. Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Klimatologija CEUTA stanice prema WeatherObserved modelu NGSI-LD-a. Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Klimatológia stanice CEUTA podľa modelu WeatherObserved NGSI-LD. Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:title xml:lang="pt-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Klimatologie stanice CEUTA podle modelu pozorování počasí NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κλιματολογία του σταθμού CEUTA σύμφωνα με το WeatherObserved μοντέλο του NGSI-LD. Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Climatologia della stazione CEUTA seguendo il modello WeatherObserved di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Ceuta_5000c</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title>ceuta_5000c</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Klimatologie der CEUTA Station nach dem WeatherObserved Modell der NGSI-LD. Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">CEUTA-aseman ilmastotiede NGSI-LD:n WeatherObserved -mallin mukaisesti. Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">ceuta_5000c</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">ceuta_5000c</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>7902867777587237183372e394978c46</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/d26b1cca-a415-4139-8494-12019e17a221"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:01Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:01Z</edp:transIssued>
+    <dct:identifier>d26b1cca-a415-4139-8494-12019e17a221</dct:identifier>
+  </dcat:CatalogRecord>
+</rdf:RDF>

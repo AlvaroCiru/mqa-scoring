@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/2407c1df-7b85-4345-810e-ce50cc9800df">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-16T14:02:38Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:58Z</edp:transReceived>
+    <dct:identifier>2407c1df-7b85-4345-810e-ce50cc9800df</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:58Z</dct:modified>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:06Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/2407c1df-7b85-4345-810e-ce50cc9800df">
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă nivelul de zgomot acustic colectat de senzorii implementați în orașul Santander prin platforma SmartSantander.</dct:description>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé an leibhéal torainn fuaime a bhailíonn na braiteoirí a úsáidtear i gcathair Santander trí ardán SmartSantander.</dct:description>
+        <dct:title xml:lang="et-t-en-t0-mtec">OCF: SoundPressureLevel</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">OCF: SoundPressureLevel</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява нивото на звуковия шум, събиран от сензорите, разположени в град Сантандер чрез платформата SmartSantander.</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa Santanderin kaupungissa SmartSantander-alustan kautta asennettujen antureiden keräämää äänitasoa.</dct:description>
+        <dct:description xml:lang="hu-t-en-t0-mtec">A Santander városában a SmartSantander platformon telepített érzékelők által összegyűjtött akusztikus zajszintet képviseli.</dct:description>
+        <dct:title xml:lang="uk-t-en-t0-mtec">OCF:SoundPressureРівень</dct:title>
+        <dcat:keyword>SmartSantander</dcat:keyword>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Den representerar nivån av akustiskt buller som samlas in av sensorerna som distribueras i staden Santander via SmartSantander-plattformen.</dct:description>
+        <dct:title xml:lang="da-t-en-t0-mtec">OCF:SoundPressure-niveau</dct:title>
+        <dct:description>It represents the level of acoustic noise collected by the sensors deployed in the city of Santander through the SmartSantander platform.</dct:description>
+        <dct:title xml:lang="es-t-en-t0-mtec">OCF:SoundPressureNivel</dct:title>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta il livello di rumore acustico raccolto dai sensori impiegati nella città di Santander attraverso la piattaforma SmartSantander.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/59af8a1f-d076-41ba-945a-8d6113cdd68f">
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">OCF:SoundPressure Date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">OCF:SoundPressurePoziom danych w czasie rzeczywistym reprezentowanych w formacie JSON_LD</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">OCF:SoundPressureLevel reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">OCF:SoundPressureÚroveň údajov v reálnom čase reprezentovaných vo formáte JSON_LD</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">OCF:SoundPressureLevel données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description>OCF:SoundPressureLevel realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">OCF:SoundPressureLevel podaci u stvarnom vremenu prikazani u formatu JSON_LD</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.OCF%2FSoundPressureLevel__.jsonld"/>
+            <dct:description xml:lang="sv-t-en-t0-mtec">OCF:SoundPressureLevel realtidsdata i JSON_LD-format</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">OCF:SoundPressureLevel dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">OCF:SoundPressureLevel дані в реальному часі, представлені у форматі JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:09:20.939578</dct:modified>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">OCF:SoundPressureLevel podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">OCF:SoundPressureLeibhéal fíor-ama léirithe i bhformáid JSON_LD</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">OCF:SoundPressureNivel datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">OCF:SoundPressureLevel reālā laika dati attēloti JSON_LD formātā</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">OCF:SoundPressureNível de dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:31:51.674673</dct:issued>
+            <dct:description xml:lang="cs-t-en-t0-mtec">OCF:SoundPressureÚroveň dat v reálném čase reprezentovaných ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">OCF:SoundPressureLevel realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">OCF:SoundPressureLevel данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">OCF:Data f’ħin reali tas-SoundPressureLivell irrappreżentata fil-format JSON_LD</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">OCF:SoundPressureLevel σε πραγματικό χρόνο δεδομένα που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">OCF:SoundPressureLevel realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.OCF%2FSoundPressureLevel__.jsonld"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="de-t-en-t0-mtec">OCF:SoundPressureLevel Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">OCF:SoundPressureLevel valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">OCF:SoundPressureLevel realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">OCF: SoundPressureLevel reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/2407c1df-7b85-4345-810e-ce50cc9800df/resource/urn_ngsi-ld_distribution_salted_project_ocf_soundpressurelevel_jsonld</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-en-t0-mtec">OCF:SoundPressurePoziom</dct:title>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει το επίπεδο του ακουστικού θορύβου που συλλέγεται από τους αισθητήρες που αναπτύσσονται στην πόλη Santander μέσω της πλατφόρμας SmartSantander.</dct:description>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer niveauet af akustisk støj indsamlet af de sensorer, der anvendes i byen Santander gennem SmartSantander platformen.</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/84f4b5b0-4fa1-4cfc-a3b9-4b01810a862d">
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">OCF:SoundPressureNível de dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">OCF:SoundPressureLevel valós idejű adatok JSON formátumban</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">OCF:SoundPressureNivel datos en tiempo real representados en formato JSON</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">OCF:SoundPressureÚroveň údajov v reálnom čase reprezentovaných vo formáte JSON</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">OCF:SoundPressureLevel dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="cs-t-en-t0-mtec">OCF:SoundPressureÚroveň dat v reálném čase reprezentovaných ve formátu JSON</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:09:20.938391</dct:modified>
+            <dct:description xml:lang="lt-t-en-t0-mtec">OCF:SoundPressureLevel realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.OCF%2FSoundPressureLevel__.json"/>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">OCF:SoundPressureLevel podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">OCF:SoundPressureLevel realtidsdata repræsenteret i JSON-format</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">OCF:SoundPressurePoziom danych w czasie rzeczywistym reprezentowanych w formacie JSON</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">OCF:SoundPressureLevel podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">OCF:SoundPressure Date în timp real reprezentate în format JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">OCF:SoundPressureLevel Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">OCF:SoundPressureLevel данни в реално време, представени във формат JSON</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/2407c1df-7b85-4345-810e-ce50cc9800df/resource/urn_ngsi-ld_distribution_salted_project_ocf_soundpressurelevel_json</dct:identifier>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">OCF:SoundPressureLevel reālā laika dati attēloti JSON formātā</dct:description>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="ga-t-en-t0-mtec">OCF:SoundPressure Level sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">OCF:SoundPressureLevel realtidsdata i JSON-format</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">OCF:SoundPressureLevel reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">OCF:SoundPressureLevel données en temps réel représentées au format JSON</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">OCF:Data f’ħin reali tas-SoundPressureLivell irrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">OCF:SoundPressureLevel realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.OCF%2FSoundPressureLevel__.json"/>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:31:51.674673</dct:issued>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">OCF:SoundPressureLevel σε πραγματικό χρόνο δεδομένα που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">OCF:SoundPressureLevel дані в реальному часі, представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">OCF: SoundPressureLevel reaalajas esitatud andmed JSON-vormingus</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description>OCF:SoundPressureLevel realtime data represented in JSON format</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kajastab Santanderi linnas SmartSantanderi platvormi kaudu kasutusele võetud andurite akustilise müra taset.</dct:description>
+        <dct:identifier>2407c1df-7b85-4345-810e-ce50cc9800df</dct:identifier>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Jis atspindi akustinio triukšmo lygį, kurį surenka Santandero mieste esantys jutikliai per „SmartSantander“ platformą.</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje úroveň akustického šumu nashromážděného senzory rozmístěnými ve městě Santander prostřednictvím platformy SmartSantander.</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja raven akustičnega hrupa, ki ga zbirajo senzorji, nameščeni v mestu Santander prek platforme SmartSantander.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:31:51.463074</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta l-livell ta’ storbju akustiku miġbur mis-sensuri użati fil-belt ta’ Santander permezz tal-pjattaforma SmartSantander.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:31:51.463074</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa o nível de ruído acústico recolhido pelos sensores implantados na cidade de Santander através da plataforma SmartSantander.</dct:description>
+        <dct:title xml:lang="ga-t-en-t0-mtec">OCF:SoundPressure Level</dct:title>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es repräsentiert den Schallpegel, der von den Sensoren gesammelt wird, die in der Stadt Santander über die SmartSantander-Plattform eingesetzt werden.</dct:description>
+        <dct:title xml:lang="mt-t-en-t0-mtec">OCF:SoundPressure Level</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">OCF:SoundPressure Level</dct:title>
+        <dcat:keyword>SoundPressureLevel</dcat:keyword>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt het niveau van akoestisch geluid dat wordt verzameld door de sensoren die in de stad Santander via het SmartSantander-platform worden ingezet.</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje poziom hałasu akustycznego zbieranego przez czujniki rozmieszczone w mieście Santander za pośrednictwem platformy SmartSantander.</dct:description>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою рівень акустичного шуму, зібраного датчиками, розгорнутими в місті Сантандер через платформу SmartSantander.</dct:description>
+        <dct:title xml:lang="fi-t-en-t0-mtec">OCF:SoundPressure-taso</dct:title>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:title xml:lang="hu-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="el-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title>OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="de-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje úroveň akustického hluku zhromažďovaného senzormi nasadenými v meste Santander prostredníctvom platformy SmartSantander.</dct:description>
+        <dct:title xml:lang="bg-t-en-t0-mtec">OCF:SoundPressureLevel</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:31:51.674673</dct:issued>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:keyword>Sound Pressure</dcat:keyword>
+        <dct:title xml:lang="ro-t-en-t0-mtec">OCF: Nivelul de presiune a sunetului</dct:title>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa el nivel de ruido acústico recogido por los sensores desplegados en la ciudad de Santander a través de la plataforma SmartSantander.</dct:description>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo akustiskā trokšņa līmeni, ko savākuši Santander pilsētā izvietotie sensori, izmantojot SmartSantander platformu.</dct:description>
+        <dcat:keyword>Acoustic Noise</dcat:keyword>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:31:51.674709</dct:modified>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja razinu akustične buke koju prikupljaju senzori raspoređeni u gradu Santanderu putem platforme SmartSantander.</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente le niveau de bruit acoustique collecté par les capteurs déployés dans la ville de Santander à travers la plate-forme SmartSantander.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/2407c1df-7b85-4345-810e-ce50cc9800df"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>78af1e0b8386bad2d505dee2a9117e52</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>en</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

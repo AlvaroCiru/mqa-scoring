@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/d0aa01a5-8400-46b8-b998-3401290b7fd7">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:03Z</dct:issued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:identifier>d0aa01a5-8400-46b8-b998-3401290b7fd7</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/d0aa01a5-8400-46b8-b998-3401290b7fd7"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>462d4284f590b218eb71ed13181e94a</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:03Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/d0aa01a5-8400-46b8-b998-3401290b7fd7">
+        <dct:description xml:lang="uk-t-es-t0-mtec">Опади від станції NAVACERRADA PUERTO слідують моделі WeatherObserved моделі NGSI-LD. Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Nederbörd från NAVACERRADA PUERTO station efter WeatherObserved modell av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Krituliai iš NAVACERRADA PUERTO stoties pagal WeatherObserved modelį NGSI-LD. Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Navacerrada_port_2462_precipitazioni</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Preċipitazzjoni mill-istazzjon NAVACERRADA PUERTO wara l-mudell ta’ WeatherObserved ta’ NGSI-LD. Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Navacerrada_port_2462_preċipitazzjonijiet</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Sademed NAVACERRADA PUERTO jaama pärast WeatherObserved mudel NGSI-LD. Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Navacerrada_port_2462_опади</dct:title>
+        <dct:title>navacerrada_puerto_2462_precipitations</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Padavine iz postaje NAVACERRADA PUERTO po VremeObserved modelu NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Nokrišņi no NAVACERRADA PUERTO stacijas pēc WeatherObserved modeli NGSI-LD. Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Precipitații de la stația NAVACERRADA PUERTO după modelul WeatherObserved al NGSI-LD. Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Navacerrada_port_2462_ Niederschlag</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Navacerrada_port_2462_κατακρημνίσεις</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-08T20:33:55.369323</dct:issued>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Neerslag van NAVACERRADA PUERTO station volgens het WeatherObserved model van NGSI-LD. Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Deascadh ó stáisiún Navacerrada PUERTO tar éis an tsamhail WeatherObserved de NGSI-LD. Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Sademäärä NAVACERRADA PUERTO -asemalta, joka seuraa NGSI-LD:n WeatherObserved -mallia. Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Navacerrada_port_2462_precipitacije</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Navacerrada_port_2462_precipitations</dct:title>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Navacerrada_port_2462_sateet</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Валежи от станция NAVACERRADA PUERTO по модела WeatherObserved на NGSI-LD. Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Précipitations de la station NAVACERRADA PUERTO suivant le modèle WeatherObserved de NGSI-LD. Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Navacerrada_port_2462_precypacje</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Nedbør fra NAVACERRADA PUERTO station efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Navacerrada_port_2462_précipitations</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="en-t-es-t0-mtec">Navacerrada_port_2462_precipitations</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Navacerrada_port_2462_Udfældninger</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Srážky ze stanice NAVACERRADA PUERTO podle WeatherObserved modelu NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/302d5108-7880-4584-a1bc-dcb64089788c">
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni ta’ preċipitazzjoni ta’ NAVACERRADA PUERTO</dct:description>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">NAVACERRADA PUERTO kritulių stebėjimas</dct:description>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Opazovanje padavin NAVACERRADA PUERTO</dct:description>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Наблюдение на валежите на NAVACERRADA PUERTO</dct:description>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação de precipitação de Navacerrada PUERTO</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:03.288077</dct:modified>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/d0aa01a5-8400-46b8-b998-3401290b7fd7/resource/39cd81ad-c70a-4a6b-911a-90bdcf0b0427</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht frasaíochta ar Navacerrada PUERTO</dct:description>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation des précipitations de NAVACERRADA PUERTO</dct:description>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="da-t-es-t0-mtec">Nedbørsobservation af NAVACERRADA PUERTO</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione delle precipitazioni di NAVACERRADA PUERTO</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea precipitațiilor NAVACERRADA PUERTO</dct:description>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="et-t-es-t0-mtec">NAVACERRADA PUERTO sademete vaatlus</dct:description>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Neerslag observatie van NAVACERRADA PUERTO</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja opadów w NAVACERRADA PUERTO</dct:description>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Спостереження опадів NAVACERRADA PUERTO</dct:description>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Promatranje taloženja lijeka NAVACERRADA PUERTO</dct:description>
+            <dct:description xml:lang="de-t-es-t0-mtec">Niederschlagsbeobachtung von NAVACERRADA PUERTO</dct:description>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="lv-t-es-t0-mtec">NAVACERRADA PUERTO nokrišņu novērošana</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="en-t-es-t0-mtec">Precipitation observation of NAVACERRADA PUERTO</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:title>urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">NAVACERRADA PUERTO -havaintohavainto</dct:description>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Pozorování srážek NAVACERRADA PUERTO</dct:description>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="hu-t-es-t0-mtec">NAVACERRADA PUERTO csapadékmegfigyelése</dct:description>
+            <dct:description xml:lang="el-t-es-t0-mtec">Παρατήρηση κατακρήμνισης του NAVACERRADA PUERTO</dct:description>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description>Observación de precipitaciones de NAVACERRADA PUERTO</dct:description>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Pozorovanie zrážok NAVACERRADA PUERTO</dct:description>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2462-1</dct:title>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Nederbördsobservation av NAVACERRADA PUERTO</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Padaline iz stanice NAVACERRADA PUERTO prema WeatherObserved modelu NGSI-LD. Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Navacerrada_port_2462_ fällningar</dct:title>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Navacerrada_port_2462_precipitaties</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Navacerrada_port_2462_убежища</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Navacerrada_port_2462_precipitacije</dct:title>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:description xml:lang="en-t-es-t0-mtec">Precipitation from NAVACERRADA PUERTO station following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Navacerrada_port_2462_precipitations</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="it-t-es-t0-mtec">Precipitazioni dalla stazione NAVACERRADA PUERTO seguendo il modello WeatherObservato di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Navacerrada_port_2462_precipitations</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Navacerrada_port_2462_ csapadék</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Βροχόπτωση από το σταθμό NAVACERRADA PUERTO ακολουθώντας το μοντέλο WeatherObserved του NGSI-LD. Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dct:description>Precipitaciones de la estación de NAVACERRADA PUERTO siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dct:identifier>d0aa01a5-8400-46b8-b998-3401290b7fd7</dct:identifier>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Navacerrada_port_2462_precipitations</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Navacerrada_port_2462_ sademed</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Opady z stacji NAVACERRADA PUERTO według WeatherObserwowany model NGSI-LD. Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Zrážky z stanice NAVACERRADA PUERTO po WeatherObserved model NGSI-LD. Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Niederschlag von NAVACERRADA PUERTO Station nach dem WeatherObserved Modell von NGSI-LD. Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Navacerrada_port_2462_zrážania</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Navacerrada_port_2462_precipitace</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Precipitação da estação de Navacerrada PUERTO seguindo o modelo WeatherObserved de NGSI-LD. Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-08T20:33:56.019711</dct:modified>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Csapadék NAVACERRADA PUERTO állomásról az NGSI-LD WeatherObserved modelljét követve. Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Navacerrada_port_2462_precipitações</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-23T22:46:28Z</edp:transReceived>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:03Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

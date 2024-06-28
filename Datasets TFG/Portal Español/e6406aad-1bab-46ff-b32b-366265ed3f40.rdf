@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/e6406aad-1bab-46ff-b32b-366265ed3f40">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-10-31T11:40:15Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-11-04T15:34:29Z</edp:transReceived>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/e6406aad-1bab-46ff-b32b-366265ed3f40"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/e6406aad-1bab-46ff-b32b-366265ed3f40">
+        <dct:accessRights>
+          <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        </dct:accessRights>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Klimatologie van het station van PALMA DE MALLORCA/SON SANT JOAN volgens het weerobserveerde model van NGSI-LD. Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Klimatologija stanice PALMA DE MALLORCA/SON SANT JOAN prema Weather Observed modelu NGSI-LD. Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Climatology stacijas PALMA DE MALLORCA/SON SANT JOAN pēc WeatherObserved modeli NGSI-LD. Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Klimatologia stacji PALMA DE MALLORCA/SON SANT JOAN zgodnie z WeatherObserwowany model NGSI-LD. Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">pailme_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Климатология на станцията PALMA DE MALLORCA/SON SANT JOAN следвайки WeatherObserved модел на NGSI-LD. Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title>palma_de_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Climatologia da estação de PALMA DE MALLORCA/SON SANT JOAN seguindo o modelo WeatherObserved de NGSI-LD. Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">palma_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Clíomatology an stáisiúin de PALMA DE MALLORCA/SON SANT JOAN tar éis an tsamhail WeatherObserved NGSI-LD. Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κλιματολογία του σταθμού PALMA DE MALLORCA/SON SANT JOAN ακολουθώντας το WeatherObserved μοντέλο του NGSI-LD. Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Klimatológia stanice PALMA DE MALLORCA/SON SANT JOAN po WeatherObserved model NGSI-LD. Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="et-t-es-t0-mtec">Klimatoloogia jaama PALMA DE MALLORCA/SON SANT JOAN pärast WeatherObserved mudel NGSI-LD. Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Klimatoloġija tal-istazzjon ta’ PALMA DE MALLORCA/SON SANT JOAN skont il-mudell ta’ WeatherObserved ta’ NGSI-LD. Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Klimatologija postaje PALMA DE MALLORCA/SON SANT JOAN po VremeObserved modelu NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Klimatologi af stationen i PALMA DE MALLORCA/SON SANT JOAN efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Klimatologie stanice PALMA DE MALLORCA/SON SANT JOAN podle modelu NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-10-30T10:05:04.754170</dct:modified>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="lt-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:identifier>e6406aad-1bab-46ff-b32b-366265ed3f40</dct:identifier>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Klimatologi för stationen PALMA DE MALLORCA/SON SANT JOAN efter WeatherObserved-modellen av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description>Climatología de la estación de PALMA DE MALLORCA/SON SANT JOAN siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A PALMA DE MALLORCA/SON SANT JOAN állomás klimatológiája az NGSI-LD WeatherObserved modelljét követve. Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-07-18T20:09:06.776391</dct:issued>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Climatologie de la station de PALMA DE MALLORCA/SON SANT JOAN suivant le modèle WeatherObserved de NGSI-LD. Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a270bb9f-bc38-4fd3-9d57-63aaf7656fb3">
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni klimatoloġika ta’ PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Klimatologische observatie van PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="et-t-es-t0-mtec">PALMA DE MALLORCA/SON SANT JOAN klimatoloogiline vaatlus</dct:description>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Климатологично наблюдение на PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Klimatologické pozorovanie PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:description xml:lang="en-t-es-t0-mtec">Climatology observation of PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Створення PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação climatologia de PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">PALMA DE MALLORCA/SON SANT JOANin klimatologian havainnointi</dct:description>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/e6406aad-1bab-46ff-b32b-366265ed3f40/resource/2cca6e6c-03a8-4293-aab3-e885914bbf7a</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht Clíomeolaíochta ar PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Klimatologické pozorování PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Klimatologiska observationer av PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja klimatologiczna PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+            <dct:description xml:lang="lv-t-es-t0-mtec">PALMA DE MALLORCA/SON SANT JOAN klimatoloģiskā novērošana</dct:description>
+            <dct:title>urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Klimatološko promatranje PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Klimatologische Beobachtung von PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:description>Observación de climatología de PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Klimatologi observation af PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:description xml:lang="el-t-es-t0-mtec">Κλιματολογική παρατήρηση PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Klimatološko opazovanje PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea climatologiei PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:B278-1"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione climatologica di PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Klimatologinis stebėjimas PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:B278-1"/>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:03.342937</dct:modified>
+            <dct:description xml:lang="hu-t-es-t0-mtec">PALMA DE MALLORCA/SON SANT JOAN klimatológiai megfigyelése</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:B278-1</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation climatologique de PALMA DE MALLORCA/SON SANT JOAN</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Кліматологія станції PALMA DE MALLORCA/SON SANT JOAN за моделлю WeatherObserved NGSI-LD. Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Climatologia stației PALMA DE MALLORCA/SON SANT JOAN după modelul WeatherObserved al NGSI-LD. Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Climatology of the station of PALMA DE MALLORCA/SON SANT JOAN following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Klimatologie der Station PALMA DE MALLORCA/SON SANT JOAN nach dem WeatherObserved-Modell der NGSI-LD. Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">kľúčové slová: Palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Climatologia della stazione di PALMA DE MALLORCA/SON SANT JOAN seguendo il modello WeatherObserved di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">palm_of_mallorca_son_sant_joan_b278</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Klimatologija iš PALMA DE MALLORCA/SON SANT JOAN stoties pagal WeatherObserved modelį NGSI-LD. Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Ilmastotiede aseman PALMA DE MALLORCA/SON SANT JOAN jälkeen WeatherObserved malli NGSI-LD. Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>cb466f1a643c314c6af64f2dbe1604b0</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:03Z</dct:modified>
+    <dct:identifier>e6406aad-1bab-46ff-b32b-366265ed3f40</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-10-31T11:40:15Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

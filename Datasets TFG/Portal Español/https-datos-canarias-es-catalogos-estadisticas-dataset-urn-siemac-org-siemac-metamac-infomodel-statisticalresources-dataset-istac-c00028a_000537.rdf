@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000537">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:41:40Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>f9f05bd3a94d10d65523334effb61856</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:41:40Z</dct:issued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000537">
+        <dct:description xml:lang="es">Características de los viajes y satisfacción de los turistas. Estancia media según nivel de ingresos. Islas por años y trimestres. Series desde 2010 hasta 2017.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d7d678f1-6fe6-4566-883f-67162219f66d">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-nivel-de-ingresos-islas-por-periodos/resource/14d03dcd-1628-46a0-8d90-965b7660a538</dct:identifier>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000537 (XLSX)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000537/1.0.xlsx"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cd63f1d7-75c2-4199-8a17-1dd1f1d88e6a">
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000537 (CSV)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000537/1.0.csv"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-nivel-de-ingresos-islas-por-periodos/resource/7ba4bd13-293a-4bd7-af12-f847e97718cf</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:keyword xml:lang="es">Cubo estadístico</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7448c22f-50c0-45cc-a66f-dbb689966836">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-nivel-de-ingresos-islas-por-periodos/resource/e612bac2-2a23-44cc-bf9d-576efe574630</dct:identifier>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000537 (JSON)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000537/1.0.json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1671c8fa-0966-47e7-93c4-42032ff3a09b">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-nivel-de-ingresos-islas-por-periodos/resource/c2e9bf35-7a4d-4995-9f4d-8fdfa36e28da</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000537 (TSV)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000537/1.0.tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c6627caa-9d7c-4985-a81f-03cb588a379f">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000537/1.0.xml"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000537 (XML)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-nivel-de-ingresos-islas-por-periodos/resource/e26a634d-485d-4f2a-9e5d-c966b86d2b1d</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000537</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T11:40:44+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6fe3c9af-1477-483e-aa42-51d235fc60c3">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:C00028A_000537 (JSONSTAT)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-estancia-media-segun-nivel-de-ingresos-islas-por-periodos/resource/6e628366-b545-4fe7-8701-71b9ea7a439c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00028A_000537/1.0.jsonstat"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Estancia media según nivel de ingresos. Islas por periodos</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423">
+            <foaf:name>Instituto Canario de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T11:40:44+02:00</dct:modified>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000537"/>
+    <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000537</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:41:40Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-estructura-de-la-administracion-autonoma-de-euskadi-">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-estructura-de-la-administracion-autonoma-de-euskadi-"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>c6a6ac6f169fbac61f294bf671bc47a5</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/estructura-de-la-administracion-autonoma-de-euskadi/</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:12:12Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:27:02Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-estructura-de-la-administracion-autonoma-de-euskadi-">
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/estructura-de-la-administracion-autonoma-de-euskadi/</dct:identifier>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Structura administrației autonome a Țării Bascilor</dct:title>
+        <dcat:keyword xml:lang="es">etiquetas</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Diferitele aplicații ale Guvernului basc necesită structura Guvernului basc (departamente, viceconsilii, direcții...) și a entităților sale dependente pentru a furniza servicii cetățenilor. Conținutul Euskadi.eus și procedurile și serviciile, pentru a numi câteva, sunt îmbogățite cu catalogarea structurii organice, cu scopul de a putea clasifica și comanda informațiile într-un mod mai bogat, mai precis și configurabil.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Struktura autonomne uprave Baskije</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Za različne aplikacije baskovske vlade je potrebna struktura baskovske vlade (oddelki, podpredsedniki, direktorati...) in njeni odvisni subjekti za zagotavljanje storitev državljanom. Vsebina Euskadi.eus ter postopki in storitve, če jih naštejemo le nekaj, so obogateni s katalogizacijo ekološke strukture, da bi lahko razvrstili in naročili informacije na bogatejši, natančnejši in prilagodljivejši način.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Forskellige anvendelser af den baskiske regering kræver, at den baskiske regering (departementer, viceråd, direktorater...) og dens afhængige enheder leverer tjenesteydelser til borgerne. Indholdet af Euskadi.eus og de procedurer og tjenester, for at nævne nogle få, er beriget med katalogisering af den organiske struktur, med det formål at kunne klassificere og bestille oplysningerne på en rigere, mere præcis og konfigurerbar måde.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Various applications of the Basque Government require the structure of the Basque Government (departments, vice councils, directorates...) and its dependent entities to provide services to citizens. The contents of Euskadi.eus and the procedures and services, to name a few, are enriched with the cataloguing of the organic structure, with the aim of being able to classify and order the information in a richer, more precise and configurable way.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Štruktúra autonómnej správy Baskicka</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Éilíonn feidhmeanna éagsúla Rialtas na mBascach struchtúr Rialtas na mBascach (Ranna, leaschomhairlí, stiúrthóireachtaí...) agus a aonáin chleithiúnacha chun seirbhísí a sholáthar do shaoránaigh. Saibhrítear ábhar Euskadi.eus agus na nósanna imeachta agus na seirbhísí, chun cúpla ceann a ainmniú, le catalógú an struchtúir orgánaigh, agus é mar aidhm acu a bheith in ann an fhaisnéis a aicmiú agus a ordú ar bhealach níos saibhre, níos cruinne agus níos cumraithe.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Različite primjene baskijske vlade zahtijevaju strukturu baskijske vlade (odjeli, zamjenici vijeća, uprave...) i njenih ovisnih subjekata za pružanje usluga građanima. Sadržaj Euskadi.eus i postupci i usluge, da navedemo nekoliko, obogaćeni su katalogiziranjem organske strukture, s ciljem da se informacije klasificiraju i naručuju na bogatiji, precizniji i konfigurabilniji način.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Aufbau der Autonomen Verwaltung des Baskenlandes</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Baskimaa autonoomse omavalitsuse struktuur</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Různé aplikace baskické vlády vyžadují strukturu baskické vlády (departementy, vicerady, ředitelství...) a jejích závislých subjektů poskytovat služby občanům. Obsah Euskadi.eus a postupy a služby jsou obohaceny katalogizací organické struktury, aby bylo možné informace klasifikovat a objednat bohatším, přesnějším a konfigurovatelným způsobem.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/96672ddb-c9a9-46e1-a9a6-15b04dccd162">
+            <dcat:accessURL rdf:resource="https://api.euskadi.eus/structure-catalog/bags/r01epd01220cfc6389134840b1cc4ae2bebc8fb3c/structures/r01e00000fe4e6676dda470b8deed65c9bfe02f4c/view?lang=SPANISH"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-estructura-de-la-administracion-autonoma-de-euskadi/resource/fafd3eb3-c81d-4721-a620-5835fcf800fa</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Estructura</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >20480</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Egitura</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Olika tillämpningar av den baskiska regeringen kräver strukturen av den baskiska regeringen (avdelningar, vice råd, direktorat...) och dess beroende enheter för att tillhandahålla tjänster till medborgarna. Innehållet i Euskadi.eus och förfarandena och tjänsterna, för att nämna några, är berikade med katalogisering av den organiska strukturen, i syfte att kunna klassificera och beställa informationen på ett rikare, mer exakt och konfigurerbart sätt.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-05-12T00:00:00+02:00</dct:issued>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Baskimaan hallituksen erilaiset sovellukset edellyttävät, että Baskimaan hallitus (osastot, varaneuvostot, osastot jne.) ja siitä riippuvaiset yksiköt tarjoavat palveluja kansalaisille. Euskadi.euksen sisältöä ja menettelyjä ja palveluja, muutamia mainitakseni, rikastutetaan orgaanisen rakenteen luetteloinnilla, jotta tiedot voidaan luokitella ja tilata rikkaammalla, tarkemmalla ja konfiguroitavalla tavalla.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0fc50df7-b929-41b5-b336-f67cf1787d26">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_general/estructura_gobierno/opendata/estructura.xlsx"/>
+            <dct:title xml:lang="es">Estructura</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >22968</dcat:byteSize>
+            <dct:title xml:lang="eu">Egitura</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-estructura-de-la-administracion-autonoma-de-euskadi/resource/3f2f3aa7-3cf6-47cc-b741-2eae85a8398a</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Diverses applications du gouvernement basque exigent la structure du gouvernement basque (départements, vice-conseils, directions...) et de ses entités dépendantes pour fournir des services aux citoyens. Le contenu de Euskadi.eus et les procédures et services, pour n’en nommer que quelques-uns, sont enrichis par le catalogage de la structure organique, dans le but de pouvoir classer et commander les informations d’une manière plus riche, plus précise et configurable.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Struttura tal-Amministrazzjoni Awtonoma tal-Pajjiż Bask</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Verschillende toepassingen van de Baskische regering vereisen de structuur van de Baskische regering (afdelingen, viceraden, directoraten...) en de afhankelijke entiteiten om diensten aan burgers te verlenen. De inhoud van Euskadi.eus en de procedures en diensten, om er maar een paar te noemen, zijn verrijkt met de catalogisering van de organische structuur, met als doel de informatie op een rijkere, preciezere en configureerbare manier te kunnen classificeren en ordenen.</dct:description>
+        <dct:title xml:lang="es">Estructura de la Administración Autónoma de Euskadi</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Structure of the Autonomous Administration of the Basque Country</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Структура автономного управління Країни Басків</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Dažādiem Basku zemes valdības pieteikumiem ir vajadzīga Basku valdības struktūra (departamenti, vicepadomes, direkcijas u. c.) un no tās atkarīgas struktūras, lai sniegtu pakalpojumus iedzīvotājiem. Euskadi.eu saturs un procedūras un pakalpojumi ir papildināti ar bioloģiskās struktūras kataloģizāciju, lai varētu klasificēt un pasūtīt informāciju bagātīgākā, precīzākā un konfigurējamā veidā.</dct:description>
+        <dcat:keyword xml:lang="es">catalogacion</dcat:keyword>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Diversi applikazzjonijiet tal-Gvern Bask jeħtieġu l-istruttura tal-Gvern Bask (dipartimenti, viċi kunsilli, direttorati...) u l-entitajiet dipendenti tiegħu biex jipprovdu servizzi liċ-ċittadini. Il-kontenut ta’ Euskadi.eus u l-proċeduri u s-servizzi, biex insemmu ftit, huma arrikkiti bl-ikkatalogar tal-istruttura organika, bl-għan li jkunu jistgħu jikklassifikaw u jordnaw l-informazzjoni b’mod aktar għani, aktar preċiż u konfigurabbli.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/estructura-de-la-administracion-autonoma-de-euskadi/"/>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Baskimaan autonomisen hallinnon rakenne</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Estrutura da Administração Autónoma do País Basco</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Rôzne aplikácie baskickej vlády vyžadujú, aby baskická vláda (departementy, vice Councils, riaditeľstvá...) a jej závislé subjekty poskytovali služby občanom. Obsah Euskadi.eus a postupy a služby sú obohatené o katalogizáciu organickej štruktúry, aby bolo možné klasifikovať a objednávať informácie bohatším, presnejším a konfigurovateľným spôsobom.</dct:description>
+        <dcat:keyword xml:lang="es">estructura</dcat:keyword>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Įvairioms baskų vyriausybės reikmėms reikalinga baskų vyriausybės (departamentų, tarybų pavaduotojų, direktoratų ir kt.) struktūra ir nuo jos priklausomi subjektai, kad galėtų teikti paslaugas piliečiams. Euskadi.eus turinys ir procedūros bei paslaugos, pavyzdžiui, keletas, praturtinami organinės struktūros katalogavimu, kad būtų galima klasifikuoti ir užsisakyti informaciją turtingesniu, tikslesniu ir konfigūruojamu būdu.</dct:description>
+        <dcat:keyword xml:lang="es">departamentos</dcat:keyword>
+        <dct:title xml:lang="el-t-es-t0-mtec">Δομή της Αυτόνομης Διοίκησης της Χώρας των Βάσκων</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/contenidos/ds_general/temas_catalogacion/es_cataloga/adjuntos/manual-de-usuario-catalogacion.pdf"/>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Basku zemes autonomās pārvaldes struktūra</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c2619ea4-1172-410d-94ed-683f775126a0">
+            <dct:title xml:lang="eu">Egitura</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >30597</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_general/estructura_gobierno/opendata/estructura.csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-estructura-de-la-administracion-autonoma-de-euskadi/resource/12b1ac5e-dd88-4c31-8875-ad443792c0f6</dct:identifier>
+            <dct:title xml:lang="es">Estructura</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Várias aplicações do Governo Basco exigem a estrutura do Governo Basco (departamentos, vice-conselhos, direções...) e das suas entidades dependentes para prestar serviços aos cidadãos. Os conteúdos de Euskadi.eus e os procedimentos e serviços, para citar alguns, são enriquecidos com a catalogação da estrutura orgânica, com o objetivo de poder classificar e ordenar a informação de uma forma mais rica, precisa e configurável.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Struktura autonomní správy Baskicka</dct:title>
+        <dcat:keyword xml:lang="eu">Egitura</dcat:keyword>
+        <dct:title xml:lang="it-t-es-t0-mtec">Struttura dell'Amministrazione Autonoma dei Paesi Baschi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c81854d7-d93f-4aca-a31c-30bf5ac60a7e">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Egitura</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-estructura-de-la-administracion-autonoma-de-euskadi/resource/df4746ab-4eba-47fe-b7b6-222085c5934e</dct:identifier>
+            <dct:title xml:lang="es">Estructura</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >278528</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_general/estructura_gobierno/opendata/estructura.skos"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Різні заяви уряду Басків вимагають структури уряду Басків (департаментів, віце-рад, дирекцій...) та його залежних суб'єктів для надання послуг громадянам. Зміст Euskadi.eus і процедур і послуг, щоб назвати деякі, збагачені каталогізацією органічної структури, з метою бути в змозі класифікувати і впорядкувати інформацію більш багатим, точним і налаштовуваним способом.</dct:description>
+        <dcat:keyword xml:lang="eu">Sailak</dcat:keyword>
+        <dct:title xml:lang="da-t-es-t0-mtec">Strukturen i Baskerlandets selvstyrende administration</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Varie applicazioni del governo basco richiedono la struttura del governo basco (dipartimenti, vice consigli, direzioni...) e delle sue entità dipendenti per fornire servizi ai cittadini. I contenuti di Euskadi.eus e le procedure e i servizi, per citarne alcuni, si arricchiscono con la catalogazione della struttura organica, con l'obiettivo di poter classificare e ordinare le informazioni in modo più ricco, preciso e configurabile.</dct:description>
+        <dct:description xml:lang="eu">Eusko Jaurlaritzaren hainbat aplikaziok Eusko Jaurlaritzaren egitura (sailak, sailburuordetzak, zuzendaritzak...) eta mendeko erakundeena behar dituzte herritarrei zerbitzuak emateko. Euskadi.eus webguneko edukiak eta izapide eta zerbitzuak, adibide batzuk aipatzearren, aberastu egiten dira egitura organikoaren katalogazioarekin, informazioa modu aberatsagoan, zehatzagoan eta konfiguragarriagoan sailkatu eta antolatu ahal izateko.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Structuur van het autonome bestuur van Baskenland</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Strukturen för den autonoma förvaltningen i Baskien</dct:title>
+        <dcat:keyword xml:lang="eu">katalogazioa</dcat:keyword>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-estructura-de-la-administracion-autonoma-de-euskadi/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-estructura-de-la-administracion-autonoma-de-euskadi/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Struchtúr Riarachán Uathrialach Thír na mBascach</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:keyword xml:lang="eu">Etiketak</dcat:keyword>
+        <dct:description xml:lang="de-t-es-t0-mtec">Verschiedene Anwendungen der baskischen Regierung erfordern die Struktur der baskischen Regierung (Abteilungen, Vizeräte, Direktionen...) und ihrer abhängigen Einrichtungen, um Dienstleistungen für die Bürger zu erbringen. Die Inhalte von Euskadi.eus und die Verfahren und Dienstleistungen, um nur einige zu nennen, werden mit der Katalogisierung der organischen Struktur angereichert, um die Informationen reicher, präziser und konfigurierbar klassifizieren und ordnen zu können.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Struktura Autonomicznej Administracji Kraju Basków</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Baski valitsuse erinevad rakendused nõuavad kodanikele teenuste osutamiseks Baski valitsuse (osakonnad, asenõukogud, direktoraadid jne) ja sellest sõltuvate üksuste struktuuri. Euskadi.eus sisu ning protseduurid ja teenused, kui nimetada mõnda, on rikastatud orgaanilise struktuuri kataloogimisega, et teavet oleks võimalik klassifitseerida ja tellida rikkalikumal, täpsemal ja konfigureeritavamal viisil.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Baszkföld autonóm közigazgatásának felépítése</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Διάφορες αιτήσεις της βασκικής κυβέρνησης απαιτούν τη δομή της βασκικής κυβέρνησης (τμήματα, υπουργεία, διευθύνσεις...) και τις εξαρτώμενες από αυτήν οντότητες για την παροχή υπηρεσιών στους πολίτες. Τα περιεχόμενα του Euskadi.eus και οι διαδικασίες και υπηρεσίες, για να αναφέρουμε μερικές, εμπλουτίζονται με την καταλογογράφηση της οργανικής δομής, με στόχο να είναι σε θέση να ταξινομήσουν και να παραγγείλουν τις πληροφορίες με πλουσιότερο, ακριβέστερο και ρυθμιζόμενο τρόπο.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Różne wnioski rządu baskijskiego wymagają struktury rządu baskijskiego (departamenty, wicerady, dyrekcje...) i podmiotów zależnych od niego w celu świadczenia usług na rzecz obywateli. Zawartość Euskadi.eus oraz procedury i usługi, aby wymienić tylko kilka, są wzbogacone o katalogowanie struktury organicznej, aby móc klasyfikować i porządkować informacje w sposób bogatszy, bardziej precyzyjny i konfigurowalny.</dct:description>
+        <dct:title xml:lang="eu">Euskal Autonomia Erkidegoko Administrazioaren egitura</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Struktura avtonomne uprave Baskije</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Структура на автономната администрация на Страната на баските</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Baskų krašto autonominės administracijos struktūra</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A baszk kormány különböző alkalmazásai megkövetelik a baszk kormány (osztályok, altanácsok, igazgatóságok stb.) és függő szervezeteinek felépítését ahhoz, hogy szolgáltatásokat nyújtsanak a polgároknak. Az Euskadi.eus tartalmát, valamint az eljárásokat és szolgáltatásokat, hogy néhányat említsünk, gazdagítják a szerves szerkezet katalogizálásával, azzal a céllal, hogy az információkat gazdagabb, pontosabb és konfigurálhatóbb módon lehessen osztályozni és rendelni.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Structure de l’Administration Autonome du Pays Basque</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Различните приложения на баското правителство изискват структурата на баското правителство (департаменти, заместник-съвети, дирекции...) и зависимите от него субекти да предоставят услуги на гражданите. Съдържанието на Euskadi.eus и процедурите и услугите са обогатени с каталогизирането на органичната структура с цел класифициране и подреждане на информацията по по-богат, по-прецизен и конфигурируем начин.</dct:description>
+        <dct:description xml:lang="es">Diversas aplicaciones del Gobierno Vasco requieren de la estructura del Gobierno Vasco (departamentos, viceconsejerías, direcciones...) y sus entes dependientes para proporcionar servicios a la ciudadanía. Los contenidos de Euskadi.eus y los trámites y servicios, por citar algunos ejemplos, se enriquecen con la catalogación de la estructura orgánica, con el objetivo de poder clasificar y ordenar la información de forma más rica, precisa y configurable.</dct:description>
+        <dcat:keyword xml:lang="es">catalogación</dcat:keyword>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:27:02Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

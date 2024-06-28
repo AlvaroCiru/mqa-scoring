@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/8e7aff2d-39b1-412d-96c6-18960a7ff41b">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>82fcd3db94d6724ad797c0219f69a136</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:06Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-16T14:02:38Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:25:09Z</edp:transReceived>
+    <dct:identifier>8e7aff2d-39b1-412d-96c6-18960a7ff41b</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:25:09Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/8e7aff2d-39b1-412d-96c6-18960a7ff41b"/>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/8e7aff2d-39b1-412d-96c6-18960a7ff41b">
+        <dcat:keyword>Open Data BCN</dcat:keyword>
+        <dct:title xml:lang="es-t-en-t0-mtec">Transporte:BikeHireDockingStation</dct:title>
+        <dct:description>It represents the state of bicycle docking stations in the cities of Santander (SmartSantander platform) and Barcelona (Open Data BCN portal).</dct:description>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Transporte:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Vervoer:BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява състоянието на докинг станциите за велосипеди в градовете Santander (платформа SmartSantander) и Барселона (Open Data BCN portal).</dct:description>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Transports: velosipēdsHireDockingStation</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:56:49.902922</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Déanann sé ionadaíocht ar staid na stáisiún nasctha rothar i gcathracha Santander (ardán SmartSantander) agus Barcelona (tairseach Sonraí Oscailte BCN).</dct:description>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Перевезення:BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas pārstāv velosipēdu dokstaciju stāvokli Santander pilsētā (SmartSantander platforma) un Barselonā (Open Data BCN portāls).</dct:description>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Közlekedés:BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει την κατάσταση των σταθμών σύνδεσης ποδηλάτων στις πόλεις Santander (SmartSantander πλατφόρμα) και Βαρκελώνη (Open Data BCN portal).</dct:description>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es repräsentiert den Zustand der Fahrrad-Dockingstationen in den Städten Santander (SmartSantander Plattform) und Barcelona (Open Data BCN Portal).</dct:description>
+        <dct:identifier>8e7aff2d-39b1-412d-96c6-18960a7ff41b</dct:identifier>
+        <dcat:keyword>SmartSantander</dcat:keyword>
+        <dcat:keyword>Bike Hire Docking Station</dcat:keyword>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja stanje priključnih stanica za bicikle u gradovima Santander (platforma SmartSantander) i Barcelona (Open Data BCN portal).</dct:description>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Trasport: BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Ji atstovauja dviračių prijungimo stočių būklę Santander (SmartSantander platforma) ir Barselonoje (Open Data BCN portalas).</dct:description>
+        <dct:title xml:lang="de-t-en-t0-mtec">Transport:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Transport:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">Transport:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Transport:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">Transport:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Transport:BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente l’état des stations d’accueil de vélos dans les villes de Santander (plateforme SmartSantander) et Barcelone (portail Open Data BCN).</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:56:50.183543</dct:modified>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Transport:BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje stav dokovacích staníc na bicykle v mestách Santander (platforma SmartSantander) a Barcelona (portál otvorených dát BCN).</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta lo stato delle stazioni di docking per biciclette nelle città di Santander (piattaforma SmartSantander) e Barcellona (portale Open Data BCN).</dct:description>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Kuljetus:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Transportas: BikeHireDockingStation</dct:title>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="et-t-en-t0-mtec">See esindab jalgrataste dokkimisjaamade seisundit Santanderi (SmartSantander platvorm) ja Barcelona (avatud andmete BCN-portaal) linnades.</dct:description>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa el estado de las estaciones de acoplamiento de bicicletas en las ciudades de Santander (plataforma SmartSantander) y Barcelona (Open Data BCN portal).</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Ez képviseli a kerékpár dokkoló állomások Santander (SmartSantander platform) és Barcelona (Open Data BCN portál).</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje stan stacji dokujących rowerów w miastach Santander (platforma SmartSantander) i Barcelonie (portal Open Data BCN).</dct:description>
+        <dct:title xml:lang="el-t-en-t0-mtec">Μεταφορά:BikeHireDockingStation</dct:title>
+        <dcat:keyword>BikeHireDockingStation</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f508c868-845f-4953-9332-ec3ccf80bd90">
+            <dct:description xml:lang="uk-t-en-t0-mtec">Перевезення:BikeHireDockingStation дані в реальному часі, представлені у форматі JSON</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FBikeHireDockingStation__.json"/>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:56:50.183507</dct:issued>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Prijevoz:BikeHireDockingStation podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:15:46.919487</dct:modified>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Trasport: BikeHireDockingStation data f’ħin reali rrappreżentat fil-format JSON</dct:description>
+            <dct:description>Transportation:BikeHireDockingStation realtime data represented in JSON format</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Transport:BikeHireDockingStation realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Transport:BikeHireDockingStation Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Doprava:BikeHireDockingStation dáta v reálnom čase reprezentované vo formáte JSON</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Transports: BikeHireDockingStation reāllaika dati pārstāvēti JSON formātā</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Μεταφορά:BikeHireDockingStation δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Transportavimas: BikeHireDockingStation realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Transport:BikeHireDockingStation realtidsdata representerad i JSON-format</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Kuljetus:BikeHireDockingStation reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Транспорт:BikeHireDockingStation данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Doprava:BikeHireDockingStation data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Trasporto:BikeHireDockingStation dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Iompar:Sonraí fíor-ama BikeHireDockingStation a léirítear i bhformáid JSON</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/8e7aff2d-39b1-412d-96c6-18960a7ff41b/resource/urn_ngsi-ld_distribution_salted_project_transportation_bikehiredockingstation_json</dct:identifier>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Transport:BikeHireDockingStation données en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FBikeHireDockingStation__.json"/>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Transport:BikeHireDockingStation Dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Transporte:BikeHireDockingStation dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Transport: BikeHireDockingStation reaalajas esitatud andmed JSON formaadis</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Transport:BikeHireDockingStation realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Szállítás:BikeHireDockingStation valós idejű adatok JSON formátumban</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="es-t-en-t0-mtec">Transporte:BikeHireDockingStation datos en tiempo real representados en formato JSON</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Transport:BikeHireDockingStation date în timp real reprezentate în format JSON</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Prevoz:BikeHireDockingStation podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою стан велосипедних док-станцій в містах Сантандер (платформа SmartSantander) і Барселона (портал Open Data BCN).</dct:description>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Doprava:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Doprava:BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta l-istat tal-istazzjonijiet tad-dokkjar tar-roti fl-ibliet ta’ Santander (il-pjattaforma SmartSantander) u Barċellona (il-portal tal-Open Data BCN).</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Aceasta reprezintă starea stațiilor de andocare pentru biciclete în orașele Santander (platforma SmartSantander) și Barcelona (portalul de date deschise BCN).</dct:description>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de staat van de fiets docking stations in de steden Santander (SmartSantander platform) en Barcelona (Open Data BCN portal).</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje stav dokovacích stanic pro jízdní kola ve městech Santander (platforma SmartSantander) a Barcelona (portál Open Data BCN).</dct:description>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar tillståndet för cykeldockningsstationer i städerna Santander (SmartSantander-plattformen) och Barcelona (Open Data BCN-portalen).</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Prijevoz:BikeHireDockingStation</dct:title>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:56:50.183507</dct:issued>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa o estado das estações de ligação para bicicletas nas cidades de Santander (plataforma SmartSantander) e Barcelona (portal Open Data BCN).</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja stanje priklopnih postaj za kolesa v mestih Santander (SmartSantander platforma) in Barcelona (Open Data BCN portal).</dct:description>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Транспорт:BikeHireDockingStation</dct:title>
+        <dct:title>Transportation:BikeHireDockingStation</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Prevoz: BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa polkupyörän telakointiasemien tilaa Santanderin (SmartSantander-alusta) ja Barcelonan (Open Data BCN-portaali) kaupungeissa.</dct:description>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Iompar:BikeHireDockingStation</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:56:49.902922</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="it-t-en-t0-mtec">Trasporto:BikeHireDockingStation</dct:title>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer tilstanden af ​​cykel docking stationer i byerne Santander (SmartSantander platform) og Barcelona (Open Data BCN portal).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f8e96e56-5768-43c4-9177-26c7d4d8ce94">
+            <dct:description xml:lang="sk-t-en-t0-mtec">Doprava:BikeHireDockingStation dáta v reálnom čase reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Μεταφορά:BikeHireDockingStation δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Transport:BikeHireDockingStation Dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Transport:BikeHireDockingStation données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Transporte:BikeHireDockingStation dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Transport:BikeHireDockingStation realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Kuljetus:BikeHireDockingStation reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Prevoz:BikeHireDockingStation podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:15:46.920626</dct:modified>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FBikeHireDockingStation__.jsonld"/>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Transport:BikeHireDockingStation realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Transport:BikeHireDockingStation Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/8e7aff2d-39b1-412d-96c6-18960a7ff41b/resource/urn_ngsi-ld_distribution_salted_project_transportation_bikehiredockingstation_jsonld</dct:identifier>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Prijevoz:BikeHireDockingStation podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Транспорт:BikeHireDockingStation данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Transport:BikeHireDockingStation date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Перевезення:BikeHireDockingStation дані в реальному часі, представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Transporte:BikeHireDockingStation datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Iompar:Sonraí fíor-ama BikeHireDockingStation a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Trasporto:BikeHireDockingStation dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Transport: BikeHireDockingStation reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Trasport:BikeHireDockingStation data f’ħin reali rrappreżentat fil-format JSON_LD</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:56:50.183507</dct:issued>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Szállítás:BikeHireDockingStation valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Transports: velosipēdsHireDockingStation reāllaika dati pārstāvēti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Doprava:BikeHireDockingStation data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FBikeHireDockingStation__.jsonld"/>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Transport:BikeHireDockingStation realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description>Transportation:BikeHireDockingStation realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Transportavimas:BikeHireDockingStation realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/04b80778-4fc3-4cc3-9635-9358d4194003">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:00Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:09:13Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>b368e36589c059a340a1c10868913751</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>04b80778-4fc3-4cc3-9635-9358d4194003</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/04b80778-4fc3-4cc3-9635-9358d4194003"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/04b80778-4fc3-4cc3-9635-9358d4194003">
+        <dct:title xml:lang="ga-t-en-t0-mtec">Tógáil: Tógáil</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de bouwindexen voor de steden Berlijn (Duitsland) en Madrid (Spanje).</dct:description>
+        <dct:title xml:lang="de-t-en-t0-mtec">Gebäude: Bauen</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Budynek: Budynek</dct:title>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt die Bauindizes für die Städte Berlin (Deutschland) und Madrid (Spanien) dar.</dct:description>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява строителните индекси за градовете Берлин (Германия) и Мадрид (Испания).</dct:description>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Pastatas: Statyba</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>NEC_Laboratories_Europe_GmbH</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Den representerar byggnadsindexen för städerna Berlin (Tyskland) och Madrid (Spanien).</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Huwa jirrappreżenta l-indiċijiet tal-bini għall-bliet ta’ Berlin (il-Ġermanja) u Madrid (Spanja).</dct:description>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Déanann sé ionadaíocht ar na hinnéacsanna foirgneamh do chathracha Bheirlín (an Ghearmáin) agus Mhaidrid (an Spáinn).</dct:description>
+        <dct:identifier>04b80778-4fc3-4cc3-9635-9358d4194003</dct:identifier>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje index budov pre mestá Berlín (Nemecko) a Madrid (Španielsko).</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει τους δείκτες κτιρίων για τις πόλεις του Βερολίνου (Γερμανία) και της Μαδρίτης (Ισπανία).</dct:description>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Rakennus: Rakentaminen</dct:title>
+        <dct:title>Building:Building</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Сграда: Сграда</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">Bygning: Bygning</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Gebouw: Bouwen</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">Edificio:Construcción</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Byggnad: Byggnad</dct:title>
+        <dct:description>It representes the building indexes for the cities of Berlin (Germany) and Madrid (Spain).</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja indekse stavb za mesti Berlin (Nemčija) in Madrid (Španija).</dct:description>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Budova: Stavba</dct:title>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă indicii clădirilor pentru orașele Berlin (Germania) și Madrid (Spania).</dct:description>
+        <dct:description xml:lang="et-t-en-t0-mtec">See esindab Berliini (Saksamaa) ja Madridi (Hispaania) linnade ehitusindekseid.</dct:description>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Épület: Építés</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Clădire: Construire</dct:title>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa os índices de edifícios para as cidades de Berlim (Alemanha) e Madrid (Espanha).</dct:description>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer bygningsindekserne for byerne Berlin (Tyskland) og Madrid (Spanien).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/86da7dc1-b1cb-498e-9072-a0c2d9ad1843">
+            <dct:description xml:lang="sv-t-en-t0-mtec">Byggnad: Bygga realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Construcción:Construyendo datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Construction:Construire des données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Pastatas: realaus laiko duomenų kūrimas JSON_LD formatu</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Rakennus: Reaaliaikaisen datan rakentaminen JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Κτίριο:Δημιουργία δεδομένων σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφότυπο JSON_LD</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/04b80778-4fc3-4cc3-9635-9358d4194003/resource/urn_ngsi-ld_distribution_salted_project_building_building_jsonld</dct:identifier>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Costruzione: Costruire dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Edifício:Construir dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Erstellung von Echtzeitdaten im JSON_LD-Format</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Building%2FBuilding__.jsonld"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Épület: valós idejű adatok építése JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Bini:Bini ta’ data f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:description>Building:Building realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Budova:Budovanie údajov v reálnom čase reprezentovaných vo formáte JSON_LD</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Budynek:Budowanie danych w czasie rzeczywistym reprezentowanych w formacie JSON_LD</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Clădire:Construirea datelor în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Будівництво: Побудова даних в реальному часі, представлених у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Zgrada: Izgradnja podataka u stvarnom vremenu prikazanih u formatu JSON_LD</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:40:07.669062</dct:modified>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Stavba: Gradnja podatkov v realnem času, predstavljenih v formatu JSON_LD</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Building%2FBuilding__.jsonld"/>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Bouwen van realtime gegevens vertegenwoordigd in JSON_LD-formaat</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:40:01.053908</dct:issued>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Ēka: reāllaika datu veidošana JSON_LD formātā</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Foirgneamh: Sonraí fíor-ama a thógáil a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Hoone: JSON_LD formaadis esitatud reaalajas andmete loomine</dct:description>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Bygning: Opbygning af realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Сграда: Изграждане на данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Budova:Stavba dat v reálném čase reprezentovaných ve formátu JSON_LD</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-11T10:40:01.053908</dct:issued>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Zgrada: Izgradnja</dct:title>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja indekse zgrada za gradove Berlin (Njemačka) i Madrid (Španjolska).</dct:description>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Bâtiment:Bâtiment</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:40:00.894862</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Stavba: Stavebníctvo</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:40:00.894862</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta gli indici di costruzione per le città di Berlino (Germania) e Madrid (Spagna).</dct:description>
+        <dct:title xml:lang="el-t-en-t0-mtec">Κτίριο:Κτίριο</dct:title>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Bini: Bini</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">Hoone: Ehitamine</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Будівництво: Будівництво</dct:title>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente les indices de construction pour les villes de Berlin (Allemagne) et Madrid (Espagne).</dct:description>
+        <dcat:keyword>Building</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-11T10:40:01.053944</dct:modified>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo Berlīnes (Vācija) un Madrides (Spānija) pilsētu ēku indeksus.</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje stavební indexy pro města Berlín (Německo) a Madrid (Španělsko).</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai yra Berlyno (Vokietija) ir Madrido (Ispanija) miestų pastatų indeksai.</dct:description>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Edifício:Construir</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Stavba: Gradnja</dct:title>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa los índices de construcción de las ciudades de Berlín (Alemania) y Madrid (España).</dct:description>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він представляє будівельні індекси для міст Берлін (Німеччина) і Мадрид (Іспанія).</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa Berliinin (Saksa) ja Madridin (Espanja) kaupunkien rakennusindeksejä.</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje indeksy budynków dla miast Berlin (Niemcy) i Madryt (Hiszpania).</dct:description>
+        <dcat:keyword>CityLiveabilityIndex</dcat:keyword>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Berlin (Németország) és Madrid (Spanyolország) városainak épületindexeit képviseli.</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Ēka: Celtniecība</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/56184752-62e4-455b-8f27-cd13c2bbc114">
+            <dct:description xml:lang="pl-t-en-t0-mtec">Budynek:Budowanie danych w czasie rzeczywistym reprezentowanych w formacie JSON</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Budova: Budovanie údajov v reálnom čase reprezentovaných vo formáte JSON</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Zgrada: Izgradnja podataka u stvarnom vremenu prikazanih u JSON formatu</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Bygning: Opbygning af realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Pastatas: realaus laiko duomenų kūrimas JSON formatu</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Building%2FBuilding__.json"/>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Bini:Bini ta’ data f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description>Building:Building realtime data represented in JSON format</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Rakennus: Reaaliaikaisen datan rakentaminen JSON-muodossa</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Bouwen van realtime gegevens vertegenwoordigd in JSON-formaat</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Stavba: Gradnja podatkov v realnem času, predstavljenih v formatu JSON</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">Κτίριο:Δημιουργία δεδομένων σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Clădire: Construirea datelor în timp real reprezentate în format JSON</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Budova: Budování dat v reálném čase reprezentovaných ve formátu JSON</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Construction:Construire des données en temps réel représentées au format JSON</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Edifício:Construir dados em tempo real representados no formato JSON</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Byggnad: Bygga realtidsdata representerad i JSON-format</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Costruzione: Costruire dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Будівництво: Будівництво даних в реальному часі, представлених у форматі JSON</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Building%2FBuilding__.json"/>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Сграда: Изграждане на данни в реално време, представени във формат JSON</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:40:01.053908</dct:issued>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:40:07.667919</dct:modified>
+            <dct:description xml:lang="et-t-en-t0-mtec">Hoone: JSON-vormingus esitatud reaalajas andmete loomine</dct:description>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Épület: valós idejű adatok építése JSON formátumban</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Ēka: reāllaika datu veidošana JSON formātā</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Tógáil: Sonraí fíor-ama a léirítear i bhformáid JSON a thógáil</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/04b80778-4fc3-4cc3-9635-9358d4194003/resource/urn_ngsi-ld_distribution_salted_project_building_building_json</dct:identifier>
+            <dct:description xml:lang="de-t-en-t0-mtec">Gebäude: Erstellen von Echtzeitdaten im JSON-Format</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Construcción:Construyendo datos en tiempo real representados en formato JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="it-t-en-t0-mtec">Costruzione: Edilizia</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:00Z</edp:transIssued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:09:13Z</edp:transReceived>
+    <edp:originalLanguage>en</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

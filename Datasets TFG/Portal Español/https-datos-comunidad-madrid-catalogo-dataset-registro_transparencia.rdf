@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-comunidad-madrid-catalogo-dataset-registro_transparencia">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:33:54Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-comunidad-madrid-catalogo-dataset-registro_transparencia"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-comunidad-madrid-catalogo-dataset-registro_transparencia">
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie o osobách a subjektoch zaregistrovaných v registri transparentnosti, ktorý je upravený zákonom č. 10/2019 o transparentnosti a účasti Madridského spoločenstva. Informácie sa uvádzajú v dvoch zdrojoch: rozšíri sa tam, kde sa objavia všetky informácie registra a zjednoduší sa orientácia na manažérov programu.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Clár trédhearcachta</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information on the persons and entities registered in the Transparency Register regulated in Law 10/2019 on Transparency and Participation of the Community of Madrid. The information is presented in two resources: extended where all the information of the registry appears and simplified oriented to the agenda managers.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Register za preglednost</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"/>
+        <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/registro_transparencia</dct:identifier>
+        <dct:title xml:lang="en-t-es-t0-mtec">Transparency register</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8235c1ec-94a0-4eff-b5c2-4d6906aa6f4e">
+            <dct:title xml:lang="mt-t-es-t0-mtec">Reġistru ta’ Trasparenza Estiż</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Extended Transparency Register</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Laiendatud läbipaistvusregister</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Διευρυμένο Μητρώο Διαφάνειας</dct:title>
+            <dct:title xml:lang="es">Registro de transparencia extendido</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Rozszerzony rejestr służący przejrzystości</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Registo de Transparência alargado</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Rozšírený register transparentnosti</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Kiterjesztett átláthatósági nyilvántartás</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Išplėstinis Skaidrumo registras</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">An Clár Trédhearcachta leathnaithe</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Разширен регистър за прозрачност</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Registrul de transparență extins</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Rozšířený rejstřík transparentnosti</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Laajennettu avoimuusrekisteri</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >942252</dcat:byteSize>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Paplašināts pārredzamības reģistrs</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Razširjeni register za preglednost</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Udvidet åbenhedsregister</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Registro esteso per la trasparenza</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Prošireni registar transparentnosti</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/registro_transparencia/resource/5da9d3df-33c3-4d63-8cf6-564cd08dc736</dct:identifier>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Utökat öppenhetsregister</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Uitgebreid transparantieregister</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/3f2e0dcc-37e1-41c0-86f0-bd16bd68d592/resource/5da9d3df-33c3-4d63-8cf6-564cd08dc736/download/registro_transparencia_extendido.csv"/>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Registre de transparence étendu</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Erweitertes Transparenzregister</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Розширений реєстр прозорості</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація про осіб та суб'єктів, зареєстрованих у Реєстрі прозорості, регламентованих Законом 10/2019 «Про прозорість та участь Співтовариства Мадрида». Інформація представлена в двох ресурсах: розширено там, де з'являється вся інформація реєстру і спрощується орієнтація на розпорядників порядку денного. Інформація про осіб та суб'єктів, зареєстрованих у Реєстрі прозорості, регламентованих Законом 10/2019 «Про прозорість та участь Співтовариства Мадрида». Інформація представлена в двох ресурсах:
+розширено там, де з'являється вся інформація реєстру і спрощується орієнтація на розпорядників порядку денного.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Informacje dotyczące osób i podmiotów zarejestrowanych w rejestrze służącym przejrzystości, o którym mowa w ustawie 10/2019 o przejrzystości i udziale Wspólnoty Madrytu. Informacje przedstawione są w dwóch zasobach: rozszerzenie, w którym pojawiają się wszystkie informacje zawarte w rejestrze, i uproszczone zorientowane na kierowników porządku obrad.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Faisnéis faoi na daoine agus na heintitis atá cláraithe sa Chlár Trédhearcachta a rialaítear le Dlí 10/2019 maidir le Trédhearcacht agus Rannpháirtíocht Chomhphobal Mhaidrid. Cuirtear an fhaisnéis i láthair in dhá acmhainn: síneadh i gcás ina bhfuil an t-eolas go léir ar an gclárlann le feiceáil agus simplithe dírithe ar na bainisteoirí clár oibre.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-13T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Informacija apie asmenis ir subjektus, įregistruotus Skaidrumo registre, reglamentuojamame Madrido bendrijos skaidrumo ir dalyvavimo įstatyme Nr. 10/2019. Informacija pateikiama dviem ištekliais: išplėsta, kai pateikiama visa registro informacija, ir supaprastinta tvarka orientuota į darbotvarkės vadovus.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information om de personer och enheter som är registrerade i det öppenhetsregister som regleras i lag 10/2019 om öppenhet och deltagande i Madridgemenskapen. Informationen presenteras i två resurser: utvidgas där all information i registret visas och förenklas till dagordningsförvaltarna.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Rejestr służący przejrzystości</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni sulle persone ed entità iscritte nel registro per la trasparenza disciplinato dalla legge 10/2019 sulla trasparenza e la partecipazione della Comunità di Madrid. Le informazioni sono presentate in due risorse: esteso dove tutte le informazioni del registro appaiono e semplificate orientate ai responsabili dell'agenda.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Läbipaistvusregister</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni dwar il-persuni u l-entitajiet irreġistrati fir-Reġistru ta’ Trasparenza rregolat fil-Liġi 10/2019 dwar it-Trasparenza u l-Parteċipazzjoni tal-Komunità ta’ Madrid. L-informazzjoni hija ppreżentata f’żewġ riżorsi:
+estiż fejn tidher l-informazzjoni kollha tar-reġistru u orjentata lejn il-maniġers tal-aġenda.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Skaidrumo registras</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Прозорість реєстру</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A Madridi Közösség átláthatóságáról és részvételéről szóló 10/2019. sz. törvényben szabályozott átláthatósági nyilvántartásba bejegyzett személyekre és szervezetekre vonatkozó információk. Az információk két forrásban kerülnek bemutatásra: bővítve, ahol a kibocsátásiegység-forgalmi jegyzékben szereplő összes információ megjelenik, és egyszerűsített a napirendkezelők felé.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/52553010-8659-40db-a616-26b311a0a233">
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/3f2e0dcc-37e1-41c0-86f0-bd16bd68d592/resource/40a2fcf6-e7dd-499b-89c2-d91553101824/download/registro_transparencia_extendido.json"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">Laiendatud läbipaistvusregister</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Rozšířený rejstřík transparentnosti</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Розширений реєстр прозорості</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/registro_transparencia/resource/40a2fcf6-e7dd-499b-89c2-d91553101824</dct:identifier>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Prošireni registar transparentnosti</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Išplėstinis Skaidrumo registras</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Registo de Transparência alargado</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Registrul de transparență extins</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Reġistru ta’ Trasparenza Estiż</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >2807257</dcat:byteSize>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Utökat öppenhetsregister</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Rozšírený register transparentnosti</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Paplašināts pārredzamības reģistrs</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">An Clár Trédhearcachta leathnaithe</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Разширен регистър за прозрачност</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Registre de transparence étendu</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Udvidet åbenhedsregister</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Razširjeni register za preglednost</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Laajennettu avoimuusrekisteri</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Registro esteso per la trasparenza</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Rozszerzony rejestr służący przejrzystości</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Διευρυμένο Μητρώο Διαφάνειας</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Erweitertes Transparenzregister</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Uitgebreid transparantieregister</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Extended Transparency Register</dct:title>
+            <dct:title xml:lang="es">Registro de transparencia extendido</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Kiterjesztett átláthatósági nyilvántartás</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Registar transparentnosti</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908">
+            <foaf:name>Comunidad de Madrid</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d3e88bc5-977a-40af-adea-8979844aaff8">
+            <dct:title xml:lang="fr-t-es-t0-mtec">Registre simplifié de transparence</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/registro_transparencia/resource/c6b7f93d-086a-4e64-88f2-d954463a232f</dct:identifier>
+            <dct:title xml:lang="en-t-es-t0-mtec">Simplified transparency register</dct:title>
+            <dct:title xml:lang="es">Registro de transparencia simplificado</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Опростен регистър за прозрачност</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Zjednodušený rejstřík transparentnosti</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Registo de transparência simplificado</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Reġistru ta’ trasparenza simplifikat</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Vereenvoudigd transparantieregister</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Uproszczony rejestr służący przejrzystości</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Vienkāršots pārredzamības reģistrs</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Poenostavljeni register za preglednost</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Registrul de transparență simplificat</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Απλουστευμένο μητρώο διαφάνειας</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Supaprastintas skaidrumo registras</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/3f2e0dcc-37e1-41c0-86f0-bd16bd68d592/resource/c6b7f93d-086a-4e64-88f2-d954463a232f/download/registro_transparencia_simplificado.csv"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Forenklet åbenhedsregister</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Registro per la trasparenza semplificato</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Lihtsustatud läbipaistvusregister</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >519149</dcat:byteSize>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Pojednostavnjeni registar transparentnosti</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Egyszerűsített átláthatósági nyilvántartás</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Спрощений реєстр прозорості</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Vereinfachtes Transparenzregister</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Förenklat öppenhetsregister</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Zjednodušený register transparentnosti</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Clár trédhearcachta simplithe</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Yksinkertaistettu avoimuusrekisteri</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace o osobách a subjektech zapsaných v rejstříku transparentnosti upraveném zákonem č. 10/2019 o transparentnosti a účasti madridského společenství. Informace jsou uvedeny ve dvou zdrojích: rozšířena tam, kde se objeví všechny informace v registru, a zjednodušeně orientována na manažery agendy.</dct:description>
+        <dcat:keyword xml:lang="es">registro</dcat:keyword>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Informatie over de personen en entiteiten die zijn ingeschreven in het transparantieregister dat is geregeld in Wet 10/2019 inzake transparantie en deelname van de Gemeenschap van Madrid. De informatie wordt gepresenteerd in twee bronnen: uitgebreid waar alle informatie van het register verschijnt en vereenvoudigd gericht is op de agendamanagers.</dct:description>
+        <dcat:keyword xml:lang="es">reuniones</dcat:keyword>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Registo de transparência</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Oplysninger om de personer og enheder, der er registreret i det åbenhedsregister, der er reguleret ved lov nr. 10/2019 om gennemsigtighed og deltagelse i Madrid-fællesskabet. Oplysningerne præsenteres i to ressourcer: udvidet, hvor alle oplysninger i registret vises og forenklet orienteret til dagsordensforvalterne. Oplysninger om de personer og enheder, der er registreret i det åbenhedsregister, der er reguleret ved lov nr. 10/2019 om gennemsigtighed og deltagelse i Madrid-fællesskabet.
+Oplysningerne præsenteres i to ressourcer:
+udvidet, hvor alle oplysninger i registret vises og forenklet orienteret til dagsordensforvalterne.</dct:description>
+        <dct:description xml:lang="es">Información sobre las personas y entidades inscritas en el Registro de Transparencia regulado en la Ley 10/2019 de Transparencia y Participación de la Comunidad de Madrid.  La información se presenta en dos recursos: extendido donde aparece toda la información del registro y simplificado orientado a los gestores de agenda.</dct:description>
+        <dcat:keyword xml:lang="es">transparencia</dcat:keyword>
+        <dct:title xml:lang="es">Registro de transparencia</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Registre de transparence</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações sobre as pessoas e entidades inscritas no Registo de Transparência regulamentado na Lei n.º 10/2019 relativa à Transparência e Participação da Comunidade de Madrid. A informação é apresentada em dois recursos: estendido onde todas as informações do registo aparecem e simplificados orientados para os gestores da agenda.</dct:description>
+        <dcat:keyword xml:lang="es">lobby</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2020-07-20T00:00:00+02:00</dct:issued>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Register transparentnosti</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1b20d2d6-f1fd-4f24-8083-2c57d484a723">
+            <dct:title xml:lang="it-t-es-t0-mtec">Registro per la trasparenza semplificato</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Registo de transparência simplificado</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Zjednodušený rejstřík transparentnosti</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Спрощений реєстр прозорості</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Simplified transparency register</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Clár trédhearcachta simplithe</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Vienkāršots pārredzamības reģistrs</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Опростен регистър за прозрачност</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Lihtsustatud läbipaistvusregister</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Förenklat öppenhetsregister</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Vereenvoudigd transparantieregister</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Supaprastintas skaidrumo registras</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/3f2e0dcc-37e1-41c0-86f0-bd16bd68d592/resource/60688115-9b4f-4d5f-bcd3-c410d092577d/download/registro_transparencia_simplificado.json"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Poenostavljeni register za preglednost</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Reġistru ta’ trasparenza simplifikat</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1059706</dcat:byteSize>
+            <dct:title xml:lang="es">Registro de transparencia simplificado</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Zjednodušený register transparentnosti</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Registrul de transparență simplificat</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Egyszerűsített átláthatósági nyilvántartás</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/registro_transparencia/resource/60688115-9b4f-4d5f-bcd3-c410d092577d</dct:identifier>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Pojednostavnjeni registar transparentnosti</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Απλουστευμένο μητρώο διαφάνειας</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Forenklet åbenhedsregister</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Yksinkertaistettu avoimuusrekisteri</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Uproszczony rejestr służący przejrzystości</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Vereinfachtes Transparenzregister</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Registre simplifié de transparence</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Reġistru ta’ trasparenza</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Avoimuusrekisteri</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Pārredzamības reģistrs</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Átláthatósági nyilvántartás</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Регистър за прозрачност</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πληροφορίες σχετικά με τα πρόσωπα και τις οντότητες που είναι καταχωρισμένα στο Μητρώο Διαφάνειας που ρυθμίζεται με τον νόμο 10/2019 για τη διαφάνεια και τη συμμετοχή της Κοινότητας της Μαδρίτης. Οι πληροφορίες παρουσιάζονται σε δύο πόρους: επεκτείνεται όπου εμφανίζονται όλες οι πληροφορίες του μητρώου και απλοποιείται προσανατολισμένη στους διαχειριστές της ημερήσιας διάταξης.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Μητρώο διαφάνειας</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Transparenzregister</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Informācija par personām un vienībām, kas reģistrētas Pārredzamības reģistrā, ko reglamentē Likums Nr. 10/2019 par Madrides kopienas pārredzamību un dalību. Informācija ir sniegta divos resursos: paplašināts, ja parādās visa reģistra informācija, un vienkāršota orientācija uz darba kārtības vadītājiem.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Rejstřík transparentnosti</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen über die Personen und Organisationen, die im Transparenzregister gemäß dem Gesetz 10/2019 über Transparenz und Beteiligung der Gemeinschaft Madrid eingetragen sind.
+Die Informationen werden in zwei Ressourcen dargestellt:
+erweitert, wo alle Informationen des Registers erscheinen und auf die Agendamanager ausgerichtet sind.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Informacije o osebah in subjektih, registriranih v registru za preglednost, ki ga ureja zakon št. 10/2019 o preglednosti in udeležbi madridske skupnosti. Informacije so predstavljene v dveh virih: razširjeno, kjer se prikažejo vse informacije iz registra, in poenostavljeno usmerjeno v upravitelje dnevnega reda. Informacije o osebah in subjektih, registriranih v registru za preglednost, ki ga ureja zakon št. 10/2019 o preglednosti in udeležbi madridske skupnosti. Informacije so predstavljene v dveh virih:
+razširjeno, kjer se prikažejo vse informacije iz registra, in poenostavljeno usmerjeno v upravitelje dnevnega reda.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations sur les personnes et entités inscrites au registre de transparence régi par la loi no 10/2019 sur la transparence et la participation de la Communauté de Madrid. L’information est présentée en deux ressources: étendue où toutes les informations du registre apparaissent et simplifiées orientées vers les gestionnaires de l’ordre du jour.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Teave läbipaistvusregistris registreeritud isikute ja üksuste kohta, mida reguleeritakse seadusega 10/2019 Madridi kogukonna läbipaistvuse ja osalemise kohta. Teave on esitatud kahes allikas: laiendatud, kui ilmub kogu registri teave, ja lihtsustatud suunaga päevakorra haldajatele. Teave läbipaistvusregistris registreeritud isikute ja üksuste kohta, mida reguleeritakse seadusega 10/2019 Madridi kogukonna läbipaistvuse ja osalemise kohta. Teave on esitatud kahes allikas:
+laiendatud, kui ilmub kogu registri teave, ja lihtsustatud suunaga päevakorra haldajatele.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Registro della trasparenza</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Åbenhedsregister</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Madridin yhteisön avoimuudesta ja osallistumisesta annetussa laissa 10/2019 säänneltyyn avoimuusrekisteriin rekisteröityjä henkilöitä ja yhteisöjä koskevat tiedot. Tiedot esitetään kahdessa resurssissa: laajennetaan, jos kaikki rekisterin tiedot näkyvät, ja yksinkertaistetaan esityslistan hallinnoijille suunnattuja tietoja.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Öppenhetsregister</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații privind persoanele și entitățile înregistrate în Registrul de transparență reglementat de Legea nr. 10/2019 privind transparența și participarea Comunității Madrid. Informațiile sunt prezentate în două resurse:
+extins în cazul în care toate informațiile din registru apar și sunt simplificate orientate către administratorii agendei.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Informacije o osobama i subjektima upisanima u registar transparentnosti uređen Zakonom 10/2019 o transparentnosti i sudjelovanju Zajednice Madrid. Informacije su prikazane u dva izvora: prošireno ako se pojavljuju sve informacije iz registra i ako su pojednostavnjene usmjerene na voditelje dnevnog reda.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Информация за лицата и образуванията, регистрирани в Регистъра за прозрачност, уреден в Закон 10/2019 относно прозрачността и участието на Общността в Мадрид. Информацията е представена в два ресурса: разширена, където цялата информация от регистъра се появява и опростено е ориентирана към ръководителите на дневния ред.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Transparantieregister</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Registrul de transparență</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/registro_transparencia</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:29:53Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>a32295ddf3a2c0a58994c559d75accf3</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:29:53Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-05T08:55:00Z</edp:transReceived>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

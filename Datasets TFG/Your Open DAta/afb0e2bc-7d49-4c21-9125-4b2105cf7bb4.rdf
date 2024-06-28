@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/afb0e2bc-7d49-4c21-9125-4b2105cf7bb4">
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/afb0e2bc-7d49-4c21-9125-4b2105cf7bb4">
+        <dct:description xml:lang="pt-t-es-t0-mtec">Precipitação da estação de Villardeciervos seguindo o modelo WeatherObserved de NGSI-LD. Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia. Precipitação da estação de Villardeciervos seguindo o modelo WeatherObserved de NGSI-LD.
+Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">villardeciervos_2775x_fällningar</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">villardeciervos_2775x_preċipitazzjonijiet</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Précipitations de la station Villardeciervos suivant le modèle WeatherObserved de NGSI-LD. Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">villardeciervos_2775x_precipitaties</dct:title>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:title xml:lang="ga-t-es-t0-mtec">villardeciervos_2775x_precipitations</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Villardeciervos_2775x_precypacje</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Sademed Villardeciervos jaamast pärast WeatherObserved mudelit NGSI-LD. Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Precipitation from Villardeciervos station following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <dct:accessRights>
+          <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        </dct:accessRights>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Villardeciervos_2775x_опади</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Nokrišņi no Villardeciervos stacijas pēc WeatherObserved modelis NGSI-LD. Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Niederschlag von der Station Villardeciervos nach dem WeatherObserved-Modell der NGSI-LD. Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Villardeciervos_2775x_precipitações</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-08T20:33:19.574031</dct:issued>
+        <dct:title>villardeciervos_2775x_precipitations</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Villardeciervos_2775x_убежища</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Padaline iz stanice Villardeciervos prema WeatherObserved modelu NGSI-LD-a. Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1aba8977-4faf-458c-b26c-509976f280fd">
+            <dct:description xml:lang="sv-t-es-t0-mtec">Nederbördsobservation av Villardeciervos</dct:description>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Kritulių stebėjimas Villardeciervos</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea precipitațiilor din Villardeciervos</dct:description>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Pozorovanie zrážok Villardeciervos</dct:description>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja opadów w Villardeciervos</dct:description>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+            <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Niederschlagsbeobachtung von Villardeciervos</dct:description>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni ta’ preċipitazzjoni ta’ Villardeciervos</dct:description>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Neerslag observatie van Villardeciervos</dct:description>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação de precipitação de Villardeciervos</dct:description>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:06.499621</dct:modified>
+            <dct:description>Observación de precipitaciones de VILLARDECIERVOS</dct:description>
+            <dct:description xml:lang="en-t-es-t0-mtec">Precipitation observation of Villardeciervos</dct:description>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="da-t-es-t0-mtec">Nedbør observation af Villardeciervos</dct:description>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="el-t-es-t0-mtec">Παρατήρηση των βροχοπτώσεων του Villardeciervos</dct:description>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht frasaíochta ar Villardeciervos</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Наблюдение на валежите в Villardeciervos</dct:description>
+            <dct:description xml:lang="et-t-es-t0-mtec">Villardeciervose sademete vaatlus</dct:description>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione delle precipitazioni di Villardeciervos</dct:description>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Opazovanje padavin Villardeciervos</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Pozorování srážek Villardeciervos</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="hu-t-es-t0-mtec">Villardeciervos csapadékmegfigyelése</dct:description>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:title>urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation des précipitations de Villardeciervos</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Villardeciervosin sadehavainto</dct:description>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/afb0e2bc-7d49-4c21-9125-4b2105cf7bb4/resource/910268f0-a7d8-4177-a12a-d5c9c2470132</dct:identifier>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Oborine promatranje Villardeciervos</dct:description>
+            <dct:description xml:lang="lv-t-es-t0-mtec">Villardeciervos nokrišņu novērošana</dct:description>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Спостереження опадів на Вільярдесьєрвос</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:2775X-1</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="el-t-es-t0-mtec">Βροχόπτωση από το σταθμό Villardeciervos ακολουθώντας το μοντέλο WeatherObserved του NGSI-LD. Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <dct:title xml:lang="et-t-es-t0-mtec">villardeciervos_2775x_ sademed</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">villardeciervos_2775x_precipitacije</dct:title>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:title xml:lang="it-t-es-t0-mtec">Villardeciervos_2775x_precipitations</dct:title>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Deascadh ó stáisiún Villardeciervos tar éis an tsamhail WeatherObserved de NGSI-LD. Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit. Deascadh ó stáisiún Villardeciervos tar éis an tsamhail WeatherObserved de NGSI-LD.
+Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">villardeciervos_2775x_precipitations</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Srážky ze stanice Villardeciervos podle WeatherObserved modelu NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Villardeciervos_2775x_ Niederschlag</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Nederbörd från Villardeciervos station efter WeatherObserved modell av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Padavine iz postaje Villardeciervos po VremeObserved modelu NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Валежи от станция Villardeciervos по модела WeatherObserved на NGSI-LD. Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">villardeciervos_2775x_precipitations</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Krituliai iš Villardeciervos stoties pagal WeatherObserved modelį NGSI-LD. Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-08T20:33:20.201936</dct:modified>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Villardeciervos_2775x_csapágyak</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Opady z stacji Villardeciervos według WeatherObserwowany model NGSI-LD. Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">villardeciervos_2775x_udfældninger</dct:title>
+        <dct:description>Precipitaciones de la estación de VILLARDECIERVOS siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Villardeciervos_2775x_sateet</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Csapadék Villardeciervos állomásról a WeatherObserved modellt követve NGSI-LD. Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Villardeciervos_2775x_precipitace</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Precipitazioni dalla stazione di Villardeciervos seguendo il modello WeatherObservato di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">villardeciervos_2775x_précipitations</dct:title>
+        <dct:identifier>afb0e2bc-7d49-4c21-9125-4b2105cf7bb4</dct:identifier>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Zrážky z lokality Villardeciervos po WeatherObserved model NGSI-LD. Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry. Zrážky z lokality Villardeciervos po WeatherObserved model NGSI-LD.
+Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Sademäärä Villardeciervos asemalta jälkeen WeatherObserved malli NGSI-LD. Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:title xml:lang="el-t-es-t0-mtec">Villardeciervos_2775x_κατακρημνίσεις</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">villardeciervos_2775x_precipitations</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Precipitații de la stația Villardeciervos după modelul WeatherObserved al NGSI-LD. Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Villardeciervos_2775x_precipitations</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Neerslag van Villardeciervos station volgens het WeatherObserved model van NGSI-LD. Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency. Neerslag van Villardeciervos station volgens het WeatherObserved model van NGSI-LD.
+Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Villardeciervos_2775x_precipitations</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">villardeciervos_2775x_precipitations</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Preċipitazzjoni mill-istazzjon Villardeciervos wara l-mudell WeatherObserved ta’ NGSI-LD. Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Опади зі станції Villardeciervos слідують за WeatherObserved модель NGSI-LD. Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Nedbør fra Villardeciervos station efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:06Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:07Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>c20d2cd563fa50f8a422c62ff71dc823</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/afb0e2bc-7d49-4c21-9125-4b2105cf7bb4"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-23T22:48:23Z</edp:transReceived>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:identifier>afb0e2bc-7d49-4c21-9125-4b2105cf7bb4</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:07Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

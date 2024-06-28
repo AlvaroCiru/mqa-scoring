@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/3c85f92f-4070-4e15-99b6-e001b11c11b9">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>c9124656b6adc16cd8d9ae0276cc98d1</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:09:04Z</edp:transReceived>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/3c85f92f-4070-4e15-99b6-e001b11c11b9">
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa uma descrição harmonizada de um smuser genérico feito para o domínio das redes sociais. Este tipo de dados está principalmente associado à descrição de um utilizador de aplicações de redes sociais.</dct:description>
+        <dct:identifier>3c85f92f-4070-4e15-99b6-e001b11c11b9</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T15:09:22.611929</dct:modified>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa yhdenmukaistettua kuvausta sosiaalisen median verkkotunnuksen yleisestä smuserista. Tämä tietotyyppi liittyy ensisijaisesti sosiaalisen median sovellusten käyttäjän kuvaukseen.</dct:description>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă o descriere armonizată a unui smuser generic realizat pentru domeniul social media. Acest tip de date este asociat în principal cu descrierea unui utilizator al aplicațiilor Social Media.</dct:description>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar en harmoniserad beskrivning av en generisk smuser gjord för området sociala medier. Denna datatyp är främst associerad med beskrivningen av en användare av sociala medier applikationer.</dct:description>
+        <dct:title xml:lang="fi-t-en-t0-mtec">SocialMedia: musiikki</dct:title>
+        <dct:description xml:lang="hu-t-en-t0-mtec">A közösségi média domén számára készített generikus smuser harmonizált leírását képviseli. Ez az adattípus elsősorban a közösségi média alkalmazások felhasználójának leírásához kapcsolódik.</dct:description>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Sociálne médiá:smuser</dct:title>
+        <dct:description>It represents a harmonised description of a generic SMUser made for the Social Media domain. This data type is primarily associated with the description of a user of Social Media applications.</dct:description>
+        <dct:title xml:lang="ga-t-en-t0-mtec">SocialMedia: smuser</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">SocialMedia: smuser</dct:title>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Is éard atá ann tuairisc chomhchuibhithe ar smuser cineálach a rinneadh i réimse na Meán Sóisialta. Baineann an cineál sonraí seo go príomha leis an tuairisc ar úsáideoir feidhmchláir na Meán Sóisialta.</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente une description harmonisée d’un smuser générique conçu pour le domaine des médias sociaux. Ce type de données est principalement associé à la description d’un utilisateur d’applications de médias sociaux.</dct:description>
+        <dct:title xml:lang="lt-t-en-t0-mtec">SocialMedia: muzikantas</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει μια εναρμονισμένη περιγραφή ενός γενικού smuser που γίνεται για τον τομέα των μέσων κοινωνικής δικτύωσης. Αυτός ο τύπος δεδομένων σχετίζεται κυρίως με την περιγραφή ενός χρήστη των εφαρμογών κοινωνικής δικτύωσης.</dct:description>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:title xml:lang="de-t-en-t0-mtec">Kommentare zu SocialMedia:smuser</dct:title>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja usklajen opis generičnega smuserja, izdelanega za področje družbenih medijev. Ta podatkovni tip je v prvi vrsti povezan z opisom uporabnika aplikacij družbenih medijev.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>IMT</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою гармонізований опис загального smuser, створеного для домену соціальних медіа. Цей тип даних в першу чергу пов'язаний з описом користувача додатків соціальних мереж. Він являє собою гармонізований опис загального smuser, створеного для домену соціальних медіа. Цей тип даних в першу чергу пов'язаний з описом користувача додатків соціальних мереж.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta una descrizione armonizzata di uno smuser generico realizzato per il dominio dei social media. Questo tipo di dati è principalmente associato alla descrizione di un utente di applicazioni di social media.</dct:description>
+        <dcat:keyword>Social media</dcat:keyword>
+        <dct:title xml:lang="uk-t-en-t0-mtec">SocialMedia: мюзикл</dct:title>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:title xml:lang="hu-t-en-t0-mtec">SocialMedia: Művészet</dct:title>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa una descripción armonizada de un smuser genérico hecho para el dominio de las redes sociales. Este tipo de datos se asocia principalmente con la descripción de un usuario de las aplicaciones de redes sociales.</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Hija tirrappreżenta deskrizzjoni armonizzata ta’ smuser ġeneriku magħmul għad-dominju tal-Midja Soċjali. Din it-tip ta’ dejta hija primarjament assoċjata mad-deskrizzjoni ta’ utent ta’ applikazzjonijiet tal-Midja Soċjali.</dct:description>
+        <dcat:keyword>Twitter User</dcat:keyword>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo sociālo mediju domēnam paredzēta vispārēja smusera saskaņotu aprakstu. Šis datu veids galvenokārt ir saistīts ar sociālo mediju lietotņu lietotāja aprakstu.</dct:description>
+        <dct:title xml:lang="mt-t-en-t0-mtec">SoċjaliMedia: smuser</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява хармонизирано описание на генеричен smuser, направен за домейна на социалните медии. Този тип данни е свързан предимно с описанието на потребител на приложения за социални медии.</dct:description>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt eine harmonisierte Beschreibung eines generischen Smusers für die Social Media-Domäne dar. Dieser Datentyp ist in erster Linie mit der Beschreibung eines Nutzers von Social-Media-Anwendungen verbunden.</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="ro-t-en-t0-mtec">SocialMedia:Smuser</dct:title>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje harmonizovaný popis generického smusere vytvořeného pro doménu sociálních médií. Tento datový typ je primárně spojen s popisem uživatele aplikací sociálních médií.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T15:09:22.611891</dct:issued>
+        <dcat:keyword>User-generated content</dcat:keyword>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Stanowi on zharmonizowany opis ogólnego smusera stworzonego dla domeny mediów społecznościowych. Ten typ danych wiąże się przede wszystkim z opisem użytkownika aplikacji Social Media.</dct:description>
+        <dcat:keyword>Twitter Data Analysis</dcat:keyword>
+        <dct:title xml:lang="it-t-en-t0-mtec">Informazioni su SocialMedia:smuser</dct:title>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje harmonizovaný opis generického smusera vytvoreného pre doménu sociálnych médií. Tento typ údajov je primárne spojený s popisom používateľa aplikácií sociálnych médií.</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Jame pateikiamas suderintas socialinės žiniasklaidos sričiai skirto bendrinio muziko aprašymas. Šis duomenų tipas pirmiausia susijęs su socialinės žiniasklaidos taikomųjų programų naudotojo aprašymu. Jame pateikiamas suderintas socialinės žiniasklaidos sričiai skirto bendrinio muziko aprašymas. Šis duomenų tipas pirmiausia susijęs su socialinės žiniasklaidos taikomųjų programų naudotojo aprašymu.</dct:description>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kujutab endast sotsiaalmeedia domeeni üldise smuseri ühtlustatud kirjeldust. Seda andmetüüpi seostatakse peamiselt sotsiaalmeedia rakenduste kasutaja kirjeldusega.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cba6abff-fd86-4ac7-8d92-040b55cde770">
+            <dct:description xml:lang="ga-t-en-t0-mtec">SocialMedia: sonraí riachtanacha fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:09:29.394755</dct:modified>
+            <dct:description xml:lang="hu-t-en-t0-mtec">SocialMedia: Smuser valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">SocialMedia:smuser données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">SocialMedia:osmuser podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">SocialMedia:smuser δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">SocialMedia:smuser data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">SocialMedia:smuser dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">SocialMedia:smuser datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMUser__.jsonld"/>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:09:22.611891</dct:issued>
+            <dct:description xml:lang="fi-t-en-t0-mtec">SocialMedia:muser reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">SocialMedia:smuser dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMUser__.jsonld"/>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">SocialMedia:smuser realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">SocialMedia:smuser Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">SocialMedia: дані в реальному часі, представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">SocialMedia:smuser dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">SocialMedia: data fil-ħin reali tal-mużika rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/3c85f92f-4070-4e15-99b6-e001b11c11b9/resource/urn_ngsi-ld_distribution_salted_project_socialmedia_smuser_jsonld</dct:identifier>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">SocialMedia:smuser realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">SocialMedia:smuser данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">SocialMedia:smuser realtime data repræsenteret i JSON_LD format</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">SocialMedia:smuser reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">SocialMedia:smuser reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">SocialMedia:smuser realtime dáta reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">SocialMedia:smuser realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">SocialMedia:Smuser date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description>SocialMedia:SMUser realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">SocialMedia:smuser podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-en-t0-mtec">SocialMedia: Smuser</dct:title>
+        <dct:title>SocialMedia:SMUser</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:title xml:lang="da-t-en-t0-mtec">Sociale medier:smuser</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1e260896-42ff-4632-b675-d2c9d1e4ce8b">
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description>SocialMedia:SMUser realtime data represented in JSON format</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">SocialMedia:smuser dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:09:22.611891</dct:issued>
+            <dct:description xml:lang="uk-t-en-t0-mtec">SocialMedia: дані в реальному часі, представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">SocialMedia:smuser realtime dáta reprezentované vo formáte JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMUser__.json"/>
+            <dct:description xml:lang="cs-t-en-t0-mtec">SocialMedia:smuser data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">SocialMedia: Smuser valós idejű adatok JSON formátumban</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">SocialMedia:smuser realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">SocialMedia: podaci korisnika u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">SocialMedia:smuser данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">SocialMedia:smuser Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">SocialMedia:smuser dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">SocialMedia:smuser δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">SocialMedia: sonraí riachtanacha fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">SocialMedia:smuser reaalajas esitatud andmed JSON formaadis</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">SocialMedia:smuser datos en tiempo real representados en formato JSON</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">SocialMedia:smuser realtidsdata representerad i JSON-format</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">SocialMedia: id-data f’ħin reali tal-mużika rrappreżentata fil-format JSON</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="fi-t-en-t0-mtec">SocialMedia:muser reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="sl-t-en-t0-mtec">SocialMedia:smuser podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">SocialMedia:Smuser date în timp real reprezentate în format JSON</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/3c85f92f-4070-4e15-99b6-e001b11c11b9/resource/urn_ngsi-ld_distribution_salted_project_socialmedia_smuser_json</dct:identifier>
+            <dct:description xml:lang="nl-t-en-t0-mtec">SocialMedia:smuser realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:09:29.393616</dct:modified>
+            <dct:description xml:lang="da-t-en-t0-mtec">SocialMedia:smuser realtime data repræsenteret i JSON format</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">SocialMedia:smuser reāllaika dati pārstāvēti JSON formātā</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">SocialMedia:smuser dados em tempo real representados no formato JSON</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMUser__.json"/>
+            <dct:description xml:lang="fr-t-en-t0-mtec">SocialMedia:smuser données en temps réel représentées au format JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Riječ je o usklađenom opisu generičkog smusera izrađenog za područje društvenih medija. Ova vrsta podataka prvenstveno je povezana s opisom korisnika aplikacija društvenih medija.</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/continent/EUROPE"/>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt een geharmoniseerde beschrijving van een generieke smuser gemaakt voor het domein Social Media. Dit gegevenstype wordt voornamelijk geassocieerd met de beschrijving van een gebruiker van sociale media-applicaties.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:09:22.468553</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="et-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:09:22.468553</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="cs-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="el-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">SocialMedia:smuser</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer en harmoniseret beskrivelse af en generisk smuser, der er lavet til domænet sociale medier. Denne type data er primært forbundet med beskrivelsen af en bruger af sociale medier applikationer.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:09:04Z</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/3c85f92f-4070-4e15-99b6-e001b11c11b9"/>
+    <dct:identifier>3c85f92f-4070-4e15-99b6-e001b11c11b9</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

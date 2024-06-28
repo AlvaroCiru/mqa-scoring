@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/e169a924-e14d-405c-8444-78e9bc1d2d1e">
+    <dct:identifier>e169a924-e14d-405c-8444-78e9bc1d2d1e</dct:identifier>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:08:41Z</edp:transReceived>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/e169a924-e14d-405c-8444-78e9bc1d2d1e">
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo satiksmi, kas novērota Berlīnē (Vācija) un Madridē (Spānijā).</dct:description>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt den Verkehr in den Städten Berlin (Deutschland) und Madrid (Spanien) dar.</dct:description>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Solone:TrafficObserved</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява трафика, наблюдаван в градовете Берлин (Германия) и Мадрид (Испания).</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:43:57.328801</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Sūdyta:TrafficObserved</dct:title>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою рух транспорту, що спостерігається в містах Берлін (Німеччина) і Мадрид (Іспанія).</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa Berliinin (Saksa) ja Madridin (Espanja) kaupungeissa havaittua liikennettä.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:43:57.328801</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/14ccc4b1-01e5-4e10-9f65-b2905f22a62e">
+            <dct:description xml:lang="da-t-en-t0-mtec">Saltet:TrafficObserved realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FTrafficObserved__.jsonld"/>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Солоні:TrafficObserved дані в режимі реального часу, представлені у форматі JSON_LD</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FTrafficObserved__.jsonld"/>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Saillte: Sonraí fíor-ama breathnaithe i bhformáid JSON_LD</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Soljeni:TrafficObserved podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αλατισμένα:TrafficObserved realtime δεδομένα που αντιπροσωπεύονται σε μορφότυπο JSON_LD</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Sózott:TrafficObserved valós idejű adatok reprezentálva JSON_LD formátumban</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">Soolatud: JSON_LD formaadis esitatud reaalajas jälgitavad andmed</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Salato:TrafficObservato dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Saled:TrafficObserved realtime data reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Gezouten:TrafficGeobserveerde realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Salted:TrafficLes données en temps réel observées au format JSON_LD</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Осолени:TrafficObserved данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/e169a924-e14d-405c-8444-78e9bc1d2d1e/resource/urn_ngsi-ld_distribution_salted_project_salted_trafficobserved_jsonld</dct:identifier>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:43:57.496681</dct:issued>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Sūdyti:TrafficObserved realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Salted:TrafficObserved Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Suolattu:TrafficObserved reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Soljeni:TrafficObserved v realnem času predstavljeni v formatu JSON_LD</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Date în timp real observate în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:45:44.694628</dct:modified>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Sālīti:TrafficObserved reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:description>SALTED:TrafficObserved realtime data represented in JSON_LD format</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Salted:TrafficObserved datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Salgado:TrafficObserved dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Soled:Traffic Obserwowane dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Saltad:TrafficObserved realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Solené:TrafficObserved realtime data reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Immellħa:Dejta osservata f’ħin reali rappreżentata fil-format JSON_LD</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Suolattu: TrafficObserved</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει την κίνηση που παρατηρείται στις πόλεις του Βερολίνου (Γερμανία) και της Μαδρίτης (Ισπανία).</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>NEC_Laboratories_Europe_GmbH</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dcat:keyword>CityLiveabilityIndex</dcat:keyword>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Gezouten:TrafficObserved</dct:title>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă traficul observat în orașele Berlin (Germania) și Madrid (Spania).</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-11T10:43:57.496681</dct:issued>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Salgado:TrafficObservo</dct:title>
+        <dct:description xml:lang="et-t-en-t0-mtec">See esindab Berliini (Saksamaa) ja Madridi (Hispaania) linnades täheldatud liiklust.</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Riječ je o prometu u gradovima Berlinu (Njemačka) i Madridu (Španjolska).</dct:description>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Slano:TrafficObserved</dct:title>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa o tráfego observado nas cidades de Berlim (Alemanha) e Madrid (Espanha).</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje dopravu pozorovanú v mestách Berlín (Nemecko) a Madrid (Španielsko).</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta il traffico osservato nelle città di Berlino (Germania) e Madrid (Spagna).</dct:description>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Sărat: TraficObservat</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Saltad:TrafficObserved</dct:title>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Huwa jirrappreżenta t-traffiku osservat fl-ibliet ta’ Berlin (il-Ġermanja) u Madrid (Spanja).</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje ruch obserwowany w miastach Berlin (Niemcy) i Madryt (Hiszpania).</dct:description>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Sózott:TrafficObserved</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Immellaħ:TrafficObserved</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">Salada:TrafficObserved</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Осолени:TrafficObserved</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Nasoljeno:TrafficObserved</dct:title>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Seasann sé don trácht a breathnaíodh i gcathracha Bheirlín (an Ghearmáin) agus Mhaidrid (an Spáinn).</dct:description>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Salé:TrafficObservé</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Solené:TrafficObserved</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Solené:TrafficObserved</dct:title>
+        <dct:title xml:lang="de-t-en-t0-mtec">Gesalzen:TrafficObserved</dct:title>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente le trafic observé dans les villes de Berlin (Allemagne) et Madrid (Espagne).</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Berlin (Németország) és Madrid (Spanyolország) városában megfigyelt forgalmat mutatja.</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje provoz pozorovaný ve městech Berlín (Německo) a Madrid (Španělsko).</dct:description>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar den trafik som observerats i städerna Berlin (Tyskland) och Madrid (Spanien).</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:title>SALTED:TrafficObserved</dct:title>
+        <dcat:keyword>TrafficObserved</dcat:keyword>
+        <dct:title xml:lang="el-t-en-t0-mtec">Αλατισμένος:TrafficObserved</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Sālīti:TrafficObserved</dct:title>
+        <dct:identifier>e169a924-e14d-405c-8444-78e9bc1d2d1e</dct:identifier>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer den trafik, der observeres i byerne Berlin (Tyskland) og Madrid (Spanien).</dct:description>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:title xml:lang="da-t-en-t0-mtec">Saltet:TrafficObserved</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">Salato:TrafficObservato</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+        <dct:description>It represents the traffic observed in the cities of Berlin (Germany) and Madrid (Spain).</dct:description>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt het waargenomen verkeer in de steden Berlijn (Duitsland) en Madrid (Spanje).</dct:description>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa el tráfico observado en las ciudades de Berlín (Alemania) y Madrid (España).</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-11T10:43:57.496718</dct:modified>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja promet v mestih Berlin (Nemčija) in Madrid (Španija).</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai yra Berlyno (Vokietija) ir Madrido (Ispanija) miestuose stebimas eismas.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ceb5e9d2-ef34-4d3d-a577-91e344cad8fb">
+            <dct:identifier>https://ckan.salted-project.eu/dataset/e169a924-e14d-405c-8444-78e9bc1d2d1e/resource/urn_ngsi-ld_distribution_salted_project_salted_trafficobserved_json</dct:identifier>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Осолени:TrafficHaблюдавани данни в реално време, представени във формат JSON</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FTrafficObserved__.json"/>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Sūdyti:TrafficObserved realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Salted:TrafficObservados datos en tiempo real representados en formato JSON</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Saltad:TrafficObserved realtidsdata representerad i JSON-format</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">Soolatud: JSON-vormingus esitatud reaalajas jälgitavad andmed</dct:description>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Immellħa:Dejta osservata f’ħin reali rappreżentata fil-format JSON</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Salato:TrafficObservato dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Solené:TrafficObserved realtime data reprezentované vo formáte JSON</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="da-t-en-t0-mtec">Saltet:TrafficObserved realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FTrafficObserved__.json"/>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Saled:TrafficObserved realtime data reprezentovaná ve formátu JSON</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:43:57.496681</dct:issued>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Soled:Traffic Obserwowane dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Soljeni:TrafficObserved podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Salgado:TrafficObserved dados em tempo real representados em formato JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Salted:TrafficObserved Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Date în timp real observate în timp real reprezentate în format JSON</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Salted:TrafficLes données en temps réel observées au format JSON</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Saillte: Sonraí fíor-ama breathnaithe i bhformáid JSON</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Sózott:TrafficObserved valós idejű adatok reprezentálva JSON formátumban</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T10:45:44.693417</dct:modified>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description>SALTED:TrafficObserved realtime data represented in JSON format</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αλατισμένα:TrafficObserved δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφότυπο JSON</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Suolattu:TrafficObserved reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Soljeni:TrafficObserved v realnem času predstavljeni v formatu JSON</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Sālīti:TrafficObserved reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Gezouten:TrafficGeobserveerde realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Солоні: ТрафікСпостерігаються дані в режимі реального часу, представлені у форматі JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="et-t-en-t0-mtec">Soolatud:TrafficObserved</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Солоний: ТрафакСпостерігається</dct:title>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Saillte:TrafficObserved</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:00Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>338b4011aae9023a987f807ec25367c3</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/e169a924-e14d-405c-8444-78e9bc1d2d1e"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:08:41Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:00Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

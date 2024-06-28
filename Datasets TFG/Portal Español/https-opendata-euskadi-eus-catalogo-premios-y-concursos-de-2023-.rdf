@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-premios-y-concursos-de-2023-">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:22:01Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:22:01Z</dct:modified>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>38a55730d101b5f2c6aa858237ca499d</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/premios-y-concursos-de-2023/</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-premios-y-concursos-de-2023-">
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-02-07T00:00:00+01:00</dct:issued>
+        <dct:title xml:lang="pl-t-es-t0-mtec">2023 Nagrody i Konkursy</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Priser og konkurrencer i 2023</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-13T00:00:00+02:00</dct:modified>
+        <dcat:keyword xml:lang="es">premios</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/668d80cb-5cbe-4ddc-91b4-5237b34d0502">
+            <dct:title xml:lang="es">API de eventos administrativos</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Administrazio ekitaldien APIa</dct:title>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/api-administration/?api=administration_events"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/resource/dfaa4fdc-0fe4-4d6c-b9de-89e50df3cc9f</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Prijzen en wedstrijden 2023</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">2023 m. apdovanojimai ir konkursai</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">2023 Utmärkelser och tävlingar</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Baskimaa valitsuse, selle autonoomsete asutuste ja avalik-õiguslike üksuste auhinnad ja konkursid 2023. aastal.
+Lisatud on põhiteave auhindade ja võistluste kohta.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-reutilizar/-/reutilizar-datos-abiertos/"/>
+        <dcat:keyword xml:lang="eu">administrazio-prozedurak</dcat:keyword>
+        <dcat:keyword xml:lang="eu">sariak</dcat:keyword>
+        <dct:description xml:lang="eu">Eusko Jaurlaritzak, haren erakunde autonomoek eta erakunde publikoek antolatutako sari eta lehiaketak 2023an. Sari eta lehiaketen oinarrizko informazioa jasotzen da.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Nagrade in natečaji za leto 2023</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">2023-ban a baszk kormány, annak autonóm szervei és közintézményei által odaítélt díjak és versenyek. A nyereményekről és versenyekről alapvető információk találhatók.</dct:description>
+        <dcat:keyword xml:lang="eu">lehiaketak</dcat:keyword>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/DurationDescription">
+                <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:weeks>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Ocenenia a súťaže baskickej vlády, jej autonómnych orgánov a verejných subjektov v roku 2023. Základné informácie o cenách a súťažiach sú zahrnuté.</dct:description>
+        <dcat:keyword xml:lang="es">concursos</dcat:keyword>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Награди и конкурси за 2023 г.</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:description xml:lang="de-t-es-t0-mtec">Auszeichnungen und Wettbewerbe der baskischen Regierung, ihrer autonomen Einrichtungen und öffentlichen Einrichtungen im Jahr 2023.
+Grundlegende Informationen über Preise und Wettbewerbe sind enthalten.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">2023 Premi e concorsi</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">2023-as díjak és versenyek</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:description xml:lang="el-t-es-t0-mtec">Βραβεία και διαγωνισμοί της κυβέρνησης των Βάσκων, των αυτόνομων φορέων της και των δημόσιων φορέων κατά τη διάρκεια του 2023.
+Περιλαμβάνονται βασικές πληροφορίες σχετικά με τα βραβεία και τους διαγωνισμούς.</dct:description>
+        <dct:title xml:lang="es">Premios y concursos de 2023</dct:title>
+        <dcat:keyword xml:lang="eu">API</dcat:keyword>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Награди и конкурси на правителството на баските, неговите автономни органи и публични субекти през 2023 г.
+Включена е основна информация за наградите и конкурсите.</dct:description>
+        <dcat:keyword xml:lang="es">API</dcat:keyword>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Prijzen en wedstrijden van de Baskische regering, haar autonome organen en overheidsinstellingen in 2023. Basisinformatie over prijzen en wedstrijden is inbegrepen.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Nagrade i natječaji baskijske vlade, njezinih autonomnih tijela i javnih tijela tijekom 2023. Uključene su osnovne informacije o nagradama i natjecanjima.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/565b84c3-67f4-4b4b-afa7-627a4f1974a9">
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/resource/9e596e41-69ba-4aa6-b0af-36ab5d4f742a</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >41841</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_premios_concursos/premios_y_concursos_2023/opendata/premios.jsonp"/>
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="de-t-es-t0-mtec">2023 Auszeichnungen und Wettbewerbe</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">2023 m. Baskų krašto vyriausybės, jos autonominių įstaigų ir viešųjų subjektų apdovanojimai ir konkursai.
+Pateikiama pagrindinė informacija apie prizus ir konkursus.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Basku zemes valdības, tās autonomo struktūru un publisko struktūru apbalvojumi un konkursi 2023. gadā. Iekļauta pamatinformācija par balvām un konkursiem.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">2023. aasta auhinnad ja võistlused</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Premiile și concursurile guvernului basc, ale organismelor sale autonome și ale entităților publice în cursul anului 2023. Sunt incluse informații de bază despre premii și concursuri.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Prix et concours 2023</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Nagrody i konkursy rządu baskijskiego, jego autonomicznych organów i podmiotów publicznych w 2023 r. Podstawowe informacje o nagrodach i konkursach są zawarte.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3905859e-8c27-4be0-a233-1da2b36ecc6f">
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >10701</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_premios_concursos/premios_y_concursos_2023/opendata/premios.xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/resource/0ee84379-650a-4e50-8500-87048ce3f609</dct:identifier>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="en-t-es-t0-mtec">Awards and competitions of the Basque Government, its autonomous bodies and public entities during 2023. Basic information about prizes and contests is included.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Vuoden 2023 palkinnot ja kilpailut</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Il-Premjijiet u l-Kompetizzjonijiet 2023</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Premii și Concursuri 2023</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">2023 Ocenění a soutěže</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Prix et concours du gouvernement basque, de ses organismes autonomes et d’entités publiques en 2023.
+Des informations de base sur les prix et les concours sont incluses.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Βραβεία και Διαγωνισμοί 2023</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">2023. gada balvas un konkursi</dct:title>
+        <dct:description xml:lang="es">Premios y concursos del Gobierno Vasco, sus organismos autónomos y entes públicos durante el año 2023. Se incluye información báscia sobre los premios y concursos.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1807d622-116c-4c2a-8a3b-8919208cc808">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/resource/8c8c9464-14c5-4dfe-ada3-c6e543f3ad14</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_premios_concursos/premios_y_concursos_2023/opendata/premios.xml"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >37847</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Súťaže a súťaže v roku 2023</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Prémios e Concursos 2023</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/premios-y-concursos-de-2023/"/>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Dámhachtainí agus comórtais Rialtas na mBascach, a chomhlachtaí féinrialaitheacha agus a eintitis phoiblí le linn 2023. Tá eolas bunúsach faoi dhuaiseanna agus comórtais san áireamh.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/PeriodOfTime-1">
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-06-13T00:00:00+02:00</schema:endDate>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-01-01T00:00:00+01:00</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="da-t-es-t0-mtec">Priser og konkurrencer fra den baskiske regering, dens autonome organer og offentlige enheder i 2023. Grundlæggende oplysninger om præmier og konkurrencer er inkluderet.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="es">procedimientos administrativos</dcat:keyword>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Ocenění a soutěže baskické vlády, jejích autonomních orgánů a veřejných subjektů v průběhu roku 2023. Základní informace o výhrách a soutěžích jsou zahrnuty.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Premjijiet u kompetizzjonijiet tal-Gvern Bask, il-korpi awtonomi u l-entitajiet pubbliċi tiegħu matul l-2023.
+Informazzjoni bażika dwar premjijiet u kompetizzjonijiet hija inkluża.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Dámhachtainí agus Comórtais 2023</dct:title>
+        <dct:title xml:lang="eu">2023ko sariak eta lehiaketak</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Nagrade i natječaji za 2023. godinu</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Utmärkelser och tävlingar från den baskiska regeringen, dess autonoma organ och offentliga organ under 2023.
+Grundläggande information om priser och tävlingar ingår.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Prémios e concursos do Governo Basco, dos seus órgãos autónomos e entidades públicas durante 2023.
+Informações básicas sobre prémios e concursos estão incluídas.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Нагороди і конкурси уряду Басків, його автономних органів і громадських утворень протягом 2023 року. Основна інформація про призи та конкурси включається.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">2023 Нагороди та конкурси</dct:title>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/premios-y-concursos-de-2023/</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9c9a0e38-231d-4c65-8b8a-f79289750969">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/resource/cea51122-e353-48a3-bd0d-c8622f07784f</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+            <dcat:accessURL rdf:resource="https://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&amp;r01kQry=tC%3Aeuskadi%3BtT%3Apremio_concurso%3Bm%3AdocumentLanguage.EQ.es%2CprocedureStartDate.BETWEEN.01/01/2023%2C31/12/2023%3Bp%3AInter_portal%2CInter%3Bpp%3Ar01NavBarBlockSize.10%2Cr01PageSize.100"/>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Baskimaan hallituksen, sen itsenäisten elinten ja julkisten elinten palkinnot ja kilpailut vuonna 2023. Perustiedot palkinnoista ja kilpailuista ovat mukana.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Nagrade in natečaji baskovske vlade, njenih avtonomnih organov in javnih subjektov v letu 2023.
+Vključene so tudi osnovne informacije o nagradah in tekmovanjih.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/61990091-0d77-429e-8c50-22cb9a3ad0f8">
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >41820</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/resource/9899d928-ff73-47ba-b050-5fee17eebb05</dct:identifier>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_premios_concursos/premios_y_concursos_2023/opendata/premios.json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="it-t-es-t0-mtec">Premi e concorsi del governo basco, dei suoi enti autonomi ed enti pubblici nel 2023.
+Informazioni di base su premi e concorsi sono incluse.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">2023 Awards and Contests</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2f08e6cb-5b70-4a4d-b399-5a171594e133">
+            <dct:title xml:lang="eu">Sariak eta lehiaketak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-premios-y-concursos-de-2023/resource/f9406ab7-6e55-47de-af1e-03c1f19a57a6</dct:identifier>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC%3Aeuskadi%3BtT%3Apremio_concurso%3Bm%3AprocedureStartDate.BETWEEN.01/01/2023%2C31/12/2023%2CdocumentLanguage.EQ.es%3B"/>
+            <dct:title xml:lang="es">Premios y concursos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-premios-y-concursos-de-2023-"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-05-17T23:49:19Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

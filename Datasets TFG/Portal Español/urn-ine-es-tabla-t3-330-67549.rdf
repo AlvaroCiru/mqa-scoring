@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/urn-ine-es-tabla-t3-330-67549">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>d42ead1ea46522157f7db9302b612c0a</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>urn:ine:es:TABLA:T3:330:67549</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:19:12Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:19:12Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/urn-ine-es-tabla-t3-330-67549">
+        <dct:title xml:lang="en">Quarterly employment rate. EPA (API identifier: 67549)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6eaa5052-0af8-4f38-8802-4fc73ced6d0a">
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/xls/67549.xls"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/3cdfbfe8-a215-42bc-a9bc-6394f8362f69</dct:identifier>
+            <dct:title xml:lang="en">Excel: XLS extension</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:title xml:lang="es">Excel: Extensión XLS</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">Both sexes</dcat:keyword>
+        <dcat:keyword xml:lang="es">Hombres</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 50 to 54 years old</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/PeriodOfTime-1">
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2021-01-01T01:00:00+01:00</schema:startDate>
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-01-01T01:00:00+01:00</schema:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+        <dcat:keyword xml:lang="es">De 45 a 49 años</dcat:keyword>
+        <dcat:keyword xml:lang="en">Economically Active Population Survey</dcat:keyword>
+        <dcat:keyword xml:lang="en">Females</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 35 to 39 years old</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-11T12:30:00+02:00</dct:modified>
+        <dct:isReferencedBy rdf:resource="https://www.ine.es/dyngs/IOE/es/operacion.htm?numinv=30308"/>
+        <dcat:keyword xml:lang="en">From 25 to 29 years</dcat:keyword>
+        <dct:description xml:lang="es">Tabla de INEbase
+Tasa de empleo de las personas entre 20 y 64 años por sexo y grupo de edad. Trimestral. Nacional. Encuesta de Población Activa (EPA)</dct:description>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/DurationDescription">
+                <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >3</time:months>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5ad90036-ca0d-4b89-882e-c2bf71e4b0c8">
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_bdsc/67549.csv"/>
+            <dct:title xml:lang="en">CSV: Separated by ;</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/7278b368-5e0d-4a2e-83e3-6b55a79dd7f7</dct:identifier>
+            <dct:title xml:lang="es">CSV: separado por ;</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">From 20 to 24 years</dcat:keyword>
+        <dcat:keyword xml:lang="en">Males</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:keyword xml:lang="es">De 25 a 29 años</dcat:keyword>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587">
+            <foaf:name>Instituto Nacional de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="en">From 55 to 64 years</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8d23f44a-12c9-4260-9137-cfd04abd94ee">
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/Tabla.htm?t=67549"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/8f8eafc3-f022-4cce-ab4a-b3ed5ee4bc69</dct:identifier>
+            <dct:title xml:lang="es">Html</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="en">Html</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Mercado laboral y salarios</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:keyword xml:lang="en">Age group</dcat:keyword>
+        <dct:identifier>urn:ine:es:TABLA:T3:330:67549</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/70290fc0-41a9-4c9c-95c2-df9fc544bb99">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/9aca051c-fed6-4c58-8dff-11258b040cfc</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/xlsx/67549.xlsx"/>
+            <dct:title xml:lang="en">Excel: XLSx extension</dct:title>
+            <dct:title xml:lang="es">Excel: Extension XLSx</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">De 35 a 39 años</dcat:keyword>
+        <dcat:keyword xml:lang="es">Ambos sexos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/20692819-1b29-450c-9798-5b546500e9ab">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/bb4ed7db-7014-4d30-9d75-8c95aacce872</dct:identifier>
+            <dct:title xml:lang="en">Plain Text: separated by comma</dct:title>
+            <dct:title xml:lang="es">Texto plano: separado por ,</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_c/67549.csv_c"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Grupos de edad</dcat:keyword>
+        <dcat:keyword xml:lang="es">De 20 a 24 años</dcat:keyword>
+        <dcat:keyword xml:lang="en">Statistics</dcat:keyword>
+        <dcat:keyword xml:lang="es">De 30 a 34 años</dcat:keyword>
+        <dcat:keyword xml:lang="en">Labour market</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 30 to 34 years old</dcat:keyword>
+        <dcat:keyword xml:lang="es">De 40 a 44 años</dcat:keyword>
+        <dcat:keyword xml:lang="en">Sex</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/45ec61b6-e779-4ab2-8a87-42878b6e962b">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">Pc-Axis</dct:title>
+            <dct:title xml:lang="en">Pc-Axis</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/c214d10e-2c54-47b9-aeee-14a6852f390d</dct:identifier>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/px/67549.px"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cf60ea5d-39de-4bd6-968d-6eb4b07918ac">
+            <dct:title xml:lang="en">Plain Text: separated by semicolons</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_sc/67549.csv_sc"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/3185e449-fc22-470d-94c8-ed755d092ec0</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Texto plano: separado por ;</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:keyword xml:lang="es">Sexo</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 45 to 49 years old</dcat:keyword>
+        <dct:title xml:lang="es">Tasa de empleo de las personas entre 20 y 64 años por sexo y grupo de edad. EPA (Identificador API: 67549)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/913bd3bd-14ff-4c5b-ad3f-45c5c928292a">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/3dec4252-c9b2-485d-bcd1-9e7d42fbbcca</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv/67549.csv"/>
+            <dct:title xml:lang="es">Texto plano: separado por tabuladores</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="en">Plain Text: separated by tab</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">De 50 a 54 años</dcat:keyword>
+        <dct:description xml:lang="en">Table of INEBase
+Quarterly employment rate. National. Economically Active Population Survey</dct:description>
+        <dct:conformsTo rdf:resource="https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=30308"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/075e74c7-6ae4-48c7-864b-63badf4cc416">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="en">Json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/1259a9d8-d833-4048-9c30-aa95401eaf8b</dct:identifier>
+            <dcat:accessURL rdf:resource="https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/67549?tip=AM"/>
+            <dct:title xml:lang="es">Json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Estadísticas</dcat:keyword>
+        <dcat:keyword xml:lang="es">Mercado laboral</dcat:keyword>
+        <dcat:keyword xml:lang="en">Labour market and wages</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-04-29T11:00:00+02:00</dct:issued>
+        <dcat:keyword xml:lang="es">Mujeres</dcat:keyword>
+        <dcat:keyword xml:lang="es">De 55 a 64 años</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/75b6fbea-63ee-477d-bd28-5d596b517c58">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-tasa-de-empleo-de-las-personas-entre-20-y-64-anos-por-sexo-y-grupo-de-edad-epa-identificador-api-67549/resource/910a24ee-2c74-471f-a160-40901741e5e9</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_bd/67549.csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">CSV: separado por tabuladores</dct:title>
+            <dct:title xml:lang="en">CSV: Tab Separated</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">From 40 to 44 years</dcat:keyword>
+        <dcat:keyword xml:lang="es">EPA</dcat:keyword>
+        <dcat:keyword xml:lang="es">Encuesta de Población Activa (EPA)</dcat:keyword>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/urn-ine-es-tabla-t3-330-67549"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-10T23:19:22Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

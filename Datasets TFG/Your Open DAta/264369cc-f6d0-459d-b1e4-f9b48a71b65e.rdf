@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/264369cc-f6d0-459d-b1e4-f9b48a71b65e">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:03Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/264369cc-f6d0-459d-b1e4-f9b48a71b65e">
+        <dct:title xml:lang="hr-t-es-t0-mtec">ponferrada_1549_precipitacije</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">ponferrada_1549_precipitations</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/6506de93-daa7-45c4-bbb1-c6100d5f618c">
+            <foaf:name>meteorologia</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="hu-t-es-t0-mtec">PONFERRADA állomás csapadéka az NGSI-LD WeatherObserved modellt követve. Többek között az Állami Meteorológiai Ügynökség felhasználásával készített információk.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Sademete jaama PONFERRADA pärast WeatherObserved mudel NGSI-LD.
+Muu hulgas riiklikust meteoroloogiaametist saadud teabe põhjal.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">ponferrada_1549_ sademed</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Opady na stacji PONFERRADA zgodnie z WeatherObserwowany model NGSI-LD.
+Informacje przygotowane z wykorzystaniem m.in. uzyskanych od Państwowej Agencji Meteorologicznej.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c22207d4-f98f-4509-a58e-15dc0b24bc3a">
+            <dct:description xml:lang="sl-t-es-t0-mtec">Opazovanje padavin PONFERRADA</dct:description>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Breathnóireacht frasaíochta ar Ponferrada</dct:description>
+            <dct:description xml:lang="fi-t-es-t0-mtec">PONFERRADAn saostumisen havainnointi</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Nederbördsobservation av PONFERRADA</dct:description>
+            <dct:description xml:lang="et-t-es-t0-mtec">PONFERRADA sademete jälgimine</dct:description>
+            <dct:description xml:lang="lv-t-es-t0-mtec">PONFERRADA nokrišņu novērošana</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Obserwacja opadów PONFERRADA</dct:description>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1"/>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1"/>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Niederschlagsbeobachtung von PONFERRADA</dct:description>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1313</dcat:byteSize>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dct:issued>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Opažanje padalina PONFERRADA</dct:description>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:description>Observación de precipitaciones de PONFERRADA</dct:description>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Osservazzjoni ta’ preċipitazzjoni ta’ PONFERRADA</dct:description>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Observation des précipitations de PONFERRADA</dct:description>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">PONFERRADA kritulių stebėjimas</dct:description>
+            <dct:title>urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Observarea precipitațiilor din PONFERRADA</dct:description>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/264369cc-f6d0-459d-b1e4-f9b48a71b65e/resource/12565190-7478-449c-ae5f-054a91378a58</dct:identifier>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:description xml:lang="da-t-es-t0-mtec">Nedbørsobservation af PONFERRADA</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Pozorování srážek PONFERRADA</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Osservazione delle precipitazioni di PONFERRADA</dct:description>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Спостереження опадів на ПОНФЕРРАДА</dct:description>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="el-t-es-t0-mtec">Παρατήρηση των βροχοπτώσεων του PONFERRADA</dct:description>
+            <dct:description xml:lang="en-t-es-t0-mtec">Precipitation observation of PONFERRADA</dct:description>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Pozorovanie zrážok PONFERRADA</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:03.638610</dct:modified>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Observação de precipitação de PONFERRADA</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Наблюдение на валежите в PONFERRADA</dct:description>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:description xml:lang="hu-t-es-t0-mtec">PONFERRADA csapadékmegfigyelése</dct:description>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Neerslag observatie van PONFERRADA</dct:description>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:WeatherObserved:AvgPrecipitation:1549-1</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-08T20:32:24.156630</dct:modified>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Neerslag van het station van PONFERRADA volgens het weerobserveerde model van NGSI-LD.
+Informatie die is opgesteld met behulp van onder andere die verkregen van het State Meteorology Agency.</dct:description>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        </dcat:theme>
+        <dct:title xml:lang="uk-t-es-t0-mtec">ponferrada_1549_опади</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Krituliai iš PONFERRADA stoties pagal WeatherObserved modelis NGSI-LD. Informacija, parengta naudojant, be kita ko, iš Valstybinės meteorologijos agentūros gautą informaciją.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Precipitații de la stația PONFERRADA după modelul WeatherObserved al NGSI-LD. Informații pregătite folosind, printre altele, cele obținute de la Agenția de Meteorologie de Stat.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">ponferrada_1549_sateet</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Niederschlag der Station von PONFERRADA nach dem WeatherObserved-Modell von NGSI-LD. Informationen, die unter anderem mit Hilfe der State Meteorology Agency erstellt wurden.</dct:description>
+        <dcat:landingPage>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:landingPage>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="ro-t-es-t0-mtec">ponferrada_1549_precipitations</dct:title>
+        <dcat:keyword>tiempo</dcat:keyword>
+        <dct:title xml:lang="da-t-es-t0-mtec">ponferrada_1549_aflejringer</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Zrážky zo stanice PONFERRADA po meteorologickom modeli NGSI-LD. Informácie pripravené okrem iného na základe informácií získaných od Štátnej meteorologickej agentúry.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">ponferrada_1549_precipitacije</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Deascadh stáisiún Ponferrada tar éis an tsamhail WeatherObserved de NGSI-LD.
+Faisnéis a ullmhaítear trí úsáid a bhaint, i measc nithe eile, as an nGníomhaireacht Meitéareolaíochta Stáit.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Srážky stanice PONFERRADA podle WeatherObserved modelu NGSI-LD. Informace připravené mimo jiné za použití informací získaných od Státní meteorologické agentury.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">PONFERRADA-aseman sademäärä NGSI-LD:n WeatherObserved -mallin mukaisesti. Tiedot, jotka on laadittu käyttäen muun muassa valtion meteorologiavirastolta saatuja tietoja.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Udfældning af stationen i PONFERRADA efter WeatherObserved model af NGSI-LD. Oplysninger udarbejdet ved hjælp af bl.a. oplysninger indhentet fra Statens Meteorologiagentur.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">ponferrada_1549_precipitazioni</dct:title>
+        <dct:spatial>
+          <dct:Location rdf:about="https://publications.europa.eu/resource/authority/country/ESP"/>
+        </dct:spatial>
+        <dcat:contactPoint rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:title xml:lang="pt-t-es-t0-mtec">ponferrada_1549_precipitações</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">ponferrada_1549_precipitace</dct:title>
+        <dct:title>ponferrada_1549_precipitations</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">ponferrada_1549_precypacje</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Валежи на станцията PONFERRADA по модела WeatherObserved на NGSI-LD.
+Информация, изготвена чрез използване, наред с другото, на информацията, получена от Държавната агенция по метеорология.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Preċipitazzjoni tal-istazzjon ta’ PONFERRADA skont il-mudell ta’ WeatherObserved tal-NGSI-LD.
+Informazzjoni ppreparata bl-użu, fost l-oħrajn, ta’ dik miksuba mill-Aġenzija tal-Meteoroloġija tal-Istat.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Опади станції PONFERRADA слідують WeatherObserved моделі NGSI-LD. Інформація, підготовлена з використанням, серед іншого, отриманої від Державного метеорологічного агентства.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">ponferrada_1549_ frasaíocht</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">ponferrada_1549_убежища</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">ponferrada_1549_precipitations</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">ponferrada_1549_κατακρημνίσεις</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">ponferrada_1549_precipitations</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Précipitation de la station de PONFERRADA suivant le modèle WeatherObserved de NGSI-LD. Informations préparées en utilisant, entre autres, celles obtenues de l’Agence nationale de météorologie.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">ponferrada_1549_preċipitazzjonijiet</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">ponferrada_1549_ Niederschlag</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Padaline na stanici PONFERRADA prema WeatherObserved modelu NGSI-LD-a.
+Informacije pripremljene pomoću, među ostalim, podataka dobivenih od Državne meteorološke agencije.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">ponferrada_1549_precipitaties</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-08T20:32:23.537901</dct:issued>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Nokrišņi stacijā PONFERRADA pēc WeatherObserved modeli NGSI-LD. Informācija, kas sagatavota, izmantojot, cita starpā, no Valsts Meteoroloģijas aģentūras iegūto informāciju.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Precipitazioni della stazione di PONFERRADA seguendo il modello WeatherObservato di NGSI-LD. Informazioni preparate utilizzando, tra l'altro, quelle ottenute dall'Agenzia meteorologica statale.</dct:description>
+        <dct:description>Precipitaciones de la estación de PONFERRADA siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">ponferrada_1549_ fällningar</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">ponferrada_1549_csapágyak</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Nederbörd av stationen PONFERRADA efter WeatherObserved modell av NGSI-LD. Information som tagits fram med hjälp av bland annat den information som erhållits från Meteorology Agency.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Βροχόπτωση του σταθμού PONFERRADA σύμφωνα με το WeatherObserved μοντέλο NGSI-LD. Πληροφορίες που καταρτίζονται με χρήση, μεταξύ άλλων, των πληροφοριών που λαμβάνονται από την Κρατική Μετεωρολογική Υπηρεσία.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Precipitação da estação de PONFERRADA seguindo o modelo WeatherObserved de NGSI-LD.
+Informações elaboradas a partir, entre outras, da Agência Estadual de Meteorologia.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">ponferrada_1549_zrážanie</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">ponferrada_1549_précipitations</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Precipitation of the station of PONFERRADA following the WeatherObserved model of NGSI-LD. Information prepared using, among others, that obtained from the State Meteorology Agency.</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Padavine postaje PONFERRADA po VremeObserved model NGSI-LD. Informacije, pripravljene na podlagi, med drugim, informacij, pridobljenih od državne meteorološke agencije.</dct:description>
+        <dct:identifier>264369cc-f6d0-459d-b1e4-f9b48a71b65e</dct:identifier>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:03Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-23T22:46:42Z</edp:transReceived>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>ec3f0073506dd206021ee07d651ceaba</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:03Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/264369cc-f6d0-459d-b1e4-f9b48a71b65e"/>
+    <dct:identifier>264369cc-f6d0-459d-b1e4-f9b48a71b65e</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

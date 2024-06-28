@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/9b4ba8ab-0c86-4b11-8fe2-bd066a1efd61">
+    <dct:identifier>9b4ba8ab-0c86-4b11-8fe2-bd066a1efd61</dct:identifier>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:09:21Z</edp:transReceived>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</dct:issued>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:09:21Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/9b4ba8ab-0c86-4b11-8fe2-bd066a1efd61"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/9b4ba8ab-0c86-4b11-8fe2-bd066a1efd61">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T15:06:19.776016</dct:modified>
+        <dcat:keyword>Social media</dcat:keyword>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Riječ je o usklađenom opisu generičkog SMPosta izrađenog za područje društvenih medija.</dct:description>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kujutab endast sotsiaalmeedia domeeni üldise SMPosti ühtlustatud kirjeldust.</dct:description>
+        <dct:title xml:lang="et-t-en-t0-mtec">Sotsiaalmeedia:SMPost</dct:title>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:06:19.633622</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:keyword>User-generated content</dcat:keyword>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Sociálne médiá:SMPost</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Socialinė žiniasklaida:SMPost</dct:title>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta una descrizione armonizzata di un SMPost generico realizzato per il dominio dei social media.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T15:06:19.775981</dct:issued>
+        <dct:title xml:lang="uk-t-en-t0-mtec">SocialMedia: SMPost</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">SocialMedia: SMPost</dct:title>
+        <dct:title xml:lang="hu-t-en-t0-mtec">SocialMedia: SMPost</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Тя представлява хармонизирано описание на генеричен SMPost, направен за домейна на социалните медии.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/65b77382-9e9f-4e7e-a819-09ceb6304923">
+            <dct:description xml:lang="ro-t-en-t0-mtec">SocialMedia:SMPost date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:06:25.800315</dct:modified>
+            <dct:description xml:lang="fi-t-en-t0-mtec">SocialMedia:SMPost reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">SocialMedia:SMPost data f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">SocialMedia: Sonraí fíor-amaSMPost i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">SocialMedia:SMPost realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">SocialMedia:SMPost данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">SocialMedia:SMPost dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/9b4ba8ab-0c86-4b11-8fe2-bd066a1efd61/resource/urn_ngsi-ld_distribution_salted_project_socialmedia_smpost_jsonld</dct:identifier>
+            <dct:description xml:lang="sl-t-en-t0-mtec">SocialMedia:SMPost podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">SocialMedia:SMPost realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">SocialMedia:SMPost δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">SocialMedia:SMPost datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMPost__.jsonld"/>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">SocialMedia: SMPost valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="hr-t-en-t0-mtec">SocialMedia: SMPost podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="sk-t-en-t0-mtec">SocialMedia:SMPost realtime dáta reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description>SocialMedia:SMPost realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:06:19.775981</dct:issued>
+            <dct:description xml:lang="lt-t-en-t0-mtec">SocialMedia:SMPost realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">SocialMedia:SMPosti reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMPost__.jsonld"/>
+            <dct:description xml:lang="it-t-en-t0-mtec">SocialMedia:SMPost dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">SocialMedia:SMPost data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">SocialMedia:SMPost reāllaika dati pārstāvēti JSON_LD formātā</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:description xml:lang="uk-t-en-t0-mtec">SocialMedia: дані SMPost в реальному часі представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">SocialMedia:SMPost Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">SocialMedia:SMPost données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">SocialMedia:SMPost realtime data repræsenteret i JSON_LD format</dct:description>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">SocialMedia:SMPost dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa una descripción armonizada de un SMPost genérico hecho para el dominio de redes sociales.</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente une description harmonisée d’un SMPost générique conçu pour le domaine des médias sociaux.</dct:description>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Ez a közösségimédia-tartományra vonatkozó általános SMPost harmonizált leírása.</dct:description>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt eine harmonisierte Beschreibung einer generischen SMPost dar, die für die Social Media-Domäne erstellt wurde.</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:keyword>Twitter Data Analysis</dcat:keyword>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje harmonizovaný popis obecného SMPost vytvořeného pro oblast sociálních médií.</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Stanowi on zharmonizowany opis ogólnego SMPost stworzonego dla domeny mediów społecznościowych.</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa yhdenmukaistettua kuvausta sosiaalisen median verkkotunnusta koskevasta yleisestä SMPost-järjestelmästä.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>IMT</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/continent/EUROPE"/>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Is éard atá ann tuairisc chomhchuibhithe ar SMPost cineálach a rinneadh do réimse na Meán Sóisialta.</dct:description>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer en harmoniseret beskrivelse af et generisk SMPost for domænet sociale medier.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:06:19.633622</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Sosiaalinen media:SMPost</dct:title>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt een geharmoniseerde beschrijving van een generieke SMPost die is gemaakt voor het domein Social Media.</dct:description>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою гармонізований опис загального SMPost, зробленого для домену соціальних медіа.</dct:description>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă o descriere armonizată a unui SMPost generic realizat pentru domeniul social media.</dct:description>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas ir sociālo mediju domēnam paredzēta vispārēja SMPost saskaņotais apraksts.</dct:description>
+        <dct:title xml:lang="de-t-en-t0-mtec">Soziale Medien:SMPost</dct:title>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Meáin Shóisialta:SMPost</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/769120a0-4844-4a38-9abe-20dcdfa18fe0">
+            <dct:description xml:lang="sk-t-en-t0-mtec">SocialMedia:SMPost realtime dáta reprezentované vo formáte JSON</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:06:25.799148</dct:modified>
+            <dct:description xml:lang="fi-t-en-t0-mtec">SocialMedia:SMPost reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">SocialMedia: SMPost podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">SocialMedia:SMPost dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">SocialMedia:SMPost dados em tempo real representados no formato JSON</dct:description>
+            <dct:description>SocialMedia:SMPost realtime data represented in JSON format</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">SocialMedia:SMPost datos en tiempo real representados en formato JSON</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">SocialMedia:SMPost reāllaika dati pārstāvēti JSON formātā</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">SocialMedia:SMPost données en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMPost__.json"/>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">SocialMedia: SMPost valós idejű adatok reprezentálva JSON formátumban</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">SocialMedia:SMPosti reaalajas esitatud andmed JSON-vormingus</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">SocialMedia:SMPost данни в реално време, представени във формат JSON</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMPost__.json"/>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/9b4ba8ab-0c86-4b11-8fe2-bd066a1efd61/resource/urn_ngsi-ld_distribution_salted_project_socialmedia_smpost_json</dct:identifier>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="nl-t-en-t0-mtec">SocialMedia:SMPost realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">SocialMedia:SMPost data f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">SocialMedia:SMPost realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:06:19.775981</dct:issued>
+            <dct:description xml:lang="da-t-en-t0-mtec">SocialMedia:SMPost realtime data repræsenteret i JSON format</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">SocialMedia: SMPost podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">SocialMedia: Sonraí fíor-amaSMPost i bhformáid JSON</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">SocialMedia:SMPost dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">SocialMedia:SMPost δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">SocialMedia:SMPost realtidsdata representerad i JSON-format</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">SocialMedia: SMPost data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">SocialMedia: дані SMPost в реальному часі представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">SocialMedia:SMPost Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">SocialMedia:SMPost date în timp real reprezentate în format JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje harmonizovaný opis všeobecného programu SMPost pre oblasť sociálnych médií.</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta deskrizzjoni armonizzata ta’ SMPost ġenerika magħmula għad-dominju tal-Midja Soċjali.</dct:description>
+        <dct:title xml:lang="da-t-en-t0-mtec">Sociale medier:SMPost</dct:title>
+        <dct:description>It represents a harmonised description of a generic SMPost made for the Social Media domain.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Sociální média:SMPost</dct:title>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Jame pateikiamas suderintas socialinės žiniasklaidos sričiai skirto bendro DMPost aprašymas.</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει μια εναρμονισμένη περιγραφή ενός γενικού SMPost που παρασκευάζεται για τον τομέα των μέσων κοινωνικής δικτύωσης.</dct:description>
+        <dct:title xml:lang="sl-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="ro-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="el-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title>SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">SocialMedia:SMPost</dct:title>
+        <dcat:keyword>Twitter Post</dcat:keyword>
+        <dct:identifier>9b4ba8ab-0c86-4b11-8fe2-bd066a1efd61</dct:identifier>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Den representerar en harmoniserad beskrivning av en generisk SMPost som gjorts för området sociala medier.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa uma descrição harmonizada de um SMPost genérico feito para o domínio das redes sociais.</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja usklajen opis generičnega SMPost za področje družbenih medijev.</dct:description>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Media społecznościowe: SMPost</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">SoċjaliMedia:SMPost</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>bb21a1bb5c4c29ab623a9548a996eae7</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

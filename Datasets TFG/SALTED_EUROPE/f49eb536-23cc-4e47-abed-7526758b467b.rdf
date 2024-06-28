@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/f49eb536-23cc-4e47-abed-7526758b467b">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>5863cd859d3f03676ce174150a5a68d</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/f49eb536-23cc-4e47-abed-7526758b467b">
+        <dct:title xml:lang="cs-t-en-t0-mtec">Solené:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Solené:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente les indices AirQualityObserved pour la ville de Madrid.</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai rodo „AirQualityObserved“ indeksus Madrido miestui.</dct:description>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă indicele AirQualityObserved pentru orașul Madrid.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:07:54.853164</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="et-t-en-t0-mtec">Soolatud:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualkeskmine</dct:title>
+        <dcat:keyword>CityLiveabilityIndex</dcat:keyword>
+        <dcat:keyword>PM10</dcat:keyword>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje AirQualityObserved indexy pro město Madrid.</dct:description>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява индексите AirQualityObserved за град Мадрид.</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Sālīta:CityLiveabilityIndekss:Madrid: Indekss:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa los índices AirQualityObserved para la ciudad de Madrid.</dct:description>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Slano:CityLiveabilityIndex:Madrid:Index: AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es repräsentiert die AirQualityObserved Indizes für die Stadt Madrid.</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta gli indici AirQualityObserved per la città di Madrid.</dct:description>
+        <dct:description xml:lang="hr-t-en-t0-mtec">On predstavlja AirQualityObserved indekse za grad Madrid.</dct:description>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer AirQualityObserved indekser for byen Madrid.</dct:description>
+        <dct:description>It represents the AirQualityObserved indexes for the city of Madrid.</dct:description>
+        <dcat:keyword>AirQualityObserved</dcat:keyword>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Solone:CityLiveabilityIndex:Madrid:Index:Jakość powietrzaAnnualMean</dct:title>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Saillte:CityLiveabilityIndex: Maidrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de AirQualityObserved indexen voor de stad Madrid.</dct:description>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Saltad:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він представляє індекси AirQualityObserved для міста Мадрид.</dct:description>
+        <dct:title xml:lang="el-t-en-t0-mtec">Αλατισμένος:CityLiveabilityΔείκτης:Μαδρίτη:Δείκτης:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Sūdytas:CityLiveabilityIndeksas:Madridas: Indeksas: Oro kokybėMetinis vidurkis</dct:title>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Suolattu:CityLiveabilityIndex:Madrid:Indeksi:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja AirQualityObserved indekse za mesto Madrid.</dct:description>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Ez képviseli a Madrid városának AirQualityObserved indexeit.</dct:description>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé na hinnéacsanna AirQualityObserved do chathair Mhaidrid.</dct:description>
+        <dct:title xml:lang="da-t-en-t0-mtec">Saltet:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa os índices AirQualityObserved para a cidade de Madrid.</dct:description>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas pārstāv AirQualityObserved indeksus Madrides pilsētai.</dct:description>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar AirQualityObserved index för staden Madrid.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-11T15:07:54.995649</dct:issued>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Salé:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje AirQualityObserved indexy pre mesto Madrid.</dct:description>
+        <dcat:keyword>O3</dcat:keyword>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Осолени:CityLiveabilityIndex:Мадрид: Индекс:AirQualityAnnualMean</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:07:54.853164</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:identifier>f49eb536-23cc-4e47-abed-7526758b467b</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8da7bf85-ea89-43c6-9207-2e6b8d66ff74">
+            <dct:description xml:lang="da-t-en-t0-mtec">Saltet:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime data repræsenteret i JSON format</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Sūdytas:CityLiveabilityIndex:Madrid:Index:AirQualityMenualMean realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="it-t-en-t0-mtec">Salato:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualDati medi in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">Soolatud:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualkeskmine reaalajas esitatud andmed JSON-vormingus</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:07:54.995649</dct:issued>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Solone:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/f49eb536-23cc-4e47-abed-7526758b467b/resource/urn_ngsi-ld_distribution_salted_project_salted_cli_madrid_index_airqualityannualmean_json</dct:identifier>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Saillte:CityLiveabilityIndex:Maidrid:Index:AirQualityAnnualMean sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Saltad:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtidsdata representerad i JSON-format</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Sărat:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualDate în timp real reprezentate în format JSON</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FCityLiveabilityIndex%2FMadrid%2FIndex%2FAirQualityAnnualMean__.json"/>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Sózott:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean valós idejű adatok JSON formátumban</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:57:23.537861</dct:modified>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="de-t-en-t0-mtec">Salted:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Immellaħ:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualId-data fil-ħin reali medja rrappreżentata fil-format JSON</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Solené:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime data reprezentované vo formáte JSON</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Salgado:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean Dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Солоні:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean дані в реальному часі представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Suolattu:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FCityLiveabilityIndex%2FMadrid%2FIndex%2FAirQualityAnnualMean__.json"/>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Sālīti:CityLiveabilityIndekss:Madrid: Indekss:AirQualityAnnualVidējie reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Saled:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime data reprezentovaná ve formátu JSON</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Salted:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMes données en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Salado:CityLiveabilityÍndice:Madrid:Índice:AirQualityAnnualMean datos en tiempo real representados en formato JSON</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Gezouten:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Soljeno:CityLiveabilityIndex:Madrid:Indeks:AirQualityLenialSrednji podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Slano:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αλατισμένος:CityLiveabilityΔείκτης:Μαδρίτη:Δείκτης:AirQualityAnnualMean δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Осолени:CityLiveabilityIndex:Madrid:Index:AirQualityГодишногодишни данни в реално време, представени във формат JSON</dct:description>
+            <dct:description>SALTED:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime data represented in JSON format</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει τους δείκτες AirQualityObserved για την πόλη της Μαδρίτης.</dct:description>
+        <dct:title xml:lang="es-t-en-t0-mtec">Salado:CityLiveabilityÍndice:Madrid:Índice:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje indeksy AirQualityObserved dla miasta Madryt.</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Immellaħ: CityLiveabilityIndex: Madrid: Assi: AirQualityAnnualMean</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6175fa68-e867-42dd-81d7-7d138bff89c2">
+            <dct:description xml:lang="el-t-en-t0-mtec">Αλατισμένος:CityLiveabilityΔείκτης:Μαδρίτη:Δείκτης:AirQualityAnnualMean δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:07:54.995649</dct:issued>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Solené:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime data reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Saillte:CityLiveabilityIndex:Maidrid:Index:AirQualityAnnualMean sonraí fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Salted:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMes données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-11T15:57:23.539390</dct:modified>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description>SALTED:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Solone:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Salato:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualDati medi in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Gezouten:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Sūdyta:CityLiveabilityIndex:Madrid:Index:AirQualityMenualMean realaus laiko duomenys, pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Slano:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Saltad:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Saled:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime data reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Salado:CityLiveabilityÍndice:Madrid:Índice:AirQualityAnnualMean datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Soljeno:CityLiveabilityIndex:Madrid:Indeks:AirQualityLenialSrednji podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">Saltet:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean realtime data repræsenteret i JSON_LD format</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FCityLiveabilityIndex%2FMadrid%2FIndex%2FAirQualityAnnualMean__.jsonld"/>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Suolattu:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Осолени:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean Realtime Данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Immellaħ:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualId-data fil-ħin reali medja rrappreżentata fil-format JSON_LD</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.salted-project.eu%2FdataModel.SALTED%2FCityLiveabilityIndex%2FMadrid%2FIndex%2FAirQualityAnnualMean__.jsonld"/>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/f49eb536-23cc-4e47-abed-7526758b467b/resource/urn_ngsi-ld_distribution_salted_project_salted_cli_madrid_index_airqualityannualmean_jsonld</dct:identifier>
+            <dct:description xml:lang="et-t-en-t0-mtec">Soolatud:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualkeskmine reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Salgado:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean Dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Sālīti:CityLiveabilityIndekss:Madrid: Indekss:AirQualityAnnualVidējie reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Sărat:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualDate în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Sózott:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Солоні:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean дані в реальному часі представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Salted:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:description xml:lang="et-t-en-t0-mtec">See esindab Madridi linna AirQualityObserved indekseid.</dct:description>
+        <dcat:keyword>CO</dcat:keyword>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Gezouten: StadLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Salgado:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:title>SALTED:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-11T15:07:54.995696</dct:modified>
+        <dcat:keyword>NO2</dcat:keyword>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Sărat:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa Madridin kaupungin AirQualityObserved-indeksejä.</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Солоний: CityLiveabilityIndex:Madrid:Index:AirЯкістьЩорічнийсередній</dct:title>
+        <dct:title xml:lang="de-t-en-t0-mtec">Salted:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>NEC_Laboratories_Europe_GmbH</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:title xml:lang="it-t-en-t0-mtec">Salato:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Nasoljeno:CityLiveabilityIndex:Madrid:Indeks:AirQualityAnnualMean</dct:title>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Sózott:CityLiveabilityIndex:Madrid:Index:AirQualityAnnualMean</dct:title>
+        <dcat:keyword>PM25</dcat:keyword>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta l-indiċijiet tal-AirQualityOsservati għall-belt ta’ Madrid.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:08:48Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:00Z</dct:issued>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:08:48Z</edp:transReceived>
+    <dct:identifier>f49eb536-23cc-4e47-abed-7526758b467b</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/f49eb536-23cc-4e47-abed-7526758b467b"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:00Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

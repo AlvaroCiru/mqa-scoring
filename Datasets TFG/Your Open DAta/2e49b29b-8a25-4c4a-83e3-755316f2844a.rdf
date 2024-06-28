@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/2e49b29b-8a25-4c4a-83e3-755316f2844a">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>4879ff4e375705518472cfedc6e59fec</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:05Z</dct:issued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-23T22:47:35Z</edp:transReceived>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/2e49b29b-8a25-4c4a-83e3-755316f2844a">
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/place/ESP_SDR"/>
+        </dct:spatial>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Valsts okupācijas sensora kvadrātveida santander:parking-byda-046 autostāvvieta atrodas Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dcat:keyword>transporte</dcat:keyword>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Stanje zasedenosti senzorja kvadrat santander:parking-byda-046 parkirišča, ki se nahaja v Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Estado de ocupação sensor quadrado santander:parking-byda-046 do parque localizado no Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Funktionstilstand sensor kvadrat santander:parking-byda-046 af parkeringspladsen beliggende i Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Foglalkozás-érzékelő tér: Paseo de Menéndez Pelayo (Santander) parkolója</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">L-istat ta’ okkupazzjoni tas-sensur kwadru santander:parking-byda-046 tal-parkeġġ tal-karozzi li jinsab f’Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Stav obsazení senzoru náměstí santander:parking-byda-046 parkoviště se nachází v Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Santander_parking-Byda-046</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/17e019a5-ddf1-4dc9-9d93-db4280253965">
+            <foaf:name>smartsantander</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="de-t-es-t0-mtec">Santander:parking-byda-046 des Parkplatzes in Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://dih.smartsantander.eu/contact/">
+            <vcard:fn>Smart Santander</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:title xml:lang="en-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Стан професійного датчика площі: стоянка автостоянки, розташована в Пасео-де-Менендес Пелайо (Сантандер)</dct:description>
+        <dct:title>santander_parking-byda-046</dct:title>
+        <dct:identifier>2e49b29b-8a25-4c4a-83e3-755316f2844a</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-09T12:25:14.432258</dct:issued>
+        <dct:title xml:lang="nl-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Staid an braiteoir gairme cearnach: Santander an carrchlós atá suite i Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/32f7fe28-e523-4a5e-aa8f-a0764130e37f">
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description>Estado de ocupación de la plaza santander:parking-byda-046 del parking localizado en Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Status popunjenosti trga santander:parking-byda-046 parkirališta u Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Ploto statusas aikštėje: Paseo de Menéndez Pelayo (Santander) esančioje automobilių stovėjimo aikštelėje</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-15T00:00:00Z</dct:issued>
+            <dct:description xml:lang="et-t-es-t0-mtec">Paseo de Menéndez Pelayos (Santander) asuva parkla täituvuse staatus:</dct:description>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:ParkingSpot:santander:parking-byda-046"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >2200</dcat:byteSize>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Beläggningsstatus för torget santander:parking-byda-046 av parkeringsplatsen ligger i Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Статус заповнюваності площі santander:parking-byda-046 автостоянки, розташованої в Пасео-де-Менендес Пелайо (Сантандер)</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Obsazenost náměstí santander:parking-byda-046 parkoviště se nachází v Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:05.026883</dct:modified>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Status obłożenia placu santander:parking-byda-046 parkingu położonego w Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="da-t-es-t0-mtec">Belægningsstatus for pladsen santander:parking-byda-046 af parkeringspladsen beliggende i Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A tér kihasználtsága: Paseo de Menéndez Pelayo (Santander) parkolója</dct:description>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Статус на заемане на площада: на паркинга, намиращ се в Paseo de Menéndez Pelayo (Сантандер)</dct:description>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/2e49b29b-8a25-4c4a-83e3-755316f2844a/resource/b75d12df-b64f-485c-a319-ac746d5ed404</dct:identifier>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Stádas áitíochta na cearnóige santander:parking-byda-046 an charrchlóis atá suite i Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Stato di occupazione della piazza santander:parking-byda-046 del parcheggio situato a Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:description xml:lang="el-t-es-t0-mtec">Κατάσταση πληρότητας της πλατείας santander:parking-byda-046 του χώρου στάθμευσης που βρίσκεται στο Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:title>urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Neliön santander:parking-byda-046 pysäköintialue sijaitsee Paseo de Menéndez Pelayossa (Santander)</dct:description>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Statut d’occupation de la place santander:parking-byda-046 du parking situé à Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Statutul de ocupare a pieței santander:parking-byda-046 a parcării situate în Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:description xml:lang="en-t-es-t0-mtec">Occupancy status of the square santander:parking-byda-046 of the car park located in Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:ParkingSpot:santander:parking-byda-046"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Status zasedenosti kvadrata santander:parking-byda-046 parkirišča, ki se nahaja v Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Estatuto de ocupação da praça santander:parking-byda-046 do parque de estacionamento localizado no Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:description xml:lang="lv-t-es-t0-mtec">Platība santander:parking-byda-046 autostāvvietas, kas atrodas Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Status ta’ okkupanza tal-pjazza santander:parking-byda-046 tal-parkeġġ tal-karozzi li jinsab f’Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Stav obsadenosti námestia santander:parking-byda-046 parkoviska, ktoré sa nachádza v Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Belegungsstatus des Platzes santander:parking-byda-046 des Parkplatzes in Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Bezettingsstatus van het plein santander:parking-byda-046 van de parkeerplaats in Paseo de Menéndez Pelayo (Santander)</dct:description>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-046</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-09T12:25:15.045677</dct:modified>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Състояние на професията сензор квадрат: на паркинга, разположен в Paseo de Menéndez Pelayo (Сантандер)</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:title xml:lang="da-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Okupacijos jutiklio kvadrato santander:parking-byda-046 automobilių stovėjimo aikštelė, esanti Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Stav povolania senzor štvorcový santander:parking-byda-046 parkoviska sa nachádza v Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Starea de ocupare senzor pătrat santander:parking-byda-046 de parcare situat în Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Stato di occupazione sensore quadrato santander:parking-byda-046 del parcheggio situato a Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Place du capteur d’occupation santander:parking-byda-046 du parking situé à Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Stanje okupacije senzor trgu santander:parking-byda-046 od parkirališta nalazi se u Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Tillståndet för ockupation sensor torg santander:parking-byda-046 av parkeringsplatsen ligger i Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2025-12-31T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-15T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Stand van de bezetting sensor vierkante santander:parking-byda-046 van de parkeerplaats in Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Stan zajścia czujnik kwadratowy santander:parking-byda-046 parkingu znajdującego się w Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">State of occupation sensor square santander:parking-byda-046 of the car park located in Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        </dcat:theme>
+        <dct:title xml:lang="de-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Paseo de Menéndez Pelayos (Santander) asuva parkla okupatsioonianduri ruut santander:parking-byda-046</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κατάσταση της πλατείας αισθητήρα κατάληψης:Κατηγορία του χώρου στάθμευσης αυτοκινήτων που βρίσκεται στο Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">santander_parking-Byda-046</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Miehityksen tila anturi neliö santander:parking-byda-046 pysäköintialueen sijaitsee Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:description>Estado de ocupación sensor plaza santander:parking-byda-046 del parking localizado en Paseo de Menéndez Pelayo (Santander)</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Santander_parking-Byda046</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Santander_parcheggio-Byda-046</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Santander_parking-Byda-046</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:05Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:05Z</dct:modified>
+    <dct:identifier>2e49b29b-8a25-4c4a-83e3-755316f2844a</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/2e49b29b-8a25-4c4a-83e3-755316f2844a"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

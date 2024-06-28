@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-ostrava-cz-od-metadata2-id-1369">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-ostrava-cz-od-metadata2-id-1369"/>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-ostrava-cz-od-metadata2-id-1369">
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://opendata.ostrava.cz/od-metadata2/?id=1369</dct:identifier>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <foaf:page rdf:resource="http://localhost/base/"/>
+        <dct:spatial rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org%C3%A1n-ve%C5%99ejn%C3%A9-moci/00845451"/>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00845451/bf8c105fd86874faa98e52f6e42e41db/identifikátorNKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/00845451/bf8c105fd86874faa98e52f6e42e41db</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:keyword xml:lang="en">doprava, přestupek</dcat:keyword>
+        <dcat:keyword xml:lang="cs">doprava, přestupek</dcat:keyword>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:about="https://data.gov.cz/zdroj/datové-sady/00845451/bf8c105fd86874faa98e52f6e42e41db/kontaktní-bod">
+            <vcard:hasEmail rdf:resource="mailto:opendata@ostrava.cz"/>
+            <vcard:fn xml:lang="cs">Kontakt: Statutární město Ostrava / Magistrát města Ostravy / Odbor projektů IT služeb a outsourcingu</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dct:description xml:lang="en">Počty dopravních přestupků dle způsobu řešení - stav řešení přestupků nově evidovaných od 1. 1. 2020 do 31.12.2020.</dct:description>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://eurovoc.europa.eu/492">
+            <skos:inScheme rdf:resource="http://eurovoc.europa.eu/"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/678613ee-4786-45f2-92dc-6bb814123e8b">
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/00845451/bf8c105fd86874faa98e52f6e42e41db/distribuce/981e5cff1bf1e0b562ea07f65b453090/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dcat:downloadURL rdf:resource="https://opendata.ostrava.cz/wp-content/uploads/Rok_2020_dle_data_spachani.csv"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/00845451/bf8c105fd86874faa98e52f6e42e41db/distribuce/981e5cff1bf1e0b562ea07f65b453090</dct:identifier>
+            <dcat:accessURL rdf:resource="https://opendata.ostrava.cz/dopravni-prestupky-dle-data-a-mista-spachani-2020/"/>
+            <dcat:downloadURL rdf:resource="https://opendata.ostrava.cz/wp-content/uploads/Pocet-dopravnich-prestupku_2023.csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://opendata.ostrava.cz/https-opendata-ostrava-cz-wp-content-uploads-pocet-dopravnich-prestupku_2023-csv/"/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/00845451/bf8c105fd86874faa98e52f6e42e41db/distribuce/981e5cff1bf1e0b562ea07f65b453090/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs">Počty dopravních přestupků dle způsobu řešení - stav řešení přestupků nově evidovaných od 1. 1. 2020 do 31.12.2020.</dct:description>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dct:accrualPeriodicity rdf:resource="https://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00845451">
+            <foaf:name xml:lang="cs">Statutární město Ostrava</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="cs">Dopravní přestupky dle data a místa spáchání v roce 2020</dct:title>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/LKOD"/>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/00845451/bf8c105fd86874faa98e52f6e42e41db/identifikátorLKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00845451"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://opendata.ostrava.cz/od-metadata2/?id=1369</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:title xml:lang="en">Dopravní přestupky dle data a místa spáchání v roce 2020</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-22T08:00:25Z</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:32Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-22T08:00:25Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>737cbdbc421315ba3fd724c6a62921a2</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>https://opendata.ostrava.cz/od-metadata2/?id=1369</dct:identifier>
+  </dcat:CatalogRecord>
+</rdf:RDF>

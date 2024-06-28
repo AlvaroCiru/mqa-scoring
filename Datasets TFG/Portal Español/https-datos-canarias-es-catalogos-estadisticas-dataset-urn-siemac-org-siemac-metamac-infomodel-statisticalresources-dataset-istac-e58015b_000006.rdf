@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000006">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000006"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-09T23:18:56Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:17:50Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:17:50Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000006">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-10T07:37:11+02:00</dct:modified>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Tabela ta zawiera dane miesięczne z marca 2012 r. dotyczące ubezpieczenia społecznego w zależności od miejsca składki, sytuacji zatrudnienia, działalności gospodarczej (A4) i narodowości. Informacje są zdezagregowane terytorialnie na poziomie gmin Wysp Kanaryjskich.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:description xml:lang="el-t-es-t0-mtec">Ο πίνακας αυτός παρέχει μηνιαία στοιχεία από τον Μάρτιο του 2012 σχετικά με τις εισφορές κοινωνικής ασφάλισης ανάλογα με τον τόπο εισφοράς, την κατάσταση απασχόλησης, τις οικονομικές δραστηριότητες (Α4) και τις εθνικότητες. Οι πληροφορίες αναλύονται εδαφικά σε επίπεδο δήμων των Καναρίων Νήσων.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Pripadnosti glede na zaposlitvene razmere, gospodarske dejavnosti (A4) in državljanstvo. Kraj citiranja. Občine Kanarskih otokov in meseci</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Affiliations selon les situations d’emploi, les activités économiques (A4) et les nationalités. Lieu de citation. Municipalités des îles Canaries et mois</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423">
+            <foaf:name>Instituto Canario de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Ce tableau fournit des données mensuelles de mars 2012 sur les affiliations à la sécurité sociale selon le lieu de cotisation, les situations d’emploi, les activités économiques (A4) et les nationalités. Les informations sont ventilées territorialement au niveau des municipalités des îles Canaries.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Příslušnost podle situace v zaměstnání, hospodářských činností (A4) a národností. Místo citace. Obce Kanárské ostrovy a měsíce</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Afilieri în funcție de situația ocupării forței de muncă, de activitățile economice (A4) și de naționalități. Locul citării. Comunele din Insulele Canare și lunile</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Cleamhnachtaí de réir staideanna fostaíochta, gníomhaíochtaí eacnamaíocha (A4) agus náisiúntachtaí. Áit athfhriotail. Bardais na nOileán Canárach agus míonna</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Affiliazioni in base alle situazioni occupazionali, alle attività economiche (A4) e alle nazionalità. Luogo di citazione. Comuni delle Isole Canarie e mesi</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Affiljazzjonijiet skont sitwazzjonijiet ta’ impjieg, attivitajiet ekonomiċi (A4) u nazzjonalitajiet. Post tal-kwotazzjoni. Muniċipalitajiet tal-Gżejjer Kanarji u xhur</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Ta tabela vsebuje mesečne podatke za obdobje od marca 2012 o povezavah s socialno varnostjo glede na kraj prispevka, zaposlitvene razmere, gospodarske dejavnosti (A4) in državljanstvo. Informacije so ozemeljsko razčlenjene na ravni občin Kanarskih otokov.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/022a3c77-a8d9-489f-8607-bd64484c4680">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-segun-situaciones-en-el-empleo-actividades-economicas-a4-y-nacionalidades-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/efe842cc-921d-42e9-acc5-91a70eea4f01</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000006 (XLSX)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000006/1.29.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">En esta tabla se ofrecen mensualmente desde marzo de 2012 datos de afiliaciones a la Seguridad Social según lugar de cotización, situaciones en el empleo, actividades económicas (A4) y nacionalidades. La información se desagrega territorialmente a nivel de municipios de Canarias. Los datos han sido redondeados a múltiplos de 5.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">В тази таблица са представени месечни данни от март 2012 г. за социалноосигурителните вноски в зависимост от мястото на плащане, положението на заетост, икономическите дейности (A4) и националностите. Информацията е дезагрегирана териториално на равнището на общините на Канарските острови.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1ecde7c2-4946-4ddd-a9f9-d571fc7ccd01">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000006/1.29.json"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000006 (JSON)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-segun-situaciones-en-el-empleo-actividades-economicas-a4-y-nacionalidades-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/13c42489-7c12-41d1-ad9a-608939d6e77b</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Powiązania w zależności od sytuacji zatrudnienia, działalności gospodarczej (A4) i narodowości. Miejsce cytatu. Gminy Wysp Kanaryjskich i miesiące</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Ця таблиця містить щомісячні дані за березень 2012 року щодо приналежності до соціального забезпечення за місцем внесків, ситуацій зайнятості, економічної діяльності (А4) та національностей. Інформація дезагрегована територіально на рівні муніципалітетів Канарських островів.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7368c512-5169-4683-93ba-558c2cfb70cd">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000006 (TSV)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-segun-situaciones-en-el-empleo-actividades-economicas-a4-y-nacionalidades-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/62769bc1-0745-4bd4-9804-4cbb696cab99</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000006/1.29.tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Priklausymas darbo santykiams, ekonominei veiklai (A4) ir tautybėms. Citatos vieta. Kanarų salų savivaldybės ir mėnesiai</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">V tejto tabuľke sa uvádzajú mesačné údaje z marca 2012 o pridruženiach k sociálnemu zabezpečeniu podľa miesta prispievania, situácie zamestnanosti, hospodárskych činností (A4) a štátnej príslušnosti. Informácie sú rozčlenené územne na úrovni obcí Kanárskych ostrovov.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Príslušnosť podľa situácie v zamestnaní, hospodárskych činností (A4) a štátnej príslušnosti. Miesto citácie. Obce Kanárskych ostrovov a mesiace</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Tabelis on esitatud igakuised andmed alates 2012. aasta märtsist sotsiaalkindlustusmaksete tegemise koha, tööhõive olukorra, majandustegevuse (A4) ja rahvuste järgi. Teave on jaotatud territoriaalselt Kanaari saarte omavalitsusüksuste tasandil.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Diese Tabelle enthält monatliche Daten ab März 2012 zu den Sozialversicherungszugehörigkeiten nach Beitragsort, Beschäftigungssituation, Wirtschaftstätigkeit (A4) und Nationalitäten. Die Informationen sind auf der Ebene der Gemeinden der Kanarischen Inseln territorial aufgeschlüsselt.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tässä taulukossa esitetään maaliskuulta 2012 kuukausittaiset tiedot sosiaaliturvaan liittyvistä yhteyksistä maksupaikan, työllisyystilanteen, taloudellisen toiminnan (A4) ja kansallisuuksien mukaan. Tiedot eritellään alueellisesti Kanariansaarten kuntien tasolla.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Affiliations according to employment situations, economic activities (A4) and nationalities. Place of quotation. Municipalities of the Canary Islands and months</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a68f26aa-0de4-4a1c-a150-7061b059b021">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000006/1.29.jsonstat"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000006 (JSONSTAT)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-segun-situaciones-en-el-empleo-actividades-economicas-a4-y-nacionalidades-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/9c7ad08a-4c3b-41ff-992e-a0c79606e836</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b49e1bd3-a05f-4e50-b4ee-497c394ed496">
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-segun-situaciones-en-el-empleo-actividades-economicas-a4-y-nacionalidades-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/b03e8ea2-c024-4004-96f9-c9188e8d1334</dct:identifier>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000006 (XML)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000006/1.29.xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+        <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000006</dct:identifier>
+        <dcat:keyword xml:lang="es">Cubo estadístico</dcat:keyword>
+        <dct:title xml:lang="da-t-es-t0-mtec">Tilhørsforhold efter beskæftigelsessituationer, økonomiske aktiviteter (A4) og nationaliteter. Sted for citat. Kommuner på De Kanariske Øer og måneder</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Šajā tabulā sniegti mēneša dati no 2012. gada marta par piederību sociālā nodrošinājuma sistēmai atkarībā no iemaksu veikšanas vietas, nodarbinātības situācijas, saimnieciskās darbības (A4) un valstspiederības. Informācija ir sadalīta teritoriāli Kanāriju salu pašvaldību līmenī.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Zugehörigkeiten nach Beschäftigungssituationen, Wirtschaftstätigkeiten (A4) und Nationalitäten. Ort des Angebots. Gemeinden der Kanarischen Inseln und Monate</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Осигуряване в зависимост от трудовото положение, икономическите дейности (А4) и националностите. Място на цитиране. Общини на Канарските острови и месеци</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">This table provides monthly data from March 2012 on social security affiliations according to place of contribution, employment situations, economic activities (A4) and nationalities. The information is disaggregated territorially at the level of municipalities of the Canary Islands.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Afiliações de acordo com situações de emprego, atividades económicas (A4) e nacionalidades. Local de cotação. Municípios das Ilhas Canárias e meses</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Deze tabel bevat maandelijkse gegevens van maart 2012 over socialezekerheidsaffiliaties op basis van de plaats van bijdrage, werkgelegenheidssituaties, economische activiteiten (A4) en nationaliteiten. De informatie wordt territoriaal uitgesplitst op het niveau van de gemeenten van de Canarische Eilanden.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">U ovoj su tablici prikazani mjesečni podaci iz ožujka 2012. o sustavu socijalne sigurnosti prema mjestu doprinosa, stanju zaposlenja, gospodarskim djelatnostima (A4) i državljanstvima. Informacije su teritorijalno raščlanjene na razini općina Kanarskih otoka.</dct:description>
+        <dct:title xml:lang="es">Afiliaciones según situaciones en el empleo, actividades económicas (A4) y nacionalidades. Lugar de cotización. Municipios de Canarias y meses</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Questa tabella fornisce dati mensili a partire da marzo 2012 sulle affiliazioni di sicurezza sociale in base al luogo di contribuzione, alle situazioni occupazionali, alle attività economiche (A4) e alle nazionalità. Le informazioni sono disaggregate territorialmente a livello dei comuni delle Isole Canarie.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Anslutningar efter anställningsförhållanden, ekonomisk verksamhet (A4) och nationaliteter. Plats för citat. Kanarieöarnas kommuner och månader</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Šioje lentelėje pateikiami 2012 m. kovo mėn. mėnesiniai duomenys apie socialinio draudimo įmokas pagal įmokų mokėjimo vietą, užimtumo padėtį, ekonominę veiklą (A4) ir pilietybę. Informacija suskirstyta į teritorijas Kanarų salų savivaldybių lygmeniu.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Tato tabulka poskytuje měsíční údaje z března 2012 o příslušnosti k sociálnímu zabezpečení podle místa příspěvku, situace v zaměstnání, hospodářské činnosti (A4) a státní příslušnosti. Informace jsou členěny územně na úrovni obcí Kanárských ostrovů.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-09-21T20:53:45+02:00</dct:issued>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Pripadnost u skladu sa situacijama zapošljavanja, gospodarskim djelatnostima (A4) i nacionalnostima. Mjesto citata. Općine Kanarskih otoka i mjeseci</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Приналежність відповідно до трудових ситуацій, економічної діяльності (А4) та національностей. Місце котирування. Муніципалітети Канарських островів і місяці</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A foglalkoztatási helyzet, a gazdasági tevékenységek (A4) és az állampolgárság szerinti hovatartozás. Az idézés helye. Kanári-szigetek települései és hónapjai</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:description xml:lang="da-t-es-t0-mtec">Denne tabel indeholder månedlige data fra marts 2012 om socialsikringsforsikringer efter bidragssted, beskæftigelsessituation, økonomiske aktiviteter (A4) og nationaliteter. Oplysningerne opdeles geografisk i kommunerne på De Kanariske Øer.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/575ce5e6-df5c-40a1-b757-f40f150ea23b">
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E58015B_000006/1.29.csv"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Cubo estadístico. ISTAC:E58015B_000006 (CSV)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-afiliaciones-segun-situaciones-en-el-empleo-actividades-economicas-a4-y-nacionalidades-lugar-de-cotizacion-municipios-de-canarias-y-meses/resource/c588f338-cb6b-4984-847b-740f958d4e94</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Este quadro apresenta dados mensais, a partir de março de 2012, sobre as afiliações à segurança social de acordo com o local de contribuição, as situações de emprego, as atividades económicas (A4) e as nacionalidades. A informação é desagregada territorialmente ao nível dos municípios das Ilhas Canárias.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Kytkökset työllisyystilanteen, taloudellisen toiminnan (A4) ja kansallisuuksien mukaan. Lainauspaikka. Kanariansaarten kunnat ja kuukaudet</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Denna tabell innehåller månadsuppgifter från mars 2012 om socialförsäkringstillhörigheter enligt avgiftsorten, sysselsättningssituationen, ekonomisk verksamhet (A4) och nationaliteter. Informationen är uppdelad territoriellt på Kanarieöarnas kommunnivå.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Ez a táblázat a 2012. márciusi havi adatokat tartalmazza a járulékok helye, a foglalkoztatási helyzetek, a gazdasági tevékenységek (A4) és az állampolgárság szerint. Az információkat területi bontásban, a Kanári-szigetek önkormányzatainak szintjén kell megadni.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Acest tabel furnizează date lunare din martie 2012 privind afilierea la asigurările sociale în funcție de locul de contribuție, situațiile de ocupare a forței de muncă, activitățile economice (A4) și naționalitățile. Informațiile sunt defalcate teritorial la nivelul municipalităților din Insulele Canare.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Sa tábla seo tugtar sonraí míosúla ó mhí an Mhárta 2012 maidir le cleamhnachtaí slándála sóisialta de réir na háite ranníocaíochta, staideanna fostaíochta, gníomhaíochtaí eacnamaíocha (A4) agus náisiúntachtaí. Déantar an fhaisnéis a dhí-chomhiomlánú ó thaobh críche de ar leibhéal bhardais na nOileán Canárach.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Din it-tabella tipprovdi dejta ta’ kull xahar minn Marzu 2012 dwar l-affiljazzjonijiet tas-sigurtà soċjali skont il-post tal-kontribuzzjoni, is-sitwazzjonijiet tal-impjieg, l-attivitajiet ekonomiċi (A4) u n-nazzjonalitajiet. l-informazzjoni hija diżaggregata territorjalment fil-livell tal-muniċipalitajiet tal-Gżejjer Kanarji.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Piederība atkarībā no nodarbinātības situācijas, saimnieciskās darbības (A4) un valstspiederības. Kotācijas vieta. Kanāriju salu pašvaldības un mēneši</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Seotus vastavalt tööhõiveolukorrale, majandustegevusele (A4) ja rahvustele. Noteerimise koht. Kanaari saarte omavalitsusüksused ja kuud</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Aansluitingen op basis van arbeidssituaties, economische activiteiten (A4) en nationaliteiten. Plaats van citaat. Gemeenten van de Canarische Eilanden en maanden</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Συνεργασίες ανάλογα με τις συνθήκες απασχόλησης, τις οικονομικές δραστηριότητες (Α4) και τις εθνικότητες. Τόπος αναφοράς. Δήμοι Καναρίων Νήσων και μήνες</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>62231fa1c51db1c3b6d2900d7ebf7381</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000006</dct:identifier>
+  </dcat:CatalogRecord>
+</rdf:RDF>

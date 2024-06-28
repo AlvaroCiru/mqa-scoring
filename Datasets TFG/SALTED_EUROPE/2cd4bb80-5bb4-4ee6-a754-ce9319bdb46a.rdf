@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/2cd4bb80-5bb4-4ee6-a754-ce9319bdb46a">
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:51Z</edp:transReceived>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>bfc4c5de5be094177214cd0060e5a0c3</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>2cd4bb80-5bb4-4ee6-a754-ce9319bdb46a</dct:identifier>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:51Z</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:06Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/2cd4bb80-5bb4-4ee6-a754-ce9319bdb46a"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/2cd4bb80-5bb4-4ee6-a754-ce9319bdb46a">
+        <dct:description xml:lang="ga-t-en-t0-mtec">Is cás úsáide é AgendaAnalytics le haghaidh Sonraí Nasctha agus IS laistigh den tionscadal SALTED.
+Déanann sé a dhícheall a thomhas go gcloíonn eagraíocht (cosúil le cuideachta nó cathair) le clár oibre ar leith (amhail spriocanna forbartha nó comhlíonta).   Déantar an chomhsheasamh idir foilseacháin na heagraíochta agus an clár oibre a ríomh trí úsáid a bhaint as teicnící NLP. 
+Tá 5 chineál eintitis sa tacar sonraí atá ábhartha don chás úsáide:
+ Eagraíocht, KeyPerformanceIndicator, DáileadhDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+ Tá an doiciméadú iomlán ar fáil ag:
+https://salted-project.eu/
+
+
+
+Is tomhas feidhmíochta é an Príomhtháscaire Feidhmíochta (KPI).
+Laistigh den AgendaAnalytics, úsáideann sé an cás ina dtaispeánann sé/ina gcomhiomlánaíonn sé na scóir mheaitseála amh a fuarthas ó rith sonrach (cineál eintitis DataServiceRun) den tseirbhís AgendaMatching (cineál eintitis DataServiceDCAT-AP).</dct:description>
+        <dct:title xml:lang="ro-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title>KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator</dct:title>
+        <dct:identifier>2cd4bb80-5bb4-4ee6-a754-ce9319bdb46a</dct:identifier>
+        <dct:description xml:lang="it-t-en-t0-mtec">AgendaAnalytics è un caso d'uso per Linked Data e AI all'interno del progetto SALTED. Si sforza di misurare l'adesione di un'organizzazione (come un'azienda o una città) a una data agenda (come obiettivi di sviluppo o conformità). 
+La congruenza tra le pubblicazioni dell'organizzazione e l'agenda viene calcolata utilizzando tecniche di PNL. 
+L'insieme di dati pertinente per il caso d'uso è costituito da 5 tipi di entità: 
+Organizzazione, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+La documentazione completa è disponibile al seguente indirizzo: https://salted-project.eu/
+
+Il Key Performance Indicator (KPI) è una misurazione delle prestazioni. All'interno del caso d'uso AgendaAnalytics mostra/aggrega i punteggi di corrispondenza grezzi ottenuti da una specifica esecuzione (tipo di entità DataServiceRun) del servizio AgendaMatching (tipo di entità DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="pt-t-en-t0-mtec">O AgendaAnalytics é um caso de utilização para os dados vinculados e a IA no âmbito do projeto SALTED.
+Esforça-se para medir a adesão de uma organização (como uma empresa ou cidade) a uma determinada agenda (como objetivos de desenvolvimento ou conformidade).   A congruência entre as publicações da organização e a agenda é calculada utilizando técnicas de PNL. 
+O conjunto de dados relevante para o caso de utilização é composto por 5 tipos de entidades:
+ Organização, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+ A documentação completa está disponível em:
+https://salted-project.eu/
+
+
+
+O indicador-chave de desempenho (KPI) é uma medida de desempenho.
+No caso de uso da AgendaAnalytics, apresenta/agrega as pontuações de correspondência brutas obtidas a partir de uma execução específica (tipo de entidade DataServiceRun) do serviço AgendaMatching (tipo de entidade DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">AgendaAnalytics je případ použití pro propojená data a umělou inteligenci v rámci projektu SALTED. Snaží se měřit, zda organizace (jako společnost nebo město) přistupuje k určité agendě (jako jsou rozvojové cíle nebo cíle v oblasti dodržování předpisů). 
+Shoda mezi publikacemi organizace a agendou je vypočtena pomocí technik NLP. 
+Soubor údajů relevantní pro případ použití se skládá z 5 typů účetní jednotky: 
+Organizace, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Úplná dokumentace je k dispozici na adrese: https://salted-project.eu/
+
+Klíčový ukazatel výkonnosti (KPI) je měření výkonu. V případě použití AgendaAnalytics zobrazuje/agreguje surové odpovídající skóre získané z konkrétního běhu (typ subjektu DataServiceRun) služby AgendaMatching (typ subjektu DataServiceDCAT-AP).</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:title xml:lang="el-t-en-t0-mtec">KeyPerformanceΔείκτης:KeyPerformanceIndicator</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Az AgendaAnalytics a SALTED projekten belüli összekapcsolt adatok és mesterséges intelligencia felhasználási esete. Arra törekszik, hogy mérje egy szervezet (például egy vállalat vagy város) egy adott menetrendhez való ragaszkodását (például fejlesztési vagy megfelelési célokat). 
+A szervezet kiadványai és a napirend közötti kongruenciát NLP technikákkal számítjuk ki. 
+A felhasználási eset szempontjából releváns adatkészlet 5 szervezettípusból áll: 
+Szervezet, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+A teljes dokumentáció az alábbi címen érhető el: https://salted-project.eu/
+
+A fő teljesítménymutató (KPI) egy teljesítménymérés. Az AgendaAnalytics használati esetén belül bemutatja/összevonja az AgendaMatching szolgáltatás egy adott futtatásából (adatserviceRun szervezettípus) kapott nyers egyező pontszámokat (egységtípus: DataServiceDCAT-AP).</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="lv-t-en-t0-mtec">AgendaAnalytics ir saistīta datu un mākslīgā intelekta izmantošanas gadījums SALTED projekta ietvaros. Tā cenšas izmērīt organizācijas (piemēram, uzņēmuma vai pilsētas) atbilstību konkrētai programmai (piemēram, attīstības vai atbilstības mērķiem).
+ Atbilstība starp organizācijas publikācijām un darba kārtību tiek aprēķināta, izmantojot NLP metodes. 
+Datu kopa, kas attiecas uz izmantošanas gadījumu, sastāv no 5 vienību veidiem: 
+
+Organizācija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Visa dokumentācija ir pieejama šādā tīmekļa vietnē:
+https://salted-project.eu/
+
+
+
+Galvenais darbības rādītājs (KPI) ir darbības rezultātu mērījums.
+Programmā AgendaAnalytics izmanto lietu, kurā atspoguļo/apkopo neapstrādātus atbilstības punktus, kas iegūti no AgendaMatching pakalpojuma (organizācijas tips DataServiceRun) konkrētas darbības (subjekta tips DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="sv-t-en-t0-mtec">AgendaAnalytics är ett användningsfall för länkade data och AI inom SALTED-projektet. Den strävar efter att mäta hur en organisation (som ett företag eller stad) ansluter sig till en viss agenda (som utvecklings- eller efterlevnadsmål).
+ Kongruensen mellan organisationens publikationer och agendan beräknas med hjälp av NLP-tekniker. 
+Den datamängd som är relevant för användningsfallet består av fem typer av entiteter:
+ Organisation, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Den fullständiga dokumentationen finns på: https://salted-project.eu/ 
+Key Performance Indicator (KPI) är en prestationsmätning.
+Inom AgendaAnalytics användningsfall visas/aggregeras de råa matchningspoäng som erhållits från en viss körning (enhetstyp DataServiceRun) i AgendaMatching-tjänsten (enhetstyp DataServiceDCAT-AP). AgendaAnalytics är ett användningsfall för länkade data och AI inom SALTED-projektet. Den strävar efter att mäta hur en organisation (som ett företag eller stad) ansluter sig till en viss agenda (som utvecklings- eller efterlevnadsmål).
+Kongruensen mellan organisationens publikationer och agendan beräknas med hjälp av NLP-tekniker.
+
+Den datamängd som är relevant för användningsfallet består av fem typer av entiteter: 
+Organisation, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Den fullständiga dokumentationen finns på:
+https://salted-project.eu/  
+Key Performance Indicator (KPI) är en prestationsmätning. Inom AgendaAnalytics användningsfall visas/aggregeras de råa matchningspoäng som erhållits från en viss körning (enhetstyp DataServiceRun) i AgendaMatching-tjänsten (enhetstyp DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">AgendaAnalytics huwa każ ta’ użu għal Data Marbuta u IA fi ħdan il-proġett SALTED. Huwa jistinka biex ikejjel l-aderenza ta’ organizzazzjoni (bħal kumpanija jew belt) ma’ aġenda partikolari (bħal għanijiet ta’ żvilupp jew ta’ konformità).
+ Il-kongruwenza bejn il-pubblikazzjonijiet tal-organizzazzjoni u l-aġenda hija kkalkulata bl-użu ta’ tekniki NLP.
+
+
+Is-sett tad-data rilevanti għall-każ tal-użu jikkonsisti f’5 tipi ta’ entitajiet:
+
+
+Organizzazzjoni, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Id-dokumentazzjoni sħiħa hija disponibbli fuq:
+https://salted-project.eu/
+
+
+
+l-Indikatur Ewlieni tal-Prestazzjoni (KPI) huwa kejl tal-prestazzjoni.
+Fi ħdan il-każ ta’ użu ta’ AgendaAnalytics dan juri/jaggrega l-punteġġi mhux ipproċessati ta’ tqabbil miksuba minn sessjoni speċifika (tip ta’ entità DataServiceRun) tas-servizz ta’ tlaqqigħ tal-Aġenda (tip ta’ entità DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="bg-t-en-t0-mtec">AgendaAnalytics е пример за използване на свързани данни и ИИ в рамките на проекта SALTED. Тя се стреми да измерва придържането на дадена организация (като компания или град) към даден дневен ред (като цели за развитие или съответствие). 
+Съответствието между публикациите на организацията и дневния ред се изчислява с помощта на НЛП техники. 
+Наборът от данни, който е от значение за случая на използване, се състои от 5 вида субекти: 
+Организация, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Пълната документация е достъпна на адрес: https://salted-project.eu/
+
+Ключовият показател за ефективност (KPI) е измерване на ефективността. В рамките на AgendaAnalytics използва случая, в който показва/обобщава необработените резултати, получени от конкретна серия (тип DataServiceRun) на услугата AgendaMatching (тип DataServiceDCAT-AP).</dct:description>
+        <dct:title xml:lang="pl-t-en-t0-mtec">KeyPerformanceWskaźnik:KeyPerformanceIndicator</dct:title>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>KybeidosGmbH</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:title xml:lang="fi-t-en-t0-mtec">KeyPerformanceIndikaattori:KeyPerformanceIndicator</dct:title>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="el-t-en-t0-mtec">Η AgendaAnalytics είναι μια περίπτωση χρήσης για τα Συνδεδεμένα Δεδομένα και την Τεχνητή Νοημοσύνη στο πλαίσιο του έργου SALTED. Προσπαθεί να μετρήσει την τήρηση ενός οργανισμού (όπως μια εταιρεία ή μια πόλη) σε μια δεδομένη ατζέντα (όπως η ανάπτυξη ή οι στόχοι συμμόρφωσης). 
+Η αντιστοιχία μεταξύ των δημοσιεύσεων του οργανισμού και της ημερήσιας διάταξης υπολογίζεται με τη χρήση τεχνικών NLP. 
+Το σύνολο δεδομένων που αφορά την περίπτωση χρήσης αποτελείται από 5 τύπους οντοτήτων: 
+Οργάνωση, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Η πλήρης τεκμηρίωση είναι διαθέσιμη στη διεύθυνση: https://salted-project.eu/
+
+Ο βασικός δείκτης απόδοσης (KPI) είναι μια μέτρηση απόδοσης. Στο πλαίσιο της περίπτωσης χρήσης AgendaAnalytics παρουσιάζει/συγκεντρώνει τις πρώτες βαθμολογίες αντιστοίχισης που λαμβάνονται από μια συγκεκριμένη σειρά (τύπος οντότητας DataServiceRun) της υπηρεσίας AgendaMatching (τύπος οντότητας DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="uk-t-en-t0-mtec">AgendaAnalytics — це приклад використання Linked Data та AI в рамках проекту SALTED. Вона прагне виміряти прихильність організації (наприклад, компанії або міста) до певного порядку денного (наприклад, цілей розвитку або комплаєнсу).
+ Конгруентність публікацій організації та порядку денного обчислюється за допомогою методів НЛП. 
+Набір даних, що має відношення до випадку використання, складається з 5 типів об'єктів:
+ Організація, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Повна документація доступна за адресою: https://salted-project.eu/ 
+Ключовий індикатор продуктивності (KPI) — це вимірювання продуктивності.
+У випадку використання програми AgendaAnalytics вона демонструє/агрегує необроблені оцінки відповідності, отримані від конкретного запуску (типу об'єкта DataServiceRun) служби AgendaMatching (тип об'єкта DataServiceDCAT-AP). AgendaAnalytics — це приклад використання Linked Data та AI в рамках проекту SALTED. Вона прагне виміряти прихильність організації (наприклад, компанії або міста) до певного порядку денного (наприклад, цілей розвитку або комплаєнсу).
+Конгруентність публікацій організації та порядку денного обчислюється за допомогою методів НЛП.
+
+Набір даних, що має відношення до випадку використання, складається з 5 типів об'єктів: 
+Організація, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Повна документація доступна за адресою:
+https://salted-project.eu/  
+Ключовий індикатор продуктивності (KPI) — це вимірювання продуктивності. У випадку використання програми AgendaAnalytics вона демонструє/агрегує необроблені оцінки відповідності, отримані від конкретного запуску (типу об'єкта DataServiceRun) служби AgendaMatching (тип об'єкта DataServiceDCAT-AP).</dct:description>
+        <dcat:keyword>NGSI-LD</dcat:keyword>
+        <dct:title xml:lang="hu-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator</dct:title>
+        <dct:description xml:lang="lt-t-en-t0-mtec">„DarbotvarkėAnalytics“ yra susietųjų duomenų ir dirbtinio intelekto naudojimo atvejis įgyvendinant projektą SALTED. Ji siekia įvertinti organizacijos (pvz., įmonės ar miesto) atitiktį tam tikrai darbotvarkei (pvz., plėtros ar atitikties tikslams). 
+Organizacijos publikacijų ir darbotvarkės atitikimas apskaičiuojamas naudojant NLP metodus.   Naudojimo atveju svarbų duomenų rinkinį sudaro 5 rūšių subjektai:
+ Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Visus dokumentus galima rasti adresu
+https://salted-project.eu/ 
+Pagrindinis veiklos rezultatų rodiklis (KPI) yra veiksmingumo vertinimas.
+Programoje „DarbotvarkėAnalytics“ naudojamas dėklas, kuriame parodomi ir (arba) apibendrinami neapdoroti atitikimo balai, gauti iš konkrečios „AgendaMatching“ paslaugos (subjekto tipas DataServiceDCAT-AP) vykdymo (subjekto tipas DataServiceDCAT-AP). „DarbotvarkėAnalytics“ yra susietųjų duomenų ir dirbtinio intelekto naudojimo atvejis įgyvendinant projektą SALTED. Ji siekia įvertinti organizacijos (pvz., įmonės ar miesto) atitiktį tam tikrai darbotvarkei (pvz., plėtros ar atitikties tikslams). 
+Organizacijos publikacijų ir darbotvarkės atitikimas apskaičiuojamas naudojant NLP metodus.  
+Naudojimo atveju svarbų duomenų rinkinį sudaro 5 rūšių subjektai:
+
+
+Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Visus dokumentus galima rasti adresu
+https://salted-project.eu/
+
+
+
+Pagrindinis veiklos rezultatų rodiklis (KPI) yra veiksmingumo vertinimas.
+Programoje „DarbotvarkėAnalytics“ naudojamas dėklas, kuriame parodomi ir (arba) apibendrinami neapdoroti atitikimo balai, gauti iš konkrečios „AgendaMatching“ paslaugos (subjekto tipas DataServiceDCAT-AP) vykdymo (subjekto tipas DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="es-t-en-t0-mtec">AgendaAnalytics es un caso de uso para datos enlazados e IA dentro del proyecto SALTED. Se esfuerza por medir la adhesión de una organización (como una empresa o ciudad) a una agenda determinada (como objetivos de desarrollo o cumplimiento). 
+La congruencia entre las publicaciones de la organización y la agenda se calcula utilizando técnicas de PNL. 
+El conjunto de datos pertinente para el caso de uso consta de 5 tipos de entidades: 
+Organización, KeyPerformanceIndicator, DistribuciónDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+La documentación completa está disponible en: https://salted-project.eu/
+
+El indicador clave de rendimiento (KPI) es una medición de rendimiento. Dentro del caso de uso de AgendaAnalytics, muestra/agrega las puntuaciones de emparejamiento en bruto obtenidas de una ejecución específica (tipo de entidad DataServiceRun) del servicio AgendaMatching (tipo de entidad DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">AgendaAnalytics est un cas d’utilisation pour les données liées et l’IA dans le cadre du projet SALTED. Il s’efforce de mesurer l’adhésion d’une organisation (comme une entreprise ou une ville) à un programme donné (comme les objectifs de développement ou de conformité).
+ La concordance entre les publications de l’organisation et l’agenda est calculée à l’aide des techniques de PNL. 
+L’ensemble de données pertinent pour le cas d’utilisation se compose de 5 types d’entités:
+ Organisation, Indicateur de performance clé, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   La documentation complète est disponible à l’adresse suivante: https://salted-project.eu/ 
+L’indicateur clé de performance (KPI) est une mesure de performance.
+Dans le cas d’utilisation AgendaAnalytics, il présente/agrége les scores de correspondance bruts obtenus à partir d’une exécution spécifique (type d’entité DataServiceRun) du service AgendaMatching (type d’entité DataServiceDCAT-AP). AgendaAnalytics est un cas d’utilisation pour les données liées et l’IA dans le cadre du projet SALTED. Il s’efforce de mesurer l’adhésion d’une organisation (comme une entreprise ou une ville) à un programme donné (comme les objectifs de développement ou de conformité).
+La concordance entre les publications de l’organisation et l’agenda est calculée à l’aide des techniques de PNL.
+
+L’ensemble de données pertinent pour le cas d’utilisation se compose de 5 types d’entités: 
+Organisation, Indicateur de performance clé, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+La documentation complète est disponible à l’adresse suivante:
+https://salted-project.eu/  
+L’indicateur clé de performance (KPI) est une mesure de performance. Dans le cas d’utilisation AgendaAnalytics, il présente/agrége les scores de correspondance bruts obtenus à partir d’une exécution spécifique (type d’entité DataServiceRun) du service AgendaMatching (type d’entité DataServiceDCAT-AP).</dct:description>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Táscaire Eochairfheidhmíochta:PríomhfheidhmíochtIndicator</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-01T11:07:18.330230</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="fi-t-en-t0-mtec">AgendaAnalytics on linkitetyn datan ja tekoälyn käyttötapaus SALTED-projektissa. Se pyrkii mittaamaan organisaation (kuten yrityksen tai kaupungin) sitoutumista tiettyyn ohjelmaan (kuten kehitys- tai vaatimustenmukaisuustavoitteisiin). 
+Organisaation julkaisujen ja agendan välinen vastaavuus lasketaan NLP-tekniikoiden avulla. 
+Käyttötapauksen kannalta merkityksellinen tietoaineisto koostuu viidestä yhteisötyypistä: 
+Organisaatio, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Asiakirjat ovat kokonaisuudessaan saatavilla osoitteessa: https://salted-project.eu/
+
+Keskeinen suorituskykyindikaattori (KPI) on suorituskyvyn mittaaminen. AgendaAnalytics-sovelluksessa käytetään tapauksessa, jossa se esittelee/yhdistetään AgendaMatching-palvelun tietyltä juoksulta (yksikkötyyppi DataServiceRun) saadut raa’at vastaavat pisteet (yksikkötyyppi DataServiceDCAT-AP).</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a0df1457-5907-497d-8100-6c1a47061749">
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="sk-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator údaje v reálnom čase zastúpené vo formáte JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformancePodatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator σε πραγματικό χρόνο δεδομένα που αντιπροσωπεύονται σε μορφότυπο JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator reaalajas esitatud andmed JSON-vormingus</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator en temps réel représenté au format JSON</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.fiware.org%2Fns%2Fdata-models%23KeyPerformanceIndicator__.json"/>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator Dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator data f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator dados em tempo real representados no formato JSON</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator realtime data repræsenteret i JSON format</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="uk-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator дані в реальному часі, представлені у форматі JSON</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator valós idejű adatok JSON formátumban</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator Date în timp real reprezentate în format JSON</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">KeyPerformanceIndikators:KeyPerformanceIndicator reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator Datos en tiempo real representados en formato JSON</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-01T11:07:18.579252</dct:issued>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">KeyPerformanceIndicator:PríomhfheidhmíochtIndicatorsonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.fiware.org%2Fns%2Fdata-models%23KeyPerformanceIndicator__.json"/>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-01T12:36:52.420356</dct:modified>
+            <dct:description xml:lang="cs-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description>KeyPerformanceIndicator:KeyPerformanceIndicator realtime data represented in JSON format</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator данни в реално време, представени във формат JSON</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator realtidsdata representerad i JSON-format</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/2cd4bb80-5bb4-4ee6-a754-ce9319bdb46a/resource/urn_ngsi-ld_distribution_salted_project_keyperformanceindicator_keyperformanceindicator_json</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-01T11:07:18.579291</dct:modified>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4ddd2c62-1e02-4d48-a666-61f6ffd74349">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="bg-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator Datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator en temps réel représenté au format JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator data f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-01T11:07:18.579252</dct:issued>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="et-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator údaje v reálnom čase zastúpené vo formáte JSON_LD</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="ga-t-en-t0-mtec">KeyPerformanceIndicator:PríomhfheidhmíochtIndicatorsonraí fíor-ama arna léiriú i bhformáid JSON_LD</dct:description>
+            <dct:description>KeyPerformanceIndicator:KeyPerformanceIndicator realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-01T12:36:52.421565</dct:modified>
+            <dct:description xml:lang="uk-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator в реальному часі, представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator Dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator Date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/2cd4bb80-5bb4-4ee6-a754-ce9319bdb46a/resource/urn_ngsi-ld_distribution_salted_project_keyperformanceindicator_keyperformanceindicator_jsonld</dct:identifier>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.fiware.org%2Fns%2Fdata-models%23KeyPerformanceIndicator__.jsonld"/>
+            <dct:description xml:lang="nl-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Furi.fiware.org%2Fns%2Fdata-models%23KeyPerformanceIndicator__.jsonld"/>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">KeyPerformanceIndicator: KeyPerformanceIndicator realtime data repræsenteret i JSON_LD format</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">KeyPerformanceIndikators:KeyPerformanceIndicator reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator σε πραγματικό χρόνο δεδομένα που αντιπροσωπεύονται σε μορφότυπο JSON_LD</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformanceIndicator dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:description xml:lang="sl-t-en-t0-mtec">KeyPerformanceIndicator:KeyPerformancePodatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-en-t0-mtec">AgendaAnalytics er en use case for Linked Data og AI i SALTED projektet. Det stræber efter at måle en organisations overholdelse af en organisation (som en virksomhed eller by) til en given dagsorden (som udvikling eller overholdelse mål). 
+Sammenhængen mellem organisationens publikationer og dagsordenen beregnes ved hjælp af NLP-teknikker. 
+Det datasæt, der er relevant for use casen, består af 5 enhedstyper: 
+Organisation, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Den fuldstændige dokumentation findes på: https://salted-project.eu/
+
+Nøgleresultatindikatoren (KPI) er en præstationsmåling. Inden for AgendaAnalytics use case viser/aggregerer den rå matchscore opnået fra en specifik kørsel (enhedstype DataServiceRun) af AgendaMatching-tjenesten (enhedstypen DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="et-t-en-t0-mtec">AgendaAlytics on seotud andmete ja tehisintellekti kasutusjuht SALTED projekti raames. Selle eesmärk on mõõta organisatsiooni (nagu ettevõte või linn) vastavust konkreetsele tegevuskavale (nt arengu- või vastavuseesmärgid). 
+Organisatsiooni väljaannete ja päevakorra kooskõla arvutatakse NLP-tehnikate abil. 
+Kasutusjuhtumiga seotud andmestik koosneb viiest üksuse tüübist: 
+Organisatsioon, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Täielik dokumentatsioon on kättesaadav aadressil: https://salted-project.eu/
+
+Tulemuslikkuse põhinäitaja (KPI) on tulemuslikkuse mõõtmine. AgendaAlytics’i analüüsis esitatakse/koondatakse kokku toorväärtused, mis on saadud AgendaMatching teenuse konkreetsest tööst (üksuse tüüp DataServiceRun) (üksuse tüüp DataServiceDCAT-AP).</dct:description>
+        <dcat:keyword>SALTED Project</dcat:keyword>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:description xml:lang="sl-t-en-t0-mtec">AgendaAnalytics je primer uporabe povezanih podatkov in umetne inteligence v okviru projekta SALTED. Prizadeva si za merjenje zavezanosti organizacije (kot je podjetje ali mesto) določenemu programu (kot so razvojni cilji ali cilji skladnosti).
+ Skladnost med publikacijami organizacije in dnevnim redom se izračuna s tehnikami NLP. 
+Nabor podatkov, ki je relevanten za primer uporabe, je sestavljen iz petih vrst subjektov:
+ Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.   Celotna dokumentacija je na voljo na: https://salted-project.eu/ 
+Ključni kazalnik uspešnosti (KPI) je merjenje uspešnosti.
+V okviru primera AgendaAnalytics prikaže/agregira neobdelane ujemajoče se rezultate, pridobljene iz določene serije (vrsta subjekta DataServiceRun) storitve AgendaMatching (vrsta subjekta DataServiceDCAT-AP). AgendaAnalytics je primer uporabe povezanih podatkov in umetne inteligence v okviru projekta SALTED. Prizadeva si za merjenje zavezanosti organizacije (kot je podjetje ali mesto) določenemu programu (kot so razvojni cilji ali cilji skladnosti).
+Skladnost med publikacijami organizacije in dnevnim redom se izračuna s tehnikami NLP.
+
+Nabor podatkov, ki je relevanten za primer uporabe, je sestavljen iz petih vrst subjektov: 
+Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+Celotna dokumentacija je na voljo na:
+https://salted-project.eu/  
+Ključni kazalnik uspešnosti (KPI) je merjenje uspešnosti. V okviru primera AgendaAnalytics prikaže/agregira neobdelane ujemajoče se rezultate, pridobljene iz določene serije (vrsta subjekta DataServiceRun) storitve AgendaMatching (vrsta subjekta DataServiceDCAT-AP).</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:description xml:lang="nl-t-en-t0-mtec">AgendaAnalytics is een use case voor Linked Data en AI binnen het SALTED project. Het streeft ernaar om de naleving van een organisatie (zoals een bedrijf of stad) aan een bepaalde agenda te meten (zoals ontwikkelings- of compliancedoelen). 
+De samenhang tussen de publicaties van de organisatie en de agenda wordt berekend met behulp van NLP-technieken. 
+De dataset die relevant is voor de use case bestaat uit 5 soorten entiteiten: 
+Organisatie, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+De volledige documentatie is beschikbaar op: https://salted-project.eu/
+
+De Key Performance Indicator (KPI) is een prestatiemeting. Binnen de AgendaAnalytics use case toont/aggregeert het de raw matching scores verkregen uit een specifieke run (entiteitstype DataServiceRun) van de AgendaMatching service (entiteitstype DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="ro-t-en-t0-mtec">AgendaAnalytics este un caz de utilizare a datelor conectate și a IA în cadrul proiectului SALTED. Se străduiește să măsoare aderarea unei organizații (cum ar fi o companie sau oraș) la o anumită agendă (cum ar fi obiectivele de dezvoltare sau de conformitate).
+ Congruența dintre publicațiile organizației și ordinea de zi este calculată folosind tehnici NLP.  Setul de date relevant pentru cazul de utilizare este format din 5 tipuri de entități:
+
+Organizare, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Documentația completă este disponibilă la adresa: https://salted-project.eu/  
+Indicatorul cheie de performanță (KPI) este o măsurare a performanței.În cadrul AgendeiAnalytics se utilizează cazul în care prezintă/agregă scorurile brute de potrivire obținute în urma unei anumite runde (entitate de tip DataServiceRun) a serviciului AgendaMatching (entitate de tip DataServiceDCAT-AP). Se străduiește să măsoare aderarea unei organizații (cum ar fi o companie sau oraș) la o anumită agendă (cum ar fi obiectivele de dezvoltare sau de conformitate).
+ Congruența dintre publicațiile organizației și ordinea de zi este calculată folosind tehnici NLP.
+
+
+Setul de date relevant pentru cazul de utilizare este format din 5 tipuri de entități:
+
+
+Organizare, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Documentația completă este disponibilă la adresa:
+https://salted-project.eu/
+
+
+
+Indicatorul cheie de performanță (KPI) este o măsurare a performanței.
+În cadrul AgendeiAnalytics se utilizează cazul în care prezintă/agregă scorurile brute de potrivire obținute în urma unei anumite runde (entitate de tip DataServiceRun) a serviciului AgendaMatching (entitate de tip DataServiceDCAT-AP).</dct:description>
+        <dcat:keyword>AgendaAnalytics</dcat:keyword>
+        <dct:description xml:lang="sk-t-en-t0-mtec">AgendaAnalytics je prípad použitia prepojených údajov a umelej inteligencie v rámci projektu SALTED. Snaží sa merať dodržiavanie organizácie (ako je spoločnosť alebo mesto) k danej agende (ako sú rozvojové ciele alebo ciele dodržiavania predpisov).
+ Súlad medzi publikáciami organizácie a programom sa vypočíta pomocou techník NLP.  Súbor údajov relevantný pre prípad použitia pozostáva z 5 typov účtovnej jednotky:
+
+Organizácia, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Kompletná dokumentácia je k dispozícii na adrese: https://salted-project.eu/  
+Kľúčový ukazovateľ výkonnosti (KPI) je meranie výkonnosti.V prípade použitia AgendaAnalytics prezentuje/agreguje nespracované skóre zhody získané zo špecifického cyklu (typu subjektu DataServiceRun) služby AgendaMatching (entity type DataServiceDCAT-AP). Snaží sa merať dodržiavanie organizácie (ako je spoločnosť alebo mesto) k danej agende (ako sú rozvojové ciele alebo ciele dodržiavania predpisov).
+ Súlad medzi publikáciami organizácie a programom sa vypočíta pomocou techník NLP.
+
+
+Súbor údajov relevantný pre prípad použitia pozostáva z 5 typov účtovnej jednotky:
+
+
+Organizácia, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+
+
+Kompletná dokumentácia je k dispozícii na adrese:
+https://salted-project.eu/
+
+
+
+Kľúčový ukazovateľ výkonnosti (KPI) je meranie výkonnosti.
+V prípade použitia AgendaAnalytics prezentuje/agreguje nespracované skóre zhody získané zo špecifického cyklu (typu subjektu DataServiceRun) služby AgendaMatching (entity type DataServiceDCAT-AP).</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-01T11:07:18.579252</dct:issued>
+        <dct:description xml:lang="pl-t-en-t0-mtec">AgendaAnalytics to przypadek wykorzystania danych połączonych i sztucznej inteligencji w ramach projektu SALTED.
+Stara się mierzyć przywiązanie organizacji (jak firma lub miasto) do danego programu (np. cele rozwoju lub zgodności).   Zgodność między publikacjami organizacji a programem jest obliczana za pomocą technik NLP. 
+Zbiór danych istotny dla przypadku użycia składa się z 5 rodzajów podmiotów:
+ Organizacja, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+ Pełna dokumentacja dostępna jest pod adresem:
+https://salted-project.eu/
+
+
+
+Kluczowy wskaźnik wydajności (KPI) jest pomiarem wydajności.
+W przypadku AgendyAnalytics prezentuje/agreguje surowe wyniki dopasowujące uzyskane z określonej rundy (typu DataServiceRun) usługi AgendaMatching (typ podmiotu DataServiceDCAT-AP).</dct:description>
+        <dct:title xml:lang="de-t-en-t0-mtec">KeyPerformanceIndikator:KeyPerformanceIndikator</dct:title>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:title xml:lang="it-t-en-t0-mtec">KeyPerformanceIndicatore:KeyPerformanceIndicatore</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-01T11:07:18.330230</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="hr-t-en-t0-mtec">AgendaAnalytics je primjer korištenja povezanih podataka i umjetne inteligencije u okviru projekta SALTED.
+Nastoji mjeriti pridržavanje organizacije (kao što je poduzeće ili grad) određenom programu (kao što su ciljevi razvoja ili usklađenosti).   Usklađenost između publikacija organizacije i dnevnog reda izračunava se primjenom NLP tehnika. 
+Skup podataka relevantan za slučaj uporabe sastoji se od pet vrsta subjekata:
+ Organizacija, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.
+ Cjelokupna dokumentacija dostupna je na:
+https://salted-project.eu/
+
+
+
+Ključni pokazatelj uspješnosti (KPI) mjerenje je uspješnosti.
+U slučaju korištenja AgendaAnalytics prikazuje/agregira neobrađene ocjene podudaranja dobivene iz određenog ciklusa (vrsta subjekta DataServiceRun) usluge uspoređivanja programa (vrsta subjekta DataServiceDCAT-AP).</dct:description>
+        <dct:description xml:lang="de-t-en-t0-mtec">AgendaAnalytics ist ein Anwendungsfall für vernetzte Daten und KI im SALTED-Projekt. Es ist bestrebt, die Einhaltung einer Organisation (wie eines Unternehmens oder einer Stadt) an einer bestimmten Agenda (wie Entwicklung oder Compliance-Ziele) zu messen. 
+Die Übereinstimmung zwischen den Publikationen der Organisation und der Agenda wird mithilfe von NLP-Techniken berechnet. 
+Der für den Anwendungsfall relevante Datensatz besteht aus 5 Entitätstypen: 
+Organisation, KeyPerformanceIndikator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun. 
+Die vollständige Dokumentation ist abrufbar unter: https://salted-project.eu/
+
+Der Key Performance Indicator (KPI) ist eine Leistungsmessung. Im Anwendungsfall AgendaAnalytics werden die Rohabgleichsergebnisse aus einem bestimmten Lauf (Entitätstyp DataServiceRun) des AgendaMatching-Dienstes (Entity Type DataServiceDCAT-AP) dargestellt/aggregiert.</dct:description>
+        <dct:description>AgendaAnalytics is a use case for Linked Data and AI within the SALTED project. It strives to measure the adherence of a an organization (like a company or city) to a given agenda (like development or compliance goals).&#xD;
+The congruence between the organization’s publications and the agenda is computed using NLP techniques.&#xD;
+The dataset relevant for the use case consists of 5 entity types:&#xD;
+Organization, KeyPerformanceIndicator, DistributionDCAT-AP, DataServiceDCAT-AP, DataServiceRun.&#xD;
+The full documentation is available at: https://salted-project.eu/&#xD;
+&#xD;
+The Key Performance Indicator (KPI) is a  performance measurement. Within the AgendaAnalytics use case it showcases / aggregates the raw matching scores obtained from a specific run (entity type DataServiceRun) of the the AgendaMatching service (entity type DataServiceDCAT-AP).</dct:description>
+        <dct:title xml:lang="lv-t-en-t0-mtec">KeyPerformanceIndikators:KeyPerformanceIndicator</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:06Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

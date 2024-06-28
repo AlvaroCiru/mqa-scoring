@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/a69ff76e-e003-4dd7-a70f-0aaf0e5e15dc">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:identifier>a69ff76e-e003-4dd7-a70f-0aaf0e5e15dc</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/a69ff76e-e003-4dd7-a70f-0aaf0e5e15dc">
+        <dct:title xml:lang="pl-t-en-t0-mtec">Artykuły rolno-spożywcze:AgriCrop</dct:title>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai yra tam tikras augalas kaip generinis subjektas. Kiekvienos rūšies pasėliams SIGPAC duomenyse apibrėžiamas „AgriCrop“ subjektas.</dct:description>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Agraibhia:AgriCrop</dct:title>
+        <dct:title xml:lang="de-t-en-t0-mtec">Landwirtschaft:AgriCrop</dct:title>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Lauksaimniecības pārtika: AgriCrop</dct:title>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою свого роду Crop як загальний об'єкт. Для кожного виду врожаю в даних SIGPAC визначається об'єкт AgriCrop. Він являє собою свого роду Crop як загальний об'єкт.
+Для кожного виду врожаю в даних SIGPAC визначається об'єкт AgriCrop.</dct:description>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar ett slags beskärning som en generisk enhet. För varje typ av gröda i SIGPAC-data definieras en AgriCrop-enhet. Det representerar ett slags beskärning som en generisk enhet.
+För varje typ av gröda i SIGPAC-data definieras en AgriCrop-enhet.</dct:description>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas ir sava veida kultūraugi kā ģenēriska vienība. Katram kultūrauga veidam SIGPAC datos ir definēts uzņēmums AgriCrop.</dct:description>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Agrár-élelmiszeripar:AgriCrop</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Zemědělsko-potravinářské produkty:AgriCrop</dct:title>
+        <dct:description>It represents a kind of Crop as a generic entity. For each kind of crop in SIGPAC data an AgriCrop entity is defined.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-05T15:43:52.178367</dct:modified>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>Amper</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa uma espécie de Crop como uma entidade genérica. Para cada tipo de cultura nos dados SIGPAC é definida uma entidade AgriCrop.</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta tip ta’ uċuħ tar-raba’ bħala entità ġenerika. Għal kull tip ta’ wiċċ tar-raba’ fid-data tas-SIGPAC hija ddefinita entità AgriCrop.</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente une sorte de Crop en tant qu’entité générique. Pour chaque type de culture dans les données SIGPAC, une entité AgriCrop est définie.</dct:description>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje druh plodiny jako generické entity. Pro každý druh plodin v údajích SIGPAC je definován subjekt AgriCrop.</dct:description>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja neku vrstu usjeva kao generičkog entiteta. Za svaku vrstu usjeva u podacima SIGPAC-a definiran je subjekt AgriCrop. Predstavlja neku vrstu usjeva kao generičkog entiteta.
+Za svaku vrstu usjeva u podacima SIGPAC-a definiran je subjekt AgriCrop.</dct:description>
+        <dcat:keyword>AgriCrop</dcat:keyword>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt eine Art Crop als generische Entität dar. Für jede Art von Ernte in SIGPAC-Daten wird eine AgriCrop-Entität definiert. Es stellt eine Art Crop als generische Entität dar.
+Für jede Art von Ernte in SIGPAC-Daten wird eine AgriCrop-Entität definiert.</dct:description>
+        <dcat:keyword>Parcel</dcat:keyword>
+        <dct:title xml:lang="nl-t-en-t0-mtec">Agrovoeding:AgriCrop</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Žemės ūkio maisto produktai: „AgriCrop“</dct:title>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/543a3a4b-6348-4dd5-b633-21c550f107e1">
+            <dct:description xml:lang="hr-t-en-t0-mtec">Poljoprivredno-prehrambeni: AgriCrop podaci u stvarnom vremenu prikazani u formatu JSON_LD</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Landbrugsfødevarer:AgriCrop realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Agraibhia: Sonraí fíor-ama AgriCrop a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Agropotraviny:AgriCrop údaje v reálnom čase zastúpené vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Agrifood:AgriCrop dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Agrifood:AgriCrop данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Agrifood:AgriCrop Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Agrifood:AgriCrop valós idejű adatok JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Žemės ūkio maisto produktai: „AgriCrop“ realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Agrifood%2FAgriCrop__.jsonld"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αγροδιατροφικά προϊόντα:AgriCrop δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφότυπο JSON_LD</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Põllumajanduslik toidutööstus: JSON_LD vormingus reaalajas esitatavad andmed AgriCrop</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Agrifood:AgriCrop data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Agroalimentari: Id-data fil-ħin reali dwar l-AgriCrop irrappreżentata fil-format JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Maatalouselintarvikkeet:AgriCrop reaaliaikainen data esitettynä JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Agroživilski:AgriCrop podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description>Agrifood:AgriCrop realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Agrifood:AgriCrop realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Agrifood:AgriCrop realtime gegevens vertegenwoordigd in JSON_LD-formaat</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Agroalimentar:AgriCrop date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:43:52.178332</dct:issued>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Agrifood%2FAgriCrop__.jsonld"/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Agroalimentación:AgriCrop datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Agroalimentar:AgriCrop dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Agroalimentaire:AgriCrop données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Agrifood: дані AgriCrop в реальному часі представлені у форматі JSON_LD</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Lauksaimniecības pārtika: AgriCrop reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/a69ff76e-e003-4dd7-a70f-0aaf0e5e15dc/resource/urn_ngsi-ld_distribution_salted_project_agrifood_agricrop_jsonld</dct:identifier>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:43:57.935994</dct:modified>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Agrifood:AgriCrop dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="it-t-en-t0-mtec">Agroalimentare:AgriCrop</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:43:52.024073</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Reprezintă un fel de cultură ca entitate generică. Pentru fiecare tip de cultură din datele SIGPAC este definită o entitate AgriCrop. Reprezintă un fel de cultură ca entitate generică.
+Pentru fiecare tip de cultură din datele SIGPAC este definită o entitate AgriCrop.</dct:description>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Агропродовольча продукція: AgroCrop</dct:title>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja neke vrste Crop kot generično entiteto. Za vsako vrsto pridelka v podatkih SIGPAC je opredeljen subjekt AgriCrop. Predstavlja neke vrste Crop kot generično entiteto.
+Za vsako vrsto pridelka v podatkih SIGPAC je opredeljen subjekt AgriCrop.</dct:description>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kujutab endast teatavat liiki Crop’i kui üldist üksust. Iga põllukultuuri liigi kohta SIGPACi andmetes on määratletud AgriCrop’i üksus. See kujutab endast teatavat liiki Crop’i kui üldist üksust.
+Iga põllukultuuri liigi kohta SIGPACi andmetes on määratletud AgriCrop’i üksus.</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje rodzaj uprawy jako rodzaj jednostki generycznej. Dla każdego rodzaju uprawy w danych SIGPAC zdefiniowana jest jednostka AgriCrop. Reprezentuje rodzaj uprawy jako rodzaj jednostki generycznej.
+Dla każdego rodzaju uprawy w danych SIGPAC zdefiniowana jest jednostka AgriCrop.</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει ένα είδος καλλιέργειας ως γενική οντότητα. Για κάθε είδος καλλιέργειας στα δεδομένα SIGPAC ορίζεται μια οντότητα AgriCrop. Αντιπροσωπεύει ένα είδος καλλιέργειας ως γενική οντότητα.
+Για κάθε είδος καλλιέργειας στα δεδομένα SIGPAC ορίζεται μια οντότητα AgriCrop.</dct:description>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Agrifood:AgriCrop</dct:title>
+        <dct:title>Agrifood:AgriCrop</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Agroživilska industrija: AgriCrop</dct:title>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Ez egyfajta Crop, mint egy generikus entitás. A SIGPAC-adatokban szereplő minden növényfaj esetében egy AgriCrop entitás van meghatározva.</dct:description>
+        <dcat:keyword>Agriculture</dcat:keyword>
+        <dct:title xml:lang="et-t-en-t0-mtec">Põllumajanduslik toidutööstus:AgriCrop</dct:title>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta una sorta di Crop come entità generica. Per ogni tipo di coltura nei dati SIGPAC viene definita un'entità AgriCrop. Rappresenta una sorta di Crop come entità generica.
+Per ogni tipo di coltura nei dati SIGPAC viene definita un'entità AgriCrop.</dct:description>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Agroalimentari: AgriCrop</dct:title>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer en slags Crop som en generisk enhed. For hver afgrødetype i SIGPAC-data defineres en AgriCrop-enhed.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4a8359db-9f96-4ac1-a5df-2d7756b38e4a">
+            <dct:description xml:lang="sv-t-en-t0-mtec">Agrifood:AgriCrop realtidsdata representerad i JSON-format</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:43:52.178332</dct:issued>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Agroalimentari: Id-data fil-ħin reali dwar l-AgriCrop irrappreżentata fil-format JSON</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Agraibhia: Sonraí fíor-ama AgriCrop a léirítear i bhformáid JSON</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Agroalimentar:AgriCrop dados em tempo real representados no formato JSON</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Žemės ūkio maisto produktai: „AgriCrop“ realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Agropotraviny:AgriCrop údaje v reálnom čase zastúpené vo formáte JSON</dct:description>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Agrifood:AgriCrop valós idejű adatok JSON formátumban</dct:description>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Agrifood:AgriCrop data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Αγροδιατροφικά προϊόντα:AgriCrop δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφότυπο JSON</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Maatalouselintarvikkeet:AgriCrop reaaliaikaiset tiedot esitetään JSON-muodossa</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/a69ff76e-e003-4dd7-a70f-0aaf0e5e15dc/resource/urn_ngsi-ld_distribution_salted_project_agrifood_agricrop_json</dct:identifier>
+            <dct:description xml:lang="et-t-en-t0-mtec">Põllumajanduslik toidutööstus: JSON-vormingus reaalajas esitatavad andmed AgriCrop</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:43:57.934866</dct:modified>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Agrifood%2FAgriCrop__.json"/>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Agroalimentación:AgriCrop datos en tiempo real representados en formato JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Agrifood:AgriCrop данни в реално време, представени във формат JSON</dct:description>
+            <dct:description>Agrifood:AgriCrop realtime data represented in JSON format</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Agrifood: дані AgriCrop в реальному часі представлені у форматі JSON</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Agroalimentaire:AgriCrop données en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Rolnictwo:AgriCrop dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">Agroalimentare:AgriCrop dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Agrifood%2FAgriCrop__.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Agroalimentar:AgriCrop date în timp real reprezentate în format JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">Agrifood:AgriCrop Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Lauksaimniecības pārtika: AgriCrop reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Poljoprivredno-prehrambeni: AgriCrop podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Landbrugsfødevarer:AgriCrop realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Agrifood:AgriCrop realtime gegevens vertegenwoordigd in JSON-formaat</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Agroživilski:AgriCrop podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-en-t0-mtec">Landbrugsfødevarer:AgriCrop</dct:title>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Produse agroalimentare:AgriCrop</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+        <dct:title xml:lang="el-t-en-t0-mtec">Αγροδιατροφικά προϊόντα:AgriCrop</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Тя представлява един вид растение като генерична единица. За всеки вид култура в данните на SIGPAC се определя AgriCrop субект. Тя представлява един вид растение като генерична единица.
+За всеки вид култура в данните на SIGPAC се определя AgriCrop субект.</dct:description>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa una especie de cultivo como entidad genérica. Para cada tipo de cultivo en datos SIGPAC se define una entidad AgriCrop.</dct:description>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa eräänlaista viljelykasvia geneerisenä kokonaisuutena. Jokaiselle SIGPAC-tiedoissa olevalle viljelykasvityypille määritellään AgriCrop-yksikkö.</dct:description>
+        <dct:identifier>a69ff76e-e003-4dd7-a70f-0aaf0e5e15dc</dct:identifier>
+        <dcat:keyword>Crops</dcat:keyword>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje druh plodiny ako generickej entity. Pre každý druh plodiny v údajoch SIGPAC je definovaný subjekt AgriCrop.</dct:description>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Agroalimentar:AgriCrop</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Agroalimentaire:AgriCrop</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Poljoprivredno-prehrambeni proizvodi: AgriCrop</dct:title>
+        <dcat:keyword>Lorca</dcat:keyword>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Maatalouselintarvikkeet:AgriCrop</dct:title>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt een soort gewas als een generieke entiteit. Voor elk type gewas in SIGPAC-gegevens wordt een AgriCrop-entiteit gedefinieerd. Het vertegenwoordigt een soort gewas als een generieke entiteit.
+Voor elk type gewas in SIGPAC-gegevens wordt een AgriCrop-entiteit gedefinieerd.</dct:description>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Хранително-вкусова промишленост: AgriCrop</dct:title>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé ar chineál an barr mar aonán cineálach. I gcás gach cineál barr i sonraí SIGPAC sainmhínítear eintiteas AgriCrop. Léiríonn sé ar chineál an barr mar aonán cineálach.
+I gcás gach cineál barr i sonraí SIGPAC sainmhínítear eintiteas AgriCrop.</dct:description>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Agropotraviny:AgriCrop</dct:title>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-05T15:43:52.178332</dct:issued>
+        <dct:title xml:lang="es-t-en-t0-mtec">Agroalimentación:AgriCrop</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-05T15:43:52.024073</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>c1963f6255e283b456d9fe3cea2053bc</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:29Z</edp:transReceived>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/a69ff76e-e003-4dd7-a70f-0aaf0e5e15dc"/>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:29Z</dct:modified>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

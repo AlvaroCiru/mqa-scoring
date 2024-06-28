@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-palacios-de-hielo-de-euskadi-">
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/palacios-de-hielo-de-euskadi/</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:35:12Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-palacios-de-hielo-de-euskadi-"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:26Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>614490db32af74eee7876177a768ce1d</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:23:26Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-palacios-de-hielo-de-euskadi-">
+        <dct:description xml:lang="da-t-es-t0-mtec">Oplysninger om ispaladserne i Baskerlandet: beskrivelse placering, tidsplan osv.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/x65-15332/es/"/>
+        <dct:title xml:lang="es">Palacios de hielo de Euskadi</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Informācija par Basku zemes ledus pilīm: apraksts atrašanās vieta, grafiks, utt.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace o ledových palácích Baskicka: popis umístění, rozvrh, atd.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Palazz tas-Silġ Euskadi</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Euskadi Ice Palaces</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni dwar il-palazzi tas-silġ tal-Pajjiż Bask: deskrizzjoni tal-post, l-iskeda, eċċ.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie o ľadových palácoch Baskicka: popis miesta, harmonogramu, atď.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Euskadi Ledo rūmai</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a2491cc5-ed26-4697-8962-1e2b1e0eaa72">
+            <dct:title xml:lang="eu">Aireportuak</dct:title>
+            <dcat:accessURL rdf:resource="http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/15bcb866-abf6-48aa-a440-fe877b15972c</dct:identifier>
+            <dct:title xml:lang="es">Aeropuertos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Palače na ledu Euskadi</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Льодові палаци Euskadi</dct:title>
+        <dcat:keyword xml:lang="eu">izotz jauregia</dcat:keyword>
+        <dcat:keyword xml:lang="eu">kirol-jarduerak</dcat:keyword>
+        <dcat:keyword xml:lang="eu">kirola</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Kirol-instalazioak</dcat:keyword>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen über die Eispaläste des Baskenlandes: Beschreibung Ort, Zeitplan, etc.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Palais des glaces d’Euskadi</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações sobre os palácios de gelo do País Basco: descrição do local, horário, etc.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2010-03-25T00:00:00+01:00</dct:issued>
+        <dcat:keyword xml:lang="es">deporte</dcat:keyword>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Palácios de gelo de Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/009fc4f8-f425-4dd1-b86b-c60836c4d342">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/palacios_hielo/opendata/palacios-hielo.xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/a87d547e-f488-4864-8801-7985c30e9c30</dct:identifier>
+            <dct:title xml:lang="es">Pistas de hielo</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >3308</dcat:byteSize>
+            <dct:title xml:lang="eu">Izotz pistak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="nl-t-es-t0-mtec">De IJspaleizen van Euskadi</dct:title>
+        <dct:isReferencedBy rdf:resource="http://turismoa.euskadi.eus/"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/285cd338-e9eb-4a69-9d55-2ad3966ecdb3">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/75c5d650-59f5-41ba-8922-73d34c9ca0f1</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+            <dcat:accessURL rdf:resource="http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&amp;r01kQry=tC%3Aeuskadi%3BtF%3Aturismo%3BtT%3Ai_deportes%3Bm%3AsportType.IN.%281006%29%2CdocumentLanguage.EQ.es%3Bp%3AInter_portal%2CInter%3Bpp%3Ar01NavBarBlockSize.10%2Cr01PageSize.100"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Pistas de hielo</dct:title>
+            <dct:title xml:lang="eu">Izotz pistak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="et-t-es-t0-mtec">Teave Baskimaa jääpalee kohta: kirjeldus asukoht, ajakava jne.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Informacije o ledenim palačama Baskije: opis lokacije, raspored, itd.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація про льодові палаци Країни Басків: опис місця розташування, графік і т.д.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information about the ice palaces of the Basque Country: description location, schedule, etc.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Ξενοδοχεία κοντά σε: Euskadi Ice Palace</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Euskadi Jégpaloták</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0cc3d439-3b43-44d5-93d0-54a3ced5fcd0">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/palacios_hielo/opendata/palacios-hielo-padding.geojson"/>
+            <dct:title xml:lang="es">Pistas de hielo</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >3205</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/04468629-ba7a-4373-ace6-7b8a80ee1d46</dct:identifier>
+            <dct:title xml:lang="eu">Izotz pistak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:title xml:lang="de-t-es-t0-mtec">Euskadi Eispaläste</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Informacje o lodowych pałacach Kraju Basków: opis lokalizacji, harmonogramu itp.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3647b61d-725b-4194-ba6a-0062f9f70f5b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/palacios_hielo/opendata/palacios-hielo.xlsx"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >5407</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/5e191251-1ab1-4ac8-9b5c-746fee6e9108</dct:identifier>
+            <dct:title xml:lang="es">Pistas de hielo</dct:title>
+            <dct:title xml:lang="eu">Izotz pistak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Información sobre los palacios de hielo de Euskadi: descripción ubicación, horario, etc.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Ледени дворци Euskadi</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Euskadi Ice Palaces – reštaurácie v okolí</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/04f9a81c-cc3e-4546-9474-e2d1f3bc0899">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/222ec613-8cf4-42c6-a97f-381ca4e6ee98</dct:identifier>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC%3Aeuskadi%3BtF%3Aturismo%3BtT%3Ai_deportes%3Bm%3AsportType.IN.%281006%29%2CdocumentLanguage.EQ.es%3Bp%3AInter%3B"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dct:title xml:lang="es">Pistas de hielo</dct:title>
+            <dct:title xml:lang="eu">Izotz pistak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πληροφορίες για τα ανάκτορα πάγου της Χώρας των Βάσκων: περιγραφή τοποθεσία, χρονοδιάγραμμα, κ.λπ.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Euskadi ledene palače</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Pálás Oighir Euskadi</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Euskadi ledus pilis</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni sui palazzi di ghiaccio dei Paesi Baschi: descrizione ubicazione, orario, ecc.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Euskadi jääpaleed</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Ledové paláce Euskadi</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Atrakcje w pobliżu Euskadi Ice Palaces</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Palazzi di ghiaccio di Euskadi</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information om Baskiens ispalats: beskrivning plats, schema, etc.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations sur les palais de glace du Pays Basque: description de l’emplacement, de l’horaire, etc.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/97765d27-56a3-4451-a42b-15774cb4af96">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >4116</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/palacios_hielo/opendata/palacios-hielo.json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Pistas de hielo</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/7a52071c-9a7f-49f8-8a7b-f2b03315bbdb</dct:identifier>
+            <dct:title xml:lang="eu">Izotz pistak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">instalaciones deportivas</dcat:keyword>
+        <dcat:keyword xml:lang="es">patinaje</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Eolas faoi phálás oighir Thír na mBascach: cur síos suíomh, sceideal, etc.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tietoa Baskimaan jääpalatseista: kuvaus sijainti, aikataulu, jne.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/palacios-de-hielo-de-euskadi/"/>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Informacija apie Baskų krašto ledo rūmus: aprašymas vieta, tvarkaraštis ir t. t.</dct:description>
+        <dct:title xml:lang="eu">Euskadiko izotz jauregiak</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Hoteller i nærheden af Euskadi Ice Palaces</dct:title>
+        <dcat:keyword xml:lang="es">palacios hielo</dcat:keyword>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Информация за ледените дворци на Страната на баските: описание на местоположението, графика и т.н.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Informacije o ledenih palačah Baskije: lokacija opisa, urnik itd.</dct:description>
+        <dct:description xml:lang="eu">Euskadiko izotz-jauregiei buruzko informazioa: deskribapena, kokapena, ordutegia, etab.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f5e8640f-4fcd-4bab-b1bd-169cb3f79434">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/1da4bbe2-9e63-4121-92fe-aae9bd5bede3</dct:identifier>
+            <dct:title xml:lang="es">Pîstas de hielo</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/palacios_hielo/opendata/palacios-hielo.geojson"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >3195</dcat:byteSize>
+            <dct:title xml:lang="eu">Izotz pistak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Euskadin jääpalatsit</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații despre palatele de gheață din Țara Bascilor: descriere locație, program, etc.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Információk Baszkföld jégpalotáiról: leírás helye, ütemezése stb.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Hotell nära Euskadi Ice Palaces</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/DurationDescription">
+                <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:weeks>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Informatie over de ijspaleizen van Baskenland: beschrijving locatie, schema, etc.</dct:description>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/palacios-de-hielo-de-euskadi/</dct:identifier>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Palatul de Gheață Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/48a37c4f-e497-4f55-b122-743f452a3e4d">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >4137</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-palacios-de-hielo-de-euskadi/resource/60a3e221-561c-4730-89b3-cdd8715b0bb7</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/palacios_hielo/opendata/palacios-hielo.jsonp"/>
+            <dct:title xml:lang="es">Pistas de hielo</dct:title>
+            <dct:title xml:lang="eu">Izotz pistak</dct:title>
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-utilizar-datos/"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

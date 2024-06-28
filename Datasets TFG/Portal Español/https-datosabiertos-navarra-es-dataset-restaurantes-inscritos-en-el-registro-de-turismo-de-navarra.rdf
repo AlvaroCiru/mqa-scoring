@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-navarra-es-dataset-restaurantes-inscritos-en-el-registro-de-turismo-de-navarra">
+    <dct:identifier>https://datosabiertos.navarra.es/dataset/restaurantes-inscritos-en-el-registro-de-turismo-de-navarra</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:25:49Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-navarra-es-dataset-restaurantes-inscritos-en-el-registro-de-turismo-de-navarra"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>716eed1a3b466a2de2a9f8b956e3374d</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:31:05Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-navarra-es-dataset-restaurantes-inscritos-en-el-registro-de-turismo-de-navarra">
+        <dct:description xml:lang="lt-t-es-t0-mtec">Oficialus restoranų sąrašas pagal gruodžio 16 d. Įstatymą Nr. 19/2020, kuriuo iš dalies keičiamas vasario 14 d. Navaros turizmo įstatymas Nr. 7/2003, kuriame pateikiama išsami informacija apie šiuos restoranus: pavadinimas, būdas, kategorija, vieta ir t. t. Neįtraukiami laikino veiklos nutraukimo atvejai. Oficialus restoranų sąrašas pagal gruodžio 16 d. Įstatymą Nr. 19/2020, kuriuo iš dalies keičiamas vasario 14 d. Navaros turizmo įstatymas Nr. 7/2003, kuriame pateikiama išsami informacija apie šiuos restoranus:
+pavadinimas, būdas, kategorija, vieta ir t. t. Neįtraukiami laikino veiklos nutraukimo atvejai.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Oficiální seznam restaurací v souladu se zákonem č. 19/2020 ze dne 16. prosince, kterým se mění Foral zákon č. 7/2003 ze dne 14. února o cestovním ruchu v Navarře, s podrobnými informacemi o nich: jméno, způsob, kategorie, umístění atd. Nejsou zahrnuty žádné dočasné zastavení činnosti. Oficiální seznam restaurací v souladu se zákonem č. 19/2020 ze dne 16. prosince, kterým se mění Foral zákon č. 7/2003 ze dne 14. února o cestovním ruchu v Navarře, s podrobnými informacemi o nich:
+jméno, způsob, kategorie, umístění atd. Nejsou zahrnuty žádné dočasné zastavení činnosti.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Elenco ufficiale dei ristoranti, ai sensi della legge 19/2020, del 16 dicembre, che modifica la legge forale 7/2003, del 14 febbraio, sul turismo della Navarra, con informazioni dettagliate su di essi: nome, modalità, categoria, posizione, ecc.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Ristoranti rreġistrati fir-Reġistru tat-Turiżmu ta’ Navarra</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5e348871-2f75-42d7-9806-274421d6bd7e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Az Idegenforgalmi Nyilvántartásba bejegyzett éttermek</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Ресторанти, регистрирани в туристическия регистър</dct:title>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Restauracje zarejestrowane w Rejestrze Turystyki</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Ristoranti iscritti al Registro del Turismo</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Εστιατόρια εγγεγραμμένα στο μητρώο τουρισμού</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Restorani upisani u Registar turizma</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/cfb7de35-ddee-4edd-8b17-ccf649194e74/resource/0a197290-2e3b-4b0c-b383-4f1ec46d9468/download/downloadfile.aspxcodigoaccesoopendataficheroturismoresultados_dc_es.csv"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Restauranter registreret i Turismeregistret</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Restavracije, registrirane v turističnem registru</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Restaurante înregistrate în Registrul de Turism</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Reštaurácie zapísané v registri cestovného ruchu</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Ресторани, зареєстровані в Реєстрі туризму</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Im Tourismusregister eingetragene Restaurants</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/cfb7de35-ddee-4edd-8b17-ccf649194e74/resource/0a197290-2e3b-4b0c-b383-4f1ec46d9468/download/downloadfile.aspxcodigoaccesoopendataficheroturismoresultados_dc_es.csv</dct:identifier>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Restaurants inscrits au registre du tourisme</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Bialanna atá cláraithe sa Chlár Turasóireachta</dct:title>
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Matkailurekisteriin rekisteröidyt ravintolat</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ristoranti rreġistrati fir-Reġistru tat-Turiżmu</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Restaurantes inscritos no Registo de Turismo</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">Restaurants registered in the Tourism Register</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Restauranger registrerade i turistregistret</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma reģistrā reģistrētie restorāni</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Turismiregistris registreeritud restoranid</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Turizmo registre registruoti restoranai</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Restaurants geregistreerd in het toeristenregister</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Restaurace zapsané v registru cestovního ruchu</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0e131c79-fe3c-486e-83d2-2df5ff9fa968">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0a197290-2e3b-4b0c-b383-4f1ec46d9468?format=xml&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak - XML</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0a197290-2e3b-4b0c-b383-4f1ec46d9468?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo - XML</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/388da3a3-9e13-42cb-98e6-61042ed61738">
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0a197290-2e3b-4b0c-b383-4f1ec46d9468?format=tsv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0a197290-2e3b-4b0c-b383-4f1ec46d9468?format=tsv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Ресторани, зареєстровані в туристичному реєстрі Наварри</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Restaurants inscrits au Registre du Tourisme de Navarre</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Lista uffiċjali ta’ ristoranti, f’konformità mal-Liġi 19/2020, tas-16 ta’ Diċembru, li temenda l-Liġi Foral 7/2003, tal-14 ta’ Frar, dwar it-Turiżmu ta’ Navarra, b’informazzjoni dettaljata dwarhom: l-isem, il-modalità, il-kategorija, il-post, eċċ. L-ebda sitwazzjoni ta’ waqfien temporanju ma hija inkluża. Lista uffiċjali ta’ ristoranti, f’konformità mal-Liġi 19/2020, tas-16 ta’ Diċembru, li temenda l-Liġi Foral 7/2003, tal-14 ta’ Frar, dwar it-Turiżmu ta’ Navarra, b’informazzjoni dettaljata dwarhom:
+l-isem, il-modalità, il-kategorija, il-post, eċċ. L-ebda sitwazzjoni ta’ waqfien temporanju ma hija inkluża.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Liste officielle des restaurants, conformément à la loi 19/2020 du 16 décembre, modifiant la loi no 7/2003 du 14 février sur le tourisme de Navarre, avec des informations détaillées à leur sujet: nom, modalité, catégorie, localisation, etc. Aucune situation de cessation temporaire n’est incluse. Liste officielle des restaurants, conformément à la loi 19/2020 du 16 décembre, modifiant la loi no 7/2003 du 14 février sur le tourisme de Navarre, avec des informations détaillées à leur sujet:
+nom, modalité, catégorie, localisation, etc. Aucune situation de cessation temporaire n’est incluse.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Restaurants, die im Tourismusregister von Navarra registriert sind</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Restaurants geregistreerd in het toeristenregister van Navarra</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Restorani upisani u Registar turizma Navarre</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Restavracije, registrirane v turističnem registru Navarra</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Az éttermek hivatalos jegyzéke a navarrai turizmusról szóló, február 14-i 7/2003. sz. törvény módosításáról szóló, december 16-i 19/2020. sz. törvénnyel összhangban, részletes információkkal a következőkről: név, mód, kategória, helyszín stb. Az éttermek hivatalos jegyzéke a navarrai turizmusról szóló, február 14-i 7/2003. sz. törvény módosításáról szóló, december 16-i 19/2020. sz. törvénnyel összhangban, részletes információkkal a következőkről:
+név, mód, kategória, helyszín stb.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Restoranide ametlik loetelu vastavalt 16. detsembri 2020. aasta seadusele nr 19/2020, millega muudetakse 14. veebruari 2003. aasta piirkondlikku seadust 7/2003 Navarra turismi kohta, koos üksikasjaliku teabega nende kohta: nimi, meetod, kategooria, asukoht jne. Ajutise peatumise olukordi ei ole lisatud. Restoranide ametlik loetelu vastavalt 16. detsembri 2020. aasta seadusele nr 19/2020, millega muudetakse 14. veebruari 2003. aasta piirkondlikku seadust 7/2003 Navarra turismi kohta, koos üksikasjaliku teabega nende kohta:
+nimi, meetod, kategooria, asukoht jne. Ajutise peatumise olukordi ei ole lisatud.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Bialanna atá cláraithe i gClárlann Turasóireachta Navarra</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Ristoranti iscritti al Registro del Turismo della Navarra</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Restaurantes registrados no Registo de Turismo de Navarra</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-14T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo de Navarra</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/43e154c6-eae1-4c9d-a815-90e9d1d2be71">
+            <dct:title xml:lang="sk-t-es-t0-mtec">Reštaurácie zapísané v registri cestovného ruchu – ODS</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/0a197290-2e3b-4b0c-b383-4f1ec46d9468.ods"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Restorani upisani u Registar turizma – ODS</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Bialanna atá cláraithe sa Chlár Turasóireachta — ODS</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Restaurants registered in the Tourism Register — ODS</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Restaurants geregistreerd in het toeristenregister — ODS</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Restaurace registrované v registru cestovního ruchu – ODS</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Az Idegenforgalmi Nyilvántartásba bejegyzett éttermek – ODS</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Restavracije, registrirane v turističnem registru – ODS</dct:title>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak - ODS</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ristoranti rreġistrati fir-Reġistru tat-Turiżmu — ODS</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Turizmo registre registruoti restoranai – OAM</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/0a197290-2e3b-4b0c-b383-4f1ec46d9468.ods</dct:identifier>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma reģistrā reģistrēti restorāni — ODS</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Ресторанти, регистрирани в туристическия регистър — ВНОС</dct:title>
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo - ODS</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Turismiregistris registreeritud restoranid – osoonikihti kahandavad ained</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Restaurante înregistrate în Registrul Turismului – ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="it-t-es-t0-mtec">Ristoranti iscritti al Registro del Turismo — ODS</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Ресторани, зареєстровані в Реєстрі туризму - ODS</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Εστιατόρια εγγεγραμμένα στο μητρώο τουρισμού — ODS</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Restaurants inscrits au registre du tourisme — ODS</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Restaurantes inscritos no Registo de Turismo — ODS</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Restauracje zarejestrowane w Rejestrze Turystyki – ODS</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Restauranter registreret i Turismeregistret — ODS</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Restauranger registrerade i turistregistret – ODS</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Im Tourismusregister eingetragene Restaurants – ODS</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Matkailurekisteriin rekisteröidyt ravintolat – ODS</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datosabiertos.navarra.es/dataset/restaurantes-inscritos-en-el-registro-de-turismo-de-navarra</dct:identifier>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Офіційний перелік ресторанів, відповідно до Закону 19/2020, від 16 грудня, що вносить зміни до Форального закону 7/2003, від 14 лютого, про туризм Наварри, з детальною інформацією про них: Ім'я, модальність, категорія, місце розташування і т. д. Офіційний перелік ресторанів, відповідно до Закону 19/2020, від 16 грудня, що вносить зміни до Форального закону 7/2003, від 14 лютого, про туризм Наварри, з детальною інформацією про них:
+Ім'я, модальність, категорія, місце розташування і т. д.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Lista oficială a restaurantelor, în conformitate cu Legea 19/2020 din 16 decembrie, de modificare a Legii forale 7/2003 din 14 februarie privind turismul din Navarra, cu informații detaliate despre acestea: nume, modalitate, categorie, locație etc. Nu sunt incluse situații de încetare temporară.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Ресторанти, регистрирани в туристическия регистър на Навара</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Offizielle Liste der Restaurants gemäß dem Gesetz 19/2020 vom 16. Dezember zur Änderung des Foral Law 7/2003, vom 14. Februar, über Tourismus von Navarra, mit detaillierten Informationen über sie: Name, Modalität, Kategorie, Ort, etc. Es sind keine vorübergehenden Einstellungssituationen enthalten. Offizielle Liste der Restaurants gemäß dem Gesetz 19/2020 vom 16. Dezember zur Änderung des Foral Law 7/2003, vom 14. Februar, über Tourismus von Navarra, mit detaillierten Informationen über sie:
+Name, Modalität, Kategorie, Ort, etc. Es sind keine vorübergehenden Einstellungssituationen enthalten.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Restorāni, kas reģistrēti Navarras Tūrisma reģistrā</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Navarran matkailurekisteriin rekisteröidyt ravintolat</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Officiële lijst van restaurants, in overeenstemming met Wet 19/2020, van 16 december tot wijziging van de Foral Law 7/2003, van 14 februari, inzake Toerisme van Navarra, met gedetailleerde informatie over: naam, modaliteit, categorie, locatie, enz.</dct:description>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a15002917-restaurantes-inscritos-en-el-registro-de-turismo-de-navarra/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a15002917-restaurantes-inscritos-en-el-registro-de-turismo-de-navarra/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e6d89b89-3848-4301-abc0-5b24ff65a2f3">
+            <dct:title xml:lang="hr-t-es-t0-mtec">Restorani upisani u Registar turizma</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Restaurantes inscritos no Registo de Turismo</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Turizmo registre registruoti restoranai</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Ristoranti iscritti al Registro del Turismo</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Matkailurekisteriin rekisteröidyt ravintolat</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ristoranti rreġistrati fir-Reġistru tat-Turiżmu</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/cfb7de35-ddee-4edd-8b17-ccf649194e74/resource/131ef7b5-d036-4ef6-8e58-1873b226fb74/download/downloadfile.aspxcodigoaccesoopendataficheroturismoresultados_dc_es.xsd</dct:identifier>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Restauracje zarejestrowane w Rejestrze Turystyki</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma reģistrā reģistrētie restorāni</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Im Tourismusregister eingetragene Restaurants</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Restauranter registreret i Turismeregistret</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Restauranger registrerade i turistregistret</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/cfb7de35-ddee-4edd-8b17-ccf649194e74/resource/131ef7b5-d036-4ef6-8e58-1873b226fb74/download/downloadfile.aspxcodigoaccesoopendataficheroturismoresultados_dc_es.xsd"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Bialanna atá cláraithe sa Chlár Turasóireachta</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Restaurace zapsané v registru cestovního ruchu</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Restaurante înregistrate în Registrul de Turism</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Az Idegenforgalmi Nyilvántartásba bejegyzett éttermek</dct:title>
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Ресторанти, регистрирани в туристическия регистър</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Reštaurácie zapísané v registri cestovného ruchu</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Εστιατόρια εγγεγραμμένα στο μητρώο τουρισμού</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Turismiregistris registreeritud restoranid</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Ресторани, зареєстровані в Реєстрі туризму</dct:title>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Restaurants geregistreerd in het toeristenregister</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Restavracije, registrirane v turističnem registru</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">Restaurants registered in the Tourism Register</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Restaurants inscrits au registre du tourisme</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="en-t-es-t0-mtec">Official list of restaurants, in accordance with Law 19/2020, of 16 December, amending the Foral Law 7/2003, of 14 February, on Tourism of Navarre, with detailed information about them: name, modality, category, location, etc. No temporary cessation situations are included.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b93b38cd-01af-4d5c-adec-a810e62c01a6">
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak - Explorador de Datos</dct:title>
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo - Explorador de Datos</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/restaurantes-inscritos-en-el-registro-de-turismo-de-navarra/resource/0a197290-2e3b-4b0c-b383-4f1ec46d9468?view_id=7f1e4337-7632-42bf-b5ec-0aba40b92d80</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/restaurantes-inscritos-en-el-registro-de-turismo-de-navarra/resource/0a197290-2e3b-4b0c-b383-4f1ec46d9468?view_id=7f1e4337-7632-42bf-b5ec-0aba40b92d80"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="el-t-es-t0-mtec">Εστιατόρια εγγεγραμμένα στο μητρώο τουρισμού της Ναβάρας</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Uradni seznam restavracij v skladu z zakonom št. 19/2020 z dne 16. decembra o spremembi zakona št. 7/2003 z dne 14. februarja o turizmu v Navarre, s podrobnimi informacijami o njih: ime, način, kategorija, lokacija itd. Začasna ukinitev ni vključena. Uradni seznam restavracij v skladu z zakonom št. 19/2020 z dne 16. decembra o spremembi zakona št. 7/2003 z dne 14. februarja o turizmu v Navarre, s podrobnimi informacijami o njih:
+ime, način, kategorija, lokacija itd. Začasna ukinitev ni vključena.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Navaros turizmo registre registruoti restoranai</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Restauracje zarejestrowane w Rejestrze Turystyki Nawarry</dct:title>
+        <dcat:keyword xml:lang="es">Consumo</dcat:keyword>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Liosta oifigiúil de bhialanna, i gcomhréir le Dlí 19/2020, an 16 Nollaig, lena leasaítear Dlí Foral 7/2003, an 14 Feabhra, maidir le Turasóireacht Navarre, ina bhfuil faisnéis mhionsonraithe fúthu: ainm, módúlacht, catagóir, suíomh, etc. Ní áirítear aon staideanna scoir shealadaigh.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"/>
+        <dct:description xml:lang="es">Listado oficial de restaurantes, de acuerdo con Ley Foral 19/2020, de 16 de diciembre, de modificación de la Ley Foral 7/2003, de 14 de febrero, de Turismo de Navarra, con información detallada sobre los mismos: nombre, modalidad, categoría, ubicación, etc. No se incluyen situaciones de cese temporal.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e1848e1f-c8d7-47df-9557-aff6da1250ea">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0a197290-2e3b-4b0c-b383-4f1ec46d9468?format=csv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0a197290-2e3b-4b0c-b383-4f1ec46d9468?format=csv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak - CSV</dct:title>
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Restaurante înregistrate în Registrul de Turism din Navarra</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Službeni popis restorana, u skladu sa Zakonom 19/2020 od 16. prosinca o izmjeni Zakona 7/2003 od 14. veljače o turizmu Navarre, s detaljnim informacijama o njima: naziv, način, kategorija, lokacija itd. Ne uključuju situacije privremenog prestanka.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Restaurace registrované v registru cestovního ruchu Navarra</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Lista oficial de restaurantes, em conformidade com a Lei 19/2020, de 16 de dezembro, que altera a Lei Foral 7/2003, de 14 de fevereiro, sobre o Turismo de Navarra, com informações detalhadas sobre os mesmos: nome, modalidade, categoria, localização, etc. Não são incluídas situações de cessação temporária. Lista oficial de restaurantes, em conformidade com a Lei 19/2020, de 16 de dezembro, que altera a Lei Foral 7/2003, de 14 de fevereiro, sobre o Turismo de Navarra, com informações detalhadas sobre os mesmos:
+nome, modalidade, categoria, localização, etc. Não são incluídas situações de cessação temporária.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Restauranger registrerade i turistregistret i Navarra</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Navarra turismiregistris registreeritud restoranid</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Restorānu oficiālais saraksts saskaņā ar 16. decembra Likumu Nr. 19/2020, ar ko groza 14. februāra Likumu Nr. 7/2003 par Navarras tūrismu, ar sīku informāciju par tiem: nosaukums, veids, kategorija, atrašanās vieta utt. Nav iekļautas pagaidu pārtraukšanas situācijas. Restorānu oficiālais saraksts saskaņā ar 16. decembra Likumu Nr. 19/2020, ar ko groza 14. februāra Likumu Nr. 7/2003 par Navarras tūrismu, ar sīku informāciju par tiem:
+nosaukums, veids, kategorija, atrašanās vieta utt. Nav iekļautas pagaidu pārtraukšanas situācijas.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Officiell förteckning över restauranger i enlighet med lag 19/2020 av den 16 december om ändring av Foral Law 7/2003 av den 14 februari om turism i Navarra, med detaljerad information om dessa: namn, modalitet, kategori, plats osv. Inga situationer med tillfälligt upphörande ingår. Officiell förteckning över restauranger i enlighet med lag 19/2020 av den 16 december om ändring av Foral Law 7/2003 av den 14 februari om turism i Navarra, med detaljerad information om dessa:
+namn, modalitet, kategori, plats osv. Inga situationer med tillfälligt upphörande ingår.</dct:description>
+        <dct:description xml:lang="eu">Listado oficial de restaurantes, de acuerdo con Ley Foral 19/2020, de 16 de diciembre, de modificación de la Ley Foral 7/2003, de 14 de febrero, de Turismo de Navarra, con información detallada sobre los mismos: nombre, modalidad, categoría, ubicación, etc. No se incluyen situaciones de cese temporal.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a5297320-2763-4821-9640-b4ce87d5a9c7">
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo - JSON - API</dct:title>
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo - JSON</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0a197290-2e3b-4b0c-b383-4f1ec46d9468?format=json&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak - JSON - API</dct:title>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak - JSON</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0a197290-2e3b-4b0c-b383-4f1ec46d9468?format=json&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-06-29T00:00:00+02:00</dct:issued>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A15002917">
+            <foaf:name>Comunidad Foral de Navarra</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A Navarrai Idegenforgalmi Nyilvántartásba bejegyzett éttermek</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Reštaurácie zapísané v registri cestovného ruchu Navarra</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Oficiálny zoznam reštaurácií v súlade so zákonom č. 19/2020 zo 16. decembra, ktorým sa mení zákon č. 7/2003 zo 14. februára o cestovnom ruchu v Navarre, s podrobnými informáciami o nich: názov, modalita, kategória, miesto atď. Nie sú zahrnuté žiadne situácie dočasného zastavenia. Oficiálny zoznam reštaurácií v súlade so zákonom č. 19/2020 zo 16. decembra, ktorým sa mení zákon č. 7/2003 zo 14. februára o cestovnom ruchu v Navarre, s podrobnými informáciami o nich:
+názov, modalita, kategória, miesto atď. Nie sú zahrnuté žiadne situácie dočasného zastavenia.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Oficjalny wykaz restauracji, zgodnie z ustawą 19/2020 z dnia 16 grudnia o zmianie ustawy nr 7/2003 z dnia 14 lutego o turystyce Nawarry, ze szczegółowymi informacjami na ich temat: nazwa, modalność, kategoria, lokalizacja itp. Nie uwzględnia się sytuacji tymczasowego zaprzestania działalności. Oficjalny wykaz restauracji, zgodnie z ustawą 19/2020 z dnia 16 grudnia o zmianie ustawy nr 7/2003 z dnia 14 lutego o turystyce Nawarry, ze szczegółowymi informacjami na ich temat:
+nazwa, modalność, kategoria, lokalizacja itp. Nie uwzględnia się sytuacji tymczasowego zaprzestania działalności.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Официален списък на ресторантите в съответствие със Закон 19/2020 от 16 декември за изменение на Форал Закон 7/2003 от 14 февруари относно туризма в Навара, с подробна информация за тях: име, модалност, категория, местоположение и т.н. Не са включени ситуации на временно преустановяване. Официален списък на ресторантите в съответствие със Закон 19/2020 от 16 декември за изменение на Форал Закон 7/2003 от 14 февруари относно туризма в Навара, с подробна информация за тях:
+име, модалност, категория, местоположение и т.н. Не са включени ситуации на временно преустановяване.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Επίσημος κατάλογος εστιατορίων, σύμφωνα με τον νόμο 19/2020, της 16ης Δεκεμβρίου, για την τροποποίηση του νόμου 7/2003, της 14ης Φεβρουαρίου, για τον τουρισμό της Ναβάρας, με λεπτομερείς πληροφορίες σχετικά με αυτά: όνομα, τρόπος, κατηγορία, τοποθεσία κ.λπ. Δεν περιλαμβάνονται καταστάσεις προσωρινής παύσης. Επίσημος κατάλογος εστιατορίων, σύμφωνα με τον νόμο 19/2020, της 16ης Δεκεμβρίου, για την τροποποίηση του νόμου 7/2003, της 14ης Φεβρουαρίου, για τον τουρισμό της Ναβάρας, με λεπτομερείς πληροφορίες σχετικά με αυτά:
+όνομα, τρόπος, κατηγορία, τοποθεσία κ.λπ. Δεν περιλαμβάνονται καταστάσεις προσωρινής παύσης.</dct:description>
+        <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:title xml:lang="en-t-es-t0-mtec">Restaurants registered in the Tourism Registry of Navarra</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Restauranter registreret i Turismeregistret i Navarra</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Officiel liste over restauranter i overensstemmelse med lov 19/2020 af 16. december om ændring af Forallov 7/2003 af 14. februar om turisme i Navarra med detaljerede oplysninger herom: navn, modalitet, kategori, placering m.v. Der er ikke medtaget situationer med midlertidigt ophør.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Virallinen luettelo ravintoloista Navarran matkailusta 14. helmikuuta annetun lain nro 7/2003 muuttamisesta 16 päivänä joulukuuta 2020 annetun lain 19/2020 mukaisesti ja yksityiskohtaiset tiedot niistä: nimi, liikennemuoto, luokka, sijainti jne. Väliaikaista lopettamista ei mainita. Virallinen luettelo ravintoloista Navarran matkailusta 14. helmikuuta annetun lain nro 7/2003 muuttamisesta 16 päivänä joulukuuta 2020 annetun lain 19/2020 mukaisesti ja yksityiskohtaiset tiedot niistä:
+nimi, liikennemuoto, luokka, sijainti jne. Väliaikaista lopettamista ei mainita.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/88f5a3bb-513c-459a-9a2c-afa7d39b1485">
+            <dct:title xml:lang="lv-t-es-t0-mtec">Tūrisma reģistrā reģistrētie restorāni — XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/0a197290-2e3b-4b0c-b383-4f1ec46d9468.xlsx</dct:identifier>
+            <dct:title xml:lang="es">Restaurantes inscritos en el Registro de Turismo - XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Restaurants geregistreerd in het toeristenregister — XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Matkailurekisteriin rekisteröidyt ravintolat – XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">A Turisztikai Nyilvántartásba bejegyzett éttermek – XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Restauranter registreret i Turismeregistret — XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Turizmo registre registruoti restoranai – XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Ресторанти, регистрирани в туристическия регистър — XLSX</dct:title>
+            <dct:title xml:lang="eu">Nafarroako Turismo Erregistroan inskribatutako jatetxeak - XLSX</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Restaurace registrované v registru cestovního ruchu – XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Restaurante înregistrate în Registrul de Turism – XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Restaurants inscrits au Registre du Tourisme — XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Restauranger registrerade i turistregistret – XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/0a197290-2e3b-4b0c-b383-4f1ec46d9468.xlsx"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Restorani upisani u Registar turizma – XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Bialanna cláraithe sa Chlár Turasóireachta — XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Εστιατόρια εγγεγραμμένα στο Μητρώο Τουρισμού — XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Restavracije, registrirane v turističnem registru – XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Reštaurácie zapísané v registri cestovného ruchu – XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Restauracje zarejestrowane w Rejestrze Turystyki – XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Ресторани, зареєстровані в Реєстрі туризму - XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Turismiregistris registreeritud restoranid – XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Restaurantes inscritos no Registo de Turismo — XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">Restaurants registered in the Tourism Register — XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Im Tourismusregister eingetragene Restaurants – XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ristoranti rreġistrati fir-Reġistru tat-Turiżmu — XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Ristoranti iscritti al Registro del Turismo — XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-18T23:31:05Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

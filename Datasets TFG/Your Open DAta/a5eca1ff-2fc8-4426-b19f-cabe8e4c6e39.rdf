@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/a5eca1ff-2fc8-4426-b19f-cabe8e4c6e39">
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:06Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:05Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>c54e74013a6bc326252f2ab9f806d655</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/a5eca1ff-2fc8-4426-b19f-cabe8e4c6e39"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/a5eca1ff-2fc8-4426-b19f-cabe8e4c6e39">
+        <dct:title>santander_parking-byda-070</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dcat:keyword>transporte</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">Stato di occupazione sensore quadrato santander:parking-byda-070 del parcheggio situato in Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description>Estado de ocupación sensor plaza santander:parking-byda-070 del parking localizado en Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:identifier>a5eca1ff-2fc8-4426-b19f-cabe8e4c6e39</dct:identifier>
+        <dct:accessRights>
+          <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        </dct:accessRights>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-09T12:28:27.093244</dct:modified>
+        <dct:title xml:lang="cs-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Zustand der Besetzung sensor square santander:parking-byda-070 des Parkplatzes in Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-01-09T12:28:26.495622</dct:issued>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-15T00:00:00Z</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2025-12-31T00:00:00Z</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="mt-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Stan okupacji czujnik kwadratowy santander:parking-byda-070 parkingu znajdującego się w Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Състояние на заема сензор квадрат: на паркинга, разположен в Avenida del Faro Pintor Eduardo Sanz (Сантандер)</dct:description>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        </dcat:theme>
+        <dct:title xml:lang="it-t-es-t0-mtec">Santander_parcheggio-Byda-070</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Santander_parking-Byda070</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Tilstand af besættelse sensor kvadrat santander:parking-byda-070 af parkeringspladsen beliggende i Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Stav povolania senzor štvorcový santander:parking-byda-070 parkoviska sa nachádza v Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Starea de ocupare senzor pătrat santander:parking-byda-070 de parcare situat în Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Stanje zasedenosti senzorja kvadrat santander:parking-byda-070 parkirišča, ki se nahaja v Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Avenida del Faro Pintor Eduardo Sanzis (Santander) asuva parkla ekspluatatsioonianduri ruut santander:parking-byda-070</dct:description>
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/place/ESP_SDR"/>
+        </dct:spatial>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A foglalkozási érzékelő négyzete: Avenida del Faro Pintor Eduardo Sanz (Santander) parkolója</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Stav obsazení senzoru čtverec santander:parking-byda-070 parkoviště se nachází v Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">L-istat ta’ okkupazzjoni tas-sensur kwadru santander:parking-byda-070 tal-parkeġġ tal-karozzi li jinsab f’Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">State of occupation sensor square santander:parking-byda-070 of the car park located in Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Valsts okupācijas sensora laukums santander:parking-byda-070 autostāvvietā, kas atrodas Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Užimtumo jutiklio aikštės santander:parking-byda-070 automobilių stovėjimo aikštelė, esanti Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Staid an braiteoir gairme cearnach: 100 % den charrchlós atá suite i Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Santander_parking-Byda-070</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Staat van bezetting sensor plein santander:parking-byda-070 van de parkeerplaats gelegen in Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2a7306a1-e2e9-4a0e-bacb-a2663ea0ebd9">
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title>urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Estatuto de ocupação da praça santander:parking-byda-070 do parque localizado na Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:05.631110</dct:modified>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-15T00:00:00Z</dct:issued>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >2200</dcat:byteSize>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="lv-t-es-t0-mtec">Platība: Avenida del Faro Pintor Eduardo Sanz (Santander) esošās autostāvvietas noslogojums</dct:description>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="uk-t-es-t0-mtec">Статус заповнюваності площі santander:parking-byda-070 автостоянки, розташованої в Авеніда-дель-Фаро Пінтор Едуардо Санц (Сантандер)</dct:description>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Stádas áitíochta na cearnóige santander:parking-byda-070 an charrchlóis atá suite in Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="de-t-es-t0-mtec">Belegungsstatus des Platzes santander:parking-byda-070 des Parkplatzes in der Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:description xml:lang="da-t-es-t0-mtec">Belægningsstatus for pladsen santander:parking-byda-070 af parkeringspladsen beliggende i Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:description xml:lang="et-t-es-t0-mtec">Avenida del Faro Pintor Eduardo Sanzis (Santander) asuva parkla täituvuse staatus:</dct:description>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Status obłożenia placu santander:parking-byda-070 parkingu położonego w Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dcat:downloadURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:ParkingSpot:santander:parking-byda-070"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Bezettingsstatus van het plein santander:parking-byda-070 van de parkeerplaats in Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Статус на заемане на площада: на паркинга, намиращ се в Avenida del Faro Pintor Eduardo Sanz (Сантандер)</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            <dcat:accessURL rdf:resource="https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:ParkingSpot:santander:parking-byda-070"/>
+            <dct:description xml:lang="el-t-es-t0-mtec">Κατάσταση πληρότητας της πλατείας santander:parking-byda-070 του χώρου στάθμευσης που βρίσκεται στην Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Neliön santander:parking-byda-070 parkkihalli sijaitsee Avenida del Faro Pintor Eduardo Sanzissa (Santander)</dct:description>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/a5eca1ff-2fc8-4426-b19f-cabe8e4c6e39/resource/62706d03-c370-4c32-9025-ce834cacdd4f</dct:identifier>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Stav obsadenia námestia santander:parking-byda-070 parkoviska sa nachádza v Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Avenida del Faro Pintor Eduardo Sanz (Santander) esančios automobilių stovėjimo aikštelės užimtumo statusas</dct:description>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Status popunjenosti trga santander:parking-byda-070 parkirališta u Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Statutul de ocupare a pieței santander:parking-byda-070 a parcării situate în Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Obsazenost náměstí santander:parking-byda-070 parkoviště se nachází v Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Status ta’ okkupanza tal-kwadru santander:parking-byda-070 tal-parkeġġ tal-karozzi li jinsab f’Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:description>Estado de ocupación de la plaza santander:parking-byda-070 del parking localizado en Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Statut d’occupation de la place santander:parking-byda-070 du parking situé à Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Beläggningsstatus för torget santander:parking-byda-070 av parkeringsplatsen ligger i Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Status zasedenosti kvadrata santander:parking-byda-070 parkirišča, ki se nahaja v Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:description xml:lang="en-t-es-t0-mtec">Occupancy status of the square santander:parking-byda-070 of the car park located in Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A tér kihasználtsági állapota: Avenida del Faro Pintor Eduardo Sanz (Santander) parkolója</dct:description>
+            <dct:description xml:lang="it-t-es-t0-mtec">Stato di occupazione della piazza santander:parking-byda-070 del parcheggio situato ad Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:ParkingSpot:santander:parking-byda-070</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sl-t-es-t0-mtec">santander_parking-Byda-070</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Miehityksen tila anturi neliö santander:parking-byda-070 pysäköintialueen sijaitsee Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Santander:parking-byda-070 du parking situé à Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Стан професійного датчика площі: стоянка автостоянки, розташована в Авеніда-дель-Фаро Пінтор Едуардо Санц (Сантандер)</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Stanje okupacije senzor trgu santander:parking-byda-070 parkirališta nalazi se u Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://dih.smartsantander.eu/contact/">
+            <vcard:fn>Smart Santander</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κατάσταση απασχόλησης αισθητήρα τετράγωνο τετράγωνο santander:parking-byda-070 του χώρου στάθμευσης που βρίσκεται στην Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Estado de ocupação sensor quadrado santander:parking-byda-070 do parque localizado na Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Santander_parking-Byda-070</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/17e019a5-ddf1-4dc9-9d93-db4280253965">
+            <foaf:name>smartsantander</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Tillståndet av ockupation sensor torg santander:parking-byda-070 av parkeringsplatsen ligger i Avenida del Faro Pintor Eduardo Sanz (Santander)</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>a5eca1ff-2fc8-4426-b19f-cabe8e4c6e39</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-22T05:00:06Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-23T22:48:02Z</edp:transReceived>
+  </dcat:CatalogRecord>
+</rdf:RDF>

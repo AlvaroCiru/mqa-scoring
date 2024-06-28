@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/babcc4a4-062d-48d1-a145-e2d9ba7d6596">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/babcc4a4-062d-48d1-a145-e2d9ba7d6596"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:54Z</dct:modified>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <dct:identifier>babcc4a4-062d-48d1-a145-e2d9ba7d6596</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/babcc4a4-062d-48d1-a145-e2d9ba7d6596">
+        <dct:title xml:lang="nl-t-en-t0-mtec">EnergyCIM: Temperatuur</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:36:01.653421</dct:issued>
+        <dct:title xml:lang="hu-t-en-t0-mtec">EnergyCIM:Temperature</dct:title>
+        <dct:title>EnergyCIM:Temperature</dct:title>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé an teocht chomhthimpeallach arna tomhas ag na braiteoirí a úsáidtear i gcathair Santander trí ardán SmartSantander.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:36:01.377450</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dcat:keyword>SmartSantander</dcat:keyword>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo apkārtējās vides temperatūru, ko mēra ar sensoriem, kas izvietoti Santander pilsētā caur SmartSantander platformu.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje okolní teplotu měřenou senzory rozmístěnými ve městě Santander prostřednictvím platformy SmartSantander.</dct:description>
+        <dct:identifier>babcc4a4-062d-48d1-a145-e2d9ba7d6596</dct:identifier>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer den omgivende temperatur målt af de sensorer, der anvendes i byen Santander via SmartSantander-platformen.</dct:description>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Ez a Santander városában a SmartSantander platformon keresztül telepített érzékelők által mért környezeti hőmérséklet.</dct:description>
+        <dct:title xml:lang="sk-t-en-t0-mtec">EnergyCIM:Temperatúra</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f983766d-851c-4910-b5d0-0c130c6b4280">
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">EnergyCIM: Datos en tiempo real de temperatura representados en formato JSON</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description xml:lang="pt-t-en-t0-mtec">EnergyCIM: Dados em tempo real da temperatura representados no formato JSON</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">EnergyCIM: Temperaturdata i realtid representerad i JSON-format</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">EnergyCIM: Tepelná data v reálném čase reprezentovaná ve formátu JSON</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">EnergyCIM:Temperaturni podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">EnergyCIM: Id-data tal-imperatura f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">EnergyCIM: Lämpötila reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:description>EnergyCIM:Temperature realtime data represented in JSON format</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">EnergyCIM: Temperatur realtime data repræsenteret i JSON format</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/babcc4a4-062d-48d1-a145-e2d9ba7d6596/resource/urn_ngsi-ld_distribution_salted_project_energycim_temperature_json</dct:identifier>
+            <dct:description xml:lang="sl-t-en-t0-mtec">EnergyCIM:Temperaturni podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">EnergyCIM:Δεδομένα σε πραγματικό χρόνο θερμοκρασίας που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">EnergyCIM: JSON formátumban megjelenített valós idejű időmérési adatok</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">EnergyCIM: Temperaturowe dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">EnergyCIM: Температура данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">EnergyCIM:Temperatúrne údaje v reálnom čase reprezentované vo formáte JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="uk-t-en-t0-mtec">EnergyCIM: Температурні дані в режимі реального часу представлені у форматі JSON</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:36:01.653421</dct:issued>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:16:22.160576</dct:modified>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">EnergyCIM:Temperature realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">EnergyCIM:Temperature reāllaika dati attēloti JSON formātā</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">EnergyCIM:Temperature Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="it-t-en-t0-mtec">EnergyCIM:Temperatura dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">EnergyCIM: Temperatuur realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.EnergyCIM%2FTemperature__.json"/>
+            <dct:description xml:lang="ro-t-en-t0-mtec">EnergyCIM: Temperature date în timp real reprezentate în format JSON</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.EnergyCIM%2FTemperature__.json"/>
+            <dct:description xml:lang="et-t-en-t0-mtec">EnergyCIM: JSON-vormingus esitatud temperatuuri reaalaja andmed</dct:description>
+            <dct:description xml:lang="fr-t-en-t0-mtec">EnergyCIM: Données en temps réel de température représentées au format JSON</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">EnergyCIM: Teocht sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d5d150db-579c-4187-8f6f-ecd4dec0a001">
+            <dct:description xml:lang="fi-t-en-t0-mtec">EnergyCIM: Lämpötila reaaliaikainen data esitetty JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description>EnergyCIM:Temperature realtime data represented in JSON_LD format</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/babcc4a4-062d-48d1-a145-e2d9ba7d6596/resource/urn_ngsi-ld_distribution_salted_project_energycim_temperature_jsonld</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.EnergyCIM%2FTemperature__.jsonld"/>
+            <dct:description xml:lang="ro-t-en-t0-mtec">EnergyCIM: Temperature date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">EnergyCIM: Datos en tiempo real de temperatura representados en formato JSON_LD</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">EnergyCIM: Teocht sonraí fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">EnergyCIM:Temperature Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:description xml:lang="fr-t-en-t0-mtec">EnergyCIM: Données en temps réel de température représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">EnergyCIM: Temperatuur realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">EnergyCIM: Temperaturdata i realtid representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">EnergyCIM: Temperatur realtime data repræsenteret i JSON_LD format</dct:description>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sk-t-en-t0-mtec">EnergyCIM:Temperature realtime data reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="it-t-en-t0-mtec">EnergyCIM:Temperatura dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">EnergyCIM: JSON_LD formaadis esitatud temperatuuri reaalaja andmed</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">EnergyCIM: podaci o temperaturi u stvarnom vremenu prikazani u formatu JSON_LD</dct:description>
+            <dct:description xml:lang="cs-t-en-t0-mtec">EnergyCIM: Temperaturní data v reálném čase reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">EnergyCIM:Temperaturni podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-04T17:16:22.161944</dct:modified>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:36:01.653421</dct:issued>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">EnergyCIM: Temperaturowe dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">EnergyCIM: Dados em tempo real da temperatura representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">EnergyCIM: JSON_LD formátumban reprezentált valós idejű adatok</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">EnergyCIM:Δεδομένα σε πραγματικό χρόνο θερμοκρασίας που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">EnergyCIM:Temperature reāllaika dati attēloti JSON_LD formātā</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:description xml:lang="uk-t-en-t0-mtec">EnergyCIM: Температурні дані в режимі реального часу представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">EnergyCIM: Id-data tal-imperatura f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.EnergyCIM%2FTemperature__.jsonld"/>
+            <dct:description xml:lang="lt-t-en-t0-mtec">EnergyCIM:Temperature realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dct:description xml:lang="bg-t-en-t0-mtec">EnergyCIM: Температура данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja temperaturo okolice, izmerjeno s senzorji, nameščenimi v mestu Santander skozi platformo SmartSantander.</dct:description>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dcat:keyword>Temperature</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa a temperatura ambiente medida pelos sensores implantados na cidade de Santander através da plataforma SmartSantander.</dct:description>
+        <dct:title xml:lang="de-t-en-t0-mtec">EnergyCIM:Temperatur</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">EnergyCIM:Température</dct:title>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta la temperatura ambiente misurata dai sensori dislocati nella città di Santander attraverso la piattaforma SmartSantander.</dct:description>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Den representerar omgivningstemperaturen som mäts av sensorerna som distribueras i staden Santander via SmartSantander-plattformen.</dct:description>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de omgevingstemperatuur die wordt gemeten door de sensoren die in de stad Santander via het SmartSantander-platform worden ingezet.</dct:description>
+        <dct:description>It represents the ambient temperature measured by the sensors deployed in the city of Santander through the SmartSantander platform.</dct:description>
+        <dct:title xml:lang="el-t-en-t0-mtec">EnergyCIM: Θερμοκρασία</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">EnergyCIM:Teplota</dct:title>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Aceasta reprezintă temperatura ambiantă măsurată de senzorii implementați în orașul Santander prin platforma SmartSantander.</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Reprezentuje temperaturę otoczenia mierzoną przez czujniki rozmieszczone w mieście Santander za pośrednictwem platformy SmartSantander.</dct:description>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai yra aplinkos temperatūra, matuojama jutikliais, įdiegtais Santandero mieste per „SmartSantander“ platformą.</dct:description>
+        <dct:title xml:lang="bg-t-en-t0-mtec">EnergyCIM: Температура</dct:title>
+        <dct:title xml:lang="uk-t-en-t0-mtec">EnergyCIM: Температура</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">EnergyCIM:Temperatura</dct:title>
+        <dct:title xml:lang="sl-t-en-t0-mtec">EnergyCIM:Temperatura</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">EnergyCIM:Temperatura</dct:title>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kajastab ümbritseva õhu temperatuuri, mida mõõdetakse Santanderi linnas SmartSantanderi platvormi kaudu kasutusele võetud anduritega.</dct:description>
+        <dct:title xml:lang="ro-t-en-t0-mtec">EnergyCIM: Temperatura</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">EnergyCIM: Temperatura</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">EnergyCIM: Temperatura</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">EnergyCIM: Temperatura</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">EnergyCIM: Temperatura</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-08-24T14:36:01.653456</dct:modified>
+        <dct:title xml:lang="ga-t-en-t0-mtec">EnergyCIM: Teocht</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">EnergyCIM: Temperatur</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">EnergyCIM: Temperatur</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">EnergyCIM: temperatuur</dct:title>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Вона являє собою температуру навколишнього середовища, вимірювану датчиками, розгорнутими в місті Сантандер через платформу SmartSantander.</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa ympäristön lämpötilaa, jota mitataan Santanderin kaupungissa SmartSantander-alustan kautta asennetuilla antureilla.</dct:description>
+        <dct:title xml:lang="lv-t-en-t0-mtec">EnergyCIM:Temperatūra</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">EnergyCIM:Temperatūra</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Тя представлява температурата на околната среда, измерена от сензорите, разположени в град Сантандер чрез платформата SmartSantander.</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje teplotu okolia meranú senzormi nasadenými v meste Santander prostredníctvom platformy SmartSantander.</dct:description>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει τη θερμοκρασία περιβάλλοντος που μετράται από τους αισθητήρες που αναπτύχθηκαν στην πόλη Santander μέσω της πλατφόρμας SmartSantander.</dct:description>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Ona predstavlja temperaturu okoline koju mjere senzori raspoređeni u gradu Santanderu putem platforme SmartSantander.</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente la température ambiante mesurée par les capteurs déployés dans la ville de Santander à travers la plate-forme SmartSantander.</dct:description>
+        <dct:title xml:lang="fi-t-en-t0-mtec">EnergyCIM: Lämpötila</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-08-24T14:36:01.377450</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa la temperatura ambiente medida por los sensores desplegados en la ciudad de Santander a través de la plataforma SmartSantander.</dct:description>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt die Umgebungstemperatur dar, die von den Sensoren gemessen wird, die in der Stadt Santander über die SmartSantander-Plattform eingesetzt werden.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta t-temperatura ambjentali mkejla mis-sensuri użati fil-belt ta’ Santander permezz tal-pjattaforma SmartSantander.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:54Z</edp:transReceived>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-16T14:02:38Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>1f7d405bfce36261ebe1d8d06bfce2c5</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-kod-brno-cz-nkod-dataset-f1585cffb31a4a48a98e4c830a54aaa9_0-ttl">
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-kod-brno-cz-nkod-dataset-f1585cffb31a4a48a98e4c830a54aaa9_0-ttl"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:26Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:43Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:26Z</edp:transIssued>
+    <dct:identifier>https://kod.brno.cz/nkod/dataset/f1585cffb31a4a48a98e4c830a54aaa9_0.ttl</dct:identifier>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>3410374516a8fbed54f12b73447785f9</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <j.1:LKOD rdf:about="http://data.europa.eu/88u/dataset/https-kod-brno-cz-nkod-dataset-f1585cffb31a4a48a98e4c830a54aaa9_0-ttl">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2d7ac215-0559-48bb-849e-5e424b32a396">
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/a0149537707d78d1f6b06e30a712cc51/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+              </j.0:Specifikace>
+            </dct:license>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_shp_sjtsk.zip"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/x-shapefile"/>
+            <dct:title xml:lang="cs">ShapeFile (S-JTSK)</dct:title>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_shp_sjtsk.zip"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/a0149537707d78d1f6b06e30a712cc51</dct:identifier>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/a0149537707d78d1f6b06e30a712cc51/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8f7f252b-7b47-49a3-b5ad-2a4a309feeb5">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="cs">Shapefile</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/54aa1cc383067536c32061beb2a4be00</dct:identifier>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/54aa1cc383067536c32061beb2a4be00/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/54aa1cc383067536c32061beb2a4be00/podmínky-užití"/>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/f1585cffb31a4a48a98e4c830a54aaa9/shapefile?layers=0"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/f1585cffb31a4a48a98e4c830a54aaa9/shapefile?layers=0"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1521d37e-10e3-4811-ba04-4f8b086e5d0e">
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/14f8ebdefc9b7c4f5f0a7fe4a9a171a6</dct:identifier>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/f1585cffb31a4a48a98e4c830a54aaa9/csv?layers=0"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/f1585cffb31a4a48a98e4c830a54aaa9/csv?layers=0"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/14f8ebdefc9b7c4f5f0a7fe4a9a171a6/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:title xml:lang="cs">CSV</dct:title>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/14f8ebdefc9b7c4f5f0a7fe4a9a171a6/podmínky-užití"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/39dbf295-0aee-4f1b-870c-e91eca8bc3b5">
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_sjtsk.dxf"/>
+            <dct:title xml:lang="cs">DXF (S-JTSK)</dct:title>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/e416ffb5a845a9c6376650a8aa2d387f/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+              </j.0:Specifikace>
+            </dct:license>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_sjtsk.dxf"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/e416ffb5a845a9c6376650a8aa2d387f</dct:identifier>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/e416ffb5a845a9c6376650a8aa2d387f/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/14ab7c77-0c03-4c4b-b22a-cdf673c430e3">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/50989d2690a328659ad6f9da5f38ba5a/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_wgs84.gpkg"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/50989d2690a328659ad6f9da5f38ba5a/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_wgs84.gpkg"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/50989d2690a328659ad6f9da5f38ba5a</dct:identifier>
+            <dct:title xml:lang="cs">OGC GeoPackage (WGS84)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/784aeb7a-6396-47d3-aec9-6b3fd41db392">
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_gml_sjtsk.zip"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/b7dd285b4484dfa40a351e4d10c11793</dct:identifier>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/b7dd285b4484dfa40a351e4d10c11793/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:title xml:lang="cs">GML (S-JSTK)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/b7dd285b4484dfa40a351e4d10c11793/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_gml_sjtsk.zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e65ad216-4ce8-4cd7-8f36-2076e3ad20ea">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/f1585cffb31a4a48a98e4c830a54aaa9/kml?layers=0"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/40b457b73ff9619dde4189186043e6e6/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/f1585cffb31a4a48a98e4c830a54aaa9/kml?layers=0"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/40b457b73ff9619dde4189186043e6e6/podmínky-užití"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml"/>
+            <dct:title xml:lang="cs">KML</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/40b457b73ff9619dde4189186043e6e6</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://kod.brno.cz/nkod/dataset/f1585cffb31a4a48a98e4c830a54aaa9_0.ttl</dct:identifier>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9cd8fc60-da52-4073-b338-cbb5140d0994">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/015f2ec7b9196e9c8395b77eadbac04b/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_gml_wgs84.zip"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/015f2ec7b9196e9c8395b77eadbac04b/podmínky-užití"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/015f2ec7b9196e9c8395b77eadbac04b</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dct:title xml:lang="cs">GML (WGS84)</dct:title>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_gml_wgs84.zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en">Geological risks - Extensive contamination of groundwater</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bfbc23e0-1c53-43b3-a290-817a2318f827">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/b021bd10d5ab547acc34751c729034a0/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geo+json"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/b021bd10d5ab547acc34751c729034a0/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_sjtsk.geojson"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/b021bd10d5ab547acc34751c729034a0</dct:identifier>
+            <dct:title xml:lang="cs">GeoJSON (S-JTSK)</dct:title>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_sjtsk.geojson"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="cs">georizika</dcat:keyword>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/obec/582786"/>
+        <dcat:contactPoint>
+          <vcard:Individual rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/kontaktní-bod">
+            <vcard:hasEmail rdf:resource="mailto:data@brno.cz"/>
+            <vcard:fn xml:lang="cs">Ondráčková Ladislava, RNDr.</vcard:fn>
+          </vcard:Individual>
+        </dcat:contactPoint>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f7cd6ce7-04a5-4c1f-8ba6-2cef888e1c7f">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/e0239bf2da86a8c9074ece1501f9cde7/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/e0239bf2da86a8c9074ece1501f9cde7/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/plosna_kontaminace/FeatureServer/0"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/e0239bf2da86a8c9074ece1501f9cde7</dct:identifier>
+            <dct:title xml:lang="cs">ArcGIS GeoService</dct:title>
+            <dcat:accessURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/plosna_kontaminace/FeatureServer/0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <foaf:page rdf:resource="https://mmbonline.sharepoint.com/:x:/s/public/OMI/gis/EY0cw2JS6ohHmgARWGS7NsQBY45wE6mXND2hN3jrQ6Y7Sw?e=5sR5Hl"/>
+        <dct:title xml:lang="cs">Georizika - NEL - Plošná kontaminace podzemní vody</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8c3eea46-28ff-42b5-a044-c74d9bc11293">
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_sjtsk.gpkg"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/fcbf4aae8328500966e41fc951a7b303/podmínky-užití">
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/fcbf4aae8328500966e41fc951a7b303/podmínky-užití"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/fcbf4aae8328500966e41fc951a7b303</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_sjtsk.gpkg"/>
+            <dct:title xml:lang="cs">OGC GeoPackage (S-JTSK)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4a4d1dee-9e9b-463d-9461-fbd4d85314bf">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/43c02a15c290d53804061541f0a68d30/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_wgs84.dxf"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/43c02a15c290d53804061541f0a68d30/podmínky-užití"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/kontpodzvodynel_p_wgs84.dxf"/>
+            <dct:title xml:lang="cs">DXF (WGS84)</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/43c02a15c290d53804061541f0a68d30</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785">
+            <foaf:name xml:lang="cs">Statutární město Brno</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/66b16883-1a53-4b23-977b-0cb4b3e84a7b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/f1585cffb31a4a48a98e4c830a54aaa9/geojson?layers=0"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/d21d52f7fa4bfa7221ab150ebfe7a2d5/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor životního prostředí (OŽP)</j.0:autor>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/f1585cffb31a4a48a98e4c830a54aaa9/geojson?layers=0"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/d21d52f7fa4bfa7221ab150ebfe7a2d5/podmínky-užití"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.geo+json"/>
+            <dct:title xml:lang="cs">GeoJSON</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/distribuce/d21d52f7fa4bfa7221ab150ebfe7a2d5</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/identifikátorLKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://kod.brno.cz/nkod/dataset/f1585cffb31a4a48a98e4c830a54aaa9_0.ttl</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4/identifikátorNKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/44992785/d17833ac999933997f99087c215d60b4</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <dct:description xml:lang="cs">Datová sada je součástí dat zaměřujících se na kontaminaci podzemních vod. Tu tvoří hydrogeologické objekty - průzkumné a monitorovací vrty, studny, čerpané vrty (tj. objekty pravidelně čerpané převážně pro technologické účely), sanačně čerpané vrty a vrty zasahující do neogenní zvodně (zasahuje-li vrt do neogenní zvodně a zároveň je jímacím vrtem, je zařazen do vrtů zasahujících do neogenní zvodně). Dále se data zaměřují na zdokumentovaný nebo předpokládaný tranzit kontaminace (ClU a NEL). Součástí dat je název objektu, využití (typ) objektu, příp. oskenovaná vodoprávní rozhodnutí o nakládání s podzemními vodami - povolení k čerpání podzemních vod (rozhodnutí jsou zároveň připojena i k areálům, pro které byla rozhodnutí vydána). Data obsahují dále dokumentaci vrtu (rok vyhloubení, lokalizace, výškové zaměření, údaje o hloubce vrtu a jeho technickém provedení), petrografický popis vrtného jádra a stratigrafie vrtného profilu (u vrtů zasahujících do neogenní zvodně), údaje o hladině podzemní vody a odkazy na zprávy, ze kterých byla data čerpána. Dokumentace vrtu rovněž zahrnuje koncentrace kontaminantů stanovené při posledních třech odběrech podzemní vody, pokud zde byly provedené. Sledovanými kontaminanty jsou ropné látky (uhlovodíky C10 – C40), CIU (chlorované uhlovodíky), BTEX (benzen, toluen, ethylbenzen, xylen), PAU (polycyklické aromaticé uhlovodíky), fenoly, PCB (polychlorované bifenyly) a těžké kovy. U koncentrace jednotlivých kontaminantů je uvedeno porovnání s kritériem znečištění stanoveným MP MŽP v roce 2014. Data jsou součástí pasportu geologie, hydrogeologie a inženýrské geologie (nyní Georizika) města Brna, který byl vytvořen v roce 2004 a je vždy ke konci roku aktualizován externí firmou. Generel byl vytvořen pro pracovníky úřadů, kteří se odborně vyjadřují k investičním akcím, projektové dokumentaci nebo vydávají rozhodnutí dle příslušných zákonů (stavební zákon, vodní zákon). Nyní je využíván i pracovníky příspěvkových organizací (např. KAM) a poskytován jako podklad pro zpracovatele studií zadávaných Statutárním městem Brno (SMB). Podrobnější informace najdete v dokumentaci. Data jsou v souřadnicovém systému GCS WGS84.</dct:description>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      </j.1:LKOD>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

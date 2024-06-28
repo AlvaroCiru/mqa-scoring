@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:j.0="https://data.gov.cz/slovník/podmínky-užití/"
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-kod-brno-cz-nkod-dataset-8c797c879ff544359dd7798ba10e302d_0-ttl">
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:24Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-kod-brno-cz-nkod-dataset-8c797c879ff544359dd7798ba10e302d_0-ttl"/>
+    <foaf:primaryTopic>
+      <j.1:DokumentyDCAT rdf:about="http://data.europa.eu/88u/dataset/https-kod-brno-cz-nkod-dataset-8c797c879ff544359dd7798ba10e302d_0-ttl">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8c04dc15-0d16-4c16-890c-336794cf61fb">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/dd1e12ef4381267437a0f2628351d767</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_gml_wgs84.zip"/>
+            <dct:title xml:lang="cs">GML (WGS84)</dct:title>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/dd1e12ef4381267437a0f2628351d767/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_gml_wgs84.zip"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/dd1e12ef4381267437a0f2628351d767/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+        >https://kod.brno.cz/nkod/dataset/8c797c879ff544359dd7798ba10e302d_0.ttl</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6c610c28-9b5e-425d-a707-2c3de4e67252">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/e8d268d6400d6b7edffcc1314a0ec72a/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
+            <dct:title xml:lang="cs">Shapefile</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/e8d268d6400d6b7edffcc1314a0ec72a</dct:identifier>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/8c797c879ff544359dd7798ba10e302d/shapefile?layers=0"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/e8d268d6400d6b7edffcc1314a0ec72a/podmínky-užití"/>
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/8c797c879ff544359dd7798ba10e302d/shapefile?layers=0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e4512372-5521-4eed-ac18-c116209e750c">
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/8c797c879ff544359dd7798ba10e302d/csv?layers=0"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/20411395296eecc07f5570d855a7f1e4/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="cs">CSV</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/20411395296eecc07f5570d855a7f1e4</dct:identifier>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/20411395296eecc07f5570d855a7f1e4/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/8c797c879ff544359dd7798ba10e302d/csv?layers=0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785">
+            <foaf:name xml:lang="cs">Statutární město Brno</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/eb179d86-f1f1-44e6-821c-e19d387eb47d">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/dc551a5f5df5719712f316c41ac31fde/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/katastralni_uzemi/FeatureServer/0"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/dc551a5f5df5719712f316c41ac31fde</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/katastralni_uzemi/FeatureServer/0"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/dc551a5f5df5719712f316c41ac31fde/podmínky-užití"/>
+            <dct:title xml:lang="cs">ArcGIS GeoService</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:contactPoint>
+          <vcard:Individual rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/kontaktní-bod">
+            <vcard:hasEmail rdf:resource="mailto:hrckova.lenka@brno.cz"/>
+            <vcard:fn xml:lang="cs">Hrčková Lenka, Ing.</vcard:fn>
+          </vcard:Individual>
+        </dcat:contactPoint>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/124799ac-2ba1-4864-9a6d-b1ee481fc3f8">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geo+json"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_sjtsk.geojson"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/38ffb57639741a8e983607490fd1a79e</dct:identifier>
+            <dct:title xml:lang="cs">GeoJSON (S-JTSK)</dct:title>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/38ffb57639741a8e983607490fd1a79e/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_sjtsk.geojson"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/38ffb57639741a8e983607490fd1a79e/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/REGI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/86c3ca17-6d95-48b0-9f90-8037e3f4fbad">
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/x-shapefile"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_shp_sjtsk.zip"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dct:title xml:lang="cs">ShapeFile (S-JTSK)</dct:title>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/4f2bc9a8913573a99e274071231771ac</dct:identifier>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/4f2bc9a8913573a99e274071231771ac/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/4f2bc9a8913573a99e274071231771ac/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_shp_sjtsk.zip"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e8311d27-12ab-4592-be2a-de82e92d2e75">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/de75b656a421b6dd8f447051bb40fd2c/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/de75b656a421b6dd8f447051bb40fd2c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_gml_sjtsk.zip"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_gml_sjtsk.zip"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dct:title xml:lang="cs">GML (S-JSTK)</dct:title>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/gml+xml"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/de75b656a421b6dd8f447051bb40fd2c/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <foaf:page rdf:resource="https://mmbonline.sharepoint.com/:x:/s/public/OMI/gis/EYhtk6dYFOpPiWLx0ZWD1e8BF8T0jL2jkjGoidAyQl0A3A?e=UXtjtA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4f20e7a6-f171-4ce1-ba45-8fda2f29800f">
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/8c797c879ff544359dd7798ba10e302d/kml?layers=0"/>
+            <dct:title xml:lang="cs">KML</dct:title>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/8c797c879ff544359dd7798ba10e302d/kml?layers=0"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/59a434acc6d3e238c6970bb2d37ac68a</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml"/>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/59a434acc6d3e238c6970bb2d37ac68a/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/59a434acc6d3e238c6970bb2d37ac68a/podmínky-užití"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8ddba88e-0e59-493e-b3bd-f3d183a1f4b4">
+            <dcat:downloadURL rdf:resource="https://data.brno.cz/api/download/v1/items/8c797c879ff544359dd7798ba10e302d/geojson?layers=0"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/93fe420bbdcc301614b0507e2c841474</dct:identifier>
+            <dct:license>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/93fe420bbdcc301614b0507e2c841474/podmínky-užití">
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </dct:license>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.geo+json"/>
+            <dct:title xml:lang="cs">GeoJSON</dct:title>
+            <j.0:specifikace rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/93fe420bbdcc301614b0507e2c841474/podmínky-užití"/>
+            <dcat:accessURL rdf:resource="https://data.brno.cz/api/download/v1/items/8c797c879ff544359dd7798ba10e302d/geojson?layers=0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f5e61e4f-ce6f-4264-a73f-87cee72cfe98">
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/ea12f8e6fcff7f39ffa70c9d3206645f/podmínky-užití">
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/ea12f8e6fcff7f39ffa70c9d3206645f</dct:identifier>
+            <dct:title xml:lang="cs">DXF (S-JTSK)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_sjtsk.dxf"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_sjtsk.dxf"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/ea12f8e6fcff7f39ffa70c9d3206645f/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/identifikátorNKOD">
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8</skos:notaton>
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921"/>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ba62a080-6b7f-429f-a034-50a7d6993df5">
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/7dad55771a5d45b733aecda0afc8d258</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/7dad55771a5d45b733aecda0afc8d258/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <dct:title xml:lang="cs">OGC GeoPackage (S-JTSK)</dct:title>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_sjtsk.gpkg"/>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_sjtsk.gpkg"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/7dad55771a5d45b733aecda0afc8d258/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="https://linked.cuzk.cz/resource/ruian/obec/582786"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/40603b32-57b4-4a36-b426-c32634fc6246">
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/v_g_momc_p_wgs84.gpkg"/>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/d1f9f7ab71282e547fc2ae638dd4993d/podmínky-užití">
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/v_g_momc_p_wgs84.gpkg"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/d1f9f7ab71282e547fc2ae638dd4993d</dct:identifier>
+            <dct:title xml:lang="cs">OGC GeoPackage (WGS84)</dct:title>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/d1f9f7ab71282e547fc2ae638dd4993d/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/57dcbbb4-0db7-48c2-b2ab-f1787d0093f9">
+            <dct:title xml:lang="cs">DXF (WGS84)</dct:title>
+            <dcat:downloadURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_wgs84.dxf"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DXF"/>
+            <dct:identifier>https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/22b220fb11b03f19595bfc90efc8bc5a</dct:identifier>
+            <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/image/vnd.dxf"/>
+            <j.0:specifikace>
+              <j.0:Specifikace rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/22b220fb11b03f19595bfc90efc8bc5a/podmínky-užití">
+                <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+                <j.0:databáze-chráněná-zvláštními-právy rdf:resource="https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"/>
+                <j.0:databáze-jako-autorské-dílo rdf:resource="https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"/>
+                <j.0:autor xml:lang="cs">Odbor městské informatiky (OMI)</j.0:autor>
+                <j.0:osobní-údaje rdf:resource="https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"/>
+                <j.0:autorské-dílo rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+              </j.0:Specifikace>
+            </j.0:specifikace>
+            <dcat:accessURL rdf:resource="https://gis.brno.cz/public/opendata/g_katastralni_uzemi_p_wgs84.dxf"/>
+            <dct:license rdf:resource="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/distribuce/22b220fb11b03f19595bfc90efc8bc5a/podmínky-užití"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <adms:identifier>
+          <adms:Identifier rdf:about="https://data.gov.cz/zdroj/datové-sady/44992785/996ced18ab800814fd68954768bc78e8/identifikátorLKOD">
+            <dct:creator rdf:resource="https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/44992785"/>
+            <skos:notaton rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://kod.brno.cz/nkod/dataset/8c797c879ff544359dd7798ba10e302d_0.ttl</skos:notaton>
+          </adms:Identifier>
+        </adms:identifier>
+        <rdf:type rdf:resource="https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/LKOD"/>
+        <dct:title xml:lang="cs">Hranice katastrálních území</dct:title>
+        <dcat:keyword xml:lang="cs">GISMB</dcat:keyword>
+        <dcat:theme>
+          <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+            <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+          </rdf:Description>
+        </dcat:theme>
+        <dcat:keyword xml:lang="cs">EDAS</dcat:keyword>
+        <dct:title xml:lang="en">Cadastral boundaries</dct:title>
+        <dct:description xml:lang="cs">Katastr nemovitostí (KN) tvoří vybrané části Souboru popisných informací (SPI) a Souboru grafických informací (SGI) automatizovaného informačního systému Českého úřadu zeměměřického a katastrálního (ISKN) vyjádřené ve formě digitální katastrální mapy (DKM) a databázových informací. Předmětem zobrazení souboru katastrálního stavu je polohopis a popis. Polohopis obsahuje hranice parcel, kultur a druhů pozemků a jejich vnitřní členění tak, jak je zachyceno v katastru nemovitostí. Popis obsahuje čísla parcel a další doplňující informace převzaté z katastru nemovitostí. DKM (SGI i SPI) spravuje a v aktuálním stavu udržuje Katastrální úřad pro Jihomoravský kraj (KÚ JMK). Tento úřad předává aktuální informace ke zpracování pro potřeby SMB v pravidelných, smluvně dohodnutých intervalech – vždy k prvnímu každého měsíce. Přesnost DKM na území města Brna je odvozena dle původu katastrální mapy a je charakterizována třídou přesnosti a charakteristikami kvality podrobných bodů. Je doložena rozborem a soustavou kontrolně měřených prvků v rámci obnovy SGI. Za správnost údajů o přesnosti DKM odpovídá její správce ČÚZK. Součástí dat jsou i hranice katastrálních území a názvy těchto území, která jsou k dispozici ke stažení jako open data. Tato data byla vytvořena s využitím dat RÚIAN od Českého úřadu zeměměřického a katastrálního (ČÚZK), proto je možné užívat a šířit pouze za splnění podmínek ČÚZK. Podrobnější informace najdete v dokumentaci. Data jsou v souřadnicovém systému GCS WGS84.</dct:description>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+      </j.1:DokumentyDCAT>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-01T08:02:38Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>1c0fe97f47aea25f70b2e664be5e57e1</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>cs</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-15T08:03:24Z</dct:modified>
+    <dct:identifier>https://kod.brno.cz/nkod/dataset/8c797c879ff544359dd7798ba10e302d_0.ttl</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/ff4f3194-f413-4e34-b924-0cb01ff15df1">
+    <dct:identifier>ff4f3194-f413-4e34-b924-0cb01ff15df1</dct:identifier>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>661441ab8f3b29bd485d2c852047a007</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/ff4f3194-f413-4e34-b924-0cb01ff15df1">
+        <dct:title xml:lang="nl-t-en-t0-mtec">Vervoer:TrafficFlowObserved</dct:title>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Тя представлява състоянието на трафика, събран от сензори, разположени по улиците на градовете Сантандер (Open Data)
+
+Santander), Валенсия (Open Data Valencia), Барселона (Open Data BCN), Билбао (Bilbao Open Data Data), Vitoria (Open Data Vitoria) и Oslo (Norwegian Public Roads Administration).</dct:description>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T14:56:01.704463</dct:modified>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt de toestand van de verkeersstroom die wordt verzameld door sensoren die worden ingezet in de straten van de steden Santander (Open Data) 
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) en Oslo (Noorse openbare wegenadministratie).</dct:description>
+        <dct:identifier>ff4f3194-f413-4e34-b924-0cb01ff15df1</dct:identifier>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kajastab Santanderi linna tänavatele paigaldatud andurite kogutud liiklusvoo seisu (avatud andmed) 
+Santander), Valencia (avatud andmed Valencia), Barcelona (avatud andmed BCN), Bilbao (Bilbao avatud andmed), Vitoria (avatud andmed Vitoria) ja Oslo (Norra maanteede amet).</dct:description>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer tilstanden af den trafikstrøm, der indsamles af sensorer indsat på gaderne i byerne Santander (Åben data)
+
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) og Oslo (Norwegian Public Roads Administration).</dct:description>
+        <dct:title xml:lang="fi-t-en-t0-mtec">Liikenne:TrafficFlowObserved</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T14:56:01.556416</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="es-t-en-t0-mtec">Transporte:TrafficFlowObservado</dct:title>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa el estado del flujo de tráfico recogido por sensores desplegados en las calles de las ciudades de Santander (Open Data)
+
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) y Oslo (Administración de Carreteras Públicas de Noruega).</dct:description>
+        <dcat:keyword>Open Data Vitoria</dcat:keyword>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta lo stato del flusso di traffico raccolto dai sensori distribuiti sulle strade delle città di Santander (Open Data)
+
+Santander), Valencia (Open Data Valencia), Barcellona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) e Oslo (Amministrazione delle strade pubbliche norvegesi).</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T14:56:01.704425</dct:issued>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Iompar:TrafficFlowBreathnaithe</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b0bcc695-fdf8-4956-80f8-d378624ab139">
+            <dct:description xml:lang="it-t-en-t0-mtec">Trasporto:TrafficFlowOttenuto dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Prijevoz:TrafficFlowObserved podaci u stvarnom vremenu prikazani u JSON_LD formatu</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FTrafficFlowObserved__.jsonld"/>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Szállítás:TrafficFlowObservált valós idejű adatok reprezentálva JSON_LD formátumban</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T14:56:01.704425</dct:issued>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Transport:TrafficFlowDonnées en temps réel représentées au format JSON_LD</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Transport:TrafficFlowObserwowane dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Транспорт:TrafficFlowHaблюдавани данни в реално време, представени във формат JSON_LD</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Транспорт:TrafficFlowObserved дані в режимі реального часу, представлені у форматі JSON_LD</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Transport:TrafficFlowObserved podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Trasport:TrafficFlowObserved data f’ħin reali rrappreżentat fil-format JSON_LD</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Transports:TrafficFlowObserved reāllaika dati pārstāvēti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Transport:TrafficFlowObserved reaalajas andmed, mis on esitatud JSON_LD formaadis</dct:description>
+            <dct:description>Transportation:TrafficFlowObserved realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Iompar:TrafficFlowSonraí fíor-ama breathnaithe i bhformáid JSON_LD</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Doprava:TrafficFlowObserved realtime data reprezentované vo formáte JSON_LD</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Transport:TrafficFlow Date în timp real observate în format JSON_LD</dct:description>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/ff4f3194-f413-4e34-b924-0cb01ff15df1/resource/urn_ngsi-ld_distribution_salted_project_transportation_trafficflowobserved_jsonld</dct:identifier>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Transporte:TrafficFlowObservou dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Transport:TrafficFlowObserverede realtidsdata repræsenteret i JSON_LD-format</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FTrafficFlowObserved__.jsonld"/>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Doprava:TrafficFlowObserved realtime data reprezentovaná ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">Transporte:TrafficFlowObservado datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Kuljetus:TrafficFlowObserved reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Transport:TrafficFlowGeobserveerde realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Transport:TrafficFlowObserved realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Μεταφορά:TrafficFlowObserved realtime δεδομένα που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Transportavimas:TrafficFlowPastebėti duomenys realiu laiku JSON_LD formatu</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T14:56:08.235201</dct:modified>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:description xml:lang="de-t-en-t0-mtec">Transport:TrafficFlowBeobachtete Echtzeitdaten, die im JSON_LD-Format dargestellt werden</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword>Open Data Valencia</dcat:keyword>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja stanje prometnega toka, ki ga zbirajo senzorji, nameščeni na ulicah mest Santander (Odprti podatki 
+Santander), Valencia (odprti podatki Valencia), Barcelona (odprti podatki BCN), Bilbao (odprti podatki iz Bilbaa), Vitoria (Odprti podatki Vitoria) in Oslo (Norveška uprava za javne ceste).</dct:description>
+        <dcat:keyword>Bilbao Open Data</dcat:keyword>
+        <dct:title xml:lang="sk-t-en-t0-mtec">Doprava:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="et-t-en-t0-mtec">Transport:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="ro-t-en-t0-mtec">Transport:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="da-t-en-t0-mtec">Transport:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="sv-t-en-t0-mtec">Transport:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="de-t-en-t0-mtec">Transport:TrafficFlowObserved</dct:title>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Acesta reprezintă starea fluxului de trafic colectat de senzorii dislocați pe străzile orașelor Santander (Open Data)
+
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) și Oslo (Administrația drumurilor publice norvegiene).</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T14:56:01.556416</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="mt-t-en-t0-mtec">Trasport: TrafficFlowObserved</dct:title>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar tillståndet för det trafikflöde som samlas in av sensorer som används på gatorna i städerna Santander (Open Data).
+
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) och Oslo (Norwegian Public Roads Administration).</dct:description>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Predstavlja stanje protoka prometa koji prikupljaju senzori raspoređeni na ulicama gradova Santandera (Otvoreni podaci).
+
+Santander), Valencia (otvoreni podaci Valencija), Barcelona (otvoreni podaci BCN), Bilbao (Bilbao otvoreni podaci), Vitoria (Open Data Vitoria) i Oslo (Norveška javna uprava za ceste).</dct:description>
+        <dct:title xml:lang="sl-t-en-t0-mtec">Prevoz:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="hr-t-en-t0-mtec">Prijevoz:TrafficFlowObserved</dct:title>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Przedstawia stan przepływu ruchu zbieranego przez czujniki rozmieszczone na ulicach miast Santander (Open Data)
+
+Santander, Walencja (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) i Oslo (Norweska Administracja Dróg Publicznych).</dct:description>
+        <dct:title xml:lang="uk-t-en-t0-mtec">Перевезення:TrafficFlowObserved</dct:title>
+        <dct:description>It represents the state of the traffic flow collected by sensors deployed on the streets of the cities of Santander (Open Data &#xD;
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) and Oslo (Norwegian Public Roads Administration).
+
+It represents the traffic flow and intensity. It operates on the sensors' observed data, deployed in Madrid city.</dct:description>
+        <dcat:keyword>Open Data Santander</dcat:keyword>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje stav dopravného toku zozbieraného senzormi rozmiestnenými v uliciach mesta Santander (Open Data) 
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) a Oslo (Nórska správa verejných ciest).</dct:description>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Léiríonn sé staid an tsreafa tráchta a bhailíonn braiteoirí a úsáidtear ar shráideanna chathair Santander (Sonraí Oscailte)
+
+Santander), Valencia (Sonraí Oscailte Valencia), Barcelona (Sonraí Oscailte BCN), Bilbao (Sonraí Oscailte Bilbao), Vitoria (Vitoria Oscailte Sonraí) agus Osló (Riarachán Bóithre Poiblí na hIorua).</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>UC,IMT</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:title xml:lang="el-t-en-t0-mtec">Μεταφορά:TrafficFlowObserved</dct:title>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai yra eismo srauto, kurį surenka Santandero miestų gatvėse įrengti jutikliai (atviri duomenys), būklė.
+
+Santander), Valensija (Open Data Valencia), Barselona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) ir Oslas (Norvegijos viešųjų kelių administracija).</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente l’état du flux de trafic collecté par des capteurs déployés dans les rues des villes de Santander (Open Data)
+
+Santander), Valence (Open Data Valencia), Barcelone (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) et Oslo (Administration norvégienne des routes publiques).</dct:description>
+        <dcat:keyword>Norwegian Public Roads Administration</dcat:keyword>
+        <dcat:keyword>Traffic Flow</dcat:keyword>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt den Zustand des Verkehrsflusses dar, der von Sensoren erfasst wird, die auf den Straßen der Städte Santander (Open Data) eingesetzt werden.
+
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) und Oslo (Norwegian Public Roads Administration).</dct:description>
+        <dct:title xml:lang="lt-t-en-t0-mtec">Transportas:TrafficFlowObserved</dct:title>
+        <dcat:keyword>Traffic sensor</dcat:keyword>
+        <dct:title xml:lang="it-t-en-t0-mtec">Trasporto:TrafficFlowObservato</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa o estado do fluxo de tráfego recolhido por sensores implantados nas ruas das cidades de Santander (Open Data)
+
+Santander), Valência (Open Data Valencia), Barcelona (Open Data BCN), Bilbau (Bilbao Open Data), Vitoria (Open Data Vitoria) e Oslo (Administração Norueguesa de Estradas Públicas).</dct:description>
+        <dcat:keyword>TrafficFlowObserved</dcat:keyword>
+        <dct:title xml:lang="hu-t-en-t0-mtec">Közlekedés:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="cs-t-en-t0-mtec">Doprava:TrafficFlowPozorováno</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:keyword>Data Model</dcat:keyword>
+        <dct:title>Transportation:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">Транспорт:TrafficFlowObserved</dct:title>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою стан транспортного потоку, зібраного датчиками, розгорнутими на вулицях міст Сантандер (Open Data)
+
+Santander), Валенсія (Open Data Valencia), Барселона (Open Data BCN), Більбао (Bilbao Open Data), Vitoria (Open Data Vitoria) і Осло (Norwegian Public Roads Administration).</dct:description>
+        <dcat:keyword>Madrid Traffic</dcat:keyword>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει την κατάσταση της ροής της κυκλοφορίας που συλλέγεται από αισθητήρες που αναπτύσσονται στους δρόμους των πόλεων Santander (Open Data) 
+Santander), Βαλένθια (Open Data Valencia), Βαρκελώνη (Open Data BCN), Μπιλμπάο (Ανοιχτά δεδομένα Μπιλμπάο), Vitoria (Open Data Vitoria) και Όσλο (Norwegian Public Roads Administration).</dct:description>
+        <dct:title xml:lang="pt-t-en-t0-mtec">Transporte:TrafficFlowObserv</dct:title>
+        <dct:description xml:lang="hu-t-en-t0-mtec">A Santander városainak utcáin telepített érzékelők által összegyűjtött forgalom állapotát mutatja (Open Data) 
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) és Oslo (norvég Közúti Igazgatás).</dct:description>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Dan jirrappreżenta l-istat tal-fluss tat-traffiku miġbur minn sensuri użati fit-toroq tal-bliet ta’ Santander (Data Miftuħa
+
+Santander), Valencia (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) u Oslo (Amministrazzjoni tat-Toroq Pubbliċi tan-Norveġja).</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa Santanderin kaupunkien kaduilla toimivien antureiden keräämän liikennevirran tilaa (Open Data) 
+Santander, Valencia (avoin data Valencia), Barcelona (avoin data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) ja Oslo (Norjan tiehallinto).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1ffd0610-b2b4-4066-bc01-2386f0da51e4">
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">Transport:TrafficFlowObserved realtidsdata representerad i JSON-format</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">Iompar:TrafficFlowSonraí fíor-ama breathnaithe i bhformáid JSON</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/ff4f3194-f413-4e34-b924-0cb01ff15df1/resource/urn_ngsi-ld_distribution_salted_project_transportation_trafficflowobserved_json</dct:identifier>
+            <dct:description xml:lang="bg-t-en-t0-mtec">Транспорт:TrafficFlowHaблюдавани данни в реално време, представени във формат JSON</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FTrafficFlowObserved__.json"/>
+            <dct:description xml:lang="de-t-en-t0-mtec">Transport:TrafficFlowObserved Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:description xml:lang="hu-t-en-t0-mtec">Szállítás:TrafficFlowObservált valós idejű adatok reprezentálva JSON formátumban</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">Transporte:TrafficFlowObservou dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">Kuljetus: TrafficFlowObserved reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:description xml:lang="el-t-en-t0-mtec">Μεταφορά:TrafficFlowObserved realtime δεδομένα που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">Transportavimas:TrafficFlowPastebėti duomenys realiu laiku, pateikiami JSON formatu</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="sl-t-en-t0-mtec">Prevoz:TrafficFlowObserved podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">Trasport:TrafficFlowData f’ħin reali rappreżentata fil-format JSON</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T14:56:01.704425</dct:issued>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">Trasporto:TrafficFlowOttenuto dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.Transportation%2FTrafficFlowObserved__.json"/>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="lv-t-en-t0-mtec">Transports:TrafficFlowObserved reāllaika dati pārstāvēti JSON formātā</dct:description>
+            <dct:description xml:lang="da-t-en-t0-mtec">Transport:TrafficFlowObserverede realtidsdata repræsenteret i JSON-format</dct:description>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title>realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T14:56:08.234060</dct:modified>
+            <dct:description xml:lang="fr-t-en-t0-mtec">Transport:TrafficFlow Données observées en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:description xml:lang="nl-t-en-t0-mtec">Transport:TrafficFlowGeobserveerde realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">Transport:TrafficFlowObserved reaalajas andmed, mis on esitatud JSON-vormingus</dct:description>
+            <dct:description xml:lang="sk-t-en-t0-mtec">Doprava:TrafficFlow pozorované údaje v reálnom čase reprezentované vo formáte JSON</dct:description>
+            <dct:description xml:lang="hr-t-en-t0-mtec">Prijevoz:TrafficFlowObserved podaci u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">Transport:TrafficFlowObserwowane dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">Транспорт:TrafficFlowObserved дані в режимі реального часу, представлені у форматі JSON</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">Doprava:TrafficFlowObserved realtime data reprezentovaná ve formátu JSON</dct:description>
+            <dct:description xml:lang="ro-t-en-t0-mtec">Transport:TrafficFlow Date în timp real observate în format JSON</dct:description>
+            <dct:description>Transportation:TrafficFlowObserved realtime data represented in JSON format</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dct:description xml:lang="es-t-en-t0-mtec">Transporte:TrafficFlowObservado datos en tiempo real representados en formato JSON</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lv-t-en-t0-mtec">Transports:TrafficFlowObserved</dct:title>
+        <dct:title xml:lang="pl-t-en-t0-mtec">Transport:TrafficFlowObserwowane</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">Transport:TrafficFlowObservé</dct:title>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo satiksmes plūsmas stāvokli, ko savākuši sensori, kas izvietoti Santanderas pilsētu ielās (Atvērtie dati
+
+Santander), Valensija (Open Data Valencia), Barselona (Open Data BCN), Bilbao (Bilbao atklātie dati), Vitorija (Open Data Vitoria) un Oslo (Norvēģijas Valsts autoceļu pārvalde).</dct:description>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+        <dcat:keyword>Open Data BCN</dcat:keyword>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje stav dopravního toku shromážděného senzory nasazenými v ulicích měst Santander (Open Data) 
+Santander), Valencie (Open Data Valencia), Barcelona (Open Data BCN), Bilbao (Bilbao Open Data), Vitoria (Open Data Vitoria) a Oslo (norská veřejná správa silnic).</dct:description>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/ff4f3194-f413-4e34-b924-0cb01ff15df1"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</dct:modified>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T14:24:45Z</edp:transReceived>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-06T11:30:00Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-10-16T14:02:38Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

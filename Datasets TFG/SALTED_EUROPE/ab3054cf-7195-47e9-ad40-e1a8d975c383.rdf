@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/ab3054cf-7195-47e9-ad40-e1a8d975c383">
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>3ec36cefdaa619df029ae2001b394af0</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/ab3054cf-7195-47e9-ad40-e1a8d975c383"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:09:14Z</dct:modified>
+    <edp:originalLanguage>en</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-14T04:09:14Z</edp:transReceived>
+    <dct:identifier>ab3054cf-7195-47e9-ad40-e1a8d975c383</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/ab3054cf-7195-47e9-ad40-e1a8d975c383">
+        <dcat:keyword>Twitter Data Analysis</dcat:keyword>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description xml:lang="mt-t-en-t0-mtec">Hija tirrappreżenta deskrizzjoni armonizzata ta’ SMAnaliżi ġenerika magħmula għad-dominju tal-Midja Soċjali. Din it-tip ta’ data hija primarjament assoċjata mal-proċess ta’ analiżi tal-karigi tal-applikazzjonijiet tal-Midja Soċjali.</dct:description>
+        <dct:description xml:lang="pl-t-en-t0-mtec">Stanowi on zharmonizowany opis ogólnej SMAnalizy wykonanej dla domeny mediów społecznościowych. Dane tego typu kojarzone są przede wszystkim z procesem analizy postów aplikacji Social Media.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T15:03:50.738183</dct:issued>
+        <dct:description xml:lang="sk-t-en-t0-mtec">Predstavuje harmonizovaný opis všeobecnej SMAnalýzy pre oblasť sociálnych médií.
+Tento typ údajov je primárne spojený s procesom analýzy príspevkov aplikácií sociálnych médií.</dct:description>
+        <dct:description xml:lang="uk-t-en-t0-mtec">Він являє собою гармонізований опис загального SMAnalysis, зробленого для області соціальних медіа.
+Цей тип даних в першу чергу пов'язаний з процесом аналізу постів додатків соціальних мереж.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:description xml:lang="ga-t-en-t0-mtec">Is éard atá ann tuairisc chomhchuibhithe ar SMAnalysis cineálach a rinneadh d’fhearann na Meán Sóisialta.
+Baineann an cineál sin sonraí go príomha leis an bpróiseas anailíse ar phostálacha feidhmchlár na Meán Sóisialta.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-12-12T15:03:50.738219</dct:modified>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:03:50.601224</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="cs-t-en-t0-mtec">Představuje harmonizovaný popis obecné SMAnalýzy provedené pro oblast sociálních médií. Tento typ dat je primárně spojen s procesem analýzy příspěvků aplikací sociálních médií.</dct:description>
+        <dct:title xml:lang="sl-t-en-t0-mtec">SocialMedia: SMAnalysis</dct:title>
+        <dct:title xml:lang="ro-t-en-t0-mtec">SocialMedia:SMAnaliză</dct:title>
+        <dct:title xml:lang="hu-t-en-t0-mtec">SocialMedia: SMAnalysis</dct:title>
+        <dct:title xml:lang="bg-t-en-t0-mtec">SocialMedia: SMAnalysis</dct:title>
+        <dct:description xml:lang="sv-t-en-t0-mtec">Det representerar en harmoniserad beskrivning av en generisk SMAnalys som gjorts för området sociala medier.
+Denna typ av data är främst förknippad med analysprocessen av sociala medieapplikationers inlägg.</dct:description>
+        <dct:title xml:lang="lv-t-en-t0-mtec">SocialMedia:SMAnalīze</dct:title>
+        <dct:description xml:lang="es-t-en-t0-mtec">Representa una descripción armonizada de un SMAnalysis genérico realizado para el dominio de las redes sociales.
+Este tipo de datos se asocia principalmente con el proceso de análisis de las publicaciones de las aplicaciones de redes sociales.</dct:description>
+        <dct:description xml:lang="sl-t-en-t0-mtec">Predstavlja usklajen opis generične analize SMA, izdelane za področje družbenih medijev.
+Ta vrsta podatkov je v prvi vrsti povezana s postopkom analize objav v aplikacijah družbenih medijev.</dct:description>
+        <dct:description xml:lang="bg-t-en-t0-mtec">Той представлява хармонизирано описание на генерична SMAnalysis, направена за домейна на социалните медии.
+Този тип данни са свързани преди всичко с процеса на анализ на публикациите на приложенията в социалните медии.</dct:description>
+        <dct:description xml:lang="fi-t-en-t0-mtec">Se edustaa yhdenmukaistettua kuvausta sosiaalisen median verkkotunnusta varten tehdystä yleisestä SMAnalyysistä.
+Tämän tyyppiset tiedot liittyvät ensisijaisesti sosiaalisen median sovellusten julkaisujen analysointiprosessiin.</dct:description>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:fn>IMT</vcard:fn>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:description xml:lang="lt-t-en-t0-mtec">Tai suderintas socialinės žiniasklaidos srities bendrosios SMAanalizės aprašymas.
+Šis duomenų tipas visų pirma susijęs su socialinės žiniasklaidos taikomųjų programų pranešimų analizės procesu.</dct:description>
+        <dct:description xml:lang="da-t-en-t0-mtec">Det repræsenterer en harmoniseret beskrivelse af en generisk SMAnalysis for domænet Sociale Medier.
+Denne type data er primært forbundet med processen med analyse af sociale medier applikationers indlæg.</dct:description>
+        <dct:title xml:lang="pl-t-en-t0-mtec">SocialMedia:Smanaliza</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/43ba8734-45df-4da0-a672-635416777126">
+            <dct:description xml:lang="mt-t-en-t0-mtec">SocialMedia:SMAnalysis data f’ħin reali rrappreżentata fil-format JSON_LD</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">SocialMedia:SMAnalysis Echtzeitdaten im JSON_LD-Format dargestellt</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json_ld</dct:title>
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title>realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">SocialMedia: SMAnalysis valós idejű adatok reprezentálva JSON_LD formátumban</dct:description>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json_ld</dct:title>
+            <dct:description xml:lang="sl-t-en-t0-mtec">SocialMedia:SMAnalysis podatki v realnem času, predstavljeni v formatu JSON_LD</dct:description>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json_ld</dct:title>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json_ld</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/ab3054cf-7195-47e9-ad40-e1a8d975c383/resource/urn_ngsi-ld_distribution_salted_project_socialmedia_smanalysis_jsonld</dct:identifier>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json_ld</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">SocialMedia:SMAnalysis données en temps réel représentées au format JSON_LD</dct:description>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json_ld</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">SocialMedia:SMAnalýza dat v reálném čase reprezentovaných ve formátu JSON_LD</dct:description>
+            <dct:description xml:lang="ga-t-en-t0-mtec">SocialMedia:SMAnalysis sonraí fíor-ama a léirítear i bhformáid JSON_LD</dct:description>
+            <dct:description>SocialMedia:SMAnalysis realtime data represented in JSON_LD format</dct:description>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json_ld</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">SocialMedia:SMAnaliză date în timp real reprezentate în format JSON_LD</dct:description>
+            <dct:description xml:lang="lt-t-en-t0-mtec">SocialMedia:SMAnalysis realaus laiko duomenys pateikiami JSON_LD formatu</dct:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="pl-t-en-t0-mtec">SocialMedia:SMAnalysis dane w czasie rzeczywistym reprezentowane w formacie JSON_LD</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:03:56.752653</dct:modified>
+            <dct:description xml:lang="nl-t-en-t0-mtec">SocialMedia:SMAnalyse realtime gegevens weergegeven in JSON_LD-formaat</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">SocialMedia: дані SMAnalysis в реальному часі представлені у форматі JSON_LD</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">SocialMedia:SMAnalysis datos en tiempo real representados en formato JSON_LD</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:03:50.738183</dct:issued>
+            <dct:description xml:lang="sk-t-en-t0-mtec">SocialMedia:SMAnalysis údaje v reálnom čase reprezentované vo formáte JSON_LD</dct:description>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json_ld</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">SocialMedia:SMAnalysis realtime data repræsenteret i JSON_LD format</dct:description>
+            <dct:description xml:lang="lv-t-en-t0-mtec">SocialMedia:SMAnalīze reāllaika dati pārstāvēti JSON_LD formātā</dct:description>
+            <dct:description xml:lang="fi-t-en-t0-mtec">SocialMedia:SMAnalysis reaaliaikainen data edustettuna JSON_LD-muodossa</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json_ld</dct:title>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMAnalysis__.jsonld"/>
+            <dct:description xml:lang="sv-t-en-t0-mtec">SocialMedia:SMAnalys realtidsdata representerad i JSON_LD-format</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">SocialMedia: SMANAlüüsi reaalajas esitatud andmed JSON_LD formaadis</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:description xml:lang="el-t-en-t0-mtec">SocialMedia:SMAnalysis δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON_LD</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json_ld</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">SocialMedia: SMAnaliza podataka u stvarnom vremenu prikazanih u JSON_LD formatu</dct:description>
+            <dct:description xml:lang="pt-t-en-t0-mtec">SocialMedia:SMAnalysis dados em tempo real representados no formato JSON_LD</dct:description>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json_ld</dct:title>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reālā laika_data_in_json_ld</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">SocialMedia:SMAnalysis dati in tempo reale rappresentati in formato JSON_LD</dct:description>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMAnalysis__.jsonld"/>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json_ld</dct:title>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json_ld</dct:title>
+            <dct:description xml:lang="bg-t-en-t0-mtec">SocialMedia:SMAnalysis данни в реално време, представени във формат JSON_LD</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-en-t0-mtec">Het vertegenwoordigt een geharmoniseerde beschrijving van een generieke SMAnalyse gemaakt voor het Social Media domein.
+Dit soort gegevens wordt voornamelijk geassocieerd met het proces van analyse van de berichten van sociale media-applicaties.</dct:description>
+        <dct:title xml:lang="hr-t-en-t0-mtec">SocialMedia: SMAnaliza</dct:title>
+        <dct:description xml:lang="de-t-en-t0-mtec">Es stellt eine harmonisierte Beschreibung einer generischen SMAnalyse dar, die für die Social Media-Domäne erstellt wurde. Diese Art von Daten ist in erster Linie mit dem Prozess der Analyse von Social-Media-Anwendungen verbunden.</dct:description>
+        <dct:description xml:lang="fr-t-en-t0-mtec">Il représente une description harmonisée d’une SMAnalyse générique faite pour le domaine des médias sociaux. Ce type de données est principalement associé au processus d’analyse des publications des applications de médias sociaux.</dct:description>
+        <dct:description xml:lang="it-t-en-t0-mtec">Rappresenta una descrizione armonizzata di una SMAnalysis generica fatta per il dominio dei social media. Questo tipo di dati è principalmente associato al processo di analisi dei post delle applicazioni dei social media.</dct:description>
+        <dct:description xml:lang="et-t-en-t0-mtec">See kujutab endast sotsiaalmeedia valdkonna üldise SMA-analüüsi ühtlustatud kirjeldust. Seda tüüpi andmed on peamiselt seotud sotsiaalmeedia rakenduste postituste analüüsimisega.</dct:description>
+        <dct:title xml:lang="de-t-en-t0-mtec">SocialMedia:SMAnalyse</dct:title>
+        <dct:title xml:lang="nl-t-en-t0-mtec">SocialMedia:SMAnalyse</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/continent/EUROPE"/>
+        <dct:title xml:lang="da-t-en-t0-mtec">SocialMedia:SM Analyse</dct:title>
+        <dct:description xml:lang="hu-t-en-t0-mtec">Ez az általános SMAnalysis harmonizált leírását jelenti, amelyet a közösségi médiára vonatkozóan készítettek.
+Az ilyen típusú adatok elsősorban a közösségi média alkalmazások bejegyzéseinek elemzési folyamatához kapcsolódnak.</dct:description>
+        <dct:description xml:lang="ro-t-en-t0-mtec">Aceasta reprezintă o descriere armonizată a unei SMAnaliză generice realizată pentru domeniul social media.
+Acest tip de date este asociat în primul rând cu procesul de analiză a postărilor aplicațiilor de social media.</dct:description>
+        <dcat:keyword>User-generated content</dcat:keyword>
+        <dcat:keyword>Social media</dcat:keyword>
+        <dct:title xml:lang="et-t-en-t0-mtec">Sotsiaalmeedia: SMANAlüüsi</dct:title>
+        <dct:description xml:lang="pt-t-en-t0-mtec">Representa uma descrição harmonizada de uma SMAnalysis genérica feita para o domínio das redes sociais. Este tipo de dados está principalmente associado ao processo de análise das publicações de aplicações de redes sociais.</dct:description>
+        <dct:title xml:lang="uk-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:title xml:lang="pt-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:title xml:lang="it-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:title xml:lang="lt-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:title xml:lang="mt-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:title>SocialMedia:SMAnalysis</dct:title>
+        <dct:title xml:lang="es-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:title xml:lang="sk-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:title xml:lang="el-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+        <dct:title xml:lang="fi-t-en-t0-mtec">SocialMedia:SMAnalyysi</dct:title>
+        <dct:title xml:lang="fr-t-en-t0-mtec">SocialMedia:SMAnalysis</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:03:50.601224</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="lv-t-en-t0-mtec">Tas atspoguļo sociālo mediju jomā veiktas vispārējas SMAnalīzes saskaņotu aprakstu.
+Šāda veida dati galvenokārt ir saistīti ar sociālo mediju lietojumprogrammu amatu analīzes procesu.</dct:description>
+        <dct:title xml:lang="sv-t-en-t0-mtec">SocialMedia:SMAnalys</dct:title>
+        <dct:description xml:lang="hr-t-en-t0-mtec">Riječ je o usklađenom opisu generičke SMAnalize za područje društvenih medija. Ova vrsta podataka prvenstveno je povezana s procesom analize objava aplikacija društvenih medija.</dct:description>
+        <dct:publisher>
+          <foaf:Organization rdf:about="https://ckan.salted-project.eu/organization/urn:ngsi-ld:Catalogue:SALTED_Project">
+            <foaf:name>SALTED Project</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:description>It represents a harmonised description of a generic SMAnalysis made for the Social Media domain. This type of data is primarily associated with the process of analysis of Social Media applications' posts.</dct:description>
+        <dct:identifier>ab3054cf-7195-47e9-ad40-e1a8d975c383</dct:identifier>
+        <dct:description xml:lang="el-t-en-t0-mtec">Αντιπροσωπεύει μια εναρμονισμένη περιγραφή μιας γενικής ανάλυσης SMAnalysis που γίνεται για τον τομέα των μέσων κοινωνικής δικτύωσης.
+Αυτός ο τύπος δεδομένων συνδέεται κυρίως με τη διαδικασία ανάλυσης των αναρτήσεων των εφαρμογών στα μέσα κοινωνικής δικτύωσης.</dct:description>
+        <dct:title xml:lang="cs-t-en-t0-mtec">SocialMedia:SMAnalýza</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ef251f23-265c-42d3-9514-19487b28ae54">
+            <dct:title xml:lang="nl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="hr-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sl-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="da-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="uk-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:title xml:lang="cs-t-en-t0-mtec">realtime_data_in_json</dct:title>
+            <dct:description xml:lang="pt-t-en-t0-mtec">SocialMedia:SMAnalysis Dados em tempo real representados no formato JSON</dct:description>
+            <dct:description xml:lang="el-t-en-t0-mtec">SocialMedia:SMAnalysis δεδομένα σε πραγματικό χρόνο που αντιπροσωπεύονται σε μορφή JSON</dct:description>
+            <dct:description xml:lang="de-t-en-t0-mtec">SocialMedia:SMAnalysis Echtzeitdaten im JSON-Format dargestellt</dct:description>
+            <dct:title xml:lang="pl-t-en-t0-mtec">w czasie rzeczywistym_data_in_json</dct:title>
+            <dct:description xml:lang="it-t-en-t0-mtec">SocialMedia:SMAnalysis dati in tempo reale rappresentati in formato JSON</dct:description>
+            <dct:title xml:lang="de-t-en-t0-mtec">Echtzeit_data_in_json</dct:title>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+            <dct:description>SocialMedia:SMAnalysis realtime data represented in JSON format</dct:description>
+            <dct:title xml:lang="el-t-en-t0-mtec">σε πραγματικό χρόνο_data_in_json</dct:title>
+            <dct:title xml:lang="fi-t-en-t0-mtec">reaaliaikainen_data_in_json</dct:title>
+            <dct:description xml:lang="sv-t-en-t0-mtec">SocialMedia:SMAnalys realtidsdata representerad i JSON-format</dct:description>
+            <dct:identifier>https://ckan.salted-project.eu/dataset/ab3054cf-7195-47e9-ad40-e1a8d975c383/resource/urn_ngsi-ld_distribution_salted_project_socialmedia_smanalysis_json</dct:identifier>
+            <dcat:downloadURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMAnalysis__.json"/>
+            <dct:description xml:lang="lv-t-en-t0-mtec">SocialMedia:SMAnalīze reāllaika dati pārstāvēti JSON formātā</dct:description>
+            <dct:title xml:lang="sv-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="sk-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="fr-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:title xml:lang="mt-t-en-t0-mtec">Realtime_data_in_json</dct:title>
+            <dct:description xml:lang="fi-t-en-t0-mtec">SocialMedia:SMAnalysis reaaliaikainen data edustettuna JSON-muodossa</dct:description>
+            <dct:title xml:lang="es-t-en-t0-mtec">tiempo real_data_in_json</dct:title>
+            <dct:title xml:lang="ga-t-en-t0-mtec">fíor-am_data_in_json</dct:title>
+            <dct:description xml:lang="hr-t-en-t0-mtec">SocialMedia: podaci o SMAnalizi u stvarnom vremenu prikazani u JSON formatu</dct:description>
+            <dcat:accessURL rdf:resource="https://ckan.salted-project.eu/retriever/realtime/__https%3A%2F%2Fsmartdatamodels.org%2FdataModel.SocialMedia%2FSMAnalysis__.json"/>
+            <dct:title xml:lang="lv-t-en-t0-mtec">reāllaika_data_in_json</dct:title>
+            <dct:description xml:lang="fr-t-en-t0-mtec">SocialMedia:SMAnalysis données en temps réel représentées au format JSON</dct:description>
+            <dct:title xml:lang="lt-t-en-t0-mtec">realaus laiko_data_in_json</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="bg-t-en-t0-mtec">реално време_data_in_json</dct:title>
+            <dct:description xml:lang="da-t-en-t0-mtec">SocialMedia:SMAnalysis realtime data repræsenteret i JSON format</dct:description>
+            <dct:title xml:lang="et-t-en-t0-mtec">reaalajas_data_in_json</dct:title>
+            <dct:description xml:lang="hu-t-en-t0-mtec">SocialMedia: SMAnalysis valós idejű adatok reprezentálva JSON formátumban</dct:description>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:03:56.751457</dct:modified>
+            <dct:description xml:lang="sk-t-en-t0-mtec">SocialMedia:SMAnalysis údaje v reálnom čase reprezentované vo formáte JSON</dct:description>
+            <dct:title xml:lang="pt-t-en-t0-mtec">em tempo real_data_in_json</dct:title>
+            <dct:description xml:lang="ro-t-en-t0-mtec">SocialMedia:SMAnaliză date în timp real reprezentate în format JSON</dct:description>
+            <dct:rights>PUBLIC</dct:rights>
+            <dct:title xml:lang="it-t-en-t0-mtec">in tempo reale_data_in_json</dct:title>
+            <dct:description xml:lang="ga-t-en-t0-mtec">SocialMedia:SMAnalysis sonraí fíor-ama a léirítear i bhformáid JSON</dct:description>
+            <dct:title xml:lang="hu-t-en-t0-mtec">valós idejű_data_in_json</dct:title>
+            <dct:title xml:lang="ro-t-en-t0-mtec">în timp real_date_in_json</dct:title>
+            <dct:description xml:lang="cs-t-en-t0-mtec">SocialMedia:SMAnalýza dat v reálném čase reprezentovaných ve formátu JSON</dct:description>
+            <dct:description xml:lang="pl-t-en-t0-mtec">SocialMedia:SMAnalysis dane w czasie rzeczywistym reprezentowane w formacie JSON</dct:description>
+            <dct:description xml:lang="sl-t-en-t0-mtec">SocialMedia:SMAnalysis podatki v realnem času, predstavljeni v formatu JSON</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:description xml:lang="lt-t-en-t0-mtec">SocialMedia:SMAnalysis realaus laiko duomenys pateikiami JSON formatu</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-12T15:03:50.738183</dct:issued>
+            <dct:description xml:lang="bg-t-en-t0-mtec">SocialMedia:SMAnalysis данни в реално време, представени във формат JSON</dct:description>
+            <dct:description xml:lang="es-t-en-t0-mtec">SocialMedia:SMAnalysis datos en tiempo real representados en formato JSON</dct:description>
+            <dct:description xml:lang="mt-t-en-t0-mtec">SocialMedia:SMAnalysis data f’ħin reali rrappreżentata fil-format JSON</dct:description>
+            <dct:description xml:lang="et-t-en-t0-mtec">SocialMedia: SMANAlüüsi reaalajas esitatud andmed JSON-vormingus</dct:description>
+            <dct:description xml:lang="nl-t-en-t0-mtec">SocialMedia:SMAnalyse realtime gegevens weergegeven in JSON-formaat</dct:description>
+            <dct:description xml:lang="uk-t-en-t0-mtec">SocialMedia: дані SMAnalysis в реальному часі представлені у форматі JSON</dct:description>
+            <dct:title>realtime_data_in_json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:title xml:lang="ga-t-en-t0-mtec">Meáin Shóisialta:SMAnalysis</dct:title>
+        <dcat:landingPage rdf:resource="https://salted-project.eu/"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-13T11:30:01Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

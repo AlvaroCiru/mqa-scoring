@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/2ac7a208-c13a-4439-986a-4c899f6304dc">
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-02T09:44:51Z</edp:transReceived>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-04-14T05:00:01Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>b4ca4e800231abdb758a7eee159d2255</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-01T05:00:01Z</dct:issued>
+    <dct:identifier>2ac7a208-c13a-4439-986a-4c899f6304dc</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/2ac7a208-c13a-4439-986a-4c899f6304dc">
+        <dcat:keyword>densidad</dcat:keyword>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Id-densità tat-tagħmir u l-popolazzjoni f’Entrance C taċ-Ċentru tat-Telekomunikazzjoni ETSI (Madrid).</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Entrance C of the ETSI Telecommunication Center (Madrid).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bf2dfdb0-d65b-4236-8646-c3f7ac651ac9">
+            <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в вступі C до Телекомунікаційного центру ETSI (Мадрид).</dct:description>
+            <dct:license>
+              <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+            </dct:license>
+            <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in Entrance C van het ETSI Telecommunication Center (Madrid).</dct:description>
+            <dct:description xml:lang="en-t-es-t0-mtec">Density of equipment and population in Entrance C of the ETSI Telecommunication Center (Madrid).</dct:description>
+            <dct:title xml:lang="cs-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:rights>
+              <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+            </dct:rights>
+            <dct:title xml:lang="nl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dcat:mediaType>
+              <dct:MediaType rdf:about="https://www.iana.org/assignments/media-types/application/ld+json"/>
+            </dcat:mediaType>
+            <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadení a obyvateľstva v vstupe C telekomunikačného centra ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="el-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението във вход С на далекосъобщителния център ETSI (Мадрид).</dct:description>
+            <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra in Iontrála C den Ionad Teileachumarsáide ETSI (Maidrid).</dct:description>
+            <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στην είσοδο Γ του Κέντρου Τηλεπικοινωνιών ETSI (Μαδρίτη).</dct:description>
+            <dcat:accessURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-73-cc-00"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Entrance C av ETSI Telecommunication Center (Madrid).</dct:description>
+            <dct:title>urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv ETSI Telekommunikatsioonikeskuse (Madrid) sissepääs C-s.</dct:description>
+            <dct:title xml:lang="sv-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-04-14T00:00:01.729479</dct:modified>
+            <dct:description xml:lang="mt-t-es-t0-mtec">Id-densità tat-tagħmir u l-popolazzjoni f’Entrance C taċ-Ċentru tat-Telekomunikazzjoni ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="en-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u ulazu C ETSI telekomunikacijskog centra (Madrid).</dct:description>
+            <dct:description xml:lang="lt-t-es-t0-mtec">Įrangos ir gyventojų tankis ETSI telekomunikacijų centro (Madridas) C įėjime.</dct:description>
+            <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population à l’entrée C du Centre de Télécommunications de l’ETSI (Madrid).</dct:description>
+            <dcat:downloadURL rdf:resource="http://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:wifi:b8-27-eb-73-cc-00"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description>Densidad de equipos y población en Entrada C del centro ETSI de Telecomunicación (Madrid).</dct:description>
+            <dct:format>
+              <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+            </dct:format>
+            <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população na entrada C do Centro de Telecomunicações ETSI (Madrid).</dct:description>
+            <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v Entrance C telekomunikačního centra ETSI (Madrid).</dct:description>
+            <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației la intrarea C a Centrului de Telecomunicații ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="sl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w wejściu C Centrum Telekomunikacji ETSI (Madryt).</dct:description>
+            <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v vhodu C telekomunikacijskega centra ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="pl-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione nell'ingresso C del Centro di telecomunicazioni ETSI (Madrid).</dct:description>
+            <dct:title xml:lang="hr-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og population i indgang C i ETSI Telecommunication Center (Madrid).</dct:description>
+            <dct:description xml:lang="lv-t-es-t0-mtec">Iekārtu blīvums un iedzīvotāju skaits ETSI Telekomunikāciju centra (Madrides) C ieejā.</dct:description>
+            <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung im Eingang C des ETSI-Telekommunikationszentrums (Madrid).</dct:description>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1300</dcat:byteSize>
+            <dct:title xml:lang="fi-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége az ETSI Távközlési Központ (Madrid) C bejáratában.</dct:description>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dct:issued>
+            <dct:title xml:lang="sk-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:identifier>https://portal-yoda.dit.upm.es/dataset/2ac7a208-c13a-4439-986a-4c899f6304dc/resource/bab779f5-bf27-417c-954a-4b9a760bef6d</dct:identifier>
+            <dct:title xml:lang="hu-t-es-t0-mtec">urn:ngsi-ld:wifi:b8-27-eb-73-cc-00</dct:title>
+            <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden ja väestön tiheys ETSI Telecommunication Centerin (Madrid) sisäänkäynnissä C.</dct:description>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2032-01-01T00:00:00Z</dcat:endDate>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-11-01T00:00:00Z</dcat:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Densité de l’équipement et de la population à l’entrée C du Centre de Télécommunications de l’ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8-27-eb73-cc-00</dct:title>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dct:title xml:lang="sv-t-es-t0-mtec">densitet_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Dichte_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">densitate_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Gostota opreme in prebivalstva v vhodu C telekomunikacijskega centra ETSI (Madrid).</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Densidade de equipamentos e população na entrada C do Centro de Telecomunicações ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">hustota_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πυκνότητα εξοπλισμού και πληθυσμού στην είσοδο Γ του Κέντρου Τηλεπικοινωνιών ETSI (Μαδρίτη).</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">tiheys_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Gęstość sprzętu i ludności w wejściu C Centrum Telekomunikacji ETSI (Madryt).</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Dichte der Ausrüstung und Bevölkerung im Eingang C des ETSI-Telekommunikationszentrums (Madrid).</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">hustota_etsi_de_telecomunicaci_n_b8 – 27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Tæthed af udstyr og population i indgang C i ETSI Telecommunication Center (Madrid).</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Densitatea echipamentelor și a populației la intrarea C a Centrului de Telecomunicații ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">densità_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">щільність_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Iekārtu blīvums un iedzīvotāju skaits ETSI Telekomunikāciju centra (Madrides) C ieejā.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Laitteiden ja väestön tiheys ETSI Telecommunication Centerin (Madrid) sisäänkäynnissä C.</dct:description>
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/place/ESP_MAD"/>
+        </dct:spatial>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Įrangos ir gyventojų tankis ETSI telekomunikacijų centro (Madridas) C įėjime.</dct:description>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        </dcat:theme>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Гъстота на оборудването и населението във вход С на далекосъобщителния център ETSI (Мадрид).</dct:description>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="https://portal-yoda.dit.upm.es/organization/957d07d1-ee7b-4e60-83d4-f1fa46f6c377">
+            <foaf:name>cei_moncloa</foaf:name>
+            <dct:type>
+              <skos:Concept rdf:about="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+            </dct:type>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="lv-t-es-t0-mtec">blīvums_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">dlús_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-12-28T17:22:28.779733</dct:modified>
+        <dct:description xml:lang="et-t-es-t0-mtec">Seadmete tihedus ja rahvaarv ETSI Telekommunikatsioonikeskuse (Madrid) sissepääs C-s.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A berendezések és a lakosság sűrűsége az ETSI Távközlési Központ (Madrid) C bejáratában.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Densitet av utrustning och befolkning i Entrance C av ETSI Telecommunication Center (Madrid).</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">tankis_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Gustoća opreme i stanovništva u ulazu C ETSI telekomunikacijskog centra (Madrid).</dct:description>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:about="https://yoda.dit.upm.es/">
+            <vcard:fn>yoda</vcard:fn>
+          </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:title xml:lang="hu-t-es-t0-mtec">denzitás_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Dichtheid van apparatuur en bevolking in Entrance C van het ETSI Telecommunication Center (Madrid).</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Hustota zariadení a obyvateľstva v vstupe C telekomunikačného centra ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Density_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dcat:landingPage rdf:resource="https://yoda.dit.upm.es/"/>
+        <dct:description xml:lang="it-t-es-t0-mtec">Densità di attrezzature e popolazione nell'ingresso C del Centro di telecomunicazioni ETSI (Madrid).</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">tihedus_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Hustota zařízení a populace v Entrance C telekomunikačního centra ETSI (Madrid).</dct:description>
+        <dct:description>Densidad de equipos y población en Entrada C del centro ETSI de Telecomunicación (Madrid).</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">gęstość_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:title>densidad_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Dlús trealaimh agus daonra in Iontrála C den Ionad Teileachumarsáide ETSI (Maidrid).</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">gustoća_etsi_de_telecomunicaci_n_b8 – 27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">tæthed_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-12-28T17:22:28.145314</dct:issued>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Щільність обладнання та населення в вступі C до Телекомунікаційного центру ETSI (Мадрид).</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">gostota_etsi_de_telecomunicaci_n_b8–27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8-27-eb-73-cc-00</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">density_etsi_de_telecomunicaci_n_b8—27-eb-73-cc-00</dct:title>
+        <dcat:keyword>ocupacion</dcat:keyword>
+        <dct:identifier>2ac7a208-c13a-4439-986a-4c899f6304dc</dct:identifier>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-01-01T05:00:01Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/2ac7a208-c13a-4439-986a-4c899f6304dc"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

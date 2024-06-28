@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-registros-del-2019-">
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/registros-del-2019/</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-registros-del-2019-">
+        <dct:title xml:lang="cs-t-es-t0-mtec">Registrace 2019</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Záznamy baskickej vlády, jej autonómnych orgánov a verejných orgánov za rok 2019. Údaje zahŕňajú okrem iného riadiace orgány a orgány na riešenie krízových situácií, adresátov, regulačné nariadenia a podrobnosti o spracovaní.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Registos do Governo Basco, dos seus Organismos Autónomos e das Autoridades Públicas do ano de 2019. Os dados incluem, entre outros, os órgãos de gestão e de resolução, os destinatários, os regulamentos regulamentares e os dados relativos ao tratamento.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Registracije za 2019.</dct:title>
+        <dct:title xml:lang="eu">2019ko erregistroak</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Baskimaan hallituksen, sen autonomisten elinten ja viranomaisten tiedot vuodelta 2019. Tietoja ovat muun muassa johto- ja kriisinratkaisuelimet, vastaanottaja, sääntelymääräykset ja käsittelytiedot.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2019-01-17T00:00:00+01:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="de-t-es-t0-mtec">Anmeldungen 2019</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Registres du gouvernement basque, de ses organismes autonomes et des autorités publiques de l’année 2019. Les données comprennent, entre autres, les organes de gestion et de résolution, le destinataire, les règlements réglementaires et les détails de traitement.</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/a16003011-registros-del-20191/PeriodOfTime-1">
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2019-01-01T00:00:00+01:00</schema:startDate>
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2019-12-31T00:00:00+01:00</schema:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Registrácie v roku 2019</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Inscrições em 2019</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Záznamy baskické vlády, jejích autonomních orgánů a orgánů veřejné moci z roku 2019. Údaje zahrnují mimo jiné řídící orgány a subjekty příslušné k řešení krize, adresáta, regulační předpisy a podrobnosti o zpracování.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Реєстрація на 2019 рік</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Αρχεία της βασκικής κυβέρνησης, των αυτόνομων φορέων και των δημόσιων αρχών της για το έτος 2019. Τα δεδομένα περιλαμβάνουν, μεταξύ άλλων, τους φορείς διαχείρισης και εξυγίανσης, τους αποδέκτες, τους ρυθμιστικούς κανονισμούς και τις λεπτομέρειες επεξεργασίας.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b7425983-3bb3-46c8-b473-9a6f3c82d4f0">
+            <dct:title xml:lang="eu">Erregistroak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-registros-del-20191/resource/74397c65-76be-41c4-b2b6-9f4e00c396a0</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >24689</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Registros</dct:title>
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_registros/registros_2019/opendata/registros.jsonp"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-es-t0-mtec">Referater fra den baskiske regering, dens selvstyrende organer og offentlige myndigheder i 2019. Dataene omfatter bl.a. ledelses- og afviklingsorganer, adressater, lovgivningsmæssige bestemmelser og behandlingsoplysninger.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">2019. gada reģistrācija</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Inschrijvingen 2019</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fd6ac6ef-f71c-4834-87e9-2a2f44fb305c">
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es/?r01kQry=tC%3Aeuskadi%3BtT%3Aregistro%3Bm%3AprocedureStartDate.BETWEEN.01/01/2019%2C31/12/2019%2CdocumentLanguage.EQ.es%3B"/>
+            <dct:title xml:lang="eu">Erregistroak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Registros</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-registros-del-20191/resource/4cb1dfc7-08c0-4ca8-87aa-2e19f8daf4b5</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="it-t-es-t0-mtec">Iscrizioni 2019</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/registros-del-2019/"/>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Inscriptions 2019</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d1c03a22-e94a-450c-951d-3c496e0dd3e1">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-registros-del-20191/resource/deab337a-107d-4f0e-b47c-d1405c1f8b37</dct:identifier>
+            <dct:title xml:lang="eu">Erregistroak</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >24668</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_registros/registros_2019/opendata/registros.json"/>
+            <dct:title xml:lang="es">Registros</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">2019. évi regisztrációk</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">2019-registreringer</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a0db8448-2d5f-4eb3-a0b5-4d9d75d1b792">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+            <dcat:accessURL rdf:resource="http://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&amp;r01kQry=tC%3Aeuskadi%3BtT%3Aregistro%3Bm%3AprocedureStartDate.BETWEEN.01/01/2019%2C31/12/2019%2CdocumentLanguage.EQ.es%3Bp%3AInter%3B"/>
+            <dct:title xml:lang="eu">Erregistroak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Registros</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-registros-del-20191/resource/12e8f0bf-5a1f-47f4-a851-c81b34cf064c</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Verslagen van de Baskische regering, haar autonome organen en overheidsinstanties van het jaar 2019. De gegevens omvatten onder meer de beheers- en afwikkelingsorganen, geadresseerde, regelgeving en verwerkingsdetails.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Evidence baskovske vlade, njenih avtonomnih organov in javnih organov za leto 2019. Podatki med drugim vključujejo organe za upravljanje in reševanje, naslovnike, regulativne predpise in podrobnosti o obdelavi.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Basku zemes valdības, tās autonomo struktūru un publisko iestāžu 2019. gada uzskaite. Dati cita starpā ietver vadības un noregulējuma struktūras, adresātus, normatīvos noteikumus un informāciju par apstrādi.</dct:description>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/registros-del-2019/</dct:identifier>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Zapisy rządu baskijskiego, jego organów autonomicznych i władz publicznych z 2019 r. Dane obejmują m.in. organy zarządzające i restrukturyzacji i uporządkowanej likwidacji, adresata, regulacje regulacyjne i szczegóły przetwarzania.</dct:description>
+        <dcat:keyword xml:lang="es">administrativos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/13d71c1d-bb63-42b7-b430-dc702a44d7ce">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >20890</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-registros-del-20191/resource/2f018f42-9ada-46e6-9d67-a637f551fe7c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Erregistroak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_registros/registros_2019/opendata/registros.xml"/>
+            <dct:title xml:lang="es">Registros</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="et-t-es-t0-mtec">2019. aasta registreeringud</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Evidențele guvernului basc, ale organismelor sale autonome și ale autorităților publice din anul 2019. Datele includ, printre altele, organismele de gestionare și de rezoluție, destinatarii, reglementările de reglementare și detaliile privind prelucrarea.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Rekords tal-Gvern Bask, il-Korpi Awtonomi u l-Awtoritajiet Pubbliċi tiegħu tas-sena 2019. Id-data tinkludi, fost l-oħrajn, il-korpi ta’ ġestjoni u ta’ riżoluzzjoni, id-destinatarji, ir-regolamenti regolatorji u d-dettalji tal-ipproċessar.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Регистри на баското правителство, неговите автономни органи и публични органи за 2019 г. Данните включват, наред с другото, органите за управление и преструктуриране, адресата, регулаторните разпоредби и данните за обработката.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fa5d8759-16ea-469c-bd6c-e2a661e4a461">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-registros-del-20191/resource/a8759638-e422-4f10-9520-43dabc69d2bf</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >7813</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Erregistroak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Registros</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_registros/registros_2019/opendata/registros.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Rejestracja w 2019 r.</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:description xml:lang="eu">Eusko Jaurlaritzaren, haren erakunde autonomoen eta erakunde publikoen erregistroak 2019an. Besteak beste, datu hauek jasotzen dira: organo kudeatzailea eta erabakitzailea, hartzaileak, araudi erregulatzailera eta izapideen xehetasunak.</dct:description>
+        <dct:title xml:lang="es">Registros del 2019</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">2019 års registreringar</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Aufzeichnungen der baskischen Regierung, ihrer Autonomen Einrichtungen und Behörden des Jahres 2019. Zu den Daten gehören unter anderem die Leitungs- und Abwicklungsorgane, Adressaten, Regulierungsvorschriften und Verarbeitungsdetails.</dct:description>
+        <dcat:keyword xml:lang="eu">erregistroak</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">Registri del governo basco, dei suoi organismi autonomi e delle autorità pubbliche dell'anno 2019. I dati comprendono, tra l'altro, gli organi di gestione e risoluzione, il destinatario, i regolamenti normativi e i dettagli del trattamento.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Evidencija baskijske vlade, njezinih autonomnih tijela i javnih tijela za 2019. Podaci uključuju, među ostalim, upravljačka i sanacijska tijela, adresate, regulatorne propise i pojedinosti o obradi.</dct:description>
+        <dcat:keyword xml:lang="eu">administratiboak</dcat:keyword>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Регистрации за 2019 г.</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Εγγραφές 2019</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Registracije za leto 2019</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Clárúcháin 2019</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-reutilizar/-/contenidos/informacion/api_buscador_euskadinet/es_java/como_utilizar.html"/>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Документи уряду Басків, його автономних органів та органів державної влади за 2019 рік. Дані включають, серед іншого, органи з управління та вирішення, адресат, нормативні правила та деталі обробки.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-06-11T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="es">Registros del Gobierno Vasco, sus Organismos Autónomos y Entes Públicos del año 2019. Los datos incluyen, entre otros, los órganos gestor y resolutor, destinatario/a, normativa reguladora y los detalles de tramitación.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-reutilizar/-/reutilizar-datos-abiertos/"/>
+        <dct:title xml:lang="en-t-es-t0-mtec">2019 registrations</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">2019 m. registracija</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Înscrieri 2019</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A baszk kormány, annak autonóm szervei és hatóságai 2019. évi nyilvántartása. Az adatok közé tartoznak többek között az irányító és szanálási szervek, a címzettek, a szabályozási rendeletek és az adatkezelés részletei.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Records of the Basque Government, its Autonomous Bodies and Public Authorities of the year 2019. The data include, among others, the management and resolution bodies, addressee, regulatory regulations and processing details.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Taifid Rialtas na mBascach, a Chomhlachtaí Féinrialaitheacha agus Údaráis Phoiblí na bliana 2019. Áirítear ar na sonraí, i measc nithe eile, na comhlachtaí bainistíochta agus réitigh, seolaí, rialacháin rialála agus sonraí próiseála. Taifid Rialtas na mBascach, a Chomhlachtaí Féinrialaitheacha agus Údaráis Phoiblí na bliana 2019.
+Áirítear ar na sonraí, i measc nithe eile, na comhlachtaí bainistíochta agus réitigh, seolaí, rialacháin rialála agus sonraí próiseála.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Baskimaa valitsuse, selle autonoomsete asutuste ja ametiasutuste 2019. aasta andmed. Andmed hõlmavad muu hulgas juht- ja kriisilahendusasutusi, adressaate, regulatiivseid eeskirju ja töötlemise üksikasju.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Protokoll från den baskiska regeringen, dess autonoma organ och offentliga myndigheter för år 2019. Uppgifterna omfattar bl.a. lednings- och resolutionsorgan, adressat, föreskrifter och uppgifter om behandlingen.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Baskų vyriausybės, jos autonominių organų ir valdžios institucijų 2019 m. įrašai. Duomenys, be kita ko, apima valdymo ir pertvarkymo įstaigas, adresatą, reguliavimo reglamentus ir tvarkymo duomenis.</dct:description>
+        <dcat:keyword xml:lang="es">registros</dcat:keyword>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Reġistrazzjonijiet tal-2019</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">2019 rekisteröinnit</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:18:01Z</dct:modified>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-17T23:18:01Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-registros-del-2019-"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:33:10Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>47281d0bdf89205ffedcec1cf26a9db1</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>
